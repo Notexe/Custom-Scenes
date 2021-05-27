@@ -9,7 +9,7 @@
                 "entityIndex": -1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 7,
+            "entityTypeResourceIndex": 8,
             "entityId": 18446744073709551614,
             "editorOnly": false,
             "entityName": "Scene",
@@ -82,7 +82,7 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 5,
+            "entityTypeResourceIndex": 6,
             "entityId": 4204283243562413561,
             "editorOnly": false,
             "entityName": "Physics",
@@ -98,7 +98,7 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 6,
+            "entityTypeResourceIndex": 7,
             "entityId": 4204284353345413561,
             "editorOnly": false,
             "entityName": "VolumeBox_WorldBounds",
@@ -138,13 +138,29 @@
             "exposedEntities": [],
             "exposedInterfaces": [],
             "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 5,
+            "entityId": 4204282432512356234,
+            "editorOnly": false,
+            "entityName": "mockup_commentbubble",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
         }
     ],
     "externalSceneTypeIndicesInResourceHeader": [
-        8,
         9,
         10,
-        11
+        11,
+        12
     ],
     "pinConnections": [],
     "inputPinForwardings": [],

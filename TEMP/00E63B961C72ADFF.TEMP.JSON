@@ -1,6 +1,6 @@
 {
     "subType": 1,
-    "blueprintIndexInResourceHeader": 8,
+    "blueprintIndexInResourceHeader": 9,
     "rootEntityIndex": 0,
     "subEntities": [
         {
@@ -10,7 +10,7 @@
                 "entityIndex": -1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 7,
+            "entityTypeResourceIndex": 8,
             "propertyValues": [],
             "postInitPropertyValues": [],
             "platformSpecificPropertyValues": []
@@ -134,7 +134,7 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 5,
+            "entityTypeResourceIndex": 6,
             "propertyValues": [],
             "postInitPropertyValues": [],
             "platformSpecificPropertyValues": []
@@ -146,7 +146,7 @@
                 "entityIndex": 4,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 6,
+            "entityTypeResourceIndex": 7,
             "propertyValues": [
                 {
                     "nPropertyID": "m_mTransform",
@@ -290,13 +290,74 @@
                 }
             ],
             "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 5,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": 1,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 2612594937,
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Rocco where are you?"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
         }
     ],
     "propertyOverrides": [],
     "externalSceneTypeIndicesInResourceHeader": [
-        9,
         10,
         11,
-        12
+        12,
+        13
     ]
 }
