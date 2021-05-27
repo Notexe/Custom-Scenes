@@ -1,0 +1,155 @@
+{
+    "subType": 1,
+    "rootEntityIndex": 0,
+    "subEntities": [
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": -1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 7,
+            "entityId": 18446744073709551614,
+            "editorOnly": false,
+            "entityName": "Scene",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": [
+                [
+                    "Rooms",
+                    {
+                        "entities": [
+                            0
+                        ]
+                    }
+                ]
+            ]
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 0,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 0,
+            "entityId": 4201813793487963649,
+            "editorOnly": false,
+            "entityName": "Notex_Test",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 1,
+            "entityId": 4205783242192379825,
+            "editorOnly": false,
+            "entityName": "facility_arena_ground_a_00",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 2,
+            "entityId": 420428324212413561,
+            "editorOnly": false,
+            "entityName": "Agent47_Default",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 5,
+            "entityId": 4204283243562413561,
+            "editorOnly": false,
+            "entityName": "Physics",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204284353345413561,
+            "editorOnly": false,
+            "entityName": "VolumeBox_WorldBounds",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 3,
+            "entityId": 420428322342413561,
+            "editorOnly": false,
+            "entityName": "FX_Logic_PhysicsWorld",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 4,
+            "entityId": 4204283223465612561,
+            "editorOnly": false,
+            "entityName": "HeroSpawn",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        }
+    ],
+    "externalSceneTypeIndicesInResourceHeader": [
+        8,
+        9,
+        10,
+        11
+    ],
+    "pinConnections": [],
+    "inputPinForwardings": [],
+    "outputPinForwardings": [],
+    "overrideDeletes": [],
+    "pinConnectionOverrides": [],
+    "pinConnectionOverrideDeletes": []
+}
