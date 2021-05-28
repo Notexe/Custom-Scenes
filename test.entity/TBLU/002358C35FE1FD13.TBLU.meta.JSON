@@ -1,0 +1,73 @@
+{
+    "hash_value": "002358C35FE1FD13",
+    "hash_offset": 359,
+    "hash_size": 2147484656,
+    "hash_resource_type": "TBLU",
+    "hash_reference_table_size": 139,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 2380,
+    "hash_size_in_memory": 1715,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "000B0C2BF5C896CC",
+            "flag": "1F"
+        },
+        {
+            "hash": "0087C2ED205413C9",
+            "flag": "1F"
+        },
+        {
+            "hash": "000A263E54999100",
+            "flag": "1F"
+        },
+        {
+            "hash": "005DDDF2B8CEEB75",
+            "flag": "1F"
+        },
+        {
+            "hash": "000732CEE2F66537",
+            "flag": "1F"
+        },
+        {
+            "hash": "00E3DF81E8EDE4A7",
+            "flag": "1F"
+        },
+        {
+            "hash": "003AF7CA1F0971DC",
+            "flag": "1F"
+        },
+        {
+            "hash": "00CA6CF3A70C3859",
+            "flag": "1F"
+        },
+        {
+            "hash": "00B09C0C1A885059",
+            "flag": "1F"
+        },
+        {
+            "hash": "0093858240A45A2A",
+            "flag": "1F"
+        },
+        {
+            "hash": "0091F571BB6B2F32",
+            "flag": "1F"
+        },
+        {
+            "hash": "0093B7139387B988",
+            "flag": "1F"
+        },
+        {
+            "hash": "0064FE1090FB2775",
+            "flag": "1F"
+        },
+        {
+            "hash": "0036D64700F55065",
+            "flag": "1F"
+        },
+        {
+            "hash": "00097AA87B144150",
+            "flag": "1F"
+        }
+    ]
+}

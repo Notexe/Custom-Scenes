@@ -8,6 +8,12 @@
             "type": "shell",
             "command": ".\\compilemap.bat",
             "problemMatcher": []
+        },
+        {
+            "label": "Compile .meta files",
+            "type": "shell",
+            "command": ".\\compilemeta.bat",
+            "problemMatcher": []
         }
     ]
 }
