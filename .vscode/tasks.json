@@ -7,9 +7,6 @@
             "label": "Compile Map & Copy to H3's Runtime",
             "type": "shell",
             "command": ".\\compilemap.bat",
-            "options": {
-                "cwd": "D:\\Hitman\\rpkg"
-            },
             "problemMatcher": []
         }
     ]
