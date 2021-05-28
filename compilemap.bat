@@ -1,6 +1,6 @@
-ResourceTool.exe HM3 generate TBLU .\chunk1patch2\TBLU\002358C35FE1FD13.TBLU.JSON .\chunk1patch2\TBLU\002358C35FE1FD13.TBLU --simple
-ResourceTool.exe HM3 generate TEMP .\chunk1patch2\TEMP\00E63B961C72ADFF.TEMP.JSON .\chunk1patch2\TEMP\00E63B961C72ADFF.TEMP --simple
+ResourceTool.exe HM3 generate TBLU .\test.entity\TBLU\002358C35FE1FD13.TBLU.JSON .\test.entity\TBLU\002358C35FE1FD13.TBLU --simple
+ResourceTool.exe HM3 generate TEMP .\test.entity\TEMP\00E63B961C72ADFF.TEMP.JSON .\test.entity\TEMP\00E63B961C72ADFF.TEMP --simple
 
-rpkg-cli.exe -generate_rpkg_from chunk1patch2
+rpkg-cli.exe -generate_rpkg_from test.entity
 
-xcopy /y chunk1patch2.rpkg C:\Epic\HITMAN3\Runtime\chunk1patch2.rpkg
+xcopy /y test.entity.rpkg C:\Epic\HITMAN3\Runtime\chunk1patch2.rpkg
