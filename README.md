@@ -3,7 +3,7 @@ This is my work in progress custom Hitman 3 map that I am creating as a learning
 
 ## Layout:
 ```
-📦chunk1patch2
+📦notex_test.entity
  ┣ 📂TBLU
  ┃ ┣ 📜002358C35FE1FD13.TBLU.JSON (Data - Entity Blueprint)
  ┃ ┗ 📜002358C35FE1FD13.TBLU.meta (Dependencies)
