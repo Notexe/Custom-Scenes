@@ -7,13 +7,12 @@ This is my work in progress custom Hitman 3 map that I am creating as a learning
 ## Layout:
 ```
 📦test.entity
- ┣ 📂chunk1patch2
- ┃ ┣ 📂TBLU
- ┃ ┃ ┣ 📜002358C35FE1FD13.TBLU.JSON (Data - Entity Blueprint) [assembly:/_pro/scenes/notex/test.entity].pc_entityblueprint
- ┃ ┃ ┗ 📜002358C35FE1FD13.TBLU.meta (Dependencies)
- ┃ ┗ 📂TEMP
- ┃ ┃ ┣ 📜00E63B961C72ADFF.TEMP.JSON (Data - Entity Template) [assembly:/_pro/scenes/notex/test.entity].pc_entitytemplate
- ┃ ┃ ┗ 📜00E63B961C72ADFF.TEMP.meta (Dependencies)
+ ┣ 📂TBLU
+ ┃ ┣ 📜002358C35FE1FD13.TBLU.JSON (Data - Entity Blueprint) [assembly:/_pro/scenes/notex/test.entity].pc_entityblueprint
+ ┃ ┗ 📜002358C35FE1FD13.TBLU.meta (Dependencies)
+ ┣ 📂TEMP
+ ┃ ┣ 📜00E63B961C72ADFF.TEMP.JSON (Data - Entity Template) [assembly:/_pro/scenes/notex/test.entity].pc_entitytemplate
+ ┃ ┗ 📜00E63B961C72ADFF.TEMP.meta (Dependencies)
  ```
 
 ## Basic summary of the files
