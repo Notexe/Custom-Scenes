@@ -1,6 +1,6 @@
 {
     "subType": 1,
-    "blueprintIndexInResourceHeader": 9,
+    "blueprintIndexInResourceHeader": 11,
     "rootEntityIndex": 0,
     "subEntities": [
         {
@@ -351,13 +351,157 @@
                 }
             ],
             "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 9,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_RepositoryId",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 1421584460,
+                            "_b": 26449,
+                            "_c": 17166,
+                            "_d": 180,
+                            "_e": 125,
+                            "_f": 228,
+                            "_g": 181,
+                            "_h": 221,
+                            "_i": 247,
+                            "_j": 168,
+                            "_k": 53
+                        }
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 10,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "YAxis": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": -1,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "Trans": {
+                                "x": 0,
+                                "y": -3,
+                                "z": 1.57
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_bSpawnOnStart",
+                    "value": {
+                        "$type": "bool",
+                        "$val": true
+                    }
+                },
+                {
+                    "nPropertyID": "m_bUsePlacementAttach",
+                    "value": {
+                        "$type": "bool",
+                        "$val": false
+                    }
+                },
+                {
+                    "nPropertyID": "m_ePhysicsMode",
+                    "value": {
+                        "$type": "ZItemSpawner.EPhysicsMode",
+                        "$val": "EPM_DYNAMIC"
+                    }
+                },
+                {
+                    "nPropertyID": "m_rMainItemKey",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 9,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
         }
     ],
     "propertyOverrides": [],
     "externalSceneTypeIndicesInResourceHeader": [
-        10,
-        11,
         12,
-        13
+        13,
+        14,
+        15
     ]
 }

@@ -154,13 +154,45 @@
             "exposedEntities": [],
             "exposedInterfaces": [],
             "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 9,
+            "entityId": 4204282432433541698,
+            "editorOnly": false,
+            "entityName": "ItemKey_firearms_hero_sniper_medium_sieger_300",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 10,
+            "entityId": 4204282433287182719,
+            "editorOnly": false,
+            "entityName": "ItemSpawner",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
         }
     ],
     "externalSceneTypeIndicesInResourceHeader": [
-        9,
-        10,
         11,
-        12
+        12,
+        13,
+        14
     ],
     "pinConnections": [],
     "inputPinForwardings": [],
