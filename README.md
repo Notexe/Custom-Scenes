@@ -1,6 +1,9 @@
 # notex_test.entity
 This is my work in progress custom Hitman 3 map that I am creating as a learning experience.
 
+![](https://i.notex.app/jE-AU)
+
+(The debug comment bubble was just a test to see if I could get a new entity in the map)
 ## Layout:
 ```
 📦notex_test.entity
