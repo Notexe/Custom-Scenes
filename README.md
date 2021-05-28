@@ -6,7 +6,7 @@ This is my work in progress custom Hitman 3 map that I am creating as a learning
 (The debug comment bubble was just a test to see if I could get a new entity in the map)
 ## Layout:
 ```
-📦notex_test.entity
+📦test.entity
  ┣ 📂chunk1patch2
  ┃ ┣ 📂TBLU
  ┃ ┃ ┣ 📜002358C35FE1FD13.TBLU.JSON (Data - Entity Blueprint) [assembly:/_pro/scenes/notex/test.entity].pc_entityblueprint
@@ -25,3 +25,26 @@ Contains properties and data for every entity.
 
 ## Concerns
 AI might not be possible currently due to the lack of tools to compile a navmesh (But this might change in the future).
+
+## Instructions for use
+### Compiling the map
+1. Clone this repo to your computer
+2. Download the latest version of the RPKG Tool from [https://notex.app/rpkg/](https://notex.app/rpkg/)
+3. Download the latest version of ResourceTool from [https://github.com/OrfeasZ/ZHMTools/](https://github.com/OrfeasZ/ZHMTools/)
+4. Copy rpkg-cli.exe and ResourceTool.exe into the cloned repo's root folder.
+5. Run compilemap.bat
+
+### Launching the map
+1. Drag your game's packagedefintion.txt file (Located in the game's Runtime folder) into [https://www.notex.app/tools/online/xtea](https://www.notex.app/tools/online/xtea)
+2. Add `[assembly:/_pro/scenes/notex/test.entity].entitytemplate` under the Chunk 1 Base section like this:
+```
+// --- Chunk 1 Base
+@partition name=base parent=super type=standard patchlevel=1
+// --- render.packagedefinition
+[assembly:/_PRO/Scenes/Demo/Render/materialexamples.entity].entitytemplate
+[assembly:/_PRO/Scenes/Demo/Render/EmptyScene.entity].entitytemplate
+[assembly:/_pro/scenes/notex/test.entity].entitytemplate
+```
+3. Click save file and copy the new packagedefintion.txt to your game, replacing the old one.
+4. Drag thumbs.dat (From the game's Retail folder) into the XTEA site and edit the `SCENE_FILE` variable so it is `SCENE_FILE=assembly:/_pro/scenes/notex/test.entity` instead.
+5. Launch the game and it should now load straight into this map.
