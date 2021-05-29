@@ -9,7 +9,7 @@
                 "entityIndex": -1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 9,
+            "entityTypeResourceIndex": 10,
             "entityId": 18446744073709551614,
             "editorOnly": false,
             "entityName": "Scene",
@@ -82,7 +82,7 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 7,
+            "entityTypeResourceIndex": 8,
             "entityId": 4204283243562413561,
             "editorOnly": false,
             "entityName": "Physics",
@@ -98,7 +98,7 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 8,
+            "entityTypeResourceIndex": 9,
             "entityId": 4204284353345413561,
             "editorOnly": false,
             "entityName": "VolumeBox_WorldBounds",
@@ -162,7 +162,7 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 10,
+            "entityTypeResourceIndex": 11,
             "entityId": 4204282432433541698,
             "editorOnly": false,
             "entityName": "ItemKey_firearms_hero_sniper_medium_sieger_300",
@@ -178,7 +178,7 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 11,
+            "entityTypeResourceIndex": 12,
             "entityId": 4204282433287182719,
             "editorOnly": false,
             "entityName": "ItemSpawner",
@@ -202,14 +202,78 @@
             "exposedEntities": [],
             "exposedInterfaces": [],
             "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 7,
+            "entityId": 4204282223490142837,
+            "editorOnly": false,
+            "entityName": "blockup_wall_1m",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 7,
+            "entityId": 4204282223490424513,
+            "editorOnly": false,
+            "entityName": "blockup_wall_1m",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 7,
+            "entityId": 4204282223490424514,
+            "editorOnly": false,
+            "entityName": "blockup_wall_1m",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 7,
+            "entityId": 4204282223490424515,
+            "editorOnly": false,
+            "entityName": "blockup_wall_1m",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
         }
     ],
     "externalSceneTypeIndicesInResourceHeader": [
-        14,
         15,
         16,
         17,
-        18
+        18,
+        19
     ],
     "pinConnections": [],
     "inputPinForwardings": [],

@@ -3,7 +3,7 @@
     "hash_offset": 359,
     "hash_size": 2147484656,
     "hash_resource_type": "TBLU",
-    "hash_reference_table_size": 139,
+    "hash_reference_table_size": 184,
     "hash_reference_table_dummy": 0,
     "hash_size_final": 2380,
     "hash_size_in_memory": 1715,
@@ -14,19 +14,19 @@
             "flag": "1F"
         },
         {
-            "hash": "0087C2ED205413C9",
+            "hash": "[assembly:/_pro/environment/templates/levels/the_facility/facility_silo_a.template?/facility_arena_ground_a_00.entitytemplate].pc_entityblueprint",
             "flag": "1F"
         },
         {
-            "hash": "000A263E54999100",
+            "hash": "[assembly:/_pro/characters/templates/hero/agent47/agent47.template?/agent47_default.entitytemplate].pc_entityblueprint",
             "flag": "1F"
         },
         {
-            "hash": "005DDDF2B8CEEB75",
+            "hash": "[assembly:/_pro/effects/templates/logic/fx_logic_physicsworld.template?/fx_logic_physicsworld.entitytemplate].pc_entityblueprint",
             "flag": "1F"
         },
         {
-            "hash": "000732CEE2F66537",
+            "hash": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entityblueprint",
             "flag": "1F"
         },
         {
@@ -34,35 +34,39 @@
             "flag": "1F"
         },
         {
-            "hash": "003321F66074B4AB",
+            "hash": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
             "flag": "1F"
         },
         {
-            "hash": "003AF7CA1F0971DC",
+            "hash": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
             "flag": "1F"
         },
         {
-            "hash": "00CA6CF3A70C3859",
+            "hash": "[modules:/zentity.class].pc_entityblueprint",
             "flag": "1F"
         },
         {
-            "hash": "00B09C0C1A885059",
+            "hash": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
             "flag": "1F"
         },
         {
-            "hash": "0093858240A45A2A",
+            "hash": "[modules:/zspatialentity.class].pc_entityblueprint",
             "flag": "1F"
         },
         {
-            "hash": "0091F571BB6B2F32",
+            "hash": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
             "flag": "1F"
         },
         {
-            "hash": "00DD6DCBA6D5196A",
+            "hash": "[modules:/zitemspawner.class].pc_entityblueprint",
             "flag": "1F"
         },
         {
-            "hash": "00CB52429E82C4FB",
+            "hash": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+            "flag": "1F"
+        },
+        {
+            "hash": "[modules:/zreasoninggridconfigentity.class].pc_entityblueprint",
             "flag": "1F"
         },
         {
@@ -78,11 +82,11 @@
             "flag": "1F"
         },
         {
-            "hash": "00097AA87B144150",
+            "hash": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype",
             "flag": "1F"
         },
         {
-            "hash": "00637AA0549EE05A",
+            "hash": "[assembly:/_pro/scenes/missions/golden/mission_gecko/outfits_gecko.brick].pc_entitytype",
             "flag": "1F"
         }
     ]
