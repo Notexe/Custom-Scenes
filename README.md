@@ -31,7 +31,7 @@ AI might not be possible currently due to the lack of tools to compile a navmesh
 2. Download the latest version of the RPKG Tool from [https://notex.app/rpkg/](https://notex.app/rpkg/)
 3. Download the latest version of ResourceTool from [https://github.com/OrfeasZ/ZHMTools/](https://github.com/OrfeasZ/ZHMTools/)
 4. Copy rpkg-cli.exe and ResourceTool.exe into the cloned repo's root folder.
-5. Run compilemap.bat
+5. Run compilemap.bat (You may want to edit the destination folder in the last line of this script)
 
 ### Launching the map
 1. Drag your game's packagedefintion.txt file (Located in the game's Runtime folder) into [https://www.notex.app/tools/online/xtea](https://www.notex.app/tools/online/xtea)
