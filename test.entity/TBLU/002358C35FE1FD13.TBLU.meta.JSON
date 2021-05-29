@@ -42,6 +42,10 @@
             "flag": "1F"
         },
         {
+            "hash": "[assembly:/_pro/vehicles/templates/vehicles_aircrafts_a.template?/seaplane_big_c.entitytemplate].pc_entityblueprint",
+            "flag": "1F"
+        },
+        {
             "hash": "[modules:/zentity.class].pc_entityblueprint",
             "flag": "1F"
         },
