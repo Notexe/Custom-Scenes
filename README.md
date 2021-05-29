@@ -3,7 +3,6 @@ This is my work in progress custom Hitman 3 map that I am creating as a learning
 
 ![](https://i.notex.app/eP376)
 
-(The debug comment bubble was just a test to see if I could get a new entity in the map)
 ## Layout:
 ```
 📦test.entity
