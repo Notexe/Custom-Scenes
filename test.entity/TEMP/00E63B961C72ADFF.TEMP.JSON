@@ -323,7 +323,7 @@
                             "Trans": {
                                 "x": 0,
                                 "y": 0,
-                                "z": 3
+                                "z": 2
                             }
                         }
                     }
@@ -344,7 +344,7 @@
                         "$val": {
                             "entityID": 18446744073709551615,
                             "externalSceneIndex": -1,
-                            "entityIndex": 1,
+                            "entityIndex": 11,
                             "exposedEntity": ""
                         }
                     }
