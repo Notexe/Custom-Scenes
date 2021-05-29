@@ -194,6 +194,38 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
+            "entityTypeResourceIndex": 13,
+            "entityId": 4204232424337182719,
+            "editorOnly": false,
+            "entityName": "ItemSpawner",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 13,
+            "entityId": 4204282376842182719,
+            "editorOnly": false,
+            "entityName": "ItemSpawner",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
             "entityTypeResourceIndex": 6,
             "entityId": 4204282234614498235,
             "editorOnly": false,
