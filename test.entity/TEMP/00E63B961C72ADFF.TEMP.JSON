@@ -1,6 +1,6 @@
 {
     "subType": 1,
-    "blueprintIndexInResourceHeader": 15,
+    "blueprintIndexInResourceHeader": 16,
     "rootEntityIndex": 0,
     "subEntities": [
         {
@@ -10,7 +10,7 @@
                 "entityIndex": -1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 10,
+            "entityTypeResourceIndex": 11,
             "propertyValues": [],
             "postInitPropertyValues": [],
             "platformSpecificPropertyValues": []
@@ -134,7 +134,7 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 8,
+            "entityTypeResourceIndex": 9,
             "propertyValues": [],
             "postInitPropertyValues": [],
             "platformSpecificPropertyValues": []
@@ -146,7 +146,7 @@
                 "entityIndex": 4,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 9,
+            "entityTypeResourceIndex": 10,
             "propertyValues": [
                 {
                     "nPropertyID": "m_mTransform",
@@ -359,7 +359,7 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 11,
+            "entityTypeResourceIndex": 12,
             "propertyValues": [
                 {
                     "nPropertyID": "m_RepositoryId",
@@ -404,7 +404,7 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 12,
+            "entityTypeResourceIndex": 13,
             "propertyValues": [
                 {
                     "nPropertyID": "m_mTransform",
@@ -831,14 +831,68 @@
                 }
             ],
             "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 8,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": 1,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": 2.5,
+                                "y": -9,
+                                "z": 1.52
+                            }
+                        }
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
         }
     ],
     "propertyOverrides": [],
     "externalSceneTypeIndicesInResourceHeader": [
-        16,
         17,
         18,
         19,
-        20
+        20,
+        21
     ]
 }

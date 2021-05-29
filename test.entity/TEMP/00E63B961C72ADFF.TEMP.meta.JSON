@@ -42,6 +42,10 @@
             "flag": "1F"
         },
         {
+            "hash": "[assembly:/geometry/blockup/blockup_system.wl2?/blockup_cube_1x1x1m_00.prim].pc_entitytype",
+            "flag": "1F"
+        },
+        {
             "hash": "[modules:/zentity.class].pc_entitytype",
             "flag": "1F"
         },
