@@ -435,18 +435,6 @@
                     }
                 },
                 {
-                    "nPropertyID": "m_eidParent",
-                    "value": {
-                        "$type": "SEntityTemplateReference",
-                        "$val": {
-                            "entityID": 18446744073709551615,
-                            "externalSceneIndex": -1,
-                            "entityIndex": 1,
-                            "exposedEntity": ""
-                        }
-                    }
-                },
-                {
                     "nPropertyID": "m_bSpawnOnStart",
                     "value": {
                         "$type": "bool",
@@ -534,18 +522,6 @@
                     }
                 },
                 {
-                    "nPropertyID": "m_eidParent",
-                    "value": {
-                        "$type": "SEntityTemplateReference",
-                        "$val": {
-                            "entityID": 18446744073709551615,
-                            "externalSceneIndex": -1,
-                            "entityIndex": 1,
-                            "exposedEntity": ""
-                        }
-                    }
-                },
-                {
                     "nPropertyID": "m_bSpawnOnStart",
                     "value": {
                         "$type": "bool",
@@ -629,18 +605,6 @@
                                 "y": -3,
                                 "z": 1.57
                             }
-                        }
-                    }
-                },
-                {
-                    "nPropertyID": "m_eidParent",
-                    "value": {
-                        "$type": "SEntityTemplateReference",
-                        "$val": {
-                            "entityID": 18446744073709551615,
-                            "externalSceneIndex": -1,
-                            "entityIndex": 1,
-                            "exposedEntity": ""
                         }
                     }
                 },
