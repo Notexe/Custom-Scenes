@@ -47,13 +47,13 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 9,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 1,
-            "entityId": 4205783242192379825,
+            "entityTypeResourceIndex": 9,
+            "entityId": 4205783456356345234,
             "editorOnly": false,
-            "entityName": "facility_arena_ground_a_00",
+            "entityName": "Props",
             "propertyAliases": [],
             "exposedEntities": [],
             "exposedInterfaces": [],
@@ -63,13 +63,13 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 9,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 2,
-            "entityId": 420428324212413561,
+            "entityTypeResourceIndex": 9,
+            "entityId": 4205783435365213423,
             "editorOnly": false,
-            "entityName": "Agent47_Default",
+            "entityName": "Gameplay",
             "propertyAliases": [],
             "exposedEntities": [],
             "exposedInterfaces": [],
@@ -95,7 +95,39 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 2,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 1,
+            "entityId": 4205783242192379825,
+            "editorOnly": false,
+            "entityName": "facility_arena_ground_a_00",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 2,
+            "entityId": 420428324212413561,
+            "editorOnly": false,
+            "entityName": "Agent47_Default",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 4,
                 "exposedEntity": ""
             },
             "entityTypeResourceIndex": 10,
@@ -111,7 +143,7 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 4,
                 "exposedEntity": ""
             },
             "entityTypeResourceIndex": 3,
@@ -127,7 +159,7 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 4,
                 "exposedEntity": ""
             },
             "entityTypeResourceIndex": 4,
@@ -143,7 +175,7 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 3,
                 "exposedEntity": ""
             },
             "entityTypeResourceIndex": 5,
@@ -159,7 +191,7 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 2,
                 "exposedEntity": ""
             },
             "entityTypeResourceIndex": 12,
@@ -175,7 +207,7 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 2,
                 "exposedEntity": ""
             },
             "entityTypeResourceIndex": 13,
@@ -191,7 +223,7 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 2,
                 "exposedEntity": ""
             },
             "entityTypeResourceIndex": 13,
@@ -207,7 +239,7 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 2,
                 "exposedEntity": ""
             },
             "entityTypeResourceIndex": 13,
@@ -223,7 +255,7 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 3,
                 "exposedEntity": ""
             },
             "entityTypeResourceIndex": 6,
@@ -239,7 +271,7 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 2,
                 "exposedEntity": ""
             },
             "entityTypeResourceIndex": 7,
@@ -255,7 +287,7 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 2,
                 "exposedEntity": ""
             },
             "entityTypeResourceIndex": 7,
@@ -271,7 +303,7 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 2,
                 "exposedEntity": ""
             },
             "entityTypeResourceIndex": 7,
@@ -287,7 +319,7 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 2,
                 "exposedEntity": ""
             },
             "entityTypeResourceIndex": 7,
@@ -303,7 +335,7 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 2,
                 "exposedEntity": ""
             },
             "entityTypeResourceIndex": 7,
@@ -319,7 +351,7 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 2,
                 "exposedEntity": ""
             },
             "entityTypeResourceIndex": 8,
