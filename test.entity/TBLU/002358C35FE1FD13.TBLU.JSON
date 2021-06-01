@@ -9,7 +9,7 @@
                 "entityIndex": -1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 11,
+            "entityTypeResourceIndex": 12,
             "entityId": 18446744073709551614,
             "editorOnly": false,
             "entityName": "Scene",
@@ -50,7 +50,7 @@
                 "entityIndex": 9,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 9,
+            "entityTypeResourceIndex": 10,
             "entityId": 4205783456356345234,
             "editorOnly": false,
             "entityName": "Props",
@@ -66,7 +66,7 @@
                 "entityIndex": 9,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 9,
+            "entityTypeResourceIndex": 10,
             "entityId": 4205783435365213423,
             "editorOnly": false,
             "entityName": "Gameplay",
@@ -82,7 +82,7 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 9,
+            "entityTypeResourceIndex": 10,
             "entityId": 4204283243562413561,
             "editorOnly": false,
             "entityName": "Physics",
@@ -130,7 +130,7 @@
                 "entityIndex": 4,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 10,
+            "entityTypeResourceIndex": 11,
             "entityId": 4204284353345413561,
             "editorOnly": false,
             "entityName": "VolumeBox_WorldBounds",
@@ -194,7 +194,7 @@
                 "entityIndex": 2,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 12,
+            "entityTypeResourceIndex": 15,
             "entityId": 4204282432433541698,
             "editorOnly": false,
             "entityName": "ItemKey_firearms_hero_sniper_medium_sieger_300",
@@ -210,7 +210,7 @@
                 "entityIndex": 2,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 13,
+            "entityTypeResourceIndex": 14,
             "entityId": 4204282433287182719,
             "editorOnly": false,
             "entityName": "ItemSpawner",
@@ -226,7 +226,7 @@
                 "entityIndex": 2,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 13,
+            "entityTypeResourceIndex": 14,
             "entityId": 4204232424337182719,
             "editorOnly": false,
             "entityName": "ItemSpawner",
@@ -242,7 +242,7 @@
                 "entityIndex": 2,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 13,
+            "entityTypeResourceIndex": 14,
             "entityId": 4204282376842182719,
             "editorOnly": false,
             "entityName": "ItemSpawner",
@@ -362,14 +362,30 @@
             "exposedEntities": [],
             "exposedInterfaces": [],
             "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 2,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 9,
+            "entityId": 4204282433543534455,
+            "editorOnly": false,
+            "entityName": "MaterialOverride_Green",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
         }
     ],
     "externalSceneTypeIndicesInResourceHeader": [
-        16,
         17,
         18,
         19,
-        20
+        20,
+        21
     ],
     "pinConnections": [],
     "inputPinForwardings": [],

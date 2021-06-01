@@ -50,6 +50,10 @@
             "flag": "1F"
         },
         {
+            "hash": "[assembly:/_pro/environment/materials/levels/coastal_town_italy/movieset_green_screen_cloth_a.mi].pc_entitytype",
+            "flag": "1F"
+        },
+        {
             "hash": "[modules:/zentity.class].pc_entitytype",
             "flag": "1F"
         },
