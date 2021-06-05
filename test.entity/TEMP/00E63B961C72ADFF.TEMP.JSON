@@ -92,7 +92,35 @@
                 "exposedEntity": ""
             },
             "entityTypeResourceIndex": 1,
-            "propertyValues": [],
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": 1,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 3
+                            }
+                        }
+                    }
+                }],
             "postInitPropertyValues": [
                 {
                     "nPropertyID": "m_eidParent",
@@ -141,7 +169,7 @@
                             "Trans": {
                                 "x": 0,
                                 "y": 0,
-                                "z": 0
+                                "z": 3
                             }
                         }
                     }
@@ -285,7 +313,7 @@
                             "Trans": {
                                 "x": -5,
                                 "y": -3,
-                                "z": 2
+                                "z": 6
                             }
                         }
                     }
@@ -346,7 +374,7 @@
                             "Trans": {
                                 "x": 0,
                                 "y": 0,
-                                "z": 2
+                                "z": 3
                             }
                         }
                     }
@@ -452,7 +480,7 @@
                             "Trans": {
                                 "x": 0,
                                 "y": -3,
-                                "z": 1.57
+                                "z": 3.55
                             }
                         }
                     }
@@ -539,7 +567,7 @@
                             "Trans": {
                                 "x": 1,
                                 "y": -3,
-                                "z": 1.57
+                                "z": 3.55
                             }
                         }
                     }
@@ -626,7 +654,7 @@
                             "Trans": {
                                 "x": 2,
                                 "y": -3,
-                                "z": 1.57
+                                "z": 3.55
                             }
                         }
                     }
@@ -833,7 +861,7 @@
                             "Trans": {
                                 "x": 0,
                                 "y": -10,
-                                "z": 1.52
+                                "z": 3.5
                             }
                         }
                     }
@@ -887,7 +915,7 @@
                             "Trans": {
                                 "x": 1,
                                 "y": -10,
-                                "z": 1.52
+                                "z": 3.5
                             }
                         }
                     }
@@ -941,7 +969,7 @@
                             "Trans": {
                                 "x": 2,
                                 "y": -10,
-                                "z": 1.52
+                                "z": 3.5
                             }
                         }
                     }
@@ -995,7 +1023,7 @@
                             "Trans": {
                                 "x": 3,
                                 "y": -10,
-                                "z": 1.52
+                                "z": 3.5
                             }
                         }
                     }
@@ -1049,7 +1077,7 @@
                             "Trans": {
                                 "x": 2.5,
                                 "y": -9,
-                                "z": 1.52
+                                "z": 3.5
                             }
                         }
                     }
@@ -1103,7 +1131,7 @@
                             "Trans": {
                                 "x": 10,
                                 "y": 10,
-                                "z": 2.3
+                                "z": 4.3
                             }
                         }
                     }
@@ -1157,7 +1185,7 @@
                             "Trans": {
                                 "x": 10,
                                 "y": 10,
-                                "z": 2.3
+                                "z": 3.5
                             }
                         }
                     }
@@ -1203,6 +1231,3825 @@
                         ]
                     }
                 },
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 24,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_NavpowerResourceID",
+                    "value": {
+                        "$type": "ZRuntimeResourceID",
+                        "$val": {
+                            "m_IDHigh": 0,
+                            "m_IDLow": 26
+                        }
+                    }
+                }
+            ],
+            "postInitPropertyValues": [],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 25,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_pGrid",
+                    "value": {
+                        "$type": "ZRuntimeResourceID",
+                        "$val": {
+                            "m_IDHigh": 0,
+                            "m_IDLow": 27
+                        }
+                    }
+                }
+            ],
+            "postInitPropertyValues": [],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 28,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": 1,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": 1.1165820360183716,
+                                "y": 60.05158996582031,
+                                "z": 6.070188999176025
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "postInitPropertyValues": [],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": 0,
+                                "y": 3,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 3171322326,
+                            "_b": 1972,
+                            "_c": 18263,
+                            "_d": 184,
+                            "_e": 238,
+                            "_f": 202,
+                            "_g": 193,
+                            "_h": 159,
+                            "_i": 28,
+                            "_j": 158,
+                            "_k": 22
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2458082990,
+                            "_b": 42635,
+                            "_c": 16575,
+                            "_d": 166,
+                            "_e": 24,
+                            "_f": 205,
+                            "_g": 71,
+                            "_h": 244,
+                            "_i": 167,
+                            "_j": 44,
+                            "_k": 105
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Carl Ingram"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_INGRAM"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": 0,
+                                "y": 6,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 3171322326,
+                            "_b": 1972,
+                            "_c": 18263,
+                            "_d": 184,
+                            "_e": 238,
+                            "_f": 202,
+                            "_g": 193,
+                            "_h": 159,
+                            "_i": 28,
+                            "_j": 158,
+                            "_k": 22
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2458082990,
+                            "_b": 42635,
+                            "_c": 16575,
+                            "_d": 166,
+                            "_e": 24,
+                            "_f": 205,
+                            "_g": 71,
+                            "_h": 244,
+                            "_i": 167,
+                            "_j": 44,
+                            "_k": 105
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Carl Ingram"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_INGRAM"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": 0,
+                                "y": 9,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 3171322326,
+                            "_b": 1972,
+                            "_c": 18263,
+                            "_d": 184,
+                            "_e": 238,
+                            "_f": 202,
+                            "_g": 193,
+                            "_h": 159,
+                            "_i": 28,
+                            "_j": 158,
+                            "_k": 22
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2458082990,
+                            "_b": 42635,
+                            "_c": 16575,
+                            "_d": 166,
+                            "_e": 24,
+                            "_f": 205,
+                            "_g": 71,
+                            "_h": 244,
+                            "_i": 167,
+                            "_j": 44,
+                            "_k": 105
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Carl Ingram"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_INGRAM"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": 0,
+                                "y": 12,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 3171322326,
+                            "_b": 1972,
+                            "_c": 18263,
+                            "_d": 184,
+                            "_e": 238,
+                            "_f": 202,
+                            "_g": 193,
+                            "_h": 159,
+                            "_i": 28,
+                            "_j": 158,
+                            "_k": 22
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2458082990,
+                            "_b": 42635,
+                            "_c": 16575,
+                            "_d": 166,
+                            "_e": 24,
+                            "_f": 205,
+                            "_g": 71,
+                            "_h": 244,
+                            "_i": 167,
+                            "_j": 44,
+                            "_k": 105
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Carl Ingram"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_INGRAM"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": 0,
+                                "y": 15,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 3171322326,
+                            "_b": 1972,
+                            "_c": 18263,
+                            "_d": 184,
+                            "_e": 238,
+                            "_f": 202,
+                            "_g": 193,
+                            "_h": 159,
+                            "_i": 28,
+                            "_j": 158,
+                            "_k": 22
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2458082990,
+                            "_b": 42635,
+                            "_c": 16575,
+                            "_d": 166,
+                            "_e": 24,
+                            "_f": 205,
+                            "_g": 71,
+                            "_h": 244,
+                            "_i": 167,
+                            "_j": 44,
+                            "_k": 105
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Carl Ingram"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_INGRAM"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": 0,
+                                "y": 18,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 3171322326,
+                            "_b": 1972,
+                            "_c": 18263,
+                            "_d": 184,
+                            "_e": 238,
+                            "_f": 202,
+                            "_g": 193,
+                            "_h": 159,
+                            "_i": 28,
+                            "_j": 158,
+                            "_k": 22
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2458082990,
+                            "_b": 42635,
+                            "_c": 16575,
+                            "_d": 166,
+                            "_e": 24,
+                            "_f": 205,
+                            "_g": 71,
+                            "_h": 244,
+                            "_i": 167,
+                            "_j": 44,
+                            "_k": 105
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Carl Ingram"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_INGRAM"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": 0,
+                                "y": 21,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 3171322326,
+                            "_b": 1972,
+                            "_c": 18263,
+                            "_d": 184,
+                            "_e": 238,
+                            "_f": 202,
+                            "_g": 193,
+                            "_h": 159,
+                            "_i": 28,
+                            "_j": 158,
+                            "_k": 22
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2458082990,
+                            "_b": 42635,
+                            "_c": 16575,
+                            "_d": 166,
+                            "_e": 24,
+                            "_f": 205,
+                            "_g": 71,
+                            "_h": 244,
+                            "_i": 167,
+                            "_j": 44,
+                            "_k": 105
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Carl Ingram"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_INGRAM"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -3,
+                                "y": 0,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 4168928510,
+                            "_b": 4112,
+                            "_c": 18243,
+                            "_d": 186,
+                            "_e": 58,
+                            "_f": 82,
+                            "_g": 159,
+                            "_h": 93,
+                            "_i": 89,
+                            "_j": 196,
+                            "_k": 121
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 1023673910,
+                            "_b": 30560,
+                            "_c": 18645,
+                            "_d": 138,
+                            "_e": 35,
+                            "_f": 81,
+                            "_g": 80,
+                            "_h": 98,
+                            "_i": 222,
+                            "_j": 249,
+                            "_k": 255
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Sebastian Sato"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_STYLIST01"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -3,
+                                "y": 3,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 4168928510,
+                            "_b": 4112,
+                            "_c": 18243,
+                            "_d": 186,
+                            "_e": 58,
+                            "_f": 82,
+                            "_g": 159,
+                            "_h": 93,
+                            "_i": 89,
+                            "_j": 196,
+                            "_k": 121
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 1023673910,
+                            "_b": 30560,
+                            "_c": 18645,
+                            "_d": 138,
+                            "_e": 35,
+                            "_f": 81,
+                            "_g": 80,
+                            "_h": 98,
+                            "_i": 222,
+                            "_j": 249,
+                            "_k": 255
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Sebastian Sato"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_STYLIST01"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -3,
+                                "y": 6,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 4168928510,
+                            "_b": 4112,
+                            "_c": 18243,
+                            "_d": 186,
+                            "_e": 58,
+                            "_f": 82,
+                            "_g": 159,
+                            "_h": 93,
+                            "_i": 89,
+                            "_j": 196,
+                            "_k": 121
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 1023673910,
+                            "_b": 30560,
+                            "_c": 18645,
+                            "_d": 138,
+                            "_e": 35,
+                            "_f": 81,
+                            "_g": 80,
+                            "_h": 98,
+                            "_i": 222,
+                            "_j": 249,
+                            "_k": 255
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Sebastian Sato"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_STYLIST01"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -3,
+                                "y": 9,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 4168928510,
+                            "_b": 4112,
+                            "_c": 18243,
+                            "_d": 186,
+                            "_e": 58,
+                            "_f": 82,
+                            "_g": 159,
+                            "_h": 93,
+                            "_i": 89,
+                            "_j": 196,
+                            "_k": 121
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 1023673910,
+                            "_b": 30560,
+                            "_c": 18645,
+                            "_d": 138,
+                            "_e": 35,
+                            "_f": 81,
+                            "_g": 80,
+                            "_h": 98,
+                            "_i": 222,
+                            "_j": 249,
+                            "_k": 255
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Sebastian Sato"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_STYLIST01"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -3,
+                                "y": 12,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 4168928510,
+                            "_b": 4112,
+                            "_c": 18243,
+                            "_d": 186,
+                            "_e": 58,
+                            "_f": 82,
+                            "_g": 159,
+                            "_h": 93,
+                            "_i": 89,
+                            "_j": 196,
+                            "_k": 121
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 1023673910,
+                            "_b": 30560,
+                            "_c": 18645,
+                            "_d": 138,
+                            "_e": 35,
+                            "_f": 81,
+                            "_g": 80,
+                            "_h": 98,
+                            "_i": 222,
+                            "_j": 249,
+                            "_k": 255
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Sebastian Sato"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_STYLIST01"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -3,
+                                "y": 15,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 4168928510,
+                            "_b": 4112,
+                            "_c": 18243,
+                            "_d": 186,
+                            "_e": 58,
+                            "_f": 82,
+                            "_g": 159,
+                            "_h": 93,
+                            "_i": 89,
+                            "_j": 196,
+                            "_k": 121
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 1023673910,
+                            "_b": 30560,
+                            "_c": 18645,
+                            "_d": 138,
+                            "_e": 35,
+                            "_f": 81,
+                            "_g": 80,
+                            "_h": 98,
+                            "_i": 222,
+                            "_j": 249,
+                            "_k": 255
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Sebastian Sato"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_STYLIST01"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -3,
+                                "y": 18,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 4168928510,
+                            "_b": 4112,
+                            "_c": 18243,
+                            "_d": 186,
+                            "_e": 58,
+                            "_f": 82,
+                            "_g": 159,
+                            "_h": 93,
+                            "_i": 89,
+                            "_j": 196,
+                            "_k": 121
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 1023673910,
+                            "_b": 30560,
+                            "_c": 18645,
+                            "_d": 138,
+                            "_e": 35,
+                            "_f": 81,
+                            "_g": 80,
+                            "_h": 98,
+                            "_i": 222,
+                            "_j": 249,
+                            "_k": 255
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Sebastian Sato"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_STYLIST01"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -3,
+                                "y": 21,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 4168928510,
+                            "_b": 4112,
+                            "_c": 18243,
+                            "_d": 186,
+                            "_e": 58,
+                            "_f": 82,
+                            "_g": 159,
+                            "_h": 93,
+                            "_i": 89,
+                            "_j": 196,
+                            "_k": 121
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 1023673910,
+                            "_b": 30560,
+                            "_c": 18645,
+                            "_d": 138,
+                            "_e": 35,
+                            "_f": 81,
+                            "_g": 80,
+                            "_h": 98,
+                            "_i": 222,
+                            "_j": 249,
+                            "_k": 255
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Sebastian Sato"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_STYLIST01"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -6,
+                                "y": 0,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2507264406,
+                            "_b": 36199,
+                            "_c": 19860,
+                            "_d": 141,
+                            "_e": 173,
+                            "_f": 110,
+                            "_g": 45,
+                            "_h": 151,
+                            "_i": 13,
+                            "_j": 122,
+                            "_k": 145
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2297949240,
+                            "_b": 49283,
+                            "_c": 19936,
+                            "_d": 144,
+                            "_e": 4,
+                            "_f": 193,
+                            "_g": 228,
+                            "_h": 240,
+                            "_i": 228,
+                            "_j": 251,
+                            "_k": 160
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Marcus Stuyvesant"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_STUYVESANT"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -6,
+                                "y": 3,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2507264406,
+                            "_b": 36199,
+                            "_c": 19860,
+                            "_d": 141,
+                            "_e": 173,
+                            "_f": 110,
+                            "_g": 45,
+                            "_h": 151,
+                            "_i": 13,
+                            "_j": 122,
+                            "_k": 145
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2297949240,
+                            "_b": 49283,
+                            "_c": 19936,
+                            "_d": 144,
+                            "_e": 4,
+                            "_f": 193,
+                            "_g": 228,
+                            "_h": 240,
+                            "_i": 228,
+                            "_j": 251,
+                            "_k": 160
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Marcus Stuyvesant"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_STUYVESANT"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -6,
+                                "y": 6,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2507264406,
+                            "_b": 36199,
+                            "_c": 19860,
+                            "_d": 141,
+                            "_e": 173,
+                            "_f": 110,
+                            "_g": 45,
+                            "_h": 151,
+                            "_i": 13,
+                            "_j": 122,
+                            "_k": 145
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2297949240,
+                            "_b": 49283,
+                            "_c": 19936,
+                            "_d": 144,
+                            "_e": 4,
+                            "_f": 193,
+                            "_g": 228,
+                            "_h": 240,
+                            "_i": 228,
+                            "_j": 251,
+                            "_k": 160
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Marcus Stuyvesant"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_STUYVESANT"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -6,
+                                "y": 9,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2507264406,
+                            "_b": 36199,
+                            "_c": 19860,
+                            "_d": 141,
+                            "_e": 173,
+                            "_f": 110,
+                            "_g": 45,
+                            "_h": 151,
+                            "_i": 13,
+                            "_j": 122,
+                            "_k": 145
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2297949240,
+                            "_b": 49283,
+                            "_c": 19936,
+                            "_d": 144,
+                            "_e": 4,
+                            "_f": 193,
+                            "_g": 228,
+                            "_h": 240,
+                            "_i": 228,
+                            "_j": 251,
+                            "_k": 160
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Marcus Stuyvesant"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_STUYVESANT"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -6,
+                                "y": 12,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2507264406,
+                            "_b": 36199,
+                            "_c": 19860,
+                            "_d": 141,
+                            "_e": 173,
+                            "_f": 110,
+                            "_g": 45,
+                            "_h": 151,
+                            "_i": 13,
+                            "_j": 122,
+                            "_k": 145
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2297949240,
+                            "_b": 49283,
+                            "_c": 19936,
+                            "_d": 144,
+                            "_e": 4,
+                            "_f": 193,
+                            "_g": 228,
+                            "_h": 240,
+                            "_i": 228,
+                            "_j": 251,
+                            "_k": 160
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Marcus Stuyvesant"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_STUYVESANT"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -6,
+                                "y": 15,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2507264406,
+                            "_b": 36199,
+                            "_c": 19860,
+                            "_d": 141,
+                            "_e": 173,
+                            "_f": 110,
+                            "_g": 45,
+                            "_h": 151,
+                            "_i": 13,
+                            "_j": 122,
+                            "_k": 145
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2297949240,
+                            "_b": 49283,
+                            "_c": 19936,
+                            "_d": 144,
+                            "_e": 4,
+                            "_f": 193,
+                            "_g": 228,
+                            "_h": 240,
+                            "_i": 228,
+                            "_j": 251,
+                            "_k": 160
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Marcus Stuyvesant"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_STUYVESANT"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -6,
+                                "y": 18,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2507264406,
+                            "_b": 36199,
+                            "_c": 19860,
+                            "_d": 141,
+                            "_e": 173,
+                            "_f": 110,
+                            "_g": 45,
+                            "_h": 151,
+                            "_i": 13,
+                            "_j": 122,
+                            "_k": 145
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2297949240,
+                            "_b": 49283,
+                            "_c": 19936,
+                            "_d": 144,
+                            "_e": 4,
+                            "_f": 193,
+                            "_g": 228,
+                            "_h": 240,
+                            "_i": 228,
+                            "_j": 251,
+                            "_k": 160
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Marcus Stuyvesant"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_STUYVESANT"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -6,
+                                "y": 21,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2507264406,
+                            "_b": 36199,
+                            "_c": 19860,
+                            "_d": 141,
+                            "_e": 173,
+                            "_f": 110,
+                            "_g": 45,
+                            "_h": 151,
+                            "_i": 13,
+                            "_j": 122,
+                            "_k": 145
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 2297949240,
+                            "_b": 49283,
+                            "_c": 19936,
+                            "_d": 144,
+                            "_e": 4,
+                            "_f": 193,
+                            "_g": 228,
+                            "_h": 240,
+                            "_i": 228,
+                            "_j": 251,
+                            "_k": 160
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Marcus Stuyvesant"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_STUYVESANT"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -9,
+                                "y": 0,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 349101872,
+                            "_b": 46674,
+                            "_c": 16533,
+                            "_d": 137,
+                            "_e": 4,
+                            "_f": 242,
+                            "_g": 101,
+                            "_h": 218,
+                            "_i": 29,
+                            "_j": 101,
+                            "_k": 113
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 277041428,
+                            "_b": 51320,
+                            "_c": 19628,
+                            "_d": 148,
+                            "_e": 4,
+                            "_f": 193,
+                            "_g": 197,
+                            "_h": 217,
+                            "_i": 41,
+                            "_j": 147,
+                            "_k": 202
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Cornelia Stuyvesant"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_MODELFEM01"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -9,
+                                "y": 3,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 349101872,
+                            "_b": 46674,
+                            "_c": 16533,
+                            "_d": 137,
+                            "_e": 4,
+                            "_f": 242,
+                            "_g": 101,
+                            "_h": 218,
+                            "_i": 29,
+                            "_j": 101,
+                            "_k": 113
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 277041428,
+                            "_b": 51320,
+                            "_c": 19628,
+                            "_d": 148,
+                            "_e": 4,
+                            "_f": 193,
+                            "_g": 197,
+                            "_h": 217,
+                            "_i": 41,
+                            "_j": 147,
+                            "_k": 202
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Cornelia Stuyvesant"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_MODELFEM01"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -9,
+                                "y": 6,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 349101872,
+                            "_b": 46674,
+                            "_c": 16533,
+                            "_d": 137,
+                            "_e": 4,
+                            "_f": 242,
+                            "_g": 101,
+                            "_h": 218,
+                            "_i": 29,
+                            "_j": 101,
+                            "_k": 113
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 277041428,
+                            "_b": 51320,
+                            "_c": 19628,
+                            "_d": 148,
+                            "_e": 4,
+                            "_f": 193,
+                            "_g": 197,
+                            "_h": 217,
+                            "_i": 41,
+                            "_j": 147,
+                            "_k": 202
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Cornelia Stuyvesant"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_MODELFEM01"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -9,
+                                "y": 9,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 349101872,
+                            "_b": 46674,
+                            "_c": 16533,
+                            "_d": 137,
+                            "_e": 4,
+                            "_f": 242,
+                            "_g": 101,
+                            "_h": 218,
+                            "_i": 29,
+                            "_j": 101,
+                            "_k": 113
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 277041428,
+                            "_b": 51320,
+                            "_c": 19628,
+                            "_d": 148,
+                            "_e": 4,
+                            "_f": 193,
+                            "_g": 197,
+                            "_h": 217,
+                            "_i": 41,
+                            "_j": 147,
+                            "_k": 202
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Cornelia Stuyvesant"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_MODELFEM01"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -9,
+                                "y": 12,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 349101872,
+                            "_b": 46674,
+                            "_c": 16533,
+                            "_d": 137,
+                            "_e": 4,
+                            "_f": 242,
+                            "_g": 101,
+                            "_h": 218,
+                            "_i": 29,
+                            "_j": 101,
+                            "_k": 113
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 277041428,
+                            "_b": 51320,
+                            "_c": 19628,
+                            "_d": 148,
+                            "_e": 4,
+                            "_f": 193,
+                            "_g": 197,
+                            "_h": 217,
+                            "_i": 41,
+                            "_j": 147,
+                            "_k": 202
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Cornelia Stuyvesant"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_MODELFEM01"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -9,
+                                "y": 15,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 349101872,
+                            "_b": 46674,
+                            "_c": 16533,
+                            "_d": 137,
+                            "_e": 4,
+                            "_f": 242,
+                            "_g": 101,
+                            "_h": 218,
+                            "_i": 29,
+                            "_j": 101,
+                            "_k": 113
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 277041428,
+                            "_b": 51320,
+                            "_c": 19628,
+                            "_d": 148,
+                            "_e": 4,
+                            "_f": 193,
+                            "_g": 197,
+                            "_h": 217,
+                            "_i": 41,
+                            "_j": 147,
+                            "_k": 202
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Cornelia Stuyvesant"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_MODELFEM01"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -9,
+                                "y": 18,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 349101872,
+                            "_b": 46674,
+                            "_c": 16533,
+                            "_d": 137,
+                            "_e": 4,
+                            "_f": 242,
+                            "_g": 101,
+                            "_h": 218,
+                            "_i": 29,
+                            "_j": 101,
+                            "_k": 113
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 277041428,
+                            "_b": 51320,
+                            "_c": 19628,
+                            "_d": 148,
+                            "_e": 4,
+                            "_f": 193,
+                            "_g": 197,
+                            "_h": 217,
+                            "_i": 41,
+                            "_j": 147,
+                            "_k": 202
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Cornelia Stuyvesant"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_MODELFEM01"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
+                {
+                    "nPropertyID": "m_eidParent",
+                    "value": {
+                        "$type": "SEntityTemplateReference",
+                        "$val": {
+                            "entityID": 18446744073709551615,
+                            "externalSceneIndex": -1,
+                            "entityIndex": 1,
+                            "exposedEntity": ""
+                        }
+                    }
+                }
+            ],
+            "platformSpecificPropertyValues": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "propertyValues": [
+                {
+                    "nPropertyID": "m_mTransform",
+                    "value": {
+                        "$type": "SMatrix43",
+                        "$val": {
+                            "XAxis": {
+                                "x": -0.9992899894714356,
+                                "y": -0.037675000727176669,
+                                "z": 0
+                            },
+                            "YAxis": {
+                                "x": 0.037675000727176669,
+                                "y": -0.9992899894714356,
+                                "z": 0
+                            },
+                            "ZAxis": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 1
+                            },
+                            "Trans": {
+                                "x": -9,
+                                "y": 21,
+                                "z": 3
+                            }
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": 3117918624,
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 349101872,
+                            "_b": 46674,
+                            "_c": 16533,
+                            "_d": 137,
+                            "_e": 4,
+                            "_f": 242,
+                            "_g": 101,
+                            "_h": 218,
+                            "_i": 29,
+                            "_j": 101,
+                            "_k": 113
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_OutfitRepositoryID",
+                    "value": {
+                        "$type": "ZGuid",
+                        "$val": {
+                            "_a": 277041428,
+                            "_b": 51320,
+                            "_c": 19628,
+                            "_d": 148,
+                            "_e": 4,
+                            "_f": 193,
+                            "_g": 197,
+                            "_h": 217,
+                            "_i": 41,
+                            "_j": 147,
+                            "_k": 202
+                        }
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitVariation",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_sActorName",
+                    "value": {
+                        "$type": "ZString",
+                        "$val": "Cornelia Stuyvesant"
+                    }
+                },
+                {
+                    "nPropertyID": "m_nOutfitCharset",
+                    "value": {
+                        "$type": "int32",
+                        "$val": 0
+                    }
+                },
+                {
+                    "nPropertyID": "m_eRequiredVoiceVariation",
+                    "value": {
+                        "$type": "EActorVoiceVariation",
+                        "$val": "eAVV_MODELFEM01"
+                    }
+                }
+            ],
+            "postInitPropertyValues": [
                 {
                     "nPropertyID": "m_eidParent",
                     "value": {

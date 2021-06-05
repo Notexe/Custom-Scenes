@@ -104,6 +104,26 @@
         {
             "hash": "[assembly:/_pro/scenes/missions/golden/mission_gecko/outfits_gecko.brick].pc_entitytype",
             "flag": "1F"
+        },
+        {
+            "hash": "[modules:/zpathfinderconfiguration.class].pc_entitytype",
+            "flag": "1F"
+        },
+        {
+            "hash": "[modules:/zreasoninggridconfigentity.class].pc_entitytype",
+            "flag": "1F"
+        },
+        {
+            "hash": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_polarbear_module_002.navp].pc_navp",
+            "flag": "1F"
+        },
+        {
+            "hash": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_polarbear_module_002_scene.airg].pc_airg",
+            "flag": "1F"
+        },
+        {
+            "hash": "[assembly:/templates/gameplay/prefabs/pfseedpoint.template?/pfseedpointwithgeometry.entitytemplate].pc_entitytype",
+            "flag": "1F"
         }
     ]
 }

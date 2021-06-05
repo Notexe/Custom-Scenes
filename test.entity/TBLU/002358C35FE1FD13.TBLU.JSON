@@ -378,6 +378,550 @@
             "exposedEntities": [],
             "exposedInterfaces": [],
             "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 22,
+            "entityId": 8983444250380722748,
+            "editorOnly": false,
+            "entityName": "PathfinderConfiguration",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 23,
+            "entityId": 16278584509126806399,
+            "editorOnly": false,
+            "entityName": "ReasoningGridConfig",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 1,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 24,
+            "entityId": 10338796943765050865,
+            "editorOnly": false,
+            "entityName": "PFSeedPointWithGeometry",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "CarlIngram",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "CarlIngram",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "CarlIngram",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "CarlIngram",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "CarlIngram",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "CarlIngram",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "CarlIngram",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "SebastianSato",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "SebastianSato",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "SebastianSato",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "SebastianSato",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "SebastianSato",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "SebastianSato",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "SebastianSato",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "SebastianSato",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "MarcusStuyvesant",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "MarcusStuyvesant",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "MarcusStuyvesant",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "MarcusStuyvesant",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "MarcusStuyvesant",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "MarcusStuyvesant",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "MarcusStuyvesant",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "MarcusStuyvesant",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "CorneliaStuyvesant",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "CorneliaStuyvesant",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "CorneliaStuyvesant",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "CorneliaStuyvesant",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "CorneliaStuyvesant",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "CorneliaStuyvesant",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "CorneliaStuyvesant",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
+        },
+        {
+            "logicalParent": {
+                "entityID": 18446744073709551615,
+                "externalSceneIndex": -1,
+                "entityIndex": 3,
+                "exposedEntity": ""
+            },
+            "entityTypeResourceIndex": 6,
+            "entityId": 4204282234614498235,
+            "editorOnly": false,
+            "entityName": "CorneliaStuyvesant",
+            "propertyAliases": [],
+            "exposedEntities": [],
+            "exposedInterfaces": [],
+            "entitySubsets": []
         }
     ],
     "externalSceneTypeIndicesInResourceHeader": [
