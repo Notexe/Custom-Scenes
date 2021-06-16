@@ -6,4 +6,4 @@ rpkg-cli.exe -json_to_hash_meta .\test.entity\TEMP\00E63B961C72ADFF.TEMP.meta.JS
 
 rpkg-cli.exe -generate_rpkg_from test.entity
 
-xcopy /y test.entity.rpkg C:\Epic\HITMAN3\Runtime\chunk1patch2.rpkg
+xcopy /y test.entity.rpkg C:\Epic\HITMAN3\Runtime\chunk1patch3.rpkg
