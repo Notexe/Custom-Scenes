@@ -1,7 +1,7 @@
 # assembly:/_pro/scenes/notex/test.entity
 This is my work in progress custom Hitman 3 map that I am creating as a learning experience.
 
-![](https://i.notex.app/7wOEs)
+![](https://i.notex.app/13vbC)
 
 ## Layout:
 ```

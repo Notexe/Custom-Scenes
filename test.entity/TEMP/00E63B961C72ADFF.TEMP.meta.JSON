@@ -1,9 +1,9 @@
 {
     "hash_value": "00E63B961C72ADFF",
-    "hash_offset": 1367,
-    "hash_size": 2147484657,
+    "hash_offset": 1337,
+    "hash_size": 2147484678,
     "hash_resource_type": "TEMP",
-    "hash_reference_table_size": 193,
+    "hash_reference_table_size": 121,
     "hash_reference_table_dummy": 0,
     "hash_size_final": 2377,
     "hash_size_in_memory": 1525,
@@ -30,30 +30,6 @@
             "flag": "1F"
         },
         {
-            "hash": "0059FBD4AEBCDED0",
-            "flag": "1F"
-        },
-        {
-            "hash": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
-            "flag": "1F"
-        },
-        {
-            "hash": "[assembly:/geometry/blockup/blockup_destruction.wl2?/blockup_wall_1m_00.prim].pc_entitytype",
-            "flag": "1F"
-        },
-        {
-            "hash": "[assembly:/geometry/blockup/blockup_system.wl2?/blockup_cube_1x1x1m_00.prim].pc_entitytype",
-            "flag": "1F"
-        },
-        {
-            "hash": "[assembly:/_pro/vehicles/templates/vehicles_aircrafts_a.template?/seaplane_big_c.entitytemplate].pc_entitytype",
-            "flag": "1F"
-        },
-        {
-            "hash": "00CD214F5DA06D63",
-            "flag": "1F"
-        },
-        {
             "hash": "[modules:/zentity.class].pc_entitytype",
             "flag": "1F"
         },
@@ -66,23 +42,7 @@
             "flag": "1F"
         },
         {
-            "hash": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-            "flag": "1F"
-        },
-        {
-            "hash": "[modules:/zitemspawner.class].pc_entitytype",
-            "flag": "1F"
-        },
-        {
-            "hash": "[modules:/zglobaloutfitkit.class].pc_entitytype",
-            "flag": "1F"
-        },
-        {
-            "hash": "[modules:/zreasoninggridconfigentity.class].pc_entitytype",
-            "flag": "1F"
-        },
-        {
-            "hash": "[assembly:/_pro/scenes/notex/test.entity].pc_entityblueprint",
+            "hash": "002358C35FE1FD13",
             "flag": "1F"
         },
         {
@@ -99,30 +59,6 @@
         },
         {
             "hash": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype",
-            "flag": "1F"
-        },
-        {
-            "hash": "[assembly:/_pro/scenes/missions/golden/mission_gecko/outfits_gecko.brick].pc_entitytype",
-            "flag": "1F"
-        },
-        {
-            "hash": "[modules:/zpathfinderconfiguration.class].pc_entitytype",
-            "flag": "1F"
-        },
-        {
-            "hash": "[modules:/zreasoninggridconfigentity.class].pc_entitytype",
-            "flag": "1F"
-        },
-        {
-            "hash": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_polarbear_module_002.navp].pc_navp",
-            "flag": "1F"
-        },
-        {
-            "hash": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_polarbear_module_002_scene.airg].pc_airg",
-            "flag": "1F"
-        },
-        {
-            "hash": "[assembly:/templates/gameplay/prefabs/pfseedpoint.template?/pfseedpointwithgeometry.entitytemplate].pc_entitytype",
             "flag": "1F"
         }
     ]
