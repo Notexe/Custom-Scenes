@@ -55,31 +55,6 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 1,
-            "propertyValues": [],
-            "postInitPropertyValues": [
-                {
-                    "nPropertyID": "m_eidParent",
-                    "value": {
-                        "$type": "SEntityTemplateReference",
-                        "$val": {
-                            "entityID": 18446744073709551615,
-                            "externalSceneIndex": -1,
-                            "entityIndex": 1,
-                            "exposedEntity": ""
-                        }
-                    }
-                }
-            ],
-            "platformSpecificPropertyValues": []
-        },
-        {
-            "logicalParent": {
-                "entityID": 18446744073709551615,
-                "externalSceneIndex": -1,
-                "entityIndex": 1,
-                "exposedEntity": ""
-            },
             "entityTypeResourceIndex": 2,
             "propertyValues": [
                 {

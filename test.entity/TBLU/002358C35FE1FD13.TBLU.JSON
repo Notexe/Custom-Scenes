@@ -50,22 +50,6 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 1,
-            "entityId": 4205783242192379825,
-            "editorOnly": false,
-            "entityName": "facility_arena_ground_a_00",
-            "propertyAliases": [],
-            "exposedEntities": [],
-            "exposedInterfaces": [],
-            "entitySubsets": []
-        },
-        {
-            "logicalParent": {
-                "entityID": 18446744073709551615,
-                "externalSceneIndex": -1,
-                "entityIndex": 1,
-                "exposedEntity": ""
-            },
             "entityTypeResourceIndex": 2,
             "entityId": 420428324212413561,
             "editorOnly": false,
