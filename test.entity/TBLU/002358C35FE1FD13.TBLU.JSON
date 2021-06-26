@@ -9,7 +9,7 @@
                 "entityIndex": -1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 7,
+            "entityTypeResourceIndex": 5,
             "entityId": 18446744073709551614,
             "editorOnly": false,
             "entityName": "Scene",
@@ -50,7 +50,7 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 2,
+            "entityTypeResourceIndex": 1,
             "entityId": 420428324212413561,
             "editorOnly": false,
             "entityName": "Agent47_Default",
@@ -66,7 +66,7 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 5,
+            "entityTypeResourceIndex": 3,
             "entityId": 4204283243562413561,
             "editorOnly": false,
             "entityName": "Physics",
@@ -79,10 +79,10 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 3,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 6,
+            "entityTypeResourceIndex": 4,
             "entityId": 4204284353345413561,
             "editorOnly": false,
             "entityName": "VolumeBox_WorldBounds",
@@ -95,10 +95,10 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 1,
+                "entityIndex": 3,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 3,
+            "entityTypeResourceIndex": 2,
             "entityId": 420428322342413561,
             "editorOnly": false,
             "entityName": "FX_Logic_PhysicsWorld",
@@ -125,10 +125,10 @@
         }
     ],
     "externalSceneTypeIndicesInResourceHeader": [
+        6,
+        7,
         8,
-        9,
-        10,
-        11
+        9
     ],
     "pinConnections": [],
     "inputPinForwardings": [],

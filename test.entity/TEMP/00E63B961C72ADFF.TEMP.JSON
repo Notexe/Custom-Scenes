@@ -1,6 +1,6 @@
 {
     "subType": 1,
-    "blueprintIndexInResourceHeader": 8,
+    "blueprintIndexInResourceHeader": 6,
     "rootEntityIndex": 0,
     "subEntities": [
         {
@@ -10,7 +10,7 @@
                 "entityIndex": -1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 7,
+            "entityTypeResourceIndex": 5,
             "propertyValues": [],
             "postInitPropertyValues": [],
             "platformSpecificPropertyValues": []
@@ -55,7 +55,7 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 2,
+            "entityTypeResourceIndex": 1,
             "propertyValues": [
                 {
                     "nPropertyID": "m_mTransform",
@@ -109,7 +109,7 @@
                 "entityIndex": 1,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 5,
+            "entityTypeResourceIndex": 3,
             "propertyValues": [],
             "postInitPropertyValues": [],
             "platformSpecificPropertyValues": []
@@ -118,10 +118,10 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 4,
+                "entityIndex": 3,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 6,
+            "entityTypeResourceIndex": 4,
             "propertyValues": [
                 {
                     "nPropertyID": "m_mTransform",
@@ -184,10 +184,10 @@
             "logicalParent": {
                 "entityID": 18446744073709551615,
                 "externalSceneIndex": -1,
-                "entityIndex": 4,
+                "entityIndex": 3,
                 "exposedEntity": ""
             },
-            "entityTypeResourceIndex": 3,
+            "entityTypeResourceIndex": 2,
             "propertyValues": [
                 {
                     "nPropertyID": "m_WorldBounds",
@@ -196,7 +196,7 @@
                         "$val": {
                             "entityID": 18446744073709551615,
                             "externalSceneIndex": -1,
-                            "entityIndex": 5,
+                            "entityIndex": 4,
                             "exposedEntity": ""
                         }
                     }
@@ -269,9 +269,9 @@
     ],
     "propertyOverrides": [],
     "externalSceneTypeIndicesInResourceHeader": [
+        7,
+        8,
         9,
-        10,
-        11,
-        12
+        10
     ]
 }
