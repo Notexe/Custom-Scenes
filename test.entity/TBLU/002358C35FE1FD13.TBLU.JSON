@@ -106,22 +106,6 @@
             "exposedEntities": [],
             "exposedInterfaces": [],
             "entitySubsets": []
-        },
-        {
-            "logicalParent": {
-                "entityID": 18446744073709551615,
-                "externalSceneIndex": -1,
-                "entityIndex": 1,
-                "exposedEntity": ""
-            },
-            "entityTypeResourceIndex": 4,
-            "entityId": 4204283223465612561,
-            "editorOnly": false,
-            "entityName": "HeroSpawn",
-            "propertyAliases": [],
-            "exposedEntities": [],
-            "exposedInterfaces": [],
-            "entitySubsets": []
         }
     ],
     "externalSceneTypeIndicesInResourceHeader": [
