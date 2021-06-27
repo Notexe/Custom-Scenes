@@ -1,7 +1,7 @@
 # assembly:/_pro/scenes/notex/test.entity
-This is my work in progress custom Hitman 3 map that I am creating as a learning experience.
+Blank slate version with only the necessary entities required for getting it to boot
 
-![](https://i.notex.app/13vbC)
+![](https://i.notex.app/NqK9a)
 
 ## Layout:
 ```
