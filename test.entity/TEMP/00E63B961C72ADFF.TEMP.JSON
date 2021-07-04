@@ -25,7 +25,14 @@
             "entityTypeResourceIndex": 0,
             "propertyValues": [
                 {
-                    "nPropertyID": 2091375953,
+                    "nPropertyID": "ShowFloor",
+                    "value": {
+                        "$type": "bool",
+                        "$val": true
+                    }
+                },
+                {
+                    "nPropertyID": "m_bColorCorrectionHDR",
                     "value": {
                         "$type": "bool",
                         "$val": false
