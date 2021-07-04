@@ -1,7 +1,7 @@
 # assembly:/_pro/scenes/notex/test.entity
 Blank slate version with only the necessary entities required for getting it to boot
 
-![](https://i.notex.app/NqK9a)
+![](https://i.notex.app/Hakuj)
 
 ## Layout:
 ```
