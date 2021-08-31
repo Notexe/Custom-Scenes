@@ -9,7 +9,7 @@ Blank slate version with only the necessary entities required for getting it to 
 2. Download the latest version of the RPKG Tool from [https://notex.app/rpkg/](https://notex.app/rpkg/)
 3. Download the latest version of ResourceTool from [https://github.com/OrfeasZ/ZHMTools/](https://github.com/OrfeasZ/ZHMTools/)
 4. Download the latest version of QuickEntity from [https://rentry.co/QuickEntityDocs/](https://rentry.co/QuickEntityDocs/)
-4. Make sure rpkg-cli.exe and ResourceTool.exe are in your PATH environment variable.
+4. Make sure rpkg-cli.exe and ResourceTool.exe are in your PATH environment variable or in the QuickEntity folder.
 5. Use QuickEntity's `QuickEntity JSON to TEMP/TBLU` feature (Saving the output files into the chunk28 folder)
 5. Run generate_rpkg.bat (You may want to edit the destination folder in the last line of this script)
 
