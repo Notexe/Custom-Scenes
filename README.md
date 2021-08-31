@@ -34,13 +34,11 @@ AI might not be possible currently due to the lack of tools to compile a navmesh
 
 ### Launching the map
 1. Drag your game's packagedefintion.txt file (Located in the game's Runtime folder) into [https://www.notex.app/tools/online/xtea](https://www.notex.app/tools/online/xtea)
-2. Add `[assembly:/_pro/scenes/notex/test.entity].entitytemplate` under the Chunk 1 Base section like this:
+2. Add the following to the end of your packagedefintion file:
 ```
-// --- Chunk 1 Base
-@partition name=base parent=super type=standard patchlevel=1
-// --- render.packagedefinition
-[assembly:/_PRO/Scenes/Demo/Render/materialexamples.entity].entitytemplate
-[assembly:/_PRO/Scenes/Demo/Render/EmptyScene.entity].entitytemplate
+// --- Chunk 28 Notex
+@partition name=notex parent=super type=standard patchlevel=2
+// --- notex.packagedefinition
 [assembly:/_pro/scenes/notex/test.entity].entitytemplate
 ```
 3. Click save file and copy the new packagedefintion.txt to your game, replacing the old one.
