@@ -37,7 +37,7 @@ AI might not be possible currently due to the lack of tools to compile a navmesh
 2. Add the following to the end of your packagedefintion file:
 ```
 // --- Chunk 28 Notex
-@partition name=notex parent=super type=standard patchlevel=2
+@partition name=notex parent=base type=standard patchlevel=2
 // --- notex.packagedefinition
 [assembly:/_pro/scenes/notex/test.entity].entitytemplate
 ```
