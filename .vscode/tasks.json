@@ -4,9 +4,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Compile Map & Copy to H3's Runtime",
+            "label": "Generate RPKG & Copy to H3's Runtime",
             "type": "shell",
-            "command": ".\\compilemap.bat",
+            "command": ".\\generate_rpkg.bat",
             "problemMatcher": []
         }
     ]
