@@ -35,3 +35,4 @@ BENCHMARK_SCENE_01_MODE=1
 ```
 
 5. Launch the game with the following command line argument `-ao START_BENCHMARK true -ao BENCHMARK_SCENE_INDEX 1 ConsoleCmd UI_ShowProfileData 0 -SKIP_LAUNCHER` and it should now load straight into this map.
+6. Alternatively you can edit `SCENE_FILE=` instead but the game will always boot into the custom map by default then.
