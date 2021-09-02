@@ -8,6 +8,12 @@
             "type": "shell",
             "command": ".\\generate_rpkg.bat",
             "problemMatcher": []
-        }
+        },
+        {
+            "label": "Launch H3",
+            "type": "shell",
+            "command": "legendary launch Eider -ao START_BENCHMARK true -ao BENCHMARK_SCENE_INDEX 1 ConsoleCmd UI_ShowProfileData 0 -SKIP_LAUNCHER",
+            "problemMatcher": []
+        },
     ]
 }
