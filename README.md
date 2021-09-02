@@ -28,5 +28,10 @@
 [assembly:/_pro/scenes/users/notex/test.entity].entitytemplate
 ```
 3. Click save file and copy the new packagedefintion.txt to your game, replacing the old one.
-4. Drag thumbs.dat (From the game's Retail folder) into the XTEA site and edit the `SCENE_FILE` variable so it is `SCENE_FILE=assembly:/_pro/scenes/users/notex/test.entity` instead.
-5. Launch the game and it should now load straight into this map.
+4. Drag thumbs.dat (From the game's Retail folder) into the XTEA site and replace the `BENCHMARK_` lines with the following: (Making sure to remove `BENCHMARK_SCENE_01_SIMQUALITY_01`, otherwise the game will load a brick for another level)
+```
+BENCHMARK_SCENE_01=assembly:/_pro/scenes/users/notex/test.entity
+BENCHMARK_SCENE_01_MODE=1
+```
+
+5. Launch the game with the following command line argument `-ao START_BENCHMARK true -ao BENCHMARK_SCENE_INDEX 1 ConsoleCmd UI_ShowProfileData 0 -SKIP_LAUNCHER` and it should now load straight into this map.
