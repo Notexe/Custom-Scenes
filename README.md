@@ -8,6 +8,11 @@
 ![](https://i.notex.app/Hakuj)
 (Screenshot taken on blank_slate.entity)
 
+https://user-images.githubusercontent.com/43296291/132739228-42c7a3c6-3ac0-4c52-9097-cabf98e3f0ec.mp4
+
+(Video taken on test.entity)
+
+
 ## Instructions for use
 ### Compiling the map
 1. Clone this repo to your computer
