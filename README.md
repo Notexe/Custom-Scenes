@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/43296291/132739228-42c7a3c6-3ac0-4c52-
 1. Clone this repo to your computer
 2. Download the latest version of the RPKG Tool from [https://notex.app/rpkg/](https://notex.app/rpkg/)
 3. Download the latest version of ResourceTool from [https://github.com/OrfeasZ/ZHMTools/](https://github.com/OrfeasZ/ZHMTools/)
-4. Download the latest version of QuickEntity from [https://www.hitmanforum.com/t/quickentity-a-format-and-editor-for-entities/11575](https://www.hitmanforum.com/t/quickentity-a-format-and-editor-for-entities/11575)
+4. Download the latest version of QuickEntity from [https://rentry.co/QuickEntityDocs/](https://rentry.co/QuickEntityDocs/)
 4. Make sure rpkg-cli.exe and ResourceTool.exe are in your PATH environment variable or in the QuickEntity folder.
 5. Use QuickEntity's `QuickEntity JSON to TEMP/TBLU` feature (Saving the output files into the chunk28 folder located in packaging)
 5. Run generate_rpkg.bat (You may want to edit the destination folder in the last line of this script)
