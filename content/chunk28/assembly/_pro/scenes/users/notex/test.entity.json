@@ -1444,7 +1444,7 @@
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
       },
-      "name": "AudioEvent Testing (Broken currently)",
+      "name": "Audio Event Testing (Broken currently)",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
       "properties": [],
