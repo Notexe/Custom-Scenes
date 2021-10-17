@@ -1,0 +1,15 @@
+{
+  "name": "HM3CustomMaps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Notexe/HM3CustomMaps.git",
+  "author": "Notexe <josh@notex.app>",
+  "license": "MIT",
+  "devDependencies": {
+    "pretty-quick": "^3.1.1"
+  },
+  "dependencies": {
+    "husky": "^7.0.2",
+    "prettier": "^2.4.1"
+  }
+}
