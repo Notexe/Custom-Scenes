@@ -20,6 +20,7 @@
       "entitySubsets": [
         ["Activatable_NormalGameplay, IEntity", { "entities": [] }],
         ["Gates", { "entities": [] }],
+        ["AudioEmitters", { "entities": [] }],
         ["Rooms", { "entities": [1] }]
       ],
       "entityID": "fffffffffffffffe",
