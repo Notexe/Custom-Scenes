@@ -6,6 +6,8 @@
 
 `assembly:/_pro/scenes/users/notex/blank_slate.entity`
 
+https://user-images.githubusercontent.com/43296291/137613872-cef80d17-fe20-416f-8322-0cbba06c7a7b.mp4
+
 ---
 
 > OUTDATED INSTRUCTIONS (WAIT FOR MOD FRAMEWORK)
