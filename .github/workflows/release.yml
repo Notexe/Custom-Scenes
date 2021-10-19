@@ -19,10 +19,11 @@ jobs:
           mkdir HM3CustomMaps
           cp manifest.json HM3CustomMaps/
           cp -R content HM3CustomMaps/content
+          zip -r HM3CustomMaps.framework.zip HM3CustomMaps
 
-      - name: HM3CustomMaps.framework.zip
+      - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
-            HM3CustomMaps
+            HM3CustomMaps.framework.zip
