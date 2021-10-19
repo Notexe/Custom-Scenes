@@ -14,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Make release folder
+      - name: Make release
         run: |
           mkdir HM3CustomMaps
           cp manifest.json HM3CustomMaps/
