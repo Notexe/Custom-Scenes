@@ -11,11 +11,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
       - name: Make release folder
         run: |
           mkdir HM3CustomMaps
           cp manifest.json HM3CustomMaps/
           cp -R content HM3CustomMaps/content
+
       - name: HM3CustomMaps.framework.zip
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
