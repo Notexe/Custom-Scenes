@@ -18,8 +18,49 @@
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
       "entitySubsets": [
-        ["AudioEmitters", { "entities": [44, 56] }],
-        ["Rooms", { "entities": [1] }]
+                [
+                    "Activatable_NormalGameplay, IEntity",
+                    {
+                        "entities": []
+                    }
+                ],
+                [
+                    "AudioEmitters",
+                    {
+                        "entities": [
+                            44,
+                            56
+                        ]
+                    }
+                ],
+                [
+                    "AudioVolumetricGeom",
+                    {
+                        "entities": []
+                    }
+                ],
+                [
+                    "Gates",
+                    {
+                        "entities": [
+                            85
+                        ]
+                    }
+                ],
+                [
+                    "Replicable",
+                    {
+                        "entities": []
+                    }
+                ],
+                [
+                    "Rooms",
+                    {
+                        "entities": [
+                            1
+                        ]
+                    }
+                ]
       ],
       "entityID": "fffffffffffffffe",
       "refID": 0
