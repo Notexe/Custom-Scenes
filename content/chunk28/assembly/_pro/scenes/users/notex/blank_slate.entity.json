@@ -19,8 +19,10 @@
       "platformSpecificPropertyValues": [],
       "entitySubsets": [
         ["Activatable_NormalGameplay, IEntity", { "entities": [] }],
-        ["Gates", { "entities": [] }],
         ["AudioEmitters", { "entities": [] }],
+        ["AudioVolumetricGeom", { "entities": [] }],
+        ["Gates", { "entities": [] }],
+        ["Replicable", { "entities": [] }],
         ["Rooms", { "entities": [1] }]
       ],
       "entityID": "fffffffffffffffe",
