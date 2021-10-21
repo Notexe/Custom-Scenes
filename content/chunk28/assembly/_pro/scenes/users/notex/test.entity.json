@@ -18,49 +18,12 @@
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
       "entitySubsets": [
-                [
-                    "Activatable_NormalGameplay, IEntity",
-                    {
-                        "entities": []
-                    }
-                ],
-                [
-                    "AudioEmitters",
-                    {
-                        "entities": [
-                            44,
-                            56
-                        ]
-                    }
-                ],
-                [
-                    "AudioVolumetricGeom",
-                    {
-                        "entities": []
-                    }
-                ],
-                [
-                    "Gates",
-                    {
-                        "entities": [
-                            85
-                        ]
-                    }
-                ],
-                [
-                    "Replicable",
-                    {
-                        "entities": []
-                    }
-                ],
-                [
-                    "Rooms",
-                    {
-                        "entities": [
-                            1
-                        ]
-                    }
-                ]
+        ["Activatable_NormalGameplay, IEntity", { "entities": [] }],
+        ["AudioEmitters", { "entities": [44, 56] }],
+        ["AudioVolumetricGeom", { "entities": [] }],
+        ["Gates", { "entities": [85] }],
+        ["Replicable", { "entities": [] }],
+        ["Rooms", { "entities": [1] }]
       ],
       "entityID": "fffffffffffffffe",
       "refID": 0
@@ -2509,6 +2472,167 @@
       "platformSpecificPropertyValues": [],
       "entityID": "abcd210d3b37ec56",
       "refID": 80
+    },
+    {
+      "parent": {
+        "ref": 61,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "setpiece_surveillance_camera_a",
+      "template": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        }
+      ],
+      "postInitProperties": [
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": 1
+        }
+      ],
+      "editorOnly": true,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcde90a763d22be",
+      "refID": 81
+    },
+    {
+      "parent": {
+        "ref": 12,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Mirror Testing",
+      "template": "[modules:/zspatialentity.class].pc_entitytype",
+      "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        }
+      ],
+      "postInitProperties": [
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": 1
+        }
+      ],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd4c79daa55422",
+      "refID": 82
+    },
+    {
+      "parent": {
+        "ref": 82,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Mirror 1",
+      "template": "[modules:/zmirrorentity.class].pc_entitytype",
+      "blueprint": "[modules:/zmirrorentity.class].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": -8, "z": 15 }
+          }
+        },
+        {
+          "name": "m_vPortalSize",
+          "type": "SVector3",
+          "value": { "x": 10, "y": 10, "z": 10 }
+        },
+        {
+          "name": "m_Quality",
+          "type": "ZMirrorEntity.EMirrorQuality",
+          "value": "QUALITY_HIGH"
+        },
+        { "name": "m_fDrawDistance", "type": "float32", "value": 50 }
+      ],
+      "postInitProperties": [
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": 82
+        }
+      ],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcde3005c780da0",
+      "refID": 83
+    },
+    {
+      "parent": {
+        "ref": 10,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Gates",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd75cdab8ef432",
+      "refID": 84
+    },
+    {
+      "parent": {
+        "ref": 84,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Gate 1",
+      "template": "[modules:/zgateentity.class].pc_entitytype",
+      "blueprint": "[modules:/zgateentity.class].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        },
+        {
+          "name": "m_vPortalSize",
+          "type": "SVector3",
+          "value": { "x": 50, "y": 50, "z": 50 }
+        }
+      ],
+      "postInitProperties": [
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": 1
+        }
+      ],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd6ba5dbc6906e",
+      "refID": 85
     }
   ],
   "externalScenes": [
