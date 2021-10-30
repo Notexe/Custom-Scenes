@@ -1,26 +1,27 @@
 {
-	"name": "HM3CustomMaps",
-	"description": "Custom maps experimentation",
-	"authors": ["Notex"],
-	"contentFolder": "content",
-	"packagedefinition": [{
-		"type": "partition",
-		"name": "notex",
-		"parent": "season3",
-		"partitionType": "standard"
-	},
-	{
-		"type": "entity",
-		"partition": "notex",
-		"path": "[assembly:/_pro/scenes/users/notex/test.entity].entitytemplate"
-	},
-	{
-		"type": "entity",
-		"partition": "notex",
-		"path": "[assembly:/_pro/scenes/users/notex/blank_slate.entity].entitytemplate"
-	}
-	],
-	"modVersion": 1,
-	"updateCheck": "https://hitman-resources.netlify.app/framework/updates/exampleMod.json",
-	"frameworkVersion": 0.3
+  "name": "HM3CustomMaps",
+  "description": "Custom maps experimentation",
+  "authors": ["Notex"],
+  "contentFolder": "content",
+  "packagedefinition": [
+    {
+      "type": "partition",
+      "name": "notex",
+      "parent": "season3",
+      "partitionType": "standard"
+    },
+    {
+      "type": "entity",
+      "partition": "notex",
+      "path": "[assembly:/_pro/scenes/users/notex/test.entity].entitytemplate"
+    },
+    {
+      "type": "entity",
+      "partition": "notex",
+      "path": "[assembly:/_pro/scenes/users/notex/blank_slate.entity].entitytemplate"
+    }
+  ],
+  "modVersion": "0.0.1",
+  "updateCheck": "https://hitman-resources.netlify.app/framework/updates/exampleMod.json",
+  "frameworkVersion": "1.0.0"
 }
