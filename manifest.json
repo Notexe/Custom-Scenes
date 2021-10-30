@@ -21,7 +21,7 @@
       "path": "[assembly:/_pro/scenes/users/notex/blank_slate.entity].entitytemplate"
     }
   ],
-  "modVersion": "0.0.1",
+  "version": "0.1.0",
   "updateCheck": "https://framework.notex.app/updates/HM3CustomMaps.json",
   "frameworkVersion": "1.0.0"
 }
