@@ -22,6 +22,6 @@
     }
   ],
   "modVersion": "0.0.1",
-  "updateCheck": "https://hitman-resources.netlify.app/framework/updates/exampleMod.json",
+  "updateCheck": "https://framework.notex.app/updates/HM3CustomMaps.json",
   "frameworkVersion": "1.0.0"
 }
