@@ -18,47 +18,12 @@
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
       "entitySubsets": [
-                [
-                    "Activatable_NormalGameplay, IEntity",
-                    {
-                        "entities": []
-                    }
-                ],
-                [
-                    "AudioEmitters",
-                    {
-                        "entities": [
-                            44,
-                            56
-                        ]
-                    }
-                ],
-                [
-                    "AudioVolumetricGeom",
-                    {
-                        "entities": []
-                    }
-                ],
-                [
-                    "Gates",
-                    {
-                        "entities": []
-                    }
-                ],
-                [
-                    "Replicable",
-                    {
-                        "entities": []
-                    }
-                ],
-                [
-                    "Rooms",
-                    {
-                        "entities": [
-                            1
-                        ]
-                    }
-                ]
+        ["Activatable_NormalGameplay, IEntity", { "entities": [] }],
+        ["AudioEmitters", { "entities": [44, 56] }],
+        ["AudioVolumetricGeom", { "entities": [] }],
+        ["Gates", { "entities": [] }],
+        ["Replicable", { "entities": [] }],
+        ["Rooms", { "entities": [1] }]
       ],
       "entityID": "fffffffffffffffe",
       "refID": 0
@@ -611,7 +576,7 @@
         {
           "name": "Clients",
           "type": "TArray<SEntityTemplateReference>",
-          "value": [11, 17, 18, 19, 58, 77]
+          "value": [11, 17, 18, 19, 58, 77, 81]
         }
       ],
       "editorOnly": false,
@@ -2507,6 +2472,158 @@
       "platformSpecificPropertyValues": [],
       "entityID": "abcd210d3b37ec56",
       "refID": 80
+    },
+    {
+      "parent": {
+        "ref": 61,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "mockup_cube",
+      "template": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
+      "blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 10, "y": 0, "z": 0 }
+          }
+        },
+        {
+          "name": "m_PrimitiveScale",
+          "type": "SVector3",
+          "value": { "x": 1, "y": 2, "z": 1 }
+        }
+      ],
+      "postInitProperties": [
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": 1
+        }
+      ],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcdda05cf8aff36",
+      "refID": 81
+    },
+    {
+      "parent": {
+        "ref": 81,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "setpiece_trap_poison_coffeemachine_100cm",
+      "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_poison_coffeemachine_100cm.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_poison_coffeemachine_100cm.entitytemplate].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 90 },
+            "position": { "x": -0.2, "y": 0, "z": 0 }
+          }
+        }
+      ],
+      "postInitProperties": [
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": 81
+        }
+      ],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcdc97159de4d50",
+      "refID": 82
+    },
+    {
+      "parent": {
+        "ref": 13,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Poisons",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcde0eafb29e2df",
+      "refID": 83
+    },
+    {
+      "parent": {
+        "ref": 83,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "ItemKey_Poison_RatPoison",
+      "template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+      "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_RepositoryId",
+          "type": "ZGuid",
+          "value": "8b37a3a8-8a20-4262-81c5-0fcd15f4bba9"
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd586953380f78",
+      "refID": 84
+    },
+    {
+      "parent": {
+        "ref": 84,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "ItemSpawner",
+      "template": "[modules:/zitemspawner.class].pc_entitytype",
+      "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": -0.2, "y": 0.5, "z": 1.05 }
+          }
+        },
+        {
+          "name": "m_ePhysicsMode",
+          "type": "ZItemSpawner.EPhysicsMode",
+          "value": "EPM_KINEMATIC"
+        },
+        {
+          "name": "m_rMainItemKey",
+          "type": "SEntityTemplateReference",
+          "value": 84
+        },
+        { "name": "m_bUsePlacementAttach", "type": "bool", "value": false }
+      ],
+      "postInitProperties": [
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": 81
+        }
+      ],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd615457ec5cbb",
+      "refID": 85
     }
   ],
   "externalScenes": [
