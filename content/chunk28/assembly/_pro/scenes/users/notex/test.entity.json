@@ -2624,6 +2624,55 @@
       "platformSpecificPropertyValues": [],
       "entityID": "abcd615457ec5cbb",
       "refID": 85
+    },
+    {
+      "parent": {
+        "ref": 87,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Setpiece_Hips_Stand_Table",
+      "template": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_stand_table.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_stand_table.entitytemplate].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": -90 },
+            "position": { "x": -1.1, "y": -0.5, "z": 0 }
+          }
+        }
+      ],
+      "postInitProperties": [
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": 81
+        }
+      ],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcdee57952c4db5",
+      "refID": 86
+    },
+    {
+      "parent": {
+        "ref": 8,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "LIPs",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcda25b2fa2a0c9",
+      "refID": 87
     }
   ],
   "externalScenes": [
