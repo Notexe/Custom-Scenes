@@ -19,6 +19,11 @@
       "type": "entity",
       "partition": "notex",
       "path": "[assembly:/_pro/scenes/users/notex/blank_slate.entity].entitytemplate"
+    },
+    {
+      "type": "entity",
+      "partition": "sheep",
+      "path": "[assembly:/_pro/scenes/missions/sheep/scene_puka.entity].entitytemplate"
     }
   ],
   "version": "0.1.0",
