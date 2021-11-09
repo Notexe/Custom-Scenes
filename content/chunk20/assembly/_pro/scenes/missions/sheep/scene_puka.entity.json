@@ -640,6 +640,146 @@
       "platformSpecificPropertyValues": [],
       "entityID": "abcd8861cdc88386",
       "refID": 8
+    },
+    {
+      "parent": {
+        "ref": 0,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Environment",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcddfcf4d69476d",
+      "refID": 9
+    },
+    {
+      "parent": {
+        "ref": 0,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Gameplay",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcdf9ed890e1b77",
+      "refID": 10
+    },
+    {
+      "parent": {
+        "ref": 0,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "NPCs",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd9e67cda0d226",
+      "refID": 11
+    },
+    {
+      "parent": {
+        "ref": 10,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Starting Locations",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd34ccc98d0c64",
+      "refID": 12
+    },
+    {
+      "parent": {
+        "ref": 12,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "House",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd8ab3177cac72",
+      "refID": 13
+    },
+    {
+      "parent": {
+        "ref": 13,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "HeroSpawn_Location_Default",
+      "template": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 180 },
+            "position": {
+              "x": -2.266446113586426,
+              "y": -16.199810028076172,
+              "z": 4.400000095367432
+            }
+          }
+        },
+        { "name": "m_bDefaultHeroSpawn", "type": "bool", "value": true }
+      ],
+      "postInitProperties": [
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": 0
+        }
+      ],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd19bb633c9daf",
+      "refID": 14
+    },
+    {
+      "parent": {
+        "ref": 9,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Rooms_Inside",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd2a9366914675",
+      "refID": 15
+    },
     }
   ],
   "externalScenes": [
