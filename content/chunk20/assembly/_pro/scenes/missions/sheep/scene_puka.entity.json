@@ -780,6 +780,89 @@
       "entityID": "abcd2a9366914675",
       "refID": 15
     },
+    {
+      "parent": {
+        "ref": 15,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "201_Office_A",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd3e554d52cfba",
+      "refID": 16
+    },
+    {
+      "parent": {
+        "ref": 16,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Geometry",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd2928631ff7dd",
+      "refID": 17
+    },
+    {
+      "parent": {
+        "ref": 17,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "beachhouse_interior_a_door_single",
+      "template": "008F7ABAD348FBDF",
+      "blueprint": "0098AE56BB4AACCC",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": -180 },
+            "position": {
+              "x": -4.799973011016846,
+              "y": -0.4000092148780823,
+              "z": 0
+            }
+          }
+        },
+        {
+          "name": "m_rGateEntity",
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "SPECIAL: Use EntityID",
+            "entityID": "a34d9c20a10b938a",
+            "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
+            "exposedEntity": ""
+          }
+        },
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "SPECIAL: Use EntityID",
+            "entityID": "a3df05f78edf1bfb",
+            "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
+            "exposedEntity": ""
+          }
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd5d7b5a0d2d13",
+      "refID": 18
     }
   ],
   "externalScenes": [
@@ -1103,12 +1186,6 @@
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
-      "entityID": 12068232001378152334,
-      "entityIndex": -2,
-      "exposedEntity": "",
-      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-    },
-    {
       "entityID": 7430733492183457184,
       "entityIndex": -2,
       "exposedEntity": "",
@@ -1134,12 +1211,6 @@
     },
     {
       "entityID": 1212825866639299355,
-      "entityIndex": -2,
-      "exposedEntity": "",
-      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-    },
-    {
-      "entityID": 16013528538475283894,
       "entityIndex": -2,
       "exposedEntity": "",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -1254,6 +1325,12 @@
     },
     {
       "entityID": 2733186111073151718,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 8750335999870277339,
       "entityIndex": -2,
       "exposedEntity": "",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
