@@ -983,10 +983,82 @@
       "platformSpecificPropertyValues": [],
       "entityID": "abcdfb2ebb1ce206",
       "refID": 23
+    },
+    {
+      "parent": {
+        "ref": 11,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Testing",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd241ed84eb886",
+      "refID": 24
+    },
+    {
+      "parent": {
+        "ref": 24,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "CHAR_Rocco",
+      "template": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 92.32289210034862 },
+            "position": {
+              "x": 8.698882102966309,
+              "y": -37.92844009399414,
+              "z": 0
+            }
+          }
+        },
+        {
+          "name": "RepositoryId",
+          "type": "ZGuid",
+          "value": "3ed1c7e6-7707-48b4-a0f0-b933bc851fdb"
+        },
+        {
+          "name": "m_sActorName",
+          "type": "ZString",
+          "value": "Craig \"Rocco\" McVeigh"
+        },
+        {
+          "name": "m_OutfitRepositoryID",
+          "type": "ZGuid",
+          "value": "d3bdbcfe-8e46-4774-a642-17daa98a7f698"
+        },
+        { "name": "m_nOutfitVariation", "type": "int32", "value": 0 },
+        { "name": "m_nOutfitCharset", "type": "int32", "value": 0 },
+        { "name": "m_bStartEnabled", "type": "bool", "value": true }
+      ],
+      "postInitProperties": [
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": 0
+        }
+      ],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd5f6ea3781a79",
+      "refID": 25
     }
   ],
   "externalScenes": [
-    "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
+    "[assembly:/_pro/scenes/missions/sheep/outfits_puka.brick].pc_entitytype"
   ],
   "propertyOverrides": [
     {

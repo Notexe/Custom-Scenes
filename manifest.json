@@ -24,6 +24,11 @@
       "type": "entity",
       "partition": "sheep",
       "path": "[assembly:/_pro/scenes/missions/sheep/scene_puka.entity].entitytemplate"
+    },
+    {
+      "type": "entity",
+      "partition": "sheep",
+      "path": "[assembly:/_pro/scenes/missions/sheep/outfits_puka.brick].entitytype"
     }
   ],
   "version": "0.1.0",
