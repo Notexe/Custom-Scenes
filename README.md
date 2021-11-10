@@ -4,9 +4,14 @@
 
 `assembly:/_pro/scenes/users/notex/test.entity`
 
+https://user-images.githubusercontent.com/43296291/137613872-cef80d17-fe20-416f-8322-0cbba06c7a7b.mp4
+
 `assembly:/_pro/scenes/users/notex/blank_slate.entity`
 
-https://user-images.githubusercontent.com/43296291/137613872-cef80d17-fe20-416f-8322-0cbba06c7a7b.mp4
+`assembly:/_pro/scenes/missions/sheep/scene_puka.entity`
+
+https://user-images.githubusercontent.com/43296291/141157843-34cf51da-5330-46aa-a437-382be557a3d5.mp4
+
 
 ---
 
