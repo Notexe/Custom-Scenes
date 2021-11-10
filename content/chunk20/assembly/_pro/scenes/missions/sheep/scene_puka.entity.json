@@ -108,7 +108,8 @@
       "template": "[assembly:/_pro/effects/templates/postfilters/fx_pf_postfiltercontroller.template?/fx_pf_postfiltercontroller.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/effects/templates/postfilters/fx_pf_postfiltercontroller.template?/fx_pf_postfiltercontroller.entitytemplate].pc_entityblueprint",
       "properties": [
-        { "name": "m_bColorCorrectionHDR", "type": "bool", "value": false }
+        { "name": "m_bColorCorrectionHDR", "type": "bool", "value": false },
+        { "name": "m_nMaxMirrors", "type": "uint32", "value": 3 }
       ],
       "postInitProperties": [],
       "editorOnly": false,
@@ -1423,11 +1424,7 @@
         "name": "m_mTransform",
         "type": "SMatrix43",
         "value": {
-          "rotation": {
-            "x": 0,
-            "y": 0,
-            "z": 86.47879125576013
-          },
+          "rotation": { "x": 0, "y": 0, "z": 86.47879125576013 },
           "position": {
             "x": 10.942889785766602,
             "y": -2.8163108825683594,
