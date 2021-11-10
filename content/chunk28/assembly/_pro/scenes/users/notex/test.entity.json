@@ -1545,7 +1545,7 @@
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
       },
-      "name": "Play_Easter_NiceShot",
+      "name": "Play_SFX_GolfBall_Explosion",
       "template": "[modules:/zaudioevententity.class].pc_entitytype",
       "blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
       "properties": [
