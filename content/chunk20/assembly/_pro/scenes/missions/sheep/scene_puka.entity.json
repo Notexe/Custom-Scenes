@@ -2192,6 +2192,60 @@
       "entityIndex": -2,
       "exposedEntity": "",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 13698874787131570571,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 14768443853347199985,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 10526151559973786780,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 15091464029871819567,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 3244637245581550626,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 7855403714582317452,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 8506148897610140121,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 9206710132752090313,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 2762226878306892003,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     }
   ],
   "pinConnectionOverrides": [],
