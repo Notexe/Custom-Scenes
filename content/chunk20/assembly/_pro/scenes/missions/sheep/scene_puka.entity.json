@@ -1592,6 +1592,42 @@
       "platformSpecificPropertyValues": [],
       "entityID": "abcd27cb3bc8dc34",
       "refID": 34
+    },
+    {
+      "parent": {
+        "ref": 33,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "italian_sportscar_a",
+      "template": "[assembly:/_pro/vehicles/templates/vehicles_italy_a.template?/italian_sportscar_a_00.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/vehicles/templates/vehicles_italy_a.template?/italian_sportscar_a_00.entitytemplate].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": -90 },
+            "position": { "x": 0, "y": 2, "z": 0 }
+          }
+        },
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "SPECIAL: Use EntityID",
+            "entityID": "895c381ddf96d646",
+            "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
+            "exposedEntity": ""
+          }
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd585bdbbb5b23",
+      "refID": 35
     }
   ],
   "externalScenes": [
@@ -2190,7 +2226,7 @@
           "type": "float32",
           "value": 5000
         }
-    }
+      }
   ],
   "overrideDeletes": [
     {
