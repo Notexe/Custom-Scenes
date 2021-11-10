@@ -1190,6 +1190,324 @@
       "platformSpecificPropertyValues": [],
       "entityID": "abcdfdb4ec289f31",
       "refID": 30
+    },
+    {
+      "parent": {
+        "ref": 1,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "PostfilterParameters_Indoors",
+      "template": "[modules:/zrenderpostfilterparametersentity.class].pc_entitytype",
+      "blueprint": "[modules:/zrenderpostfilterparametersentity.class].pc_entityblueprint",
+      "properties": [
+        { "name": "m_bColorCorrectionEnabled", "type": "bool", "value": true },
+        {
+          "name": "m_bDistortionBarrelEnabled",
+          "type": "bool",
+          "value": false
+        },
+        { "name": "m_bHDRLensFlareEnabled", "type": "bool", "value": false },
+        { "name": "m_bHDRGlareEnabled", "type": "bool", "value": true },
+        {
+          "name": "m_eHDRGlareType",
+          "type": "ZRenderPostfilterParametersEntity.EHDRGlareType",
+          "value": "eCinecamVerticalSlits"
+        },
+        { "name": "m_fHDRBrightPassThreshold", "type": "float32", "value": 1 },
+        { "name": "m_bNoiseEnabled", "type": "bool", "value": false },
+        { "name": "m_fNoiseScale", "type": "float32", "value": 0.75 },
+        { "name": "m_bSSAOEnabled", "type": "bool", "value": true },
+        { "name": "m_fSSAOOcclusionRange", "type": "float32", "value": 1 },
+        { "name": "m_bDepthOfFieldEnabled", "type": "bool", "value": false },
+        { "name": "m_bFogEnabled", "type": "bool", "value": false },
+        {
+          "name": "m_fFogDensity",
+          "type": "float32",
+          "value": 0.10999999940395355
+        },
+        { "name": "m_FogColor", "type": "SColorRGB", "value": "#171c21" },
+        { "name": "m_bGaussianBlurEnabled", "type": "bool", "value": false },
+        {
+          "name": "m_fDepthOfFieldBlurriness",
+          "type": "float32",
+          "value": 0.20000000298023224
+        },
+        {
+          "name": "m_fHDRLensFlareThresholdA",
+          "type": "float32",
+          "value": 0.4699999988079071
+        },
+        {
+          "name": "m_fHDRLensFlareAttenuation",
+          "type": "float32",
+          "value": 0.56999999284744263
+        },
+        {
+          "name": "m_fHDRBloomScale",
+          "type": "float32",
+          "value": 0.20000000298023224
+        },
+        {
+          "name": "m_fDistortionBarrelScale",
+          "type": "float32",
+          "value": 0.20000000298023224
+        },
+        {
+          "name": "m_fNoiseIntensity",
+          "type": "float32",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "m_fHDRLensFlareThresholdB",
+          "type": "float32",
+          "value": 0.43000000715255737
+        },
+        {
+          "name": "m_fHDRLensFlareThresholdC",
+          "type": "float32",
+          "value": 0.23999999463558197
+        },
+        {
+          "name": "m_fHDRLensFlareThresholdD",
+          "type": "float32",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "m_HDRLensFlareColorC",
+          "type": "SColorRGB",
+          "value": "#9361ff"
+        },
+        { "name": "m_fDepthOfFieldFocusEnd", "type": "float32", "value": 10 },
+        { "name": "m_bFogGlobal", "type": "bool", "value": false },
+        {
+          "name": "m_fFogTurbulenceOpacity",
+          "type": "float32",
+          "value": 0.80000001192092896
+        },
+        {
+          "name": "m_fDepthOfFieldFocalFadeFar",
+          "type": "float32",
+          "value": 100
+        },
+        { "name": "m_bVignetteEnabled", "type": "bool", "value": false },
+        {
+          "name": "m_fVignetteStrength",
+          "type": "float32",
+          "value": 0.20000000298023224
+        },
+        { "name": "m_VignetteColor", "type": "SColorRGB", "value": "#000000" },
+        { "name": "m_bSpatialBlurEnabled", "type": "bool", "value": false },
+        { "name": "m_bRadialBlurEnabled", "type": "bool", "value": false },
+        { "name": "m_fRadialBlurriness", "type": "float32", "value": 1 },
+        {
+          "name": "m_bDistortionWobbleEnabled",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "m_bDistortionWobbleUseRealTime",
+          "type": "bool",
+          "value": false
+        },
+        { "name": "m_fDistortionWobbleScale", "type": "float32", "value": 1 },
+        { "name": "m_fGaussianBlurriness", "type": "float32", "value": 1 },
+        {
+          "name": "m_vRadialBlurCenter",
+          "type": "SVector2",
+          "value": { "x": 0.5, "y": 0.5 }
+        },
+        { "name": "m_fRadialBlurStart", "type": "float32", "value": 0 },
+        {
+          "name": "m_fRadialBlurFadeFactor",
+          "type": "float32",
+          "value": 0.10999999940395355
+        },
+        {
+          "name": "m_vSpatialBlurCenter",
+          "type": "SVector3",
+          "value": { "x": 0, "y": 0, "z": 0 }
+        },
+        { "name": "m_fSpatialBlurStart", "type": "float32", "value": 0 },
+        { "name": "m_fSpatialBlurFade", "type": "float32", "value": 10 },
+        { "name": "m_fSpatialBlurriness", "type": "float32", "value": 1 },
+        { "name": "m_fDepthOfFieldFocusStart", "type": "float32", "value": 1 },
+        {
+          "name": "m_fDepthOfFieldFocalFadeNear",
+          "type": "float32",
+          "value": 0.5
+        },
+        {
+          "name": "m_vDistortionBarrel",
+          "type": "SVector2",
+          "value": { "x": 0.2199999988079071, "y": 0.05999999865889549 }
+        },
+        {
+          "name": "m_bDistortionBarrelUseRealTime",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "m_vDistortionWobbleWaveLength",
+          "type": "SVector2",
+          "value": { "x": 0.029999999329447746, "y": 0.029999999329447746 }
+        },
+        {
+          "name": "m_vDistortionWobbleSpeed",
+          "type": "SVector2",
+          "value": { "x": 1, "y": 1 }
+        },
+        {
+          "name": "m_vFogTurbulenceNearScale",
+          "type": "SVector3",
+          "value": { "x": 10, "y": 10, "z": 10 }
+        },
+        {
+          "name": "m_vFogTurbulenceVelocity",
+          "type": "SVector3",
+          "value": {
+            "x": 0.30000001192092896,
+            "y": 0.5,
+            "z": 0.10000000149011612
+          }
+        },
+        { "name": "m_fFogTurbulenceChaos", "type": "float32", "value": 0.5 },
+        {
+          "name": "m_vHDRAdaptationMiddleGrayMinMax",
+          "type": "SVector2",
+          "value": { "x": 0.5, "y": 0.5 }
+        },
+        {
+          "name": "m_HDRLensFlareColorA",
+          "type": "SColorRGB",
+          "value": "#808cf0"
+        },
+        {
+          "name": "m_HDRLensFlareColorB",
+          "type": "SColorRGB",
+          "value": "#806633"
+        },
+        {
+          "name": "m_HDRLensFlareColorD",
+          "type": "SColorRGB",
+          "value": "#66664d"
+        },
+        {
+          "name": "m_vVignetteGradientLightColor",
+          "type": "SColorRGB",
+          "value": "#876c42"
+        },
+        {
+          "name": "m_fVignetteGradientLightSize",
+          "type": "float32",
+          "value": 0
+        },
+        {
+          "name": "m_fVignetteGradientLightStrength",
+          "type": "float32",
+          "value": 0
+        },
+        { "name": "m_bDepthOfFieldUseNew", "type": "bool", "value": false },
+        {
+          "name": "m_fDepthOfFieldFocalDistance",
+          "type": "float32",
+          "value": 10
+        },
+        { "name": "m_fDepthOfFieldAperture", "type": "float32", "value": 0.5 },
+        { "name": "m_bDoubleVisionEnabled", "type": "bool", "value": false },
+        {
+          "name": "m_fDoubleVisionStrength",
+          "type": "float32",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "m_fDoubleVisionSpeed",
+          "type": "float32",
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "m_fDoubleVisionEyeSeparation",
+          "type": "float32",
+          "value": 0
+        },
+        { "name": "m_fDoubleVisionSpeed1", "type": "float32", "value": 147 },
+        { "name": "m_fDoubleVisionSpeed2", "type": "float32", "value": 109 },
+        {
+          "name": "m_fDoubleVisionScaleSpeed1",
+          "type": "float32",
+          "value": 121
+        },
+        {
+          "name": "m_fDoubleVisionScaleSpeed2",
+          "type": "float32",
+          "value": 97
+        },
+        {
+          "name": "m_fDoubleVisionMinScale",
+          "type": "float32",
+          "value": 0.070000000298023224
+        },
+        {
+          "name": "m_fDoubleVisionMaxScale",
+          "type": "float32",
+          "value": 0.090000003576278687
+        },
+        { "name": "m_fDoubleVisionBlendSpeed", "type": "float32", "value": 80 },
+        {
+          "name": "m_fDoubleVisionBlendStrength",
+          "type": "float32",
+          "value": 0.20000000298023224
+        },
+        {
+          "name": "m_fDoubleVisionTrailStrength",
+          "type": "float32",
+          "value": 0.05000000074505806
+        },
+        { "name": "m_fHDRStarScale", "type": "float32", "value": 0.5 },
+        {
+          "name": "m_vSSAOStrengthNearFar",
+          "type": "SVector2",
+          "value": { "x": 0, "y": 15 }
+        },
+        {
+          "name": "m_vSSAODistanceNearFar",
+          "type": "SVector2",
+          "value": { "x": 0, "y": 15 }
+        },
+        {
+          "name": "m_vSSAOScreenSpaceRadiusLimits",
+          "type": "SVector2",
+          "value": { "x": 15, "y": 100 }
+        },
+        { "name": "m_nParameterId", "type": "int32", "value": 1 },
+        { "name": "m_bHDREnabled", "type": "bool", "value": true },
+        {
+          "name": "m_vHDRAdaptationLuminanceMinMax",
+          "type": "SVector2",
+          "value": { "x": 50, "y": 50 }
+        },
+        {
+          "name": "BillboardTexture",
+          "type": "ZRuntimeResourceID",
+          "value": "002ECE146DEB1151"
+        },
+        {
+          "name": "ColorCorrectionTextureHDR",
+          "type": "ZRuntimeResourceID",
+          "value": "00F3D677AE94EA21"
+        },
+        {
+          "name": "m_vASSAOFadeInRange",
+          "type": "SVector2",
+          "value": { "x": -5, "y": 10 }
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd35dadd6633ba",
+      "refID": 31
     }
   ],
   "externalScenes": [
@@ -1208,6 +1526,19 @@
         "name": "m_bGlobalLightOverrideEnable",
         "type": "bool",
         "value": false
+      }
+    },
+    {
+      "propertyOwner": {
+        "entityID": 12709843445799064070,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+      },
+      "propertyValue": {
+        "name": "m_PostfilterParametersID",
+        "type": "int32",
+        "value": 1
       }
     },
     {
@@ -1233,7 +1564,7 @@
       "propertyValue": {
         "name": "m_PostfilterParametersID",
         "type": "int32",
-        "value": -1
+        "value": 1
       }
     },
     {
@@ -1250,6 +1581,19 @@
       }
     },
     {
+        "propertyOwner": {
+          "entityID": 5453556053254576063,
+          "entityIndex": -2,
+          "exposedEntity": "",
+          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+        },
+        "propertyValue": {
+          "name": "m_PostfilterParametersID",
+          "type": "int32",
+          "value": 1
+        }
+      },
+    {
       "propertyOwner": {
         "entityID": 13407796605363321005,
         "entityIndex": -2,
@@ -1262,6 +1606,19 @@
         "value": false
       }
     },
+    {
+        "propertyOwner": {
+          "entityID": 13407796605363321005,
+          "entityIndex": -2,
+          "exposedEntity": "",
+          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+        },
+        "propertyValue": {
+          "name": "m_PostfilterParametersID",
+          "type": "int32",
+          "value": 1
+        }
+      },
     {
       "propertyOwner": {
         "entityID": 8761943330248435970,
@@ -1276,6 +1633,19 @@
       }
     },
     {
+        "propertyOwner": {
+          "entityID": 8761943330248435970,
+          "entityIndex": -2,
+          "exposedEntity": "",
+          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+        },
+        "propertyValue": {
+          "name": "m_PostfilterParametersID",
+          "type": "int32",
+          "value": 1
+        }
+      },
+    {
       "propertyOwner": {
         "entityID": 8069693152650622539,
         "entityIndex": -2,
@@ -1289,6 +1659,19 @@
       }
     },
     {
+        "propertyOwner": {
+          "entityID": 8069693152650622539,
+          "entityIndex": -2,
+          "exposedEntity": "",
+          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+        },
+        "propertyValue": {
+          "name": "m_PostfilterParametersID",
+          "type": "int32",
+          "value": 1
+        }
+      },
+    {
       "propertyOwner": {
         "entityID": 14356976290023873296,
         "entityIndex": -2,
@@ -1301,6 +1684,19 @@
         "value": false
       }
     },
+    {
+        "propertyOwner": {
+          "entityID": 14356976290023873296,
+          "entityIndex": -2,
+          "exposedEntity": "",
+          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+        },
+        "propertyValue": {
+          "name": "m_PostfilterParametersID",
+          "type": "int32",
+          "value": 1
+        }
+      },
     {
       "propertyOwner": {
         "entityID": 11953365151893682930,
@@ -1328,6 +1724,19 @@
       }
     },
     {
+        "propertyOwner": {
+          "entityID": 15930907226103524377,
+          "entityIndex": -2,
+          "exposedEntity": "",
+          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+        },
+        "propertyValue": {
+          "name": "m_PostfilterParametersID",
+          "type": "int32",
+          "value": 1
+        }
+      },
+    {
       "propertyOwner": {
         "entityID": 11808163308800777211,
         "entityIndex": -2,
@@ -1350,7 +1759,7 @@
       "propertyValue": {
         "name": "m_PostfilterParametersID",
         "type": "int32",
-        "value": -1
+        "value": 1
       }
     },
     {
@@ -1367,6 +1776,19 @@
       }
     },
     {
+        "propertyOwner": {
+          "entityID": 9406460593539870892,
+          "entityIndex": -2,
+          "exposedEntity": "",
+          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+        },
+        "propertyValue": {
+          "name": "m_PostfilterParametersID",
+          "type": "int32",
+          "value": 1
+        }
+      },
+    {
       "propertyOwner": {
         "entityID": 6910391566510845717,
         "entityIndex": -2,
@@ -1393,6 +1815,32 @@
       }
     },
     {
+        "propertyOwner": {
+          "entityID": 6910391566510845717,
+          "entityIndex": -2,
+          "exposedEntity": "",
+          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+        },
+        "propertyValue": {
+          "name": "m_PostfilterParametersID",
+          "type": "int32",
+          "value": 1
+        }
+      },
+    {
+        "propertyOwner": {
+          "entityID": 6251522089396537700,
+          "entityIndex": -2,
+          "exposedEntity": "",
+          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+        },
+        "propertyValue": {
+          "name": "m_PostfilterParametersID",
+          "type": "int32",
+          "value": 1
+        }
+      },
+    {
       "propertyOwner": {
         "entityID": 5333981148055640441,
         "entityIndex": -2,
@@ -1418,6 +1866,19 @@
         "value": false
       }
     },
+    {
+        "propertyOwner": {
+          "entityID": 5333981148055640441,
+          "entityIndex": -2,
+          "exposedEntity": "",
+          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+        },
+        "propertyValue": {
+          "name": "m_PostfilterParametersID",
+          "type": "int32",
+          "value": 1
+        }
+      },
     {
       "propertyOwner": {
         "entityID": 405468622631855645,
@@ -1431,6 +1892,19 @@
         "value": false
       }
     },
+    {
+        "propertyOwner": {
+          "entityID": 405468622631855645,
+          "entityIndex": -2,
+          "exposedEntity": "",
+          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+        },
+        "propertyValue": {
+          "name": "m_PostfilterParametersID",
+          "type": "int32",
+          "value": 1
+        }
+      },
     {
       "propertyOwner": {
         "entityID": 4234051217957930280,
