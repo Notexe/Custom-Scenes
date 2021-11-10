@@ -2034,6 +2034,162 @@
           }
         }
       }
+    },
+    {
+      "propertyOwner": {
+        "entityID": 18127126060481936990,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+      },
+      "propertyValue": {
+        "name": "On",
+        "type": "bool",
+        "value": true
+      }
+    },
+    {
+      "propertyOwner": {
+        "entityID": 6815920372704775108,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+      },
+      "propertyValue": {
+        "name": "On",
+        "type": "bool",
+        "value": true
+      }
+    },
+    {
+      "propertyOwner": {
+        "entityID": 17345016579075496866,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+      },
+      "propertyValue": {
+        "name": "On",
+        "type": "bool",
+        "value": true
+      }
+    },
+    {
+      "propertyOwner": {
+        "entityID": 13199780856628735307,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+      },
+      "propertyValue": {
+        "name": "On",
+        "type": "bool",
+        "value": true
+      }
+    },
+    {
+      "propertyOwner": {
+        "entityID": 18127126060481936990,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+      },
+      "propertyValue": {
+        "name": "DiffusePower",
+        "type": "float32",
+        "value": 5000
+      }
+    },
+    {
+      "propertyOwner": {
+        "entityID": 6815920372704775108,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+      },
+      "propertyValue": {
+        "name": "DiffusePower",
+        "type": "float32",
+        "value": 5000
+      }
+    },
+    {
+      "propertyOwner": {
+        "entityID": 17345016579075496866,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+      },
+      "propertyValue": {
+        "name": "DiffusePower",
+        "type": "float32",
+        "value": 5000
+      }
+    },
+    {
+      "propertyOwner": {
+        "entityID": 13199780856628735307,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+      },
+      "propertyValue": {
+        "name": "DiffusePower",
+        "type": "float32",
+        "value": 5000
+      }
+    },
+    {
+        "propertyOwner": {
+          "entityID": 18127126060481936990,
+          "entityIndex": -2,
+          "exposedEntity": "",
+          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+        },
+        "propertyValue": {
+          "name": "GlowPower",
+          "type": "float32",
+          "value": 5000
+        }
+      },
+      {
+        "propertyOwner": {
+          "entityID": 6815920372704775108,
+          "entityIndex": -2,
+          "exposedEntity": "",
+          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+        },
+        "propertyValue": {
+          "name": "GlowPower",
+          "type": "float32",
+          "value": 5000
+        }
+      },
+      {
+        "propertyOwner": {
+          "entityID": 17345016579075496866,
+          "entityIndex": -2,
+          "exposedEntity": "",
+          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+        },
+        "propertyValue": {
+          "name": "GlowPower",
+          "type": "float32",
+          "value": 5000
+        }
+      },
+      {
+        "propertyOwner": {
+          "entityID": 13199780856628735307,
+          "entityIndex": -2,
+          "exposedEntity": "",
+          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+        },
+        "propertyValue": {
+          "name": "GlowPower",
+          "type": "float32",
+          "value": 5000
+        }
     }
   ],
   "overrideDeletes": [
