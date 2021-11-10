@@ -1040,7 +1040,7 @@
           "type": "ZGuid",
           "value": "d3bdbcfe-8e46-4774-a642-17daa98a7f698"
         },
-        { "name": "m_nOutfitVariation", "type": "int32", "value": 0 },
+        { "name": "m_nOutfitVariation", "type": "int32", "value": 1 },
         { "name": "m_nOutfitCharset", "type": "int32", "value": 0 },
         { "name": "m_bStartEnabled", "type": "bool", "value": true }
       ],

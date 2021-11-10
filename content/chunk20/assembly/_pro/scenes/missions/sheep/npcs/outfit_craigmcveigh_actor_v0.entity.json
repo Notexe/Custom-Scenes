@@ -1,0 +1,346 @@
+{
+  "tempHash": "00A1791A4083CF77",
+  "tbluHash": "00717335DAA60EDA",
+  "rootEntity": "OUTFIT_CraigMcVeigh_Actor_v0",
+  "entities": [
+    {
+      "parent": {
+        "ref": 6,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Mesh_Watch",
+      "template": "[modules:/zbodypartentity.class].pc_entitytype",
+      "blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_pMeshResource",
+          "type": "ZRuntimeResourceID",
+          "value": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/geometry/male_reg_silviocaruso.wl2?/watch.weightedprim](bodypart).pc_weightedprim"
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "cd14bdc8e25d3fd0",
+      "refID": 0
+    },
+    {
+      "parent": {
+        "ref": 6,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Mesh_Head",
+      "template": "[modules:/zbodypartentity.class].pc_entitytype",
+      "blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_pMeshResource",
+          "type": "ZRuntimeResourceID",
+          "value": "00ECD307332B2399"
+        },
+        { "name": "m_IsHiddenInVR", "type": "bool", "value": true }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "114b50731f514cf1",
+      "refID": 1
+    },
+    {
+      "parent": {
+        "ref": 6,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "male_reg_tourist_tank_top_01",
+      "template": "[assembly:/_pro/characters/assets/civilians/tourist_beach/materials/male_reg_tourist_tank_top_01.mi].pc_entitytype",
+      "blueprint": "[assembly:/_pro/characters/assets/civilians/tourist_beach/materials/male_reg_tourist_tank_top_01.mi].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": 0.017448000609874725, "z": 0 }
+          }
+        },
+        { "name": "Texture2D_01_enab", "type": "bool", "value": true },
+        {
+          "name": "Texture2D_01",
+          "type": "ZRuntimeResourceID",
+          "value": "00682C9B4E336C3A"
+        },
+        { "name": "Texture2D_03_enab", "type": "bool", "value": true },
+        {
+          "name": "Texture2D_03",
+          "type": "ZRuntimeResourceID",
+          "value": "0077F9DC6094B2BC"
+        },
+        { "name": "Texture2DNormal_01_enab", "type": "bool", "value": true },
+        {
+          "name": "Texture2DNormal_01",
+          "type": "ZRuntimeResourceID",
+          "value": "00F126585C6E2475"
+        }
+      ],
+      "postInitProperties": [
+        {
+          "name": "Clients",
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [6]
+        },
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": 6
+        }
+      ],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "9d560e3b5754e877",
+      "refID": 2
+    },
+    {
+      "parent": {
+        "ref": 6,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "ChildNetwork",
+      "template": "[modules:/zchildnetworkentity.class].pc_entitytype",
+      "blueprint": "[modules:/zchildnetworkentity.class].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_RuntimeNetworkResourceID",
+          "type": "ZRuntimeResourceID",
+          "value": "[assembly:/animationnetworks/hitman01/idles/idletest.aln].pc_rtn"
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "843a86ae4f4ca93e",
+      "refID": 3
+    },
+    {
+      "parent": {
+        "ref": 6,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Mesh_Necklace",
+      "template": "[modules:/zbodypartentity.class].pc_entitytype",
+      "blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_pMeshResource",
+          "type": "ZRuntimeResourceID",
+          "value": "009CB132F630E42F"
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "19f2807fcf0f04e0",
+      "refID": 4
+    },
+    {
+      "parent": {
+        "ref": 6,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Mesh_Jacket",
+      "template": "[modules:/zbodypartentity.class].pc_entitytype",
+      "blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_pMeshResource",
+          "type": "ZRuntimeResourceID",
+          "value": "00DFBEC0A52088F6"
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "f7e91f7b3cbe18a6",
+      "refID": 5
+    },
+    {
+      "parent": {
+        "ref": "SPECIAL: None",
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "OUTFIT_CraigMcVeigh_Actor_v0",
+      "template": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entitytype",
+      "blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_ResourceID",
+          "type": "ZRuntimeResourceID",
+          "value": "SPECIAL: None"
+        },
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": 18.36602020263672,
+              "y": 0.0038620000705122948,
+              "z": 0
+            }
+          }
+        },
+        {
+          "name": "m_pBonesAndCollisionResource",
+          "type": "ZRuntimeResourceID",
+          "value": "003AAB3D2C739F59"
+        },
+        {
+          "name": "m_LocalColliders",
+          "type": "TArray<SEntityTemplateReference>",
+          "value": []
+        },
+        {
+          "name": "m_fDamping",
+          "type": "float32",
+          "value": 0.15000000596046448
+        },
+        {
+          "name": "m_bUseSkinningNegNormalConstrains",
+          "type": "bool",
+          "value": true
+        },
+        { "name": "m_nIterations", "type": "uint32", "value": 4 },
+        {
+          "name": "m_vGravity",
+          "type": "SVector3",
+          "value": { "x": 0, "y": 0, "z": -10 }
+        },
+        { "name": "m_fShearStiffness", "type": "float32", "value": 0.5 },
+        { "name": "m_fBendStiffness", "type": "float32", "value": 0.5 },
+        { "name": "m_fFrequency", "type": "float32", "value": 60 },
+        {
+          "name": "m_fWindConstant",
+          "type": "float32",
+          "value": 0.05000000074505806
+        },
+        {
+          "name": "m_vTranslationScale",
+          "type": "SVector3",
+          "value": {
+            "x": 0.10000000149011612,
+            "y": 0.10000000149011612,
+            "z": 0.10000000149011612
+          }
+        },
+        {
+          "name": "m_bUseSkinningPosNormalConstrains",
+          "type": "bool",
+          "value": true
+        }
+      ],
+      "postInitProperties": [
+        {
+          "name": "m_aBodyParts",
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [1, 5, 8, 4, 0]
+        }
+      ],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "8a1a25c92b349cbb",
+      "refID": 6
+    },
+    {
+      "parent": {
+        "ref": 6,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "male_reg_silviocaruso_watch_01",
+      "template": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/materials/male_reg_silviocaruso_watch_01.mi].pc_entitytype",
+      "blueprint": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/materials/male_reg_silviocaruso_watch_01.mi].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        },
+        {
+          "name": "Clients",
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [6]
+        },
+        { "name": "Texture2D_01_enab", "type": "bool", "value": true },
+        {
+          "name": "Texture2D_01",
+          "type": "ZRuntimeResourceID",
+          "value": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/textures/male_reg_silviocaruso_watch_01.texture?/diffuse_b.tex](ascolormap).pc_tex"
+        },
+        { "name": "Texture2D_03_enab", "type": "bool", "value": true },
+        {
+          "name": "Texture2D_03",
+          "type": "ZRuntimeResourceID",
+          "value": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/textures/male_reg_silviocaruso_watch_01.texture?/specular_b.tex](ascolormap).pc_tex"
+        },
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": 6
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "bfae5052b344ddca",
+      "refID": 7
+    },
+    {
+      "parent": {
+        "ref": 6,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Mesh_Legs",
+      "template": "[modules:/zbodypartentity.class].pc_entitytype",
+      "blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_pMeshResource",
+          "type": "ZRuntimeResourceID",
+          "value": "001706CDDEFDA9CC"
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "d3d48d14e2adbae6",
+      "refID": 8
+    }
+  ],
+  "externalScenes": [],
+  "propertyOverrides": [],
+  "overrideDeletes": [],
+  "pinConnectionOverrides": [],
+  "pinConnectionOverrideDeletes": [],
+  "subType": 0,
+  "quickEntityVersion": 1.135,
+  "quickEntityMode": "ids"
+}
