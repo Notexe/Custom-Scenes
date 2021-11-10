@@ -2836,14 +2836,14 @@
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
       },
-      "name": "ItemKey_DAK_SMG_Gold_Covert",
+      "name": "ItemKey_TAC_SMG",
       "template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
       "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
       "properties": [
         {
           "name": "m_RepositoryId",
           "type": "ZGuid",
-          "value": "10f0653c-fe9c-4a43-98f1-18d20d18d9ab"
+          "value": "ba102d90-b8c9-47b9-97eb-b462344b46c3"
         }
       ],
       "postInitProperties": [],
