@@ -1146,6 +1146,50 @@
       "platformSpecificPropertyValues": [],
       "entityID": "abcd6a05f1f520f6",
       "refID": 29
+    },
+    {
+      "parent": {
+        "ref": 1,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Wind_Global",
+      "template": "[modules:/zwindentity.class].pc_entitytype",
+      "blueprint": "[modules:/zwindentity.class].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": -90 },
+            "position": {
+              "x": -23.156410217285156,
+              "y": 51.25423049926758,
+              "z": 26.2285099029541
+            }
+          }
+        },
+        { "name": "m_fStrength", "type": "float32", "value": 4 },
+        { "name": "m_fStrengthAmplitude", "type": "float32", "value": 1 },
+        { "name": "m_fAngularDeviationY", "type": "float32", "value": 30 },
+        { "name": "m_bGlobal", "type": "bool", "value": true },
+        {
+          "name": "m_fSpeedTreeStrength",
+          "type": "float32",
+          "value": 0.30000001192092896
+        },
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": 0
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcdfdb4ec289f31",
+      "refID": 30
     }
   ],
   "externalScenes": [
