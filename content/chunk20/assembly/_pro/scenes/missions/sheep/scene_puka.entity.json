@@ -1054,6 +1054,97 @@
       "platformSpecificPropertyValues": [],
       "entityID": "abcd5f6ea3781a79",
       "refID": 25
+    },
+    {
+      "parent": {
+        "ref": 15,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "100_LivingRoom_A",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd57f8d882787f",
+      "refID": 26
+    },
+    {
+      "parent": {
+        "ref": 26,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Geomety",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcdf37cf503b112",
+      "refID": 27
+    },
+    {
+      "parent": {
+        "ref": 27,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Setpieces",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd9a83e3488e8c",
+      "refID": 28
+    },
+    {
+      "parent": {
+        "ref": 28,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "setpiece_trap_piano",
+      "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_piano.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_piano.entitytemplate].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 25 },
+            "position": {
+              "x": 11.689180374145508,
+              "y": -2.4624478816986084,
+              "z": -0.00923100020736456
+            }
+          }
+        },
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "SPECIAL: Use EntityID",
+            "entityID": "b0626f4639ae1206",
+            "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
+            "exposedEntity": ""
+          }
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd6a05f1f520f6",
+      "refID": 29
     }
   ],
   "externalScenes": [
@@ -1320,6 +1411,30 @@
         "type": "int32",
         "value": -1
       }
+    },
+    {
+      "propertyOwner": {
+        "entityID": 16300929803584948032,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+      },
+      "propertyValue": {
+        "name": "m_mTransform",
+        "type": "SMatrix43",
+        "value": {
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 86.47879125576013
+          },
+          "position": {
+            "x": 10.942889785766602,
+            "y": -2.8163108825683594,
+            "z": 1.1854840517044067
+          }
+        }
+      }
     }
   ],
   "overrideDeletes": [
@@ -1523,6 +1638,36 @@
     },
     {
       "entityID": 12852366941879386265,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 786798878348515130,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 18024090384991459222,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 1606900339651615942,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 11848759617731965698,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 3410329101394707567,
       "entityIndex": -2,
       "exposedEntity": "",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
