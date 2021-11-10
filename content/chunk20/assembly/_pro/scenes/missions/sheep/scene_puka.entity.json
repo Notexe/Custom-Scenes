@@ -1508,6 +1508,90 @@
       "platformSpecificPropertyValues": [],
       "entityID": "abcd35dadd6633ba",
       "refID": 31
+    },
+    {
+      "parent": {
+        "ref": 15,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "101_Garage_A",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd972aebf3cae3",
+      "refID": 32
+    },
+    {
+      "parent": {
+        "ref": 32,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Geometry",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd9e3134dccb2a",
+      "refID": 33
+    },
+    {
+      "parent": {
+        "ref": 33,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "beachhouse_interior_a_door_single",
+      "template": "008F7ABAD348FBDF",
+      "blueprint": "0098AE56BB4AACCC",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": -90 },
+            "position": {
+              "x": -8.000001907348633,
+              "y": 4.800000190734863,
+              "z": 0
+            }
+          }
+        },
+        {
+          "name": "m_rGateEntity",
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "SPECIAL: Use EntityID",
+            "entityID": "7c4a7e09518e0445",
+            "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
+            "exposedEntity": ""
+          }
+        },
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "SPECIAL: Use EntityID",
+            "entityID": "895c381ddf96d646",
+            "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
+            "exposedEntity": ""
+          }
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd27cb3bc8dc34",
+      "refID": 34
     }
   ],
   "externalScenes": [
@@ -1581,18 +1665,18 @@
       }
     },
     {
-        "propertyOwner": {
-          "entityID": 5453556053254576063,
-          "entityIndex": -2,
-          "exposedEntity": "",
-          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-        },
-        "propertyValue": {
-          "name": "m_PostfilterParametersID",
-          "type": "int32",
-          "value": 1
-        }
+      "propertyOwner": {
+        "entityID": 5453556053254576063,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
+      "propertyValue": {
+        "name": "m_PostfilterParametersID",
+        "type": "int32",
+        "value": 1
+      }
+    },
     {
       "propertyOwner": {
         "entityID": 13407796605363321005,
@@ -1607,18 +1691,18 @@
       }
     },
     {
-        "propertyOwner": {
-          "entityID": 13407796605363321005,
-          "entityIndex": -2,
-          "exposedEntity": "",
-          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-        },
-        "propertyValue": {
-          "name": "m_PostfilterParametersID",
-          "type": "int32",
-          "value": 1
-        }
+      "propertyOwner": {
+        "entityID": 13407796605363321005,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
+      "propertyValue": {
+        "name": "m_PostfilterParametersID",
+        "type": "int32",
+        "value": 1
+      }
+    },
     {
       "propertyOwner": {
         "entityID": 8761943330248435970,
@@ -1633,18 +1717,18 @@
       }
     },
     {
-        "propertyOwner": {
-          "entityID": 8761943330248435970,
-          "entityIndex": -2,
-          "exposedEntity": "",
-          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-        },
-        "propertyValue": {
-          "name": "m_PostfilterParametersID",
-          "type": "int32",
-          "value": 1
-        }
+      "propertyOwner": {
+        "entityID": 8761943330248435970,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
+      "propertyValue": {
+        "name": "m_PostfilterParametersID",
+        "type": "int32",
+        "value": 1
+      }
+    },
     {
       "propertyOwner": {
         "entityID": 8069693152650622539,
@@ -1659,18 +1743,18 @@
       }
     },
     {
-        "propertyOwner": {
-          "entityID": 8069693152650622539,
-          "entityIndex": -2,
-          "exposedEntity": "",
-          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-        },
-        "propertyValue": {
-          "name": "m_PostfilterParametersID",
-          "type": "int32",
-          "value": 1
-        }
+      "propertyOwner": {
+        "entityID": 8069693152650622539,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
+      "propertyValue": {
+        "name": "m_PostfilterParametersID",
+        "type": "int32",
+        "value": 1
+      }
+    },
     {
       "propertyOwner": {
         "entityID": 14356976290023873296,
@@ -1685,18 +1769,18 @@
       }
     },
     {
-        "propertyOwner": {
-          "entityID": 14356976290023873296,
-          "entityIndex": -2,
-          "exposedEntity": "",
-          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-        },
-        "propertyValue": {
-          "name": "m_PostfilterParametersID",
-          "type": "int32",
-          "value": 1
-        }
+      "propertyOwner": {
+        "entityID": 14356976290023873296,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
+      "propertyValue": {
+        "name": "m_PostfilterParametersID",
+        "type": "int32",
+        "value": 1
+      }
+    },
     {
       "propertyOwner": {
         "entityID": 11953365151893682930,
@@ -1724,18 +1808,18 @@
       }
     },
     {
-        "propertyOwner": {
-          "entityID": 15930907226103524377,
-          "entityIndex": -2,
-          "exposedEntity": "",
-          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-        },
-        "propertyValue": {
-          "name": "m_PostfilterParametersID",
-          "type": "int32",
-          "value": 1
-        }
+      "propertyOwner": {
+        "entityID": 15930907226103524377,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
+      "propertyValue": {
+        "name": "m_PostfilterParametersID",
+        "type": "int32",
+        "value": 1
+      }
+    },
     {
       "propertyOwner": {
         "entityID": 11808163308800777211,
@@ -1776,18 +1860,18 @@
       }
     },
     {
-        "propertyOwner": {
-          "entityID": 9406460593539870892,
-          "entityIndex": -2,
-          "exposedEntity": "",
-          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-        },
-        "propertyValue": {
-          "name": "m_PostfilterParametersID",
-          "type": "int32",
-          "value": 1
-        }
+      "propertyOwner": {
+        "entityID": 9406460593539870892,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
+      "propertyValue": {
+        "name": "m_PostfilterParametersID",
+        "type": "int32",
+        "value": 1
+      }
+    },
     {
       "propertyOwner": {
         "entityID": 6910391566510845717,
@@ -1815,31 +1899,31 @@
       }
     },
     {
-        "propertyOwner": {
-          "entityID": 6910391566510845717,
-          "entityIndex": -2,
-          "exposedEntity": "",
-          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-        },
-        "propertyValue": {
-          "name": "m_PostfilterParametersID",
-          "type": "int32",
-          "value": 1
-        }
+      "propertyOwner": {
+        "entityID": 6910391566510845717,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
+      "propertyValue": {
+        "name": "m_PostfilterParametersID",
+        "type": "int32",
+        "value": 1
+      }
+    },
     {
-        "propertyOwner": {
-          "entityID": 6251522089396537700,
-          "entityIndex": -2,
-          "exposedEntity": "",
-          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-        },
-        "propertyValue": {
-          "name": "m_PostfilterParametersID",
-          "type": "int32",
-          "value": 1
-        }
+      "propertyOwner": {
+        "entityID": 6251522089396537700,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
+      "propertyValue": {
+        "name": "m_PostfilterParametersID",
+        "type": "int32",
+        "value": 1
+      }
+    },
     {
       "propertyOwner": {
         "entityID": 5333981148055640441,
@@ -1867,18 +1951,18 @@
       }
     },
     {
-        "propertyOwner": {
-          "entityID": 5333981148055640441,
-          "entityIndex": -2,
-          "exposedEntity": "",
-          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-        },
-        "propertyValue": {
-          "name": "m_PostfilterParametersID",
-          "type": "int32",
-          "value": 1
-        }
+      "propertyOwner": {
+        "entityID": 5333981148055640441,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
+      "propertyValue": {
+        "name": "m_PostfilterParametersID",
+        "type": "int32",
+        "value": 1
+      }
+    },
     {
       "propertyOwner": {
         "entityID": 405468622631855645,
@@ -1893,18 +1977,18 @@
       }
     },
     {
-        "propertyOwner": {
-          "entityID": 405468622631855645,
-          "entityIndex": -2,
-          "exposedEntity": "",
-          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-        },
-        "propertyValue": {
-          "name": "m_PostfilterParametersID",
-          "type": "int32",
-          "value": 1
-        }
+      "propertyOwner": {
+        "entityID": 405468622631855645,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
+      "propertyValue": {
+        "name": "m_PostfilterParametersID",
+        "type": "int32",
+        "value": 1
+      }
+    },
     {
       "propertyOwner": {
         "entityID": 4234051217957930280,
@@ -2243,6 +2327,12 @@
     },
     {
       "entityID": 2762226878306892003,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 15552837751777940574,
       "entityIndex": -2,
       "exposedEntity": "",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
