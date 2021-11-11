@@ -132,7 +132,7 @@
         {
           "name": "m_LocalColliders",
           "type": "TArray<SEntityTemplateReference>",
-          "value": []
+          "value": [12]
         },
         {
           "name": "m_fDamping",
@@ -276,6 +276,47 @@
       "platformSpecificPropertyValues": [],
       "entityID": "abcdaa62e71dcff4",
       "refID": 11
+    },
+    {
+      "parent": {
+        "ref": 6,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Bodyguard_Standard_Collider",
+      "template": "006CCDFA2FE42B05",
+      "blueprint": "009761340AFF6409",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": 3.669445037841797,
+              "y": 0.12112429738044739,
+              "z": 2.2251389026641846
+            }
+          }
+        },
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": 6
+        }
+      ],
+      "postInitProperties": [
+        {
+          "name": "m_linkedEntity",
+          "type": "SEntityTemplateReference",
+          "value": 6
+        }
+      ],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd52b42ac3d798",
+      "refID": 12
     }
   ],
   "externalScenes": [],
