@@ -1,4 +1,4 @@
-# My custom maps
+# HM3CustomMaps
 
 ## Maps currently included:
 
