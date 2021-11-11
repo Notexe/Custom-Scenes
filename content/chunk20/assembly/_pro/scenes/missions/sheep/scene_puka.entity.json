@@ -1009,7 +1009,7 @@
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
       },
-      "name": "CHAR_Rocco",
+      "name": "Rocco",
       "template": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
       "properties": [
@@ -1017,12 +1017,8 @@
           "name": "m_mTransform",
           "type": "SMatrix43",
           "value": {
-            "rotation": { "x": 0, "y": 0, "z": 92.32289210034862 },
-            "position": {
-              "x": 8.698882102966309,
-              "y": -37.92844009399414,
-              "z": 0
-            }
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": -13.416, "y": -17.643, "z": 4.4 }
           }
         },
         {
@@ -1040,7 +1036,7 @@
           "type": "ZGuid",
           "value": "d3bdbcfe-8e46-4774-a642-17daa98a7f698"
         },
-        { "name": "m_nOutfitVariation", "type": "int32", "value": 1 },
+        { "name": "m_nOutfitVariation", "type": "int32", "value": 0 },
         { "name": "m_nOutfitCharset", "type": "int32", "value": 0 },
         { "name": "m_bStartEnabled", "type": "bool", "value": true }
       ],
@@ -1628,6 +1624,159 @@
       "platformSpecificPropertyValues": [],
       "entityID": "abcd585bdbbb5b23",
       "refID": 35
+    },
+    {
+      "parent": {
+        "ref": 25,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "DS Walking around house",
+      "template": "00C6B73FE00A947C",
+      "blueprint": "00EC88C8E4442C57",
+      "properties": [
+        {
+          "name": "m_aRoles",
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [37]
+        },
+        { "name": "m_bTerminateOnDone", "type": "bool", "value": false }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd630456c61f34",
+      "refID": 36
+    },
+    {
+      "parent": {
+        "ref": 36,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Role",
+      "template": "00808A03B82188F7",
+      "blueprint": "0064725514B34594",
+      "properties": [
+        {
+          "name": "m_rActorProvider",
+          "type": "SEntityTemplateReference",
+          "value": 25
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcdb82dc498e50d",
+      "refID": 37
+    },
+    {
+      "parent": {
+        "ref": 36,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Act_Mr_Lie_Sunbed_Left",
+      "template": "[assembly:/_pro/design/actor/acts/levels/bangkok.template?/act_mr_lie_sunbed_left.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/actor/acts/levels/bangkok.template?/act_mr_lie_sunbed_left.entitytemplate].pc_entityblueprint",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 80 },
+            "position": { "x": -3.3, "y": -41, "z": 4.4 }
+          }
+        },
+        {
+          "name": "m_MovementType",
+          "type": "ZActBehaviorEntity.EMovementType",
+          "value": "MT_WALK"
+        },
+        {
+          "name": "m_AlignRotation",
+          "type": "ZActBehaviorEntity.ERotationAlignment",
+          "value": "RA_LOOSE"
+        },
+        { "name": "m_fActTimeout", "type": "float32", "value": 30 }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd96718b310ede",
+      "refID": 38,
+      "events": [
+        { "onEvent": "OnActTimeout", "shouldTrigger": "Start", "onEntity": 40 }
+      ]
+    },
+    {
+      "parent": {
+        "ref": 36,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "DramaSituation2Proxy",
+      "template": "000C288A323918F9",
+      "blueprint": "00900EB78F2E0F5E",
+      "properties": [
+        {
+          "name": "m_rOriginalDrama",
+          "type": "SEntityTemplateReference",
+          "value": 36
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd87dc740d494c",
+      "refID": 39,
+      "events": [
+        { "onEvent": "OnStart", "shouldTrigger": "Start", "onEntity": 40 }
+      ]
+    },
+    {
+      "parent": {
+        "ref": 36,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Act_Mr_Stand_Piss",
+      "template": "0054AB8CDEE8D60B",
+      "blueprint": "002EC1A1956C3D39",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 80 },
+            "position": { "x": -12.48, "y": -47.736, "z": 0 }
+          }
+        },
+        {
+          "name": "m_MovementType",
+          "type": "ZActBehaviorEntity.EMovementType",
+          "value": "MT_WALK"
+        },
+        {
+          "name": "m_AlignRotation",
+          "type": "ZActBehaviorEntity.ERotationAlignment",
+          "value": "RA_LOOSE"
+        },
+        { "name": "m_fActTimeout", "type": "float32", "value": 30 }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd979c7b438f86",
+      "refID": 40,
+      "events": [
+        { "onEvent": "OnActTimeout", "shouldTrigger": "Start", "onEntity": 38 }
+      ]
     }
   ],
   "externalScenes": [
@@ -2078,11 +2227,7 @@
         "exposedEntity": "",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
-      "propertyValue": {
-        "name": "On",
-        "type": "bool",
-        "value": true
-      }
+      "propertyValue": { "name": "On", "type": "bool", "value": true }
     },
     {
       "propertyOwner": {
@@ -2091,11 +2236,7 @@
         "exposedEntity": "",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
-      "propertyValue": {
-        "name": "On",
-        "type": "bool",
-        "value": true
-      }
+      "propertyValue": { "name": "On", "type": "bool", "value": true }
     },
     {
       "propertyOwner": {
@@ -2104,11 +2245,7 @@
         "exposedEntity": "",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
-      "propertyValue": {
-        "name": "On",
-        "type": "bool",
-        "value": true
-      }
+      "propertyValue": { "name": "On", "type": "bool", "value": true }
     },
     {
       "propertyOwner": {
@@ -2117,11 +2254,7 @@
         "exposedEntity": "",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
-      "propertyValue": {
-        "name": "On",
-        "type": "bool",
-        "value": true
-      }
+      "propertyValue": { "name": "On", "type": "bool", "value": true }
     },
     {
       "propertyOwner": {
@@ -2176,57 +2309,41 @@
       }
     },
     {
-        "propertyOwner": {
-          "entityID": 18127126060481936990,
-          "entityIndex": -2,
-          "exposedEntity": "",
-          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-        },
-        "propertyValue": {
-          "name": "GlowPower",
-          "type": "float32",
-          "value": 5000
-        }
+      "propertyOwner": {
+        "entityID": 18127126060481936990,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
-      {
-        "propertyOwner": {
-          "entityID": 6815920372704775108,
-          "entityIndex": -2,
-          "exposedEntity": "",
-          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-        },
-        "propertyValue": {
-          "name": "GlowPower",
-          "type": "float32",
-          "value": 5000
-        }
+      "propertyValue": { "name": "GlowPower", "type": "float32", "value": 5000 }
+    },
+    {
+      "propertyOwner": {
+        "entityID": 6815920372704775108,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
-      {
-        "propertyOwner": {
-          "entityID": 17345016579075496866,
-          "entityIndex": -2,
-          "exposedEntity": "",
-          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-        },
-        "propertyValue": {
-          "name": "GlowPower",
-          "type": "float32",
-          "value": 5000
-        }
+      "propertyValue": { "name": "GlowPower", "type": "float32", "value": 5000 }
+    },
+    {
+      "propertyOwner": {
+        "entityID": 17345016579075496866,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
       },
-      {
-        "propertyOwner": {
-          "entityID": 13199780856628735307,
-          "entityIndex": -2,
-          "exposedEntity": "",
-          "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-        },
-        "propertyValue": {
-          "name": "GlowPower",
-          "type": "float32",
-          "value": 5000
-        }
-      }
+      "propertyValue": { "name": "GlowPower", "type": "float32", "value": 5000 }
+    },
+    {
+      "propertyOwner": {
+        "entityID": 13199780856628735307,
+        "entityIndex": -2,
+        "exposedEntity": "",
+        "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+      },
+      "propertyValue": { "name": "GlowPower", "type": "float32", "value": 5000 }
+    }
   ],
   "overrideDeletes": [
     {
@@ -2525,6 +2642,30 @@
     },
     {
       "entityID": 15552837751777940574,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 13771374039844468576,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 15319556254597228275,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 7598686516921277273,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 17452261196870436340,
       "entityIndex": -2,
       "exposedEntity": "",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
