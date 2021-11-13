@@ -1800,7 +1800,7 @@
         {
           "name": "m_MovementType",
           "type": "ZActBehaviorEntity.EMovementType",
-          "value": "MT_SNAP"
+          "value": "MT_WALK"
         },
         {
           "name": "m_AlignRotation",
