@@ -1775,6 +1775,46 @@
       "entityID": "abcd979c7b438f86",
       "refID": 40,
       "events": [
+        { "onEvent": "OnActTimeout", "shouldTrigger": "Start", "onEntity": 41 }
+      ]
+    },
+    {
+      "parent": {
+        "ref": 36,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Act_Mr_Sit_Play_Piano (Work in progress, no music yet)",
+      "template": "0022B793687A7535",
+      "blueprint": "00F19E71247B30C7",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": -80 },
+            "position": { "x": 5.05, "y": -32.25, "z": 0 }
+          }
+        },
+        {
+          "name": "m_MovementType",
+          "type": "ZActBehaviorEntity.EMovementType",
+          "value": "MT_SNAP"
+        },
+        {
+          "name": "m_AlignRotation",
+          "type": "ZActBehaviorEntity.ERotationAlignment",
+          "value": "RA_LOOSE"
+        },
+        { "name": "m_fActTimeout", "type": "float32", "value": 30 }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd9b1c6b4c9cba",
+      "refID": 41,
+      "events": [
         { "onEvent": "OnActTimeout", "shouldTrigger": "Start", "onEntity": 38 }
       ]
     }
