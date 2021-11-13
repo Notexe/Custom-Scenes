@@ -2669,6 +2669,24 @@
       "entityIndex": -2,
       "exposedEntity": "",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 18001753476896812508,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 5082156234652597439,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+    },
+    {
+      "entityID": 2670811926987407110,
+      "entityIndex": -2,
+      "exposedEntity": "",
+      "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     }
   ],
   "pinConnectionOverrides": [],
