@@ -1,0 +1,40 @@
+{
+  "tempHash": "",
+  "tbluHash": "",
+  "rootEntity": "Scene",
+  "entities": [
+    {
+      "parent": {
+        "ref": "SPECIAL: None",
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Scene",
+      "template": "[modules:/zspatialentity.class].pc_entitytype",
+      "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entitySubsets": [
+        ["Activatable_NormalGameplay, IEntity", { "entities": [] }],
+        ["AudioEmitters", { "entities": [] }],
+        ["AudioVolumetricGeom", { "entities": [] }],
+        ["Gates", { "entities": [] }],
+        ["Replicable", { "entities": [] }],
+        ["Rooms", { "entities": [] }]
+      ],
+      "entityID": "fffffffffffffffe",
+      "refID": 0
+    }
+  ],
+  "externalScenes": [],
+  "propertyOverrides": [],
+  "overrideDeletes": [],
+  "pinConnectionOverrides": [],
+  "pinConnectionOverrideDeletes": [],
+  "subType": 1,
+  "quickEntityVersion": 1.135,
+  "quickEntityMode": "ids"
+}

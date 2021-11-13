@@ -1817,6 +1817,328 @@
       "events": [
         { "onEvent": "OnActTimeout", "shouldTrigger": "Start", "onEntity": 38 }
       ]
+    },
+    {
+      "parent": {
+        "ref": 20,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Beach (Very much a work in progress)",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd1706ac97b7a3",
+      "refID": 42
+    },
+    {
+      "parent": {
+        "ref": 42,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "inflatable_crocodile_a001",
+      "template": "00E0A9162E561BF7",
+      "blueprint": "0032053FAAF77AD7",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": -145 },
+            "position": { "x": 22.606, "y": -148.458, "z": -6.582 }
+          }
+        },
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "SPECIAL: Use EntityID",
+            "entityID": "3ac25f2657314528",
+            "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
+            "exposedEntity": ""
+          }
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd15d4dd3dea8d",
+      "refID": 43
+    },
+    {
+      "parent": {
+        "ref": 20,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "Roof",
+      "template": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": [],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcdd15bc2de71e4",
+      "refID": 44
+    },
+    {
+      "parent": {
+        "ref": 44,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "party_balloons_f_00",
+      "template": "0058B401203EDBB7",
+      "blueprint": "0099FFE517A30A36",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 33 },
+            "position": { "x": -20.935, "y": -50.849, "z": 8.8 }
+          }
+        },
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "SPECIAL: Use EntityID",
+            "entityID": "3ac25f2657314528",
+            "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
+            "exposedEntity": ""
+          }
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcdc5293de763da",
+      "refID": 45
+    },
+    {
+      "parent": {
+        "ref": 44,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "party_balloons_f_01",
+      "template": "0058B401203EDBB7",
+      "blueprint": "0099FFE517A30A36",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 86 },
+            "position": { "x": -17.003, "y": -51.007, "z": 8.8 }
+          }
+        },
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "SPECIAL: Use EntityID",
+            "entityID": "3ac25f2657314528",
+            "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
+            "exposedEntity": ""
+          }
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcdc48975bd6a94",
+      "refID": 46
+    },
+    {
+      "parent": {
+        "ref": 44,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "party_balloons_f_02",
+      "template": "0058B401203EDBB7",
+      "blueprint": "0099FFE517A30A36",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 33 },
+            "position": { "x": 28.333, "y": -38.53, "z": 8.8 }
+          }
+        },
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "SPECIAL: Use EntityID",
+            "entityID": "3ac25f2657314528",
+            "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
+            "exposedEntity": ""
+          }
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcdf3b513d7c8ef",
+      "refID": 47
+    },
+    {
+      "parent": {
+        "ref": 44,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "party_balloons_f_03",
+      "template": "0058B401203EDBB7",
+      "blueprint": "0099FFE517A30A36",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 33 },
+            "position": { "x": -0.033, "y": -38.339, "z": 8.8 }
+          }
+        },
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "SPECIAL: Use EntityID",
+            "entityID": "3ac25f2657314528",
+            "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
+            "exposedEntity": ""
+          }
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd5e3334799c3a",
+      "refID": 48
+    },
+    {
+      "parent": {
+        "ref": 44,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "party_balloons_f_04",
+      "template": "0058B401203EDBB7",
+      "blueprint": "0099FFE517A30A36",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 33 },
+            "position": { "x": -20.884, "y": -38.262, "z": 8.8 }
+          }
+        },
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "SPECIAL: Use EntityID",
+            "entityID": "3ac25f2657314528",
+            "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
+            "exposedEntity": ""
+          }
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcda542fc0f758e",
+      "refID": 49
+    },
+    {
+      "parent": {
+        "ref": 44,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "party_balloons_f_05",
+      "template": "0058B401203EDBB7",
+      "blueprint": "0099FFE517A30A36",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 33 },
+            "position": { "x": -0.274, "y": -45.397, "z": 5.45 }
+          }
+        },
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "SPECIAL: Use EntityID",
+            "entityID": "3ac25f2657314528",
+            "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
+            "exposedEntity": ""
+          }
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd76a2e0aeb29a",
+      "refID": 50
+    },
+    {
+      "parent": {
+        "ref": 44,
+        "exposedEntity": "",
+        "externalScene": "SPECIAL: None",
+        "entityID": "ffffffffffffffff"
+      },
+      "name": "party_balloons_f_06",
+      "template": "0058B401203EDBB7",
+      "blueprint": "0099FFE517A30A36",
+      "properties": [
+        {
+          "name": "m_mTransform",
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 33 },
+            "position": { "x": -10.269, "y": -45.451, "z": 5.45 }
+          }
+        },
+        {
+          "name": "m_eidParent",
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "SPECIAL: Use EntityID",
+            "entityID": "3ac25f2657314528",
+            "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
+            "exposedEntity": ""
+          }
+        }
+      ],
+      "postInitProperties": [],
+      "editorOnly": false,
+      "platformSpecificPropertyValues": [],
+      "entityID": "abcd0a70fe706cd4",
+      "refID": 51
     }
   ],
   "externalScenes": [
