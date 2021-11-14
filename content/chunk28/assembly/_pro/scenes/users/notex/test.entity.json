@@ -1567,7 +1567,7 @@
       "template": "[modules:/zsoundambiencegroup.class].pc_entitytype",
       "blueprint": "[modules:/zsoundambiencegroup.class].pc_entityblueprint",
       "properties": {
-        "873918248": { "type": "bool", "value": true },
+        "m_bIsWorldRoom": { "type": "bool", "value": true },
         "m_mTransform": {
           "type": "SMatrix43",
           "value": {
