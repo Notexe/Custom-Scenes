@@ -2,8 +2,8 @@
   "tempHash": "001CE8D69E024ABD",
   "tbluHash": "00F059F9E32355E4",
   "rootEntity": "Scene",
-  "entities": [
-    {
+  "entities": {
+    "fffffffffffffffe": {
       "parent": {
         "ref": "SPECIAL: None",
         "exposedEntity": "",
@@ -13,24 +13,28 @@
       "name": "Scene",
       "template": "[modules:/zspatialentity.class].pc_entitytype",
       "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
       "entitySubsets": [
         ["Activatable_NormalGameplay, IEntity", { "entities": [] }],
-        ["AudioEmitters", { "entities": [44, 56] }],
+        [
+          "AudioEmitters",
+          { "entities": ["abcd58e395ad03d0", "abcdb9de32c40395"] }
+        ],
         ["AudioVolumetricGeom", { "entities": [] }],
         ["Gates", { "entities": [] }],
         ["Replicable", { "entities": [] }],
-        ["Rooms", { "entities": [1] }]
+        ["Rooms", { "entities": ["3a4fd7620d2fc601"] }]
       ],
-      "entityID": "fffffffffffffffe",
-      "refID": 0
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "3a4fd7620d2fc601": {
       "parent": {
-        "ref": 0,
+        "ref": "fffffffffffffffe",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -38,25 +42,25 @@
       "name": "Test",
       "template": "00F637DFF2761CE0",
       "blueprint": "000B0C2BF5C896CC",
-      "properties": [
-        { "name": "ShowFloor", "type": "bool", "value": true },
-        { "name": "m_bColorCorrectionHDR", "type": "bool", "value": false }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      "properties": {
+        "ShowFloor": { "type": "bool", "value": true },
+        "m_bColorCorrectionHDR": { "type": "bool", "value": false }
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 0
+          "value": "fffffffffffffffe"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "3a4fd7620d2fc601",
-      "refID": 1
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "5d5a95556319479": {
       "parent": {
-        "ref": 9,
+        "ref": "f88f58479a55e8e7",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -64,31 +68,30 @@
       "name": "Agent47_Default",
       "template": "[assembly:/_pro/characters/templates/hero/agent47/agent47.template?/agent47_default.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47.template?/agent47_default.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 0, "y": 0, "z": 0 }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "5d5a95556319479",
-      "refID": 2
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "3a589d55b3aa2df9": {
       "parent": {
-        "ref": 1,
+        "ref": "3a4fd7620d2fc601",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -96,16 +99,17 @@
       "name": "Physics",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "3a589d55b3aa2df9",
-      "refID": 3
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "3a589e5817e2e1b9": {
       "parent": {
-        "ref": 3,
+        "ref": "3a589d55b3aa2df9",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -113,36 +117,34 @@
       "name": "VolumeBox_WorldBounds",
       "template": "[modules:/zboxvolumeentity.class].pc_entitytype",
       "blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 0, "y": 0, "z": 0 }
           }
         },
-        {
-          "name": "m_vGlobalSize",
+        "m_vGlobalSize": {
           "type": "SVector3",
           "value": { "x": 100, "y": 100, "z": 100 }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "3a589e5817e2e1b9",
-      "refID": 4
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "5d5a954e6bba4f9": {
       "parent": {
-        "ref": 3,
+        "ref": "3a589d55b3aa2df9",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -150,22 +152,22 @@
       "name": "FX_Logic_PhysicsWorld",
       "template": "[assembly:/_pro/effects/templates/logic/fx_logic_physicsworld.template?/fx_logic_physicsworld.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/effects/templates/logic/fx_logic_physicsworld.template?/fx_logic_physicsworld.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_WorldBounds",
+      "properties": {
+        "m_WorldBounds": {
           "type": "SEntityTemplateReference",
-          "value": 4
+          "value": "3a589e5817e2e1b9"
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "5d5a954e6bba4f9",
-      "refID": 5
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "6cb96fced2a8a7e4": {
       "parent": {
-        "ref": 7,
+        "ref": "339a9e34c6576367",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -173,32 +175,31 @@
       "name": "Default",
       "template": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 180 },
             "position": { "x": 0, "y": -10, "z": 1 }
           }
         },
-        { "name": "m_bDefaultHeroSpawn", "type": "bool", "value": true }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+        "m_bDefaultHeroSpawn": { "type": "bool", "value": true }
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "6cb96fced2a8a7e4",
-      "refID": 6
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "339a9e34c6576367": {
       "parent": {
-        "ref": 8,
+        "ref": "1234567890abcdef",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -206,16 +207,17 @@
       "name": "Starting locations",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "339a9e34c6576367",
-      "refID": 7
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "1234567890abcdef": {
       "parent": {
-        "ref": 1,
+        "ref": "3a4fd7620d2fc601",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -223,16 +225,17 @@
       "name": "Gameplay",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "1234567890abcdef",
-      "refID": 8
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "f88f58479a55e8e7": {
       "parent": {
-        "ref": 8,
+        "ref": "1234567890abcdef",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -240,16 +243,17 @@
       "name": "Hero",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "f88f58479a55e8e7",
-      "refID": 9
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "7187d61652900e11": {
       "parent": {
-        "ref": 1,
+        "ref": "3a4fd7620d2fc601",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -257,16 +261,17 @@
       "name": "Environment",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "7187d61652900e11",
-      "refID": 10
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "a8c7ad873de9528": {
       "parent": {
-        "ref": 61,
+        "ref": "abcd6baf8225ed26",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -274,36 +279,34 @@
       "name": "mockup_cube",
       "template": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
       "blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 0, "y": -5, "z": 0 }
           }
         },
-        {
-          "name": "m_PrimitiveScale",
+        "m_PrimitiveScale": {
           "type": "SVector3",
           "value": { "x": 2, "y": 1, "z": 1 }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "a8c7ad873de9528",
-      "refID": 11
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "e2408375eea89dab": {
       "parent": {
-        "ref": 10,
+        "ref": "7187d61652900e11",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -311,16 +314,17 @@
       "name": "Geometry",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "e2408375eea89dab",
-      "refID": 12
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "38a086ae3b377196": {
       "parent": {
-        "ref": 8,
+        "ref": "1234567890abcdef",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -328,16 +332,17 @@
       "name": "Items",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "38a086ae3b377196",
-      "refID": 13
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "7a62dbe0110908ea": {
       "parent": {
-        "ref": 13,
+        "ref": "38a086ae3b377196",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -345,16 +350,17 @@
       "name": "Weapons",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "7a62dbe0110908ea",
-      "refID": 14
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "8339abdcbe93280b": {
       "parent": {
-        "ref": 14,
+        "ref": "7a62dbe0110908ea",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -362,22 +368,22 @@
       "name": "ItemKey_Sawed_Off_Bartoli_12G_Gold",
       "template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
       "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_RepositoryId",
+      "properties": {
+        "m_RepositoryId": {
           "type": "ZGuid",
           "value": "8598ae82-53ac-43ba-9f43-30140d6ba7ee"
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "8339abdcbe93280b",
-      "refID": 15
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "863cc93648b2cc4": {
       "parent": {
-        "ref": 15,
+        "ref": "8339abdcbe93280b",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -385,42 +391,39 @@
       "name": "ItemSpawner",
       "template": "[modules:/zitemspawner.class].pc_entitytype",
       "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 90, "y": 90, "z": 0 },
             "position": { "x": 0, "y": -5, "z": 1.0299999713897705 }
           }
         },
-        {
-          "name": "m_ePhysicsMode",
+        "m_ePhysicsMode": {
           "type": "ZItemSpawner.EPhysicsMode",
           "value": "EPM_KINEMATIC"
         },
-        {
-          "name": "m_rMainItemKey",
+        "m_rMainItemKey": {
           "type": "SEntityTemplateReference",
-          "value": 15
+          "value": "8339abdcbe93280b"
         },
-        { "name": "m_bUsePlacementAttach", "type": "bool", "value": false }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+        "m_bUsePlacementAttach": { "type": "bool", "value": false }
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "863cc93648b2cc4",
-      "refID": 16
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "c78e7c1ddd85f9be": {
       "parent": {
-        "ref": 61,
+        "ref": "abcd6baf8225ed26",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -428,36 +431,34 @@
       "name": "mockup_cube",
       "template": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
       "blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": -1.5, "y": -0.5, "z": 0 }
           }
         },
-        {
-          "name": "m_PrimitiveScale",
+        "m_PrimitiveScale": {
           "type": "SVector3",
           "value": { "x": 1, "y": 10, "z": 3 }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "c78e7c1ddd85f9be",
-      "refID": 17
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "ae51f4370a3e0d44": {
       "parent": {
-        "ref": 61,
+        "ref": "abcd6baf8225ed26",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -465,36 +466,34 @@
       "name": "mockup_cube",
       "template": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
       "blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 1.5, "y": -0.5, "z": 0 }
           }
         },
-        {
-          "name": "m_PrimitiveScale",
+        "m_PrimitiveScale": {
           "type": "SVector3",
           "value": { "x": 1, "y": 10, "z": 3 }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "ae51f4370a3e0d44",
-      "refID": 18
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "538a75f5a250d13c": {
       "parent": {
-        "ref": 61,
+        "ref": "abcd6baf8225ed26",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -502,36 +501,34 @@
       "name": "mockup_cube",
       "template": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
       "blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 180 },
             "position": { "x": 0, "y": 4, "z": 0 }
           }
         },
-        {
-          "name": "m_PrimitiveScale",
+        "m_PrimitiveScale": {
           "type": "SVector3",
           "value": { "x": 2, "y": 1, "z": 3 }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "538a75f5a250d13c",
-      "refID": 19
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "f97ab4b27757356c": {
       "parent": {
-        "ref": 10,
+        "ref": "7187d61652900e11",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -539,16 +536,17 @@
       "name": "Material Overrides",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "f97ab4b27757356c",
-      "refID": 20
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "6d2ee3b76b69233f": {
       "parent": {
-        "ref": 20,
+        "ref": "f97ab4b27757356c",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -556,37 +554,43 @@
       "name": "MaterialOverride_Prototype_Material",
       "template": "00CD214F5DA06D63",
       "blueprint": "009266C583BF70F9",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 0, "y": 0, "z": 0 }
           }
         },
-        { "name": "Override", "type": "bool", "value": true }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+        "Override": { "type": "bool", "value": true }
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         },
-        {
-          "name": "Clients",
+        "Clients": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [11, 17, 18, 19, 58, 77, 81]
+          "value": [
+            "a8c7ad873de9528",
+            "c78e7c1ddd85f9be",
+            "ae51f4370a3e0d44",
+            "538a75f5a250d13c",
+            "abcd481a3b5a7abf",
+            "abcd96cd31540ff1",
+            "abcdda05cf8aff36"
+          ]
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "6d2ee3b76b69233f",
-      "refID": 21
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "14dbea1551f49ac5": {
       "parent": {
-        "ref": 8,
+        "ref": "1234567890abcdef",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -594,16 +598,17 @@
       "name": "Volumebox testing",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "14dbea1551f49ac5",
-      "refID": 22
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "bccec0724dc9868e": {
       "parent": {
-        "ref": 22,
+        "ref": "14dbea1551f49ac5",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -611,26 +616,29 @@
       "name": "VolumeTriggerCharacter",
       "template": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_Boxes",
+      "properties": {
+        "m_Boxes": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [26]
+          "value": ["7820b8a50daabffd"]
         },
-        { "name": "m_TriggerOnHitman", "type": "bool", "value": true }
-      ],
-      "postInitProperties": [],
+        "m_TriggerOnHitman": { "type": "bool", "value": true }
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "bccec0724dc9868e",
-      "refID": 23,
       "events": [
-        { "onEvent": "OnTrue", "shouldTrigger": "SetTrue", "onEntity": 24 }
-      ]
+        {
+          "onEvent": "OnTrue",
+          "shouldTrigger": "SetTrue",
+          "onEntity": "5cadb598e997573c"
+        }
+      ],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "5cadb598e997573c": {
       "parent": {
-        "ref": 22,
+        "ref": "14dbea1551f49ac5",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -638,68 +646,74 @@
       "name": "Valuebool",
       "template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-      "properties": [{ "name": "m_bValue", "type": "bool", "value": false }],
-      "postInitProperties": [],
+      "properties": { "m_bValue": { "type": "bool", "value": false } },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "5cadb598e997573c",
-      "refID": 24
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "f9e2e04fefd8addc": {
       "parent": {
-        "ref": 22,
+        "ref": "14dbea1551f49ac5",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
       },
       "name": "Setpiece_Button",
-      "template": "006D8DC3EBD052EE",
-      "blueprint": "00A25B998B97BCCF",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "template": "[assembly:/_pro/scenes/missions/miami/helpers_cottonmouth.template?/setpiece_cottomouth_activator_launchbutton.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/scenes/missions/miami/helpers_cottonmouth.template?/setpiece_cottomouth_activator_launchbutton.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 0, "y": -7, "z": 0 }
           }
         },
-        {
-          "name": "m_eRoomBehaviour",
+        "m_eRoomBehaviour": {
           "type": "ZSpatialEntity.ERoomBehaviour",
           "value": "ROOM_DYNAMIC"
         },
-        { "name": "Usable", "type": "SEntityTemplateReference", "value": 24 },
-        { "name": "Visible", "type": "SEntityTemplateReference", "value": 24 },
-        {
-          "name": "m_rPromptTextResource",
+        "Usable": {
+          "type": "SEntityTemplateReference",
+          "value": "5cadb598e997573c"
+        },
+        "Visible": {
+          "type": "SEntityTemplateReference",
+          "value": "5cadb598e997573c"
+        },
+        "m_rPromptTextResource": {
           "type": "ZRuntimeResourceID",
           "value": "00079B9BE7734960"
         },
-        {
-          "name": "Onm_rPromptDescriptionTextResource",
+        "Onm_rPromptDescriptionTextResource": {
           "type": "ZRuntimeResourceID",
           "value": "SPECIAL: None"
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "f9e2e04fefd8addc",
-      "refID": 25,
       "events": [
-        { "onEvent": "OnUsed", "shouldTrigger": "Enable", "onEntity": 70 }
-      ]
+        {
+          "onEvent": "OnUsed",
+          "shouldTrigger": "Enable",
+          "onEntity": "abcd998cd2fb8d62"
+        }
+      ],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "7820b8a50daabffd": {
       "parent": {
-        "ref": 22,
+        "ref": "14dbea1551f49ac5",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -707,36 +721,34 @@
       "name": "Volumebox",
       "template": "[modules:/zboxvolumeentity.class].pc_entitytype",
       "blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 0, "y": -7, "z": 0 }
           }
         },
-        {
-          "name": "m_vGlobalSize",
+        "m_vGlobalSize": {
           "type": "SVector3",
           "value": { "x": 3, "y": 3, "z": 5 }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "7820b8a50daabffd",
-      "refID": 26
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "b2dcd31d21e668bd": {
       "parent": {
-        "ref": 22,
+        "ref": "14dbea1551f49ac5",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -744,28 +756,24 @@
       "name": "DamageOverTime",
       "template": "[modules:/zhitmandamageovertime.class].pc_entitytype",
       "blueprint": "[modules:/zhitmandamageovertime.class].pc_entityblueprint",
-      "properties": [
-        { "name": "m_fDamage", "type": "float32", "value": 100 },
-        {
-          "name": "m_fInterval",
-          "type": "float32",
-          "value": 0.10000000149011612
-        },
-        {
-          "name": "m_Boxes",
+      "properties": {
+        "m_fDamage": { "type": "float32", "value": 100 },
+        "m_fInterval": { "type": "float32", "value": 0.10000000149011612 },
+        "m_Boxes": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [4]
+          "value": ["3a589e5817e2e1b9"]
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "b2dcd31d21e668bd",
-      "refID": 27
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdf226c6efa301": {
       "parent": {
-        "ref": 8,
+        "ref": "1234567890abcdef",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -773,16 +781,17 @@
       "name": "Agility",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdf226c6efa301",
-      "refID": 28
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd52b66ce922ab": {
       "parent": {
-        "ref": 28,
+        "ref": "abcdf226c6efa301",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -790,16 +799,17 @@
       "name": "Covers",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd52b66ce922ab",
-      "refID": 29
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd60c5e141f61f": {
       "parent": {
-        "ref": 29,
+        "ref": "abcd52b66ce922ab",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -807,51 +817,44 @@
       "name": "Coverplane 1",
       "template": "[modules:/zcoverplane.class].pc_entitytype",
       "blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 180 },
             "position": { "x": 0, "y": -5.5, "z": 0 }
           }
         },
-        {
-          "name": "m_fCoverLength",
-          "type": "float32",
-          "value": 1.7999999523162842
-        },
-        { "name": "m_fCoverDepth", "type": "float32", "value": 1 },
-        {
-          "name": "m_eCoverType",
+        "m_fCoverLength": { "type": "float32", "value": 1.7999999523162842 },
+        "m_fCoverDepth": { "type": "float32", "value": 1 },
+        "m_eCoverType": {
           "type": "ZCoverPlane.ECoverType",
           "value": "eCoverAndRail"
         },
-        {
-          "name": "m_eCoverSize",
+        "m_eCoverSize": {
           "type": "ZCoverPlane.ECoverSize",
           "value": "eLowCover"
         },
-        { "name": "m_bWindowCover", "type": "bool", "value": false },
-        { "name": "m_bCornerRightEnabled", "type": "bool", "value": false },
-        { "name": "m_bCornerLeftEnabled", "type": "bool", "value": false },
-        { "name": "m_bIllegal", "type": "bool", "value": false }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+        "m_bWindowCover": { "type": "bool", "value": false },
+        "m_bCornerRightEnabled": { "type": "bool", "value": false },
+        "m_bCornerLeftEnabled": { "type": "bool", "value": false },
+        "m_bIllegal": { "type": "bool", "value": false }
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd60c5e141f61f",
-      "refID": 30
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdc7b95e92a99f": {
       "parent": {
-        "ref": 29,
+        "ref": "abcd52b66ce922ab",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -859,51 +862,44 @@
       "name": "Coverplane 2",
       "template": "[modules:/zcoverplane.class].pc_entitytype",
       "blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 0, "y": -4.5, "z": 0 }
           }
         },
-        {
-          "name": "m_fCoverLength",
-          "type": "float32",
-          "value": 1.7999999523162842
-        },
-        { "name": "m_fCoverDepth", "type": "float32", "value": 1 },
-        {
-          "name": "m_eCoverType",
+        "m_fCoverLength": { "type": "float32", "value": 1.7999999523162842 },
+        "m_fCoverDepth": { "type": "float32", "value": 1 },
+        "m_eCoverType": {
           "type": "ZCoverPlane.ECoverType",
           "value": "eCoverAndRail"
         },
-        {
-          "name": "m_eCoverSize",
+        "m_eCoverSize": {
           "type": "ZCoverPlane.ECoverSize",
           "value": "eLowCover"
         },
-        { "name": "m_bWindowCover", "type": "bool", "value": false },
-        { "name": "m_bCornerRightEnabled", "type": "bool", "value": false },
-        { "name": "m_bCornerLeftEnabled", "type": "bool", "value": false },
-        { "name": "m_bIllegal", "type": "bool", "value": false }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+        "m_bWindowCover": { "type": "bool", "value": false },
+        "m_bCornerRightEnabled": { "type": "bool", "value": false },
+        "m_bCornerLeftEnabled": { "type": "bool", "value": false },
+        "m_bIllegal": { "type": "bool", "value": false }
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdc7b95e92a99f",
-      "refID": 31
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcda1cedffedb1a": {
       "parent": {
-        "ref": 1,
+        "ref": "3a4fd7620d2fc601",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -911,16 +907,17 @@
       "name": "Cutscenes",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcda1cedffedb1a",
-      "refID": 32
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd4272fcc6abd7": {
       "parent": {
-        "ref": 32,
+        "ref": "abcda1cedffedb1a",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -928,16 +925,17 @@
       "name": "Start Cutscene",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd4272fcc6abd7",
-      "refID": 33
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd21e2b3e09719": {
       "parent": {
-        "ref": 33,
+        "ref": "abcd4272fcc6abd7",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -945,32 +943,34 @@
       "name": "HeroSpawnSequenceDirector",
       "template": "00A6F689FB19B096",
       "blueprint": "005AEBE4BDFCD1C9",
-      "properties": [
-        {
-          "name": "m_rSpawner",
+      "properties": {
+        "m_rSpawner": {
           "type": "SEntityTemplateReference",
-          "value": 6
+          "value": "6cb96fced2a8a7e4"
         },
-        {
-          "name": "m_aSequences",
+        "m_aSequences": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [35]
+          "value": ["abcd63c6c2f5b9dd"]
         },
-        { "name": "m_fInterpolationTime", "type": "float32", "value": 0 },
-        { "name": "m_nPriority", "type": "uint32", "value": 20 }
-      ],
-      "postInitProperties": [],
+        "m_fInterpolationTime": { "type": "float32", "value": 0 },
+        "m_nPriority": { "type": "uint32", "value": 20 }
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd21e2b3e09719",
-      "refID": 34,
+      "events": [],
+      "inputCopying": [],
       "outputCopying": [
-        { "onEvent": "OnStop", "propagateEvent": "Stopped", "onEntity": 33 }
+        {
+          "onEvent": "OnStop",
+          "propagateEvent": "Stopped",
+          "onEntity": "abcd4272fcc6abd7"
+        }
       ]
     },
-    {
+    "abcd63c6c2f5b9dd": {
       "parent": {
-        "ref": 33,
+        "ref": "abcd4272fcc6abd7",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -978,50 +978,42 @@
       "name": "Start_Default",
       "template": "[modules:/zsequenceentity.class].pc_entitytype",
       "blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_duration",
+      "properties": {
+        "m_duration": {
           "type": "ZGameTime",
           "value": { "m_nTicks": 10454302 }
         },
-        {
-          "name": "m_startTime",
-          "type": "ZGameTime",
-          "value": { "m_nTicks": 83886 }
-        },
-        { "name": "m_bLetterbox", "type": "bool", "value": true },
-        {
-          "name": "m_eLetterBoxAspect",
+        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 83886 } },
+        "m_bLetterbox": { "type": "bool", "value": true },
+        "m_eLetterBoxAspect": {
           "type": "ZSequenceEntity.ELetterBoxAspect",
           "value": "LETTERBOXASPECT_CINEMASCOPE"
         },
-        { "name": "m_bFadeOutBeforeEnd", "type": "bool", "value": false },
-        {
-          "name": "m_letterboxFadeOut",
+        "m_bFadeOutBeforeEnd": { "type": "bool", "value": false },
+        "m_letterboxFadeOut": {
           "type": "ZGameTime",
           "value": { "m_nTicks": 1048576 }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_aTracksAndGroups",
+      },
+      "postInitProperties": {
+        "m_aTracksAndGroups": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [37, 39]
+          "value": ["abcdd828c22994b1", "abcd10dc57d5df72"]
         },
-        {
-          "name": "m_sequenceOrigin",
+        "m_sequenceOrigin": {
           "type": "SEntityTemplateReference",
-          "value": 36
+          "value": "abcd10607c5334cb"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd63c6c2f5b9dd",
-      "refID": 35
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd10607c5334cb": {
       "parent": {
-        "ref": 33,
+        "ref": "abcd4272fcc6abd7",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1029,31 +1021,30 @@
       "name": "SequenceOrigin",
       "template": "[modules:/zspatialentity.class].pc_entitytype",
       "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 0, "y": 0, "z": 0 }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd10607c5334cb",
-      "refID": 36
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdd828c22994b1": {
       "parent": {
-        "ref": 35,
+        "ref": "abcd63c6c2f5b9dd",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1061,22 +1052,22 @@
       "name": "Active Camera Track",
       "template": "[modules:/zrenderdestinationtrack.class].pc_entitytype",
       "blueprint": "[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [
-        {
-          "name": "m_aItems",
+      "properties": {},
+      "postInitProperties": {
+        "m_aItems": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [38]
+          "value": ["abcd6aad4aa3e668"]
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdd828c22994b1",
-      "refID": 37
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd6aad4aa3e668": {
       "parent": {
-        "ref": 37,
+        "ref": "abcdd828c22994b1",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1084,28 +1075,27 @@
       "name": "Active Camera Item",
       "template": "[modules:/zsingleactivecamerasource.class].pc_entitytype",
       "blueprint": "[modules:/zsingleactivecamerasource.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_duration",
+      "properties": {
+        "m_duration": {
           "type": "ZGameTime",
           "value": { "m_nTicks": 10454302 }
         },
-        {
-          "name": "m_startTime",
-          "type": "ZGameTime",
-          "value": { "m_nTicks": 83886 }
-        },
-        { "name": "m_pCamera", "type": "SEntityTemplateReference", "value": 41 }
-      ],
-      "postInitProperties": [],
+        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 83886 } },
+        "m_pCamera": {
+          "type": "SEntityTemplateReference",
+          "value": "abcd62f4d570008f"
+        }
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd6aad4aa3e668",
-      "refID": 38
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd10dc57d5df72": {
       "parent": {
-        "ref": 35,
+        "ref": "abcd63c6c2f5b9dd",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1113,28 +1103,27 @@
       "name": "EntityTrack_FlyInCamera",
       "template": "[modules:/zentitygroup.class].pc_entitytype",
       "blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_targetEntity",
+      "properties": {
+        "m_targetEntity": {
           "type": "SEntityTemplateReference",
-          "value": 41
+          "value": "abcd62f4d570008f"
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_aTracksAndGroups",
+      },
+      "postInitProperties": {
+        "m_aTracksAndGroups": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [42]
+          "value": ["abcd9f77d978befb"]
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd10dc57d5df72",
-      "refID": 39
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd9acf5f7bc7b0": {
       "parent": {
-        "ref": 32,
+        "ref": "abcda1cedffedb1a",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1142,16 +1131,17 @@
       "name": "Cameras",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd9acf5f7bc7b0",
-      "refID": 40
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd62f4d570008f": {
       "parent": {
-        "ref": 40,
+        "ref": "abcd9acf5f7bc7b0",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1159,31 +1149,31 @@
       "name": "Camera 1",
       "template": "[modules:/zcameraentity.class].pc_entitytype",
       "blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 0, "y": -15, "z": 20 }
           }
-        }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+        },
+        "m_bExportScreenshot": { "type": "bool", "value": true }
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd62f4d570008f",
-      "refID": 41
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd9f77d978befb": {
       "parent": {
-        "ref": 39,
+        "ref": "abcd10dc57d5df72",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1191,29 +1181,28 @@
       "name": "TrajectoryTrack",
       "template": "[modules:/ztrajectorytrack.class].pc_entitytype",
       "blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_entityGroup",
+      "properties": {
+        "m_entityGroup": {
           "type": "SEntityTemplateReference",
-          "value": 39
+          "value": "abcd10dc57d5df72"
         },
-        { "name": "m_bRestoreValueAfterEnd", "type": "bool", "value": false }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_aItems",
+        "m_bRestoreValueAfterEnd": { "type": "bool", "value": false }
+      },
+      "postInitProperties": {
+        "m_aItems": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [43]
+          "value": ["abcd3ede8e042b61"]
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd9f77d978befb",
-      "refID": 42
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd3ede8e042b61": {
       "parent": {
-        "ref": 42,
+        "ref": "abcd9f77d978befb",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1221,19 +1210,13 @@
       "name": "CurveTrajectoryItem 1",
       "template": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
       "blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_startTime",
-          "type": "ZGameTime",
-          "value": { "m_nTicks": 83886 }
-        },
-        {
-          "name": "m_duration",
+      "properties": {
+        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 83886 } },
+        "m_duration": {
           "type": "ZGameTime",
           "value": { "m_nTicks": 10454302 }
         },
-        {
-          "name": "m_CurveX",
+        "m_CurveX": {
           "type": "ZCurve",
           "value": {
             "data": [
@@ -1242,8 +1225,7 @@
             ]
           }
         },
-        {
-          "name": "m_CurveRotX",
+        "m_CurveRotX": {
           "type": "ZCurve",
           "value": {
             "data": [
@@ -1252,8 +1234,7 @@
             ]
           }
         },
-        {
-          "name": "m_CurveY",
+        "m_CurveY": {
           "type": "ZCurve",
           "value": {
             "data": [
@@ -1262,8 +1243,7 @@
             ]
           }
         },
-        {
-          "name": "m_CurveRotY",
+        "m_CurveRotY": {
           "type": "ZCurve",
           "value": {
             "data": [
@@ -1272,8 +1252,7 @@
             ]
           }
         },
-        {
-          "name": "m_CurveZ",
+        "m_CurveZ": {
           "type": "ZCurve",
           "value": {
             "data": [
@@ -1282,8 +1261,7 @@
             ]
           }
         },
-        {
-          "name": "m_CurveRotZ",
+        "m_CurveRotZ": {
           "type": "ZCurve",
           "value": {
             "data": [
@@ -1292,16 +1270,17 @@
             ]
           }
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd3ede8e042b61",
-      "refID": 43
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd58e395ad03d0": {
       "parent": {
-        "ref": 61,
+        "ref": "abcd6baf8225ed26",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1309,31 +1288,30 @@
       "name": "Air_Conditionner_A",
       "template": "[assembly:/_pro/environment/templates/props/street_props/airconditioners_b.template?/aircondition_b.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/environment/templates/props/street_props/airconditioners_b.template?/aircondition_b.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 2, "y": 2, "z": 2 }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd58e395ad03d0",
-      "refID": 44
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd09feb02373db": {
       "parent": {
-        "ref": 1,
+        "ref": "3a4fd7620d2fc601",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1341,16 +1319,17 @@
       "name": "Sound",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd09feb02373db",
-      "refID": 45
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd889eea2e16b2": {
       "parent": {
-        "ref": 45,
+        "ref": "abcd09feb02373db",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1358,16 +1337,17 @@
       "name": "Soundbanks",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd889eea2e16b2",
-      "refID": 46
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdab5a70a5ab8e": {
       "parent": {
-        "ref": 46,
+        "ref": "abcd889eea2e16b2",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1375,22 +1355,22 @@
       "name": "Global_Soundbank",
       "template": "[modules:/zsoundbankentity.class].pc_entitytype",
       "blueprint": "[modules:/zsoundbankentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_pBankResource",
+      "properties": {
+        "m_pBankResource": {
           "type": "ZRuntimeResourceID",
           "value": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/globaldata/global.wwisesoundbank].pc_wwisebank"
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdab5a70a5ab8e",
-      "refID": 47
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd1e84b3f2e4f9": {
       "parent": {
-        "ref": 45,
+        "ref": "abcd09feb02373db",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1398,16 +1378,17 @@
       "name": "GameEventListener",
       "template": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
       "blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd1e84b3f2e4f9",
-      "refID": 48
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd4479d798ad2d": {
       "parent": {
-        "ref": 45,
+        "ref": "abcd09feb02373db",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1415,16 +1396,17 @@
       "name": "Test_AudioSettings",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd4479d798ad2d",
-      "refID": 49
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdcfb7b0729637": {
       "parent": {
-        "ref": 49,
+        "ref": "abcd4479d798ad2d",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1432,18 +1414,19 @@
       "name": "mix_isseason3",
       "template": "[assembly:/sound/wwise/exportedwwisedata/states/mix_states/mix_isseason3.wwisestategroup].pc_entitytype",
       "blueprint": "[assembly:/sound/wwise/exportedwwisedata/states/mix_states/mix_isseason3.wwisestategroup].pc_entityblueprint",
-      "properties": [
-        { "name": "m_sDefaultState", "type": "ZString", "value": "True" }
-      ],
-      "postInitProperties": [],
+      "properties": {
+        "m_sDefaultState": { "type": "ZString", "value": "True" }
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdcfb7b0729637",
-      "refID": 50
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcde03a07db946e": {
       "parent": {
-        "ref": 1,
+        "ref": "3a4fd7620d2fc601",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1451,16 +1434,17 @@
       "name": "Audio Event Testing",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcde03a07db946e",
-      "refID": 51
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd0407f1296a34": {
       "parent": {
-        "ref": 51,
+        "ref": "abcde03a07db946e",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1468,32 +1452,31 @@
       "name": "HM5ShotListener",
       "template": "[modules:/zhm5shotlistenerentity.class].pc_entitytype",
       "blueprint": "[modules:/zhm5shotlistenerentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_fNPCMaxDistanceToHitman",
-          "type": "float32",
-          "value": 1000
-        },
-        { "name": "m_bOnlyHitman", "type": "bool", "value": true }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_Listener",
+      "properties": {
+        "m_fNPCMaxDistanceToHitman": { "type": "float32", "value": 1000 },
+        "m_bOnlyHitman": { "type": "bool", "value": true }
+      },
+      "postInitProperties": {
+        "m_Listener": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [44]
+          "value": ["abcd58e395ad03d0"]
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd0407f1296a34",
-      "refID": 52,
       "events": [
-        { "onEvent": "OnHit", "shouldTrigger": "Poll", "onEntity": 53 }
-      ]
+        {
+          "onEvent": "OnHit",
+          "shouldTrigger": "Poll",
+          "onEntity": "abcde530705985f7"
+        }
+      ],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcde530705985f7": {
       "parent": {
-        "ref": 51,
+        "ref": "abcde03a07db946e",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1501,26 +1484,33 @@
       "name": "ValueBool_Poll",
       "template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_rValueEntity",
+      "properties": {
+        "m_rValueEntity": {
           "type": "SEntityTemplateReference",
-          "value": 54
+          "value": "abcda67d7637d5d6"
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcde530705985f7",
-      "refID": 53,
       "events": [
-        { "onEvent": "PollFalse", "shouldTrigger": "Send", "onEntity": 55 },
-        { "onEvent": "PollFalse", "shouldTrigger": "SetTrue", "onEntity": 54 }
-      ]
+        {
+          "onEvent": "PollFalse",
+          "shouldTrigger": "Send",
+          "onEntity": "abcd7391b32bfb66"
+        },
+        {
+          "onEvent": "PollFalse",
+          "shouldTrigger": "SetTrue",
+          "onEntity": "abcda67d7637d5d6"
+        }
+      ],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcda67d7637d5d6": {
       "parent": {
-        "ref": 51,
+        "ref": "abcde03a07db946e",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1528,19 +1518,20 @@
       "name": "ValueBool_Basic",
       "template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-      "properties": [
-        { "name": "m_bValue", "type": "bool", "value": false },
-        { "name": "m_bSignalsInEditMode", "type": "bool", "value": true }
-      ],
-      "postInitProperties": [],
+      "properties": {
+        "m_bValue": { "type": "bool", "value": false },
+        "m_bSignalsInEditMode": { "type": "bool", "value": true }
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcda67d7637d5d6",
-      "refID": 54
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd7391b32bfb66": {
       "parent": {
-        "ref": 51,
+        "ref": "abcde03a07db946e",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1548,27 +1539,26 @@
       "name": "Play_SFX_GolfBall_Explosion",
       "template": "[modules:/zaudioevententity.class].pc_entitytype",
       "blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_aEmitters",
+      "properties": {
+        "m_aEmitters": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [56]
+          "value": ["abcdb9de32c40395"]
         },
-        {
-          "name": "m_pMainEvent",
+        "m_pMainEvent": {
           "type": "ZRuntimeResourceID",
-          "value": "001A11413B9679C1"
+          "value": "[assembly:/sound/wwise/exportedwwisedata/events/props_events/sfx_explosive_props/sfx_explosiveprop_golfball/play_sfx_golfball_explosion.wwiseevent].pc_wwisebank"
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd7391b32bfb66",
-      "refID": 55
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdb9de32c40395": {
       "parent": {
-        "ref": 51,
+        "ref": "abcde03a07db946e",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1576,16 +1566,17 @@
       "name": "2DAudioEmitter",
       "template": "[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdb9de32c40395",
-      "refID": 56
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd3c5aad409dc5": {
       "parent": {
-        "ref": 45,
+        "ref": "abcd09feb02373db",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1593,38 +1584,36 @@
       "name": "World_Room",
       "template": "[modules:/zsoundambiencegroup.class].pc_entitytype",
       "blueprint": "[modules:/zsoundambiencegroup.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "873918248": { "type": "bool", "value": true },
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 0, "y": 0, "z": 0 }
           }
         },
-        { "name": 873918248, "type": "bool", "value": true },
-        { "name": "m_iRoomOcclusionPriority", "type": "int32", "value": -1000 },
-        {
-          "name": "m_vGlobalSize",
+        "m_iRoomOcclusionPriority": { "type": "int32", "value": -1000 },
+        "m_vGlobalSize": {
           "type": "SVector3",
           "value": { "x": 100, "y": 100, "z": 100 }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd3c5aad409dc5",
-      "refID": 57
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd481a3b5a7abf": {
       "parent": {
-        "ref": 61,
+        "ref": "abcd6baf8225ed26",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1632,36 +1621,34 @@
       "name": "mockup_cube",
       "template": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
       "blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 0, "y": -0.5, "z": 3 }
           }
         },
-        {
-          "name": "m_PrimitiveScale",
+        "m_PrimitiveScale": {
           "type": "SVector3",
           "value": { "x": 4, "y": 10, "z": 1 }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd481a3b5a7abf",
-      "refID": 58
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdff4e6866a383": {
       "parent": {
-        "ref": 12,
+        "ref": "e2408375eea89dab",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1669,16 +1656,17 @@
       "name": "Shooting Range",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdff4e6866a383",
-      "refID": 59
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcda321b5810e22": {
       "parent": {
-        "ref": 59,
+        "ref": "abcdff4e6866a383",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1686,16 +1674,17 @@
       "name": "Inside",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcda321b5810e22",
-      "refID": 60
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd6baf8225ed26": {
       "parent": {
-        "ref": 59,
+        "ref": "abcdff4e6866a383",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1703,16 +1692,17 @@
       "name": "Outside",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd6baf8225ed26",
-      "refID": 61
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd1b986f00dc72": {
       "parent": {
-        "ref": 61,
+        "ref": "abcd6baf8225ed26",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1720,31 +1710,30 @@
       "name": "setpiece_container_body_plasticdumpster_paris_notext",
       "template": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_plasticdumpster_paris_notext.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_plasticdumpster_paris_notext.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 90 },
             "position": { "x": 2.549999952316284, "y": 0, "z": 0 }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd1b986f00dc72",
-      "refID": 62
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdfff2f99c98f0": {
       "parent": {
-        "ref": 61,
+        "ref": "abcd6baf8225ed26",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1752,31 +1741,30 @@
       "name": "garbagebag_small_black_a",
       "template": "[assembly:/_pro/environment/geometry/props/trash/garbagebags_small_a.wl2?/garbagebag_small_black_a_00.prim].pc_entitytype",
       "blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 45 },
             "position": { "x": 2.25, "y": 1, "z": 0 }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdfff2f99c98f0",
-      "refID": 63
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdf72251be25a7": {
       "parent": {
-        "ref": 69,
+        "ref": "abcd8db0cb380368",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1784,31 +1772,30 @@
       "name": "shooting_targets_a",
       "template": "[assembly:/_pro/environment/templates/props/signs/shooting_targets_a.template?/shooting_targets_a.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/environment/templates/props/signs/shooting_targets_a.template?/shooting_targets_a.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 0, "y": 0, "z": 1.350000023841858 }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 69
+          "value": "abcd8db0cb380368"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdf72251be25a7",
-      "refID": 64
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd63e647967633": {
       "parent": {
-        "ref": 69,
+        "ref": "abcd8db0cb380368",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1816,9 +1803,8 @@
       "name": "RopeA_00",
       "template": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
       "blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
@@ -1829,64 +1815,52 @@
             }
           }
         },
-        { "name": "m_nNumWires", "type": "uint32", "value": 1 },
-        {
-          "name": "m_Material",
+        "m_nNumWires": { "type": "uint32", "value": 1 },
+        "m_Material": {
           "type": "ZRuntimeResourceID",
           "value": "[assembly:/_pro/environment/materials/props/wires/wire_a.mi].pc_mi"
         },
-        { "name": "m_bUseWireMaterialLength", "type": "bool", "value": true },
-        {
-          "name": "m_fWireMaterialLength",
+        "m_bUseWireMaterialLength": { "type": "bool", "value": true },
+        "m_fWireMaterialLength": {
           "type": "float32",
           "value": 0.10000000149011612
         },
-        { "name": "m_bAnchorEnd", "type": "bool", "value": false },
-        { "name": "m_bUseTransformYAsTangents", "type": "bool", "value": true },
-        {
-          "name": "m_fWireSpacing",
-          "type": "float32",
-          "value": 0.34000000357627869
-        },
-        {
-          "name": "m_fWireWidth",
-          "type": "float32",
-          "value": 0.0099999997764825821
-        },
-        { "name": "m_nNumRenderSegments", "type": "uint32", "value": 15 },
-        { "name": "m_bStraightRestPose", "type": "bool", "value": true },
-        { "name": "m_fRestLengthScale", "type": "float32", "value": 1 },
-        { "name": "m_fAnchorTension", "type": "float32", "value": 4 },
-        { "name": "m_nNumSimSegments", "type": "uint32", "value": 1 },
-        { "name": "m_fFrequency", "type": "float32", "value": 30 },
-        { "name": "m_fWindConstant", "type": "float32", "value": 1 },
-        {
-          "name": "m_rAnchorTransform",
+        "m_bAnchorEnd": { "type": "bool", "value": false },
+        "m_bUseTransformYAsTangents": { "type": "bool", "value": true },
+        "m_fWireSpacing": { "type": "float32", "value": 0.34000000357627869 },
+        "m_fWireWidth": { "type": "float32", "value": 0.0099999997764825821 },
+        "m_nNumRenderSegments": { "type": "uint32", "value": 15 },
+        "m_bStraightRestPose": { "type": "bool", "value": true },
+        "m_fRestLengthScale": { "type": "float32", "value": 1 },
+        "m_fAnchorTension": { "type": "float32", "value": 4 },
+        "m_nNumSimSegments": { "type": "uint32", "value": 1 },
+        "m_fFrequency": { "type": "float32", "value": 30 },
+        "m_fWindConstant": { "type": "float32", "value": 1 },
+        "m_rAnchorTransform": {
           "type": "SEntityTemplateReference",
-          "value": 66
+          "value": "abcd08d7a048ad1a"
         },
-        { "name": "m_fBendStiffness", "type": "float32", "value": 1 },
-        {
-          "name": "m_vGravity",
+        "m_fBendStiffness": { "type": "float32", "value": 1 },
+        "m_vGravity": {
           "type": "SVector3",
           "value": { "x": 0, "y": 0, "z": -7.820000171661377 }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 69
+          "value": "abcd8db0cb380368"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd63e647967633",
-      "refID": 65
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd08d7a048ad1a": {
       "parent": {
-        "ref": 69,
+        "ref": "abcd8db0cb380368",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1894,9 +1868,8 @@
       "name": "RopeA_01",
       "template": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
       "blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
@@ -1907,59 +1880,48 @@
             }
           }
         },
-        { "name": "m_nNumWires", "type": "uint32", "value": 1 },
-        {
-          "name": "m_Material",
+        "m_nNumWires": { "type": "uint32", "value": 1 },
+        "m_Material": {
           "type": "ZRuntimeResourceID",
           "value": "[assembly:/_pro/environment/materials/props/wires/wire_a.mi].pc_mi"
         },
-        { "name": "m_bUseWireMaterialLength", "type": "bool", "value": true },
-        {
-          "name": "m_fWireMaterialLength",
+        "m_bUseWireMaterialLength": { "type": "bool", "value": true },
+        "m_fWireMaterialLength": {
           "type": "float32",
           "value": 0.10000000149011612
         },
-        { "name": "m_bAnchorEnd", "type": "bool", "value": true },
-        { "name": "m_bUseTransformYAsTangents", "type": "bool", "value": true },
-        {
-          "name": "m_fWireSpacing",
-          "type": "float32",
-          "value": 0.34000000357627869
-        },
-        {
-          "name": "m_fWireWidth",
-          "type": "float32",
-          "value": 0.0099999997764825821
-        },
-        { "name": "m_nNumRenderSegments", "type": "uint32", "value": 15 },
-        { "name": "m_bStraightRestPose", "type": "bool", "value": true },
-        { "name": "m_fRestLengthScale", "type": "float32", "value": 1 },
-        { "name": "m_fAnchorTension", "type": "float32", "value": 4 },
-        { "name": "m_nNumSimSegments", "type": "uint32", "value": 1 },
-        { "name": "m_fFrequency", "type": "float32", "value": 30 },
-        { "name": "m_fWindConstant", "type": "float32", "value": 1 },
-        { "name": "m_fBendStiffness", "type": "float32", "value": 1 },
-        {
-          "name": "m_vGravity",
+        "m_bAnchorEnd": { "type": "bool", "value": true },
+        "m_bUseTransformYAsTangents": { "type": "bool", "value": true },
+        "m_fWireSpacing": { "type": "float32", "value": 0.34000000357627869 },
+        "m_fWireWidth": { "type": "float32", "value": 0.0099999997764825821 },
+        "m_nNumRenderSegments": { "type": "uint32", "value": 15 },
+        "m_bStraightRestPose": { "type": "bool", "value": true },
+        "m_fRestLengthScale": { "type": "float32", "value": 1 },
+        "m_fAnchorTension": { "type": "float32", "value": 4 },
+        "m_nNumSimSegments": { "type": "uint32", "value": 1 },
+        "m_fFrequency": { "type": "float32", "value": 30 },
+        "m_fWindConstant": { "type": "float32", "value": 1 },
+        "m_fBendStiffness": { "type": "float32", "value": 1 },
+        "m_vGravity": {
           "type": "SVector3",
           "value": { "x": 0, "y": 0, "z": -7.820000171661377 }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 69
+          "value": "abcd8db0cb380368"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd08d7a048ad1a",
-      "refID": 66
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdf11881e6e89c": {
       "parent": {
-        "ref": 69,
+        "ref": "abcd8db0cb380368",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -1967,9 +1929,8 @@
       "name": "RopeB_00",
       "template": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
       "blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
@@ -1980,64 +1941,52 @@
             }
           }
         },
-        { "name": "m_nNumWires", "type": "uint32", "value": 1 },
-        {
-          "name": "m_Material",
+        "m_nNumWires": { "type": "uint32", "value": 1 },
+        "m_Material": {
           "type": "ZRuntimeResourceID",
           "value": "[assembly:/_pro/environment/materials/props/wires/wire_a.mi].pc_mi"
         },
-        { "name": "m_bUseWireMaterialLength", "type": "bool", "value": true },
-        {
-          "name": "m_fWireMaterialLength",
+        "m_bUseWireMaterialLength": { "type": "bool", "value": true },
+        "m_fWireMaterialLength": {
           "type": "float32",
           "value": 0.10000000149011612
         },
-        { "name": "m_bAnchorEnd", "type": "bool", "value": false },
-        { "name": "m_bUseTransformYAsTangents", "type": "bool", "value": true },
-        {
-          "name": "m_fWireSpacing",
-          "type": "float32",
-          "value": 0.34000000357627869
-        },
-        {
-          "name": "m_fWireWidth",
-          "type": "float32",
-          "value": 0.0099999997764825821
-        },
-        { "name": "m_nNumRenderSegments", "type": "uint32", "value": 15 },
-        { "name": "m_bStraightRestPose", "type": "bool", "value": true },
-        { "name": "m_fRestLengthScale", "type": "float32", "value": 1 },
-        { "name": "m_fAnchorTension", "type": "float32", "value": 4 },
-        { "name": "m_nNumSimSegments", "type": "uint32", "value": 1 },
-        { "name": "m_fFrequency", "type": "float32", "value": 30 },
-        { "name": "m_fWindConstant", "type": "float32", "value": 1 },
-        {
-          "name": "m_rAnchorTransform",
+        "m_bAnchorEnd": { "type": "bool", "value": false },
+        "m_bUseTransformYAsTangents": { "type": "bool", "value": true },
+        "m_fWireSpacing": { "type": "float32", "value": 0.34000000357627869 },
+        "m_fWireWidth": { "type": "float32", "value": 0.0099999997764825821 },
+        "m_nNumRenderSegments": { "type": "uint32", "value": 15 },
+        "m_bStraightRestPose": { "type": "bool", "value": true },
+        "m_fRestLengthScale": { "type": "float32", "value": 1 },
+        "m_fAnchorTension": { "type": "float32", "value": 4 },
+        "m_nNumSimSegments": { "type": "uint32", "value": 1 },
+        "m_fFrequency": { "type": "float32", "value": 30 },
+        "m_fWindConstant": { "type": "float32", "value": 1 },
+        "m_rAnchorTransform": {
           "type": "SEntityTemplateReference",
-          "value": 68
+          "value": "abcddc5f040dbd96"
         },
-        { "name": "m_fBendStiffness", "type": "float32", "value": 1 },
-        {
-          "name": "m_vGravity",
+        "m_fBendStiffness": { "type": "float32", "value": 1 },
+        "m_vGravity": {
           "type": "SVector3",
           "value": { "x": 0, "y": 0, "z": -7.820000171661377 }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 69
+          "value": "abcd8db0cb380368"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdf11881e6e89c",
-      "refID": 67
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcddc5f040dbd96": {
       "parent": {
-        "ref": 69,
+        "ref": "abcd8db0cb380368",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2045,9 +1994,8 @@
       "name": "RopeB_01",
       "template": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
       "blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
@@ -2058,59 +2006,48 @@
             }
           }
         },
-        { "name": "m_nNumWires", "type": "uint32", "value": 1 },
-        {
-          "name": "m_Material",
+        "m_nNumWires": { "type": "uint32", "value": 1 },
+        "m_Material": {
           "type": "ZRuntimeResourceID",
           "value": "[assembly:/_pro/environment/materials/props/wires/wire_a.mi].pc_mi"
         },
-        { "name": "m_bUseWireMaterialLength", "type": "bool", "value": true },
-        {
-          "name": "m_fWireMaterialLength",
+        "m_bUseWireMaterialLength": { "type": "bool", "value": true },
+        "m_fWireMaterialLength": {
           "type": "float32",
           "value": 0.10000000149011612
         },
-        { "name": "m_bAnchorEnd", "type": "bool", "value": true },
-        { "name": "m_bUseTransformYAsTangents", "type": "bool", "value": true },
-        {
-          "name": "m_fWireSpacing",
-          "type": "float32",
-          "value": 0.34000000357627869
-        },
-        {
-          "name": "m_fWireWidth",
-          "type": "float32",
-          "value": 0.0099999997764825821
-        },
-        { "name": "m_nNumRenderSegments", "type": "uint32", "value": 15 },
-        { "name": "m_bStraightRestPose", "type": "bool", "value": true },
-        { "name": "m_fRestLengthScale", "type": "float32", "value": 1 },
-        { "name": "m_fAnchorTension", "type": "float32", "value": 4 },
-        { "name": "m_nNumSimSegments", "type": "uint32", "value": 1 },
-        { "name": "m_fFrequency", "type": "float32", "value": 30 },
-        { "name": "m_fWindConstant", "type": "float32", "value": 1 },
-        { "name": "m_fBendStiffness", "type": "float32", "value": 1 },
-        {
-          "name": "m_vGravity",
+        "m_bAnchorEnd": { "type": "bool", "value": true },
+        "m_bUseTransformYAsTangents": { "type": "bool", "value": true },
+        "m_fWireSpacing": { "type": "float32", "value": 0.34000000357627869 },
+        "m_fWireWidth": { "type": "float32", "value": 0.0099999997764825821 },
+        "m_nNumRenderSegments": { "type": "uint32", "value": 15 },
+        "m_bStraightRestPose": { "type": "bool", "value": true },
+        "m_fRestLengthScale": { "type": "float32", "value": 1 },
+        "m_fAnchorTension": { "type": "float32", "value": 4 },
+        "m_nNumSimSegments": { "type": "uint32", "value": 1 },
+        "m_fFrequency": { "type": "float32", "value": 30 },
+        "m_fWindConstant": { "type": "float32", "value": 1 },
+        "m_fBendStiffness": { "type": "float32", "value": 1 },
+        "m_vGravity": {
           "type": "SVector3",
           "value": { "x": 0, "y": 0, "z": -7.820000171661377 }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 69
+          "value": "abcd8db0cb380368"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcddc5f040dbd96",
-      "refID": 68
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd8db0cb380368": {
       "parent": {
-        "ref": 60,
+        "ref": "abcda321b5810e22",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2118,31 +2055,30 @@
       "name": "shooting_target",
       "template": "[modules:/zspatialentity.class].pc_entitytype",
       "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 0, "y": 2.5, "z": 0 }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd8db0cb380368",
-      "refID": 69
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd998cd2fb8d62": {
       "parent": {
-        "ref": 60,
+        "ref": "abcda321b5810e22",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2150,23 +2086,33 @@
       "name": "SpatialMover",
       "template": "[modules:/zspatialmoverentity.class].pc_entitytype",
       "blueprint": "[modules:/zspatialmoverentity.class].pc_entityblueprint",
-      "properties": [
-        { "name": "m_bLooping", "type": "bool", "value": false },
-        { "name": "m_bEnabled", "type": "bool", "value": false },
-        { "name": "m_Start", "type": "SEntityTemplateReference", "value": 71 },
-        { "name": "m_End", "type": "SEntityTemplateReference", "value": 72 },
-        { "name": "m_fSpeed", "type": "float32", "value": 1.5 },
-        { "name": "m_Entity", "type": "SEntityTemplateReference", "value": 69 }
-      ],
-      "postInitProperties": [],
+      "properties": {
+        "m_bLooping": { "type": "bool", "value": false },
+        "m_bEnabled": { "type": "bool", "value": false },
+        "m_Start": {
+          "type": "SEntityTemplateReference",
+          "value": "abcd54c6e67e53f4"
+        },
+        "m_End": {
+          "type": "SEntityTemplateReference",
+          "value": "abcd6d72bbcb05b3"
+        },
+        "m_fSpeed": { "type": "float32", "value": 1.5 },
+        "m_Entity": {
+          "type": "SEntityTemplateReference",
+          "value": "abcd8db0cb380368"
+        }
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd998cd2fb8d62",
-      "refID": 70
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd54c6e67e53f4": {
       "parent": {
-        "ref": 60,
+        "ref": "abcda321b5810e22",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2174,31 +2120,30 @@
       "name": "Start point",
       "template": "[modules:/zspatialentity.class].pc_entitytype",
       "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 0, "y": 2.5, "z": 0 }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd54c6e67e53f4",
-      "refID": 71
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd6d72bbcb05b3": {
       "parent": {
-        "ref": 60,
+        "ref": "abcda321b5810e22",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2206,31 +2151,30 @@
       "name": "End point",
       "template": "[modules:/zspatialentity.class].pc_entitytype",
       "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 0, "y": -5, "z": 0 }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd6d72bbcb05b3",
-      "refID": 72
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcde6ede492afad": {
       "parent": {
-        "ref": 12,
+        "ref": "e2408375eea89dab",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2238,16 +2182,17 @@
       "name": "Elevator Test",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcde6ede492afad",
-      "refID": 73
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd7bd0406cd32e": {
       "parent": {
-        "ref": 73,
+        "ref": "abcde6ede492afad",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2255,31 +2200,30 @@
       "name": "Start Point",
       "template": "[modules:/zspatialentity.class].pc_entitytype",
       "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 4, "y": -3.5, "z": 0 }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd7bd0406cd32e",
-      "refID": 74
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdc821c9a932a1": {
       "parent": {
-        "ref": 73,
+        "ref": "abcde6ede492afad",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2287,31 +2231,30 @@
       "name": "End Point",
       "template": "[modules:/zspatialentity.class].pc_entitytype",
       "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": { "x": 4, "y": -3.5, "z": 3.97 }
+            "position": { "x": 4, "y": -3.5, "z": 3.9700000286102295 }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdc821c9a932a1",
-      "refID": 75
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd33f43a0b0802": {
       "parent": {
-        "ref": 73,
+        "ref": "abcde6ede492afad",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2319,24 +2262,34 @@
       "name": "SpatialMover",
       "template": "[modules:/zspatialmoverentity.class].pc_entitytype",
       "blueprint": "[modules:/zspatialmoverentity.class].pc_entityblueprint",
-      "properties": [
-        { "name": "m_bLooping", "type": "bool", "value": false },
-        { "name": "m_bEnabled", "type": "bool", "value": false },
-        { "name": "m_bOneDirection", "type": "bool", "value": false },
-        { "name": "m_Start", "type": "SEntityTemplateReference", "value": 74 },
-        { "name": "m_End", "type": "SEntityTemplateReference", "value": 75 },
-        { "name": "m_fSpeed", "type": "float32", "value": 0.5 },
-        { "name": "m_Entity", "type": "SEntityTemplateReference", "value": 79 }
-      ],
-      "postInitProperties": [],
+      "properties": {
+        "m_bLooping": { "type": "bool", "value": false },
+        "m_bEnabled": { "type": "bool", "value": false },
+        "m_bOneDirection": { "type": "bool", "value": false },
+        "m_Start": {
+          "type": "SEntityTemplateReference",
+          "value": "abcd7bd0406cd32e"
+        },
+        "m_End": {
+          "type": "SEntityTemplateReference",
+          "value": "abcdc821c9a932a1"
+        },
+        "m_fSpeed": { "type": "float32", "value": 0.5 },
+        "m_Entity": {
+          "type": "SEntityTemplateReference",
+          "value": "abcdf18c07340416"
+        }
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd33f43a0b0802",
-      "refID": 76
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd96cd31540ff1": {
       "parent": {
-        "ref": 79,
+        "ref": "abcdf18c07340416",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2344,89 +2297,92 @@
       "name": "mockup_cube",
       "template": "[assembly:/_pro/_test/martinni/geometry/setpiece_mockupgeoms_a.wl2?/mockupgeom_box_b.prim].pc_entitytype",
       "blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 0, "y": 0, "z": 0 }
           }
         },
-        { "name": "m_bKinematic", "type": "bool", "value": true },
-        {
-          "name": "m_PrimitiveScale",
+        "m_bKinematic": { "type": "bool", "value": true },
+        "m_PrimitiveScale": {
           "type": "SVector3",
-          "value": { "x": 20, "y": 80, "z": 0.15 }
+          "value": { "x": 20, "y": 80, "z": 0.15000000596046448 }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 79
+          "value": "abcdf18c07340416"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd96cd31540ff1",
-      "refID": 77
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd303646ec3421": {
       "parent": {
-        "ref": 79,
+        "ref": "abcdf18c07340416",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
       },
       "name": "Setpiece_Button",
-      "template": "006D8DC3EBD052EE",
-      "blueprint": "00A25B998B97BCCF",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "template": "[assembly:/_pro/scenes/missions/miami/helpers_cottonmouth.template?/setpiece_cottomouth_activator_launchbutton.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/scenes/missions/miami/helpers_cottonmouth.template?/setpiece_cottomouth_activator_launchbutton.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": -90 },
             "position": { "x": -1.5, "y": -1, "z": 0 }
           }
         },
-        {
-          "name": "m_eRoomBehaviour",
+        "m_eRoomBehaviour": {
           "type": "ZSpatialEntity.ERoomBehaviour",
           "value": "ROOM_DYNAMIC"
         },
-        { "name": "Usable", "type": "SEntityTemplateReference", "value": 24 },
-        { "name": "Visible", "type": "SEntityTemplateReference", "value": 24 },
-        {
-          "name": "m_rPromptTextResource",
+        "Usable": {
+          "type": "SEntityTemplateReference",
+          "value": "5cadb598e997573c"
+        },
+        "Visible": {
+          "type": "SEntityTemplateReference",
+          "value": "5cadb598e997573c"
+        },
+        "m_rPromptTextResource": {
           "type": "ZRuntimeResourceID",
           "value": "00079B9BE7734960"
         },
-        {
-          "name": "Onm_rPromptDescriptionTextResource",
+        "Onm_rPromptDescriptionTextResource": {
           "type": "ZRuntimeResourceID",
           "value": "SPECIAL: None"
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 79
+          "value": "abcdf18c07340416"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd303646ec3421",
-      "refID": 78,
       "events": [
-        { "onEvent": "OnUsed", "shouldTrigger": "Enable", "onEntity": 76 }
-      ]
+        {
+          "onEvent": "OnUsed",
+          "shouldTrigger": "Enable",
+          "onEntity": "abcd33f43a0b0802"
+        }
+      ],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdf18c07340416": {
       "parent": {
-        "ref": 73,
+        "ref": "abcde6ede492afad",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2434,31 +2390,30 @@
       "name": "Elevator",
       "template": "[modules:/zspatialentity.class].pc_entitytype",
       "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 4, "y": -3.5, "z": 0 }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdf18c07340416",
-      "refID": 79
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd210d3b37ec56": {
       "parent": {
-        "ref": 73,
+        "ref": "abcde6ede492afad",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2466,16 +2421,17 @@
       "name": "Valuebool",
       "template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-      "properties": [{ "name": "m_bValue", "type": "bool", "value": true }],
-      "postInitProperties": [],
+      "properties": { "m_bValue": { "type": "bool", "value": true } },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd210d3b37ec56",
-      "refID": 80
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdda05cf8aff36": {
       "parent": {
-        "ref": 61,
+        "ref": "abcd6baf8225ed26",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2483,36 +2439,34 @@
       "name": "mockup_cube",
       "template": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
       "blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 10, "y": 0, "z": 0 }
           }
         },
-        {
-          "name": "m_PrimitiveScale",
+        "m_PrimitiveScale": {
           "type": "SVector3",
           "value": { "x": 1, "y": 2, "z": 1 }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdda05cf8aff36",
-      "refID": 81
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdc97159de4d50": {
       "parent": {
-        "ref": 81,
+        "ref": "abcdda05cf8aff36",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2520,31 +2474,30 @@
       "name": "setpiece_trap_poison_coffeemachine_100cm",
       "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_poison_coffeemachine_100cm.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_poison_coffeemachine_100cm.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 90 },
-            "position": { "x": -0.2, "y": 0, "z": 0 }
+            "position": { "x": -0.20000000298023224, "y": 0, "z": 0 }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 81
+          "value": "abcdda05cf8aff36"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdc97159de4d50",
-      "refID": 82
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcde0eafb29e2df": {
       "parent": {
-        "ref": 13,
+        "ref": "38a086ae3b377196",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2552,16 +2505,17 @@
       "name": "Poisons",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcde0eafb29e2df",
-      "refID": 83
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd586953380f78": {
       "parent": {
-        "ref": 83,
+        "ref": "abcde0eafb29e2df",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2569,22 +2523,22 @@
       "name": "ItemKey_Poison_RatPoison",
       "template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
       "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_RepositoryId",
+      "properties": {
+        "m_RepositoryId": {
           "type": "ZGuid",
           "value": "8b37a3a8-8a20-4262-81c5-0fcd15f4bba9"
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd586953380f78",
-      "refID": 84
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd615457ec5cbb": {
       "parent": {
-        "ref": 84,
+        "ref": "abcd586953380f78",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2592,42 +2546,43 @@
       "name": "ItemSpawner",
       "template": "[modules:/zitemspawner.class].pc_entitytype",
       "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": { "x": -0.2, "y": 0.5, "z": 1.05 }
+            "position": {
+              "x": -0.20000000298023224,
+              "y": 0.5,
+              "z": 1.0499999523162842
+            }
           }
         },
-        {
-          "name": "m_ePhysicsMode",
+        "m_ePhysicsMode": {
           "type": "ZItemSpawner.EPhysicsMode",
           "value": "EPM_KINEMATIC"
         },
-        {
-          "name": "m_rMainItemKey",
+        "m_rMainItemKey": {
           "type": "SEntityTemplateReference",
-          "value": 84
+          "value": "abcd586953380f78"
         },
-        { "name": "m_bUsePlacementAttach", "type": "bool", "value": false }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+        "m_bUsePlacementAttach": { "type": "bool", "value": false }
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 81
+          "value": "abcdda05cf8aff36"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd615457ec5cbb",
-      "refID": 85
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdee57952c4db5": {
       "parent": {
-        "ref": 87,
+        "ref": "abcda25b2fa2a0c9",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2635,31 +2590,30 @@
       "name": "Setpiece_Hips_Stand_Table",
       "template": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_stand_table.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_stand_table.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": -90 },
-            "position": { "x": -1.1, "y": -0.5, "z": 0 }
+            "position": { "x": -1.100000023841858, "y": -0.5, "z": 0 }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 81
+          "value": "abcdda05cf8aff36"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdee57952c4db5",
-      "refID": 86
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcda25b2fa2a0c9": {
       "parent": {
-        "ref": 8,
+        "ref": "1234567890abcdef",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2667,16 +2621,17 @@
       "name": "LIPs",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcda25b2fa2a0c9",
-      "refID": 87
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdafc03496f112": {
       "parent": {
-        "ref": 12,
+        "ref": "e2408375eea89dab",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2684,31 +2639,30 @@
       "name": "Weapon Rack",
       "template": "[modules:/zspatialentity.class].pc_entitytype",
       "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": -5, "y": -4.5, "z": 0 }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdafc03496f112",
-      "refID": 88
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd7b6e80b40d69": {
       "parent": {
-        "ref": 88,
+        "ref": "abcdafc03496f112",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2716,36 +2670,34 @@
       "name": "mockup_cube",
       "template": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
       "blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 90 },
             "position": { "x": 0, "y": 0, "z": 0 }
           }
         },
-        {
-          "name": "m_PrimitiveScale",
+        "m_PrimitiveScale": {
           "type": "SVector3",
-          "value": { "x": 0.2, "y": 3, "z": 3 }
+          "value": { "x": 0.20000000298023224, "y": 3, "z": 3 }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 88
+          "value": "abcdafc03496f112"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd7b6e80b40d69",
-      "refID": 89
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd19ab6eb89815": {
       "parent": {
-        "ref": 14,
+        "ref": "7a62dbe0110908ea",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2753,16 +2705,17 @@
       "name": "Weapon Rack",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd19ab6eb89815",
-      "refID": 90
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd5d83034fd6f3": {
       "parent": {
-        "ref": 90,
+        "ref": "abcd19ab6eb89815",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2770,22 +2723,22 @@
       "name": "ItemKey_ICA_19_SilverBaller",
       "template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
       "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_RepositoryId",
+      "properties": {
+        "m_RepositoryId": {
           "type": "ZGuid",
-          "value": "e70adb5b-0646-4f88-bd4a-85bea7a2a654"
+          "value": "e70adb5b-646-4f88-bd4a-85bea7a2a654"
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd5d83034fd6f3",
-      "refID": 91
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd787933fa9060": {
       "parent": {
-        "ref": 90,
+        "ref": "abcd19ab6eb89815",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2793,22 +2746,22 @@
       "name": "ItemKey_Sieger_300_Ghost",
       "template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
       "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_RepositoryId",
+      "properties": {
+        "m_RepositoryId": {
           "type": "ZGuid",
-          "value": "f301f605-007c-4fe1-aa99-a8cd2cae033f"
+          "value": "f301f605-7c-4fe1-aa99-a8cd2cae033f"
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd787933fa9060",
-      "refID": 92
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd050c1a4d465a": {
       "parent": {
-        "ref": 90,
+        "ref": "abcd19ab6eb89815",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2816,22 +2769,22 @@
       "name": "ItemKey_Shashka_A33_Black",
       "template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
       "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_RepositoryId",
+      "properties": {
+        "m_RepositoryId": {
           "type": "ZGuid",
-          "value": "09efc132-d35a-4e4e-b58e-ba802cc91dce"
+          "value": "9efc132-d35a-4e4e-b58e-ba802cc91dce"
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd050c1a4d465a",
-      "refID": 93
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcda560ba1f331c": {
       "parent": {
-        "ref": 90,
+        "ref": "abcd19ab6eb89815",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2839,22 +2792,22 @@
       "name": "ItemKey_TAC_SMG",
       "template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
       "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_RepositoryId",
+      "properties": {
+        "m_RepositoryId": {
           "type": "ZGuid",
           "value": "ba102d90-b8c9-47b9-97eb-b462344b46c3"
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcda560ba1f331c",
-      "refID": 94
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd14eaaf7c971f": {
       "parent": {
-        "ref": 94,
+        "ref": "abcda560ba1f331c",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2862,42 +2815,43 @@
       "name": "ItemSpawner",
       "template": "[modules:/zitemspawner.class].pc_entitytype",
       "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": -90, "y": 0, "z": 0 },
-            "position": { "x": -0.5, "y": -0.15, "z": 1.8 }
+            "position": {
+              "x": -0.5,
+              "y": -0.15000000596046448,
+              "z": 1.7999999523162842
+            }
           }
         },
-        {
-          "name": "m_ePhysicsMode",
+        "m_ePhysicsMode": {
           "type": "ZItemSpawner.EPhysicsMode",
           "value": "EPM_KINEMATIC"
         },
-        {
-          "name": "m_rMainItemKey",
+        "m_rMainItemKey": {
           "type": "SEntityTemplateReference",
-          "value": 94
+          "value": "abcda560ba1f331c"
         },
-        { "name": "m_bUsePlacementAttach", "type": "bool", "value": true }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+        "m_bUsePlacementAttach": { "type": "bool", "value": true }
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 88
+          "value": "abcdafc03496f112"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd14eaaf7c971f",
-      "refID": 95
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd78a85b301672": {
       "parent": {
-        "ref": 91,
+        "ref": "abcd5d83034fd6f3",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2905,42 +2859,43 @@
       "name": "ItemSpawner",
       "template": "[modules:/zitemspawner.class].pc_entitytype",
       "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": -90, "y": 90, "z": 0 },
-            "position": { "x": -0.5, "y": -0.15, "z": 1.3 }
+            "position": {
+              "x": -0.5,
+              "y": -0.15000000596046448,
+              "z": 1.2999999523162842
+            }
           }
         },
-        {
-          "name": "m_ePhysicsMode",
+        "m_ePhysicsMode": {
           "type": "ZItemSpawner.EPhysicsMode",
           "value": "EPM_KINEMATIC"
         },
-        {
-          "name": "m_rMainItemKey",
+        "m_rMainItemKey": {
           "type": "SEntityTemplateReference",
-          "value": 91
+          "value": "abcd5d83034fd6f3"
         },
-        { "name": "m_bUsePlacementAttach", "type": "bool", "value": true }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+        "m_bUsePlacementAttach": { "type": "bool", "value": true }
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 88
+          "value": "abcdafc03496f112"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd78a85b301672",
-      "refID": 96
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdcc92b9054b6d": {
       "parent": {
-        "ref": 93,
+        "ref": "abcd050c1a4d465a",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2948,42 +2903,43 @@
       "name": "ItemSpawner",
       "template": "[modules:/zitemspawner.class].pc_entitytype",
       "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": -90, "y": 0, "z": 0 },
-            "position": { "x": 0.5, "y": -0.15, "z": 1.8 }
+            "position": {
+              "x": 0.5,
+              "y": -0.15000000596046448,
+              "z": 1.7999999523162842
+            }
           }
         },
-        {
-          "name": "m_ePhysicsMode",
+        "m_ePhysicsMode": {
           "type": "ZItemSpawner.EPhysicsMode",
           "value": "EPM_KINEMATIC"
         },
-        {
-          "name": "m_rMainItemKey",
+        "m_rMainItemKey": {
           "type": "SEntityTemplateReference",
-          "value": 93
+          "value": "abcd050c1a4d465a"
         },
-        { "name": "m_bUsePlacementAttach", "type": "bool", "value": true }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+        "m_bUsePlacementAttach": { "type": "bool", "value": true }
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 88
+          "value": "abcdafc03496f112"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdcc92b9054b6d",
-      "refID": 97
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd2da7b2b7aa95": {
       "parent": {
-        "ref": 92,
+        "ref": "abcd787933fa9060",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -2991,42 +2947,43 @@
       "name": "ItemSpawner",
       "template": "[modules:/zitemspawner.class].pc_entitytype",
       "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": -90, "y": 0, "z": 0 },
-            "position": { "x": 0.5, "y": -0.12, "z": 1.3 }
+            "position": {
+              "x": 0.5,
+              "y": -0.11999999731779099,
+              "z": 1.2999999523162842
+            }
           }
         },
-        {
-          "name": "m_ePhysicsMode",
+        "m_ePhysicsMode": {
           "type": "ZItemSpawner.EPhysicsMode",
           "value": "EPM_KINEMATIC"
         },
-        {
-          "name": "m_rMainItemKey",
+        "m_rMainItemKey": {
           "type": "SEntityTemplateReference",
-          "value": 92
+          "value": "abcd787933fa9060"
         },
-        { "name": "m_bUsePlacementAttach", "type": "bool", "value": true }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+        "m_bUsePlacementAttach": { "type": "bool", "value": true }
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 88
+          "value": "abcdafc03496f112"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd2da7b2b7aa95",
-      "refID": 98
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdd47e7bba84b7": {
       "parent": {
-        "ref": 90,
+        "ref": "abcd19ab6eb89815",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -3034,22 +2991,22 @@
       "name": "ItemKey_Katana",
       "template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
       "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_RepositoryId",
+      "properties": {
+        "m_RepositoryId": {
           "type": "ZGuid",
           "value": "5631dace-7f4a-4df8-8e97-b47373b815ff"
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdd47e7bba84b7",
-      "refID": 99
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd9c960d6c7d41": {
       "parent": {
-        "ref": 99,
+        "ref": "abcdd47e7bba84b7",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -3057,42 +3014,43 @@
       "name": "ItemSpawner",
       "template": "[modules:/zitemspawner.class].pc_entitytype",
       "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": -90, "y": 0, "z": 0 },
-            "position": { "x": -0.3, "y": -0.15, "z": 0.8 }
+            "position": {
+              "x": -0.30000001192092896,
+              "y": -0.15000000596046448,
+              "z": 0.800000011920929
+            }
           }
         },
-        {
-          "name": "m_ePhysicsMode",
+        "m_ePhysicsMode": {
           "type": "ZItemSpawner.EPhysicsMode",
           "value": "EPM_KINEMATIC"
         },
-        {
-          "name": "m_rMainItemKey",
+        "m_rMainItemKey": {
           "type": "SEntityTemplateReference",
-          "value": 99
+          "value": "abcdd47e7bba84b7"
         },
-        { "name": "m_bUsePlacementAttach", "type": "bool", "value": true }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+        "m_bUsePlacementAttach": { "type": "bool", "value": true }
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 88
+          "value": "abcdafc03496f112"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd9c960d6c7d41",
-      "refID": 100
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd09877ea39231": {
       "parent": {
-        "ref": 88,
+        "ref": "abcdafc03496f112",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -3100,31 +3058,34 @@
       "name": "metal_hook_a",
       "template": "00BB254D544AFF24",
       "blueprint": "001DE98EE3C26CF0",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 90, "y": 0, "z": 180 },
-            "position": { "x": -0.3, "y": -0.14, "z": 0.8 }
+            "position": {
+              "x": -0.30000001192092896,
+              "y": -0.14000000059604645,
+              "z": 0.800000011920929
+            }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 88
+          "value": "abcdafc03496f112"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd09877ea39231",
-      "refID": 101
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd41ed6f481006": {
       "parent": {
-        "ref": 88,
+        "ref": "abcdafc03496f112",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -3132,31 +3093,34 @@
       "name": "metal_hook_a",
       "template": "00BB254D544AFF24",
       "blueprint": "001DE98EE3C26CF0",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 90, "y": 0, "z": 180 },
-            "position": { "x": 0.3, "y": -0.14, "z": 0.8 }
+            "position": {
+              "x": 0.30000001192092896,
+              "y": -0.14000000059604645,
+              "z": 0.800000011920929
+            }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 88
+          "value": "abcdafc03496f112"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd41ed6f481006",
-      "refID": 102
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcde118bc866367": {
       "parent": {
-        "ref": 88,
+        "ref": "abcdafc03496f112",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -3164,31 +3128,34 @@
       "name": "metal_hook_a",
       "template": "00BB254D544AFF24",
       "blueprint": "001DE98EE3C26CF0",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 90, "y": 0, "z": 180 },
-            "position": { "x": 0.07, "y": -0.14, "z": 1.255 }
+            "position": {
+              "x": 0.07000000029802322,
+              "y": -0.14000000059604645,
+              "z": 1.2549999952316284
+            }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 88
+          "value": "abcdafc03496f112"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcde118bc866367",
-      "refID": 103
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdb2eea6418544": {
       "parent": {
-        "ref": 20,
+        "ref": "f97ab4b27757356c",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -3196,37 +3163,35 @@
       "name": "MaterialOverride_Metal",
       "template": "[assembly:/_pro/environment/materials/generic/wood/panels_chestnut_old_a.mi].pc_entitytype",
       "blueprint": "[assembly:/_pro/environment/materials/generic/wood/panels_chestnut_old_a.mi].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
             "position": { "x": 0, "y": 0, "z": 0 }
           }
         },
-        { "name": "Override", "type": "bool", "value": true }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+        "Override": { "type": "bool", "value": true }
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 1
+          "value": "3a4fd7620d2fc601"
         },
-        {
-          "name": "Clients",
+        "Clients": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [89]
+          "value": ["abcd7b6e80b40d69"]
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdb2eea6418544",
-      "refID": 104
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd928fdcfd973e": {
       "parent": {
-        "ref": 88,
+        "ref": "abcdafc03496f112",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -3234,36 +3199,38 @@
       "name": "metal_plate_tools_c",
       "template": "[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/metal_plate_tools_c.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/metal_plate_tools_c.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 180, "y": 0, "z": 180 },
-            "position": { "x": -0.17, "y": -0.12, "z": 1.5 }
+            "position": {
+              "x": -0.17000000178813934,
+              "y": -0.11999999731779099,
+              "z": 1.5
+            }
           }
         },
-        {
-          "name": "m_PrimitiveScale",
+        "m_PrimitiveScale": {
           "type": "SVector3",
           "value": { "x": 1, "y": 1, "z": 1 }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 88
+          "value": "abcdafc03496f112"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd928fdcfd973e",
-      "refID": 105
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd6ded1b2f24e3": {
       "parent": {
-        "ref": 105,
+        "ref": "abcd928fdcfd973e",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -3271,36 +3238,42 @@
       "name": "hokkaido_beam_connecttion_corner_a",
       "template": "0014619F136F4426",
       "blueprint": "00F0D1A5CBE1181D",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
-            "rotation": { "x": 0, "y": 90, "z": -90 },
-            "position": { "x": -1.2, "y": -0.1, "z": 0.643 }
+            "rotation": { "x": -90, "y": 90, "z": 0 },
+            "position": {
+              "x": -1.2000000476837158,
+              "y": -0.10000000149011612,
+              "z": 0.6430000066757202
+            }
           }
         },
-        {
-          "name": "m_PrimitiveScale",
+        "m_PrimitiveScale": {
           "type": "SVector3",
-          "value": { "x": 0.4, "y": 0.4, "z": 0.4 }
+          "value": {
+            "x": 0.4000000059604645,
+            "y": 0.4000000059604645,
+            "z": 0.4000000059604645
+          }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 88
+          "value": "abcdafc03496f112"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd6ded1b2f24e3",
-      "refID": 106
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcda2f5e7e40b44": {
       "parent": {
-        "ref": 105,
+        "ref": "abcd928fdcfd973e",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -3308,36 +3281,42 @@
       "name": "hokkaido_beam_connecttion_corner_a",
       "template": "0014619F136F4426",
       "blueprint": "00F0D1A5CBE1181D",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
-            "rotation": { "x": 0, "y": 90, "z": -90 },
-            "position": { "x": 1.05, "y": -0.1, "z": 0.643 }
+            "rotation": { "x": -90, "y": 90, "z": 0 },
+            "position": {
+              "x": 1.0499999523162842,
+              "y": -0.10000000149011612,
+              "z": 0.6430000066757202
+            }
           }
         },
-        {
-          "name": "m_PrimitiveScale",
+        "m_PrimitiveScale": {
           "type": "SVector3",
-          "value": { "x": 0.4, "y": 0.4, "z": 0.4 }
+          "value": {
+            "x": 0.4000000059604645,
+            "y": 0.4000000059604645,
+            "z": 0.4000000059604645
+          }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 88
+          "value": "abcdafc03496f112"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcda2f5e7e40b44",
-      "refID": 107
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd84085b5535eb": {
       "parent": {
-        "ref": 105,
+        "ref": "abcd928fdcfd973e",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -3345,36 +3324,46 @@
       "name": "hokkaido_beam_connecttion_corner_a",
       "template": "0014619F136F4426",
       "blueprint": "00F0D1A5CBE1181D",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
-            "rotation": { "x": 180, "y": -180, "z": 90 },
-            "position": { "x": -1.2, "y": -0.1, "z": 2.315 }
+            "rotation": {
+              "x": -7.0167096047110005e-15,
+              "y": -7.0167096047110005e-15,
+              "z": -90.00000000000001
+            },
+            "position": {
+              "x": -1.2000000476837158,
+              "y": -0.10000000149011612,
+              "z": 2.315000057220459
+            }
           }
         },
-        {
-          "name": "m_PrimitiveScale",
+        "m_PrimitiveScale": {
           "type": "SVector3",
-          "value": { "x": 0.4, "y": 0.4, "z": 0.4 }
+          "value": {
+            "x": 0.4000000059604645,
+            "y": 0.4000000059604645,
+            "z": 0.4000000059604645
+          }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 88
+          "value": "abcdafc03496f112"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd84085b5535eb",
-      "refID": 108
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdb7e2240169e4": {
       "parent": {
-        "ref": 105,
+        "ref": "abcd928fdcfd973e",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -3382,36 +3371,46 @@
       "name": "hokkaido_beam_connecttion_corner_a",
       "template": "0014619F136F4426",
       "blueprint": "00F0D1A5CBE1181D",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
-            "rotation": { "x": 180, "y": -180, "z": 90 },
-            "position": { "x": 1.05, "y": -0.1, "z": 2.315 }
+            "rotation": {
+              "x": -7.0167096047110005e-15,
+              "y": -7.0167096047110005e-15,
+              "z": -90.00000000000001
+            },
+            "position": {
+              "x": 1.0499999523162842,
+              "y": -0.10000000149011612,
+              "z": 2.315000057220459
+            }
           }
         },
-        {
-          "name": "m_PrimitiveScale",
+        "m_PrimitiveScale": {
           "type": "SVector3",
-          "value": { "x": 0.4, "y": 0.4, "z": 0.4 }
+          "value": {
+            "x": 0.4000000059604645,
+            "y": 0.4000000059604645,
+            "z": 0.4000000059604645
+          }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 88
+          "value": "abcdafc03496f112"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdb7e2240169e4",
-      "refID": 109
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdd0d79435606d": {
       "parent": {
-        "ref": 90,
+        "ref": "abcd19ab6eb89815",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -3419,16 +3418,17 @@
       "name": "New Entity",
       "template": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdd0d79435606d",
-      "refID": 110
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdedf70ad41489": {
       "parent": {
-        "ref": 88,
+        "ref": "abcdafc03496f112",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -3436,40 +3436,42 @@
       "name": "metal_hook_a",
       "template": "00BB254D544AFF24",
       "blueprint": "001DE98EE3C26CF0",
-      "properties": [
-        {
-          "name": "m_mTransform",
+      "properties": {
+        "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 90, "y": 0, "z": 180 },
-            "position": { "x": 0.6, "y": -0.14, "z": 1.267 }
+            "position": {
+              "x": 0.6000000238418579,
+              "y": -0.14000000059604645,
+              "z": 1.2669999599456787
+            }
           }
         }
-      ],
-      "postInitProperties": [
-        {
-          "name": "m_eidParent",
+      },
+      "postInitProperties": {
+        "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": 88
+          "value": "abcdafc03496f112"
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdedf70ad41489",
-      "refID": 111
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     }
-  ],
+  },
+  "propertyOverrides": [],
+  "overrideDeletes": [],
+  "pinConnectionOverrides": [],
+  "pinConnectionOverrideDeletes": [],
   "externalScenes": [
     "[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype",
     "0064FE1090FB2775",
     "0036D64700F55065",
     "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
   ],
-  "propertyOverrides": [],
-  "overrideDeletes": [],
-  "pinConnectionOverrides": [],
-  "pinConnectionOverrideDeletes": [],
   "subType": 1,
-  "quickEntityVersion": 1.133,
-  "quickEntityMode": "ids"
+  "quickEntityVersion": 2
 }

@@ -2,8 +2,8 @@
   "tempHash": "00361A4574090CE5",
   "tbluHash": "00326E6ACEFC3A25",
   "rootEntity": "Scene",
-  "entities": [
-    {
+  "entities": {
+    "fffffffffffffffe": {
       "parent": {
         "ref": "SPECIAL: None",
         "exposedEntity": "",
@@ -13,17 +13,18 @@
       "name": "Scene",
       "template": "[modules:/zspatialentity.class].pc_entitytype",
       "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
       "entitySubsets": [["Replicable", { "entities": [] }]],
-      "entityID": "fffffffffffffffe",
-      "refID": 0
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd236885ff26fa": {
       "parent": {
-        "ref": 0,
+        "ref": "fffffffffffffffe",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -31,9 +32,8 @@
       "name": "Sapienza_Worker_Nakedguy_M_HPA1370",
       "template": "[modules:/zglobaloutfitkit.class].pc_entitytype",
       "blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_DamageMultipliers",
+      "properties": {
+        "m_DamageMultipliers": {
           "type": "SBodyPartDamageMultipliers",
           "value": {
             "m_fHeadDamageMultiplier": 3,
@@ -51,34 +51,25 @@
             "m_bApplyLeftRightScalars": false
           }
         },
-        {
-          "name": "m_eActorType",
-          "type": "EActorType",
-          "value": "eAT_Civilian"
-        },
-        {
-          "name": "m_eActorCCClass",
+        "m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+        "m_eActorCCClass": {
           "type": "EActorCCPreset",
           "value": "ACCP_CivilianeMale"
         },
-        { "name": "m_bHeroDisguiseAvailable", "type": "bool", "value": false },
-        {
-          "name": "m_eSoundFootwearType",
+        "m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+        "m_eSoundFootwearType": {
           "type": "EHM5SoundFootwearType",
           "value": "EFWT_BAREFOOT"
         },
-        {
-          "name": "m_aCharSets",
+        "m_aCharSets": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [2]
+          "value": ["abcd02e240609a10"]
         },
-        {
-          "name": "m_sId",
+        "m_sId": {
           "type": "ZGuid",
           "value": "d3bdbcfe-8e46-4774-a642-17daa98a7f69"
         },
-        {
-          "name": "m_pParentOutfit",
+        "m_pParentOutfit": {
           "type": "SEntityTemplateReference",
           "value": {
             "ref": "SPECIAL: Use EntityID",
@@ -87,37 +78,34 @@
             "exposedEntity": ""
           }
         },
-        {
-          "name": "m_sCommonName",
+        "m_sCommonName": {
           "type": "ZString",
           "value": "Sapienza_Worker_Nakedguy_M_HPA1370"
         },
-        { "name": "m_sTitle", "type": "ZString", "value": "Naked Guy" },
-        {
-          "name": "m_eOutfitAICategory",
+        "m_sTitle": { "type": "ZString", "value": "Naked Guy" },
+        "m_eOutfitAICategory": {
           "type": "EOutfitAICategory",
           "value": "OAC_Fallback"
         },
-        {
-          "name": "m_rNameTextResource",
+        "m_rNameTextResource": {
           "type": "ZRuntimeResourceID",
           "value": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_nakedguy_m_hpa1370_name_d3bdbcfe-8e46-4774-a642-17daa98a7f69.sweetline].pc_sweetline"
         },
-        {
-          "name": "m_rDescriptionTextResource",
+        "m_rDescriptionTextResource": {
           "type": "ZRuntimeResourceID",
           "value": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_nakedguy_m_hpa1370_description_d3bdbcfe-8e46-4774-a642-17daa98a7f69.sweetline].pc_sweetline"
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd236885ff26fa",
-      "refID": 1
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd02e240609a10": {
       "parent": {
-        "ref": 1,
+        "ref": "abcd236885ff26fa",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -125,16 +113,17 @@
       "name": "CHARSET_CraigMcVeigh",
       "template": "0007D9A3A121CFBC",
       "blueprint": "00BCD3F0CCFDA5AF",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd02e240609a10",
-      "refID": 2
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd51ee3a07c78e": {
       "parent": {
-        "ref": 1,
+        "ref": "abcd236885ff26fa",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -142,22 +131,22 @@
       "name": "Keyword_Prof_Class_Default",
       "template": "007A51A2AFEC0D1A",
       "blueprint": "00B0282A41C1CF2E",
-      "properties": [],
-      "postInitProperties": [
-        {
-          "name": "m_aHolders",
+      "properties": {},
+      "postInitProperties": {
+        "m_aHolders": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [1]
+          "value": ["abcd236885ff26fa"]
         }
-      ],
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd51ee3a07c78e",
-      "refID": 3
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcddc551c991cd3": {
       "parent": {
-        "ref": 1,
+        "ref": "abcd236885ff26fa",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -165,18 +154,22 @@
       "name": "KeywordEntity_FOLEY_OUTFIT_NAKED",
       "template": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_naked.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_naked.entitytemplate].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [
-        { "name": "m_rHolder", "type": "SEntityTemplateReference", "value": 1 }
-      ],
+      "properties": {},
+      "postInitProperties": {
+        "m_rHolder": {
+          "type": "SEntityTemplateReference",
+          "value": "abcd236885ff26fa"
+        }
+      },
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcddc551c991cd3",
-      "refID": 4
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdd0c5af4204ac": {
       "parent": {
-        "ref": 1,
+        "ref": "abcd236885ff26fa",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -184,22 +177,22 @@
       "name": "Prof_Sapienza",
       "template": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_aHolders",
+      "properties": {
+        "m_aHolders": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [1]
+          "value": ["abcd236885ff26fa"]
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdd0c5af4204ac",
-      "refID": 5
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcde8d0af23d6de": {
       "parent": {
-        "ref": 1,
+        "ref": "abcd236885ff26fa",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -207,22 +200,22 @@
       "name": "Prof_Sapienza_Civilian_Local",
       "template": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_civilian_local.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_civilian_local.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_aHolders",
+      "properties": {
+        "m_aHolders": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [1]
+          "value": ["abcd236885ff26fa"]
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcde8d0af23d6de",
-      "refID": 6
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcdff6dac512013": {
       "parent": {
-        "ref": 1,
+        "ref": "abcd236885ff26fa",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -230,22 +223,22 @@
       "name": "Prof_Sapienza_Civilian_NakedGuy",
       "template": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_civilian_nakedguy.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_civilian_nakedguy.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_aHolders",
+      "properties": {
+        "m_aHolders": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [1]
+          "value": ["abcd236885ff26fa"]
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcdff6dac512013",
-      "refID": 7
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     },
-    {
+    "abcd5e47b0b776af": {
       "parent": {
-        "ref": 1,
+        "ref": "abcd236885ff26fa",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
@@ -253,28 +246,27 @@
       "name": "Prof_Sapienza_Worker",
       "template": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker.entitytemplate].pc_entityblueprint",
-      "properties": [
-        {
-          "name": "m_aHolders",
+      "properties": {
+        "m_aHolders": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [1]
+          "value": ["abcd236885ff26fa"]
         }
-      ],
-      "postInitProperties": [],
+      },
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
-      "entityID": "abcd5e47b0b776af",
-      "refID": 8
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     }
-  ],
-  "externalScenes": [
-    "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
-  ],
+  },
   "propertyOverrides": [],
   "overrideDeletes": [],
   "pinConnectionOverrides": [],
   "pinConnectionOverrideDeletes": [],
+  "externalScenes": [
+    "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+  ],
   "subType": 2,
-  "quickEntityVersion": 1.135,
-  "quickEntityMode": "ids"
+  "quickEntityVersion": 2
 }
