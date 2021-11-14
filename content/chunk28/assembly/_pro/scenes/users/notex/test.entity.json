@@ -1386,27 +1386,9 @@
       "inputCopying": [],
       "outputCopying": []
     },
-    "abcd4479d798ad2d": {
-      "parent": {
-        "ref": "abcd09feb02373db",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "Test_AudioSettings",
-      "template": "[modules:/zentity.class].pc_entitytype",
-      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "properties": {},
-      "postInitProperties": {},
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [],
-      "inputCopying": [],
-      "outputCopying": []
-    },
     "abcdcfb7b0729637": {
       "parent": {
-        "ref": "abcd4479d798ad2d",
+        "ref": "abcd09feb02373db",
         "exposedEntity": "",
         "externalScene": "SPECIAL: None",
         "entityID": "ffffffffffffffff"
