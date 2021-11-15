@@ -4,10 +4,10 @@
 ```json
 {
   "propertyOwner": {
-    "entityID": 12709843445799064070,
-    "entityIndex": -2,
+    "entityID": "b0626f4639ae1206",
     "exposedEntity": "",
-    "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brickpc_entitytype"
+    "ref": "SPECIAL: Use EntityID",
+    "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
   },
   "propertyValue": {
     "name": "m_bGlobalLightOverrideEnable",
@@ -20,10 +20,10 @@
 ## overrideDeletes
 ```json
 {
-  "entityID": 11533787388625548536,
-  "entityIndex": -2,
+  "entityID": "a0103e8575e7f4f8",
   "exposedEntity": "",
-  "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].ntitytype"
+  "ref": "SPECIAL: Use EntityID",
+  "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 }
 ```
 

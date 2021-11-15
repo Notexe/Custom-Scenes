@@ -2,8 +2,8 @@
   "tempHash": "",
   "tbluHash": "",
   "rootEntity": "Scene",
-  "entities": [
-    {
+  "entities": {
+    "fffffffffffffffe": {
       "parent": {
         "ref": "SPECIAL: None",
         "exposedEntity": "",
@@ -13,8 +13,8 @@
       "name": "Scene",
       "template": "[modules:/zspatialentity.class].pc_entitytype",
       "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-      "properties": [],
-      "postInitProperties": [],
+      "properties": {},
+      "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
       "entitySubsets": [
@@ -25,16 +25,16 @@
         ["Replicable", { "entities": [] }],
         ["Rooms", { "entities": [] }]
       ],
-      "entityID": "fffffffffffffffe",
-      "refID": 0
+      "events": [],
+      "inputCopying": [],
+      "outputCopying": []
     }
-  ],
-  "externalScenes": [],
+  },
   "propertyOverrides": [],
   "overrideDeletes": [],
   "pinConnectionOverrides": [],
   "pinConnectionOverrideDeletes": [],
+  "externalScenes": [],
   "subType": 2,
-  "quickEntityVersion": 1.135,
-  "quickEntityMode": "ids"
+  "quickEntityVersion": 2
 }
