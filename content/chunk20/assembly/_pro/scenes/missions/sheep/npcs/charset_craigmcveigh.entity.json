@@ -26,24 +26,6 @@
       "inputCopying": [],
       "outputCopying": []
     },
-    "823c4b7d9f489063": {
-      "parent": {
-        "ref": "b9599d249e89de54",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "Var0",
-      "template": "[modules:/zoutfitvariation.class].pc_entitytype",
-      "blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-      "properties": {},
-      "postInitProperties": {},
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [],
-      "inputCopying": [],
-      "outputCopying": []
-    },
     "ff2e13419e29d0b2": {
       "parent": {
         "ref": "391645991db86c05",
@@ -54,7 +36,12 @@
       "name": "Var0",
       "template": "[modules:/zoutfitvariation.class].pc_entitytype",
       "blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-      "properties": {},
+      "properties": {
+        "m_Outfit": {
+          "type": "ZRuntimeResourceID",
+          "value": "00AF51C4F87B4FE1"
+        }
+      },
       "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
@@ -76,36 +63,7 @@
       "postInitProperties": {
         "m_aCharacters": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": [
-            "6051217c5a972faf",
-            "8e7890fc6fa38d9b",
-            "391645991db86c05",
-            "9ad0c7d07af93cb5",
-            "b9599d249e89de54"
-          ]
-        }
-      },
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [],
-      "inputCopying": [],
-      "outputCopying": []
-    },
-    "9ad0c7d07af93cb5": {
-      "parent": {
-        "ref": "dbe31d8b269d9e17",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "HeroB",
-      "template": "[modules:/zcharsetcharactertype.class].pc_entitytype",
-      "blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
-      "properties": {},
-      "postInitProperties": {
-        "m_aVariations": {
-          "type": "TArray<SEntityTemplateReference>",
-          "value": ["a1721e4126701f03"]
+          "value": ["6051217c5a972faf", "8e7890fc6fa38d9b", "391645991db86c05"]
         }
       },
       "editorOnly": false,
@@ -147,7 +105,12 @@
       "name": "Var0",
       "template": "[modules:/zoutfitvariation.class].pc_entitytype",
       "blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-      "properties": {},
+      "properties": {
+        "m_Outfit": {
+          "type": "ZRuntimeResourceID",
+          "value": "00A1791A4083CF77"
+        }
+      },
       "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],
@@ -178,29 +141,6 @@
       "inputCopying": [],
       "outputCopying": []
     },
-    "b9599d249e89de54": {
-      "parent": {
-        "ref": "dbe31d8b269d9e17",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "HeroC",
-      "template": "[modules:/zcharsetcharactertype.class].pc_entitytype",
-      "blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
-      "properties": {
-        "m_aVariations": {
-          "type": "TArray<SEntityTemplateReference>",
-          "value": ["823c4b7d9f489063"]
-        }
-      },
-      "postInitProperties": {},
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [],
-      "inputCopying": [],
-      "outputCopying": []
-    },
     "391645991db86c05": {
       "parent": {
         "ref": "dbe31d8b269d9e17",
@@ -217,24 +157,6 @@
           "value": ["ff2e13419e29d0b2"]
         }
       },
-      "postInitProperties": {},
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [],
-      "inputCopying": [],
-      "outputCopying": []
-    },
-    "a1721e4126701f03": {
-      "parent": {
-        "ref": "9ad0c7d07af93cb5",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "Var0",
-      "template": "[modules:/zoutfitvariation.class].pc_entitytype",
-      "blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-      "properties": {},
       "postInitProperties": {},
       "editorOnly": false,
       "platformSpecificPropertyValues": [],

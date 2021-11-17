@@ -56,7 +56,7 @@
           "type": "EActorCCPreset",
           "value": "ACCP_CivilianeMale"
         },
-        "m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+        "m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
         "m_eSoundFootwearType": {
           "type": "EHM5SoundFootwearType",
           "value": "EFWT_BAREFOOT"
