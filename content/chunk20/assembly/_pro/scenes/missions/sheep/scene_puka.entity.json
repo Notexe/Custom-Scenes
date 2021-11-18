@@ -1951,6 +1951,7 @@
     {
       "propertyOwner": {
         "entityID": "b0626f4639ae1206",
+        "_comment": "100_LivingRoom_A",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -1964,6 +1965,7 @@
     {
       "propertyOwner": {
         "entityID": "b0626f4639ae1206",
+        "_comment": "100_LivingRoom_A",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -1977,6 +1979,7 @@
     {
       "propertyOwner": {
         "entityID": "895c381ddf96d646",
+        "_comment": "101_Garage_A",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -1990,6 +1993,7 @@
     {
       "propertyOwner": {
         "entityID": "895c381ddf96d646",
+        "_comment": "101_Garage_A",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2003,6 +2007,7 @@
     {
       "propertyOwner": {
         "entityID": "4baeec5614eb97bf",
+        "_comment": "102_Garage_B",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2016,6 +2021,7 @@
     {
       "propertyOwner": {
         "entityID": "4baeec5614eb97bf",
+        "_comment": "102_Garage_B",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2029,6 +2035,7 @@
     {
       "propertyOwner": {
         "entityID": "ba120ff99b5e78ad",
+        "_comment": "103_Staircase",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2042,6 +2049,7 @@
     {
       "propertyOwner": {
         "entityID": "ba120ff99b5e78ad",
+        "_comment": "103_Staircase",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2055,6 +2063,7 @@
     {
       "propertyOwner": {
         "entityID": "7998ad093d8fa902",
+        "_comment": "104_Storage",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2068,6 +2077,7 @@
     {
       "propertyOwner": {
         "entityID": "7998ad093d8fa902",
+        "_comment": "104_Storage",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2081,6 +2091,7 @@
     {
       "propertyOwner": {
         "entityID": "6ffd4f2ad224764b",
+        "_comment": "105_Guest_Bathroom_A",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2094,6 +2105,7 @@
     {
       "propertyOwner": {
         "entityID": "6ffd4f2ad224764b",
+        "_comment": "105_Guest_Bathroom_A",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2107,6 +2119,7 @@
     {
       "propertyOwner": {
         "entityID": "c73e39de87941b10",
+        "_comment": "106_Guest_BedRoom_A",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2120,6 +2133,7 @@
     {
       "propertyOwner": {
         "entityID": "c73e39de87941b10",
+        "_comment": "106_Guest_BedRoom_A",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2133,6 +2147,7 @@
     {
       "propertyOwner": {
         "entityID": "a5e2e2462527faf2",
+        "_comment": "107_Pool_A",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2146,6 +2161,7 @@
     {
       "propertyOwner": {
         "entityID": "dd15f3b7719aac19",
+        "_comment": "200_LivingRoom_B",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2159,6 +2175,7 @@
     {
       "propertyOwner": {
         "entityID": "dd15f3b7719aac19",
+        "_comment": "200_LivingRoom_B",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2172,6 +2189,7 @@
     {
       "propertyOwner": {
         "entityID": "a3df05f78edf1bfb",
+        "_comment": "201_Office_A",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2185,6 +2203,7 @@
     {
       "propertyOwner": {
         "entityID": "a3df05f78edf1bfb",
+        "_comment": "201_Office_A",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2198,6 +2217,7 @@
     {
       "propertyOwner": {
         "entityID": "828a76127fa770ac",
+        "_comment": "202_Office_B",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2211,6 +2231,7 @@
     {
       "propertyOwner": {
         "entityID": "828a76127fa770ac",
+        "_comment": "202_Office_B",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2224,6 +2245,7 @@
     {
       "propertyOwner": {
         "entityID": "5fe6a48454bbef15",
+        "_comment": "203_Bedroom_A",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2237,6 +2259,7 @@
     {
       "propertyOwner": {
         "entityID": "5fe6a48454bbef15",
+        "_comment": "203_Bedroom_A",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2250,6 +2273,7 @@
     {
       "propertyOwner": {
         "entityID": "5fe6a48454bbef15",
+        "_comment": "203_Bedroom_A",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2263,6 +2287,7 @@
     {
       "propertyOwner": {
         "entityID": "56c1de37e3fd0964",
+        "_comment": "204_Bathroom_A",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2276,6 +2301,7 @@
     {
       "propertyOwner": {
         "entityID": "4a061b97f07c9979",
+        "_comment": "205_Wardrobe",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2289,6 +2315,7 @@
     {
       "propertyOwner": {
         "entityID": "4a061b97f07c9979",
+        "_comment": "205_Wardrobe",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2302,6 +2329,7 @@
     {
       "propertyOwner": {
         "entityID": "4a061b97f07c9979",
+        "_comment": "205_Wardrobe",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2315,6 +2343,7 @@
     {
       "propertyOwner": {
         "entityID": "5a083906389e61d",
+        "_comment": "206_Balcony_A",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2328,6 +2357,7 @@
     {
       "propertyOwner": {
         "entityID": "5a083906389e61d",
+        "_comment": "206_Balcony_A",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2341,6 +2371,7 @@
     {
       "propertyOwner": {
         "entityID": "3ac25f2657314528",
+        "_comment": "000_Outside",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2354,6 +2385,7 @@
     {
       "propertyOwner": {
         "entityID": "3ac25f2657314528",
+        "_comment": "000_Outside",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2367,6 +2399,7 @@
     {
       "propertyOwner": {
         "entityID": "e238894a53424740",
+        "_comment": "Champagne_Bottle_A_Open_00",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2387,6 +2420,7 @@
     {
       "propertyOwner": {
         "entityID": "fb907d1c41c07e5e",
+        "_comment": "Miami_Ceiling_Lamps40",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2396,6 +2430,7 @@
     {
       "propertyOwner": {
         "entityID": "5e970377786a8bc4",
+        "_comment": "Miami_Ceiling_Lamps41",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2405,6 +2440,7 @@
     {
       "propertyOwner": {
         "entityID": "f0b5e0ae4b0e5ba2",
+        "_comment": "Miami_Ceiling_Lamps42",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2414,6 +2450,7 @@
     {
       "propertyOwner": {
         "entityID": "b72f0ac0f05b6d4b",
+        "_comment": "Miami_Ceiling_Lamps43",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2423,6 +2460,7 @@
     {
       "propertyOwner": {
         "entityID": "fb907d1c41c07e5e",
+        "_comment": "Miami_Ceiling_Lamps40",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2436,6 +2474,7 @@
     {
       "propertyOwner": {
         "entityID": "5e970377786a8bc4",
+        "_comment": "Miami_Ceiling_Lamps41",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2449,6 +2488,7 @@
     {
       "propertyOwner": {
         "entityID": "f0b5e0ae4b0e5ba2",
+        "_comment": "Miami_Ceiling_Lamps42",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2462,6 +2502,7 @@
     {
       "propertyOwner": {
         "entityID": "b72f0ac0f05b6d4b",
+        "_comment": "Miami_Ceiling_Lamps43",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2475,6 +2516,7 @@
     {
       "propertyOwner": {
         "entityID": "fb907d1c41c07e5e",
+        "_comment": "Miami_Ceiling_Lamps40",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2484,6 +2526,7 @@
     {
       "propertyOwner": {
         "entityID": "5e970377786a8bc4",
+        "_comment": "Miami_Ceiling_Lamps41",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2493,6 +2536,7 @@
     {
       "propertyOwner": {
         "entityID": "f0b5e0ae4b0e5ba2",
+        "_comment": "Miami_Ceiling_Lamps42",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2502,6 +2546,7 @@
     {
       "propertyOwner": {
         "entityID": "b72f0ac0f05b6d4b",
+        "_comment": "Miami_Ceiling_Lamps43",
         "exposedEntity": "",
         "ref": "SPECIAL: Use EntityID",
         "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
@@ -2512,342 +2557,399 @@
   "overrideDeletes": [
     {
       "entityID": "a0103e8575e7f4f8",
+      "_comment": "CarCovers",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "aaa083045c7e126c",
+      "_comment": "NPCs",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "fa25a9b475835a77",
+      "_comment": "Lighting",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "53e91ca0a81b46a4",
+      "_comment": "Challenges",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "9b198abad4ad6cd",
+      "_comment": "Cutscenes",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "1703d3ddc589e2b8",
+      "_comment": "Disguise Rules",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "fa2c809b858a4d2c",
+      "_comment": "Light Setup",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "88cae048cd4065ea",
+      "_comment": "Answering Machine",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "e8e9f96601ac2e31",
+      "_comment": "Beach Cars",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "671f44bdce315da0",
+      "_comment": "Bedroom TV",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "469e95ecb0d1d142",
+      "_comment": "Dead Bodies",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "a1f8296f17a655a7",
+      "_comment": "House Cars",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "3ec469dda396f6e6",
+      "_comment": "Laptop",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "10d4d2b32b70d31b",
+      "_comment": "Panic Room Door",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "6d81027b73b1d202",
+      "_comment": "Projector Setup",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "9f16746c1abebeca",
+      "_comment": "Surveillance",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "6f8ff5f3b562241c",
+      "_comment": "Tea Making",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "7cfca44565baa688",
+      "_comment": "Ventilation",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "1aa57c25be94476",
+      "_comment": "Whiteboard",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "d81b44a7958f8d82",
+      "_comment": "Zone Setup",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "48205067c078c0e9",
+      "_comment": "Lights",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "7fbe3b4bc0c97fdb",
+      "_comment": "Props",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "82eb3dfb6f96a9bd",
+      "_comment": "FishingHut",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "b8c5405edc70c7a3",
+      "_comment": "Pier_Broken",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "536e6a7396287677",
+      "_comment": "Pier_Boards",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "a81704c5c73bb45b",
+      "_comment": "Exit Points",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "af48c89160c98b75",
+      "_comment": "Agency Pickups",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "cfc948bd5a215ee0",
+      "_comment": "Hero Camera",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "8381bdce42262253",
+      "_comment": "Lockdown and VIP setups",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "d1cae4c0e58f4aeb",
+      "_comment": "Starting Locations",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "b8c210333d59642e",
+      "_comment": "Dig_Site",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "d306b62aa031baa7",
+      "_comment": "Beach_Boathouse_A",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "25ee3a49778beae6",
+      "_comment": "boathouse_broken_a",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "b25cc7a38db1c099",
+      "_comment": "Setpiece_Hips_Sit_Wait",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "aeb456945a3973a",
+      "_comment": "curtains_hotel_bathroom_b_03",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "fa226eb59cf31796",
+      "_comment": "curtains_hotel_bathroom_b_04",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "164cdb585e639cc6",
+      "_comment": "Piano_A",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "a46f40184be83302",
+      "_comment": "Glass_Wine_A_00_03",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "2f53ec3fbfcf046f",
+      "_comment": "Glass_Wine_Champagne_00_25",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "796f703b099496db",
+      "_comment": "beachhouse_interior_a_door_single_13",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "be1c2e0a0588398b",
+      "_comment": "Setpiece_NewZea_Panic Room Door Button",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "ccf40d70240f9bf1",
+      "_comment": "Setpiece_NewZea_Panic Room Door Button",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "92146712e829549c",
+      "_comment": "Horror Moment",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "d16fa693c1184b2f",
+      "_comment": "Decals",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "2d0744624fe3e422",
+      "_comment": "SetPiece_NewZea_MilitiaVan",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "6d04000f06f6898c",
+      "_comment": "ItemKey_Melee_LeadPipe",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "760be95ad8a209d9",
+      "_comment": "Lamp_Spot_Light_Led_A_00",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "7fc4ce1624ad84c9",
+      "_comment": "Lamp_Spot_Light_Led_A_00_01",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "265566b5fe84b8e3",
+      "_comment": "ItemKey_Chloroform Flask",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "d7d6c7886402545e",
+      "_comment": "beachhouse_interior_a_door_single_14",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "bf1dbfb9b1f73760",
+      "_comment": "pillow_hotel_bed_h",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "d499ff3f3fe1a6f3",
+      "_comment": "paris_magazine_g",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "6973f520a8a49b59",
+      "_comment": "paris_magazine_g_01",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "f232e317aecbc5f4",
+      "_comment": "Sunglass_G",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "f9d31368ec966ddc",
+      "_comment": "hotel_candle_a_00_Color_Black",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "4687722b43813cbf",
+      "_comment": "hotel_candle_b_00_Color_Black",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
     },
     {
       "entityID": "2510a14c09f5ff06",
+      "_comment": "hotel_candle_b_00_Color_RED",
       "exposedEntity": "",
       "ref": "SPECIAL: Use EntityID",
       "externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
