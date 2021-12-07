@@ -1,662 +1,798 @@
 {
-  "tempHash": "00EA24C4F764DED9",
-  "tbluHash": "0080CDE1C214F48A",
-  "rootEntity": "Setpiece_NewZea_Grate_Ledge",
-  "entities": {
-    "617bca8ed4fd415": {
-      "parent": {
-        "ref": "30d63325b6de8a32",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "Timer",
-      "template": "[assembly:/_pro/design/logic.template?/timer.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/design/logic.template?/timer.entitytemplate].pc_entityblueprint",
-      "properties": {
-        "m_nInterval": { "type": "int32", "value": 120 },
-        "m_bEnabled": { "type": "bool", "value": false }
-      },
-      "postInitProperties": {},
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [
-        {
-          "onEvent": "TimeOut",
-          "shouldTrigger": "Stop",
-          "onEntity": "617bca8ed4fd415"
-        }
-      ],
-      "inputCopying": [],
-      "outputCopying": []
-    },
-    "3d53bed6467650f1": {
-      "parent": {
-        "ref": "30d63325b6de8a32",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "HM5ShotListener",
-      "template": "[modules:/zhm5shotlistenerentity.class].pc_entitytype",
-      "blueprint": "[modules:/zhm5shotlistenerentity.class].pc_entityblueprint",
-      "properties": {
-        "m_bOnlyHitman": { "type": "bool", "value": true },
-        "m_fNPCMaxDistanceToHitman": { "type": "float32", "value": 5 }
-      },
-      "postInitProperties": {
-        "m_Listener": {
-          "type": "TArray<SEntityTemplateReference>",
-          "value": ["dbdddc9e4c01acf7"]
-        }
-      },
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [
-        {
-          "onEvent": "OnHitInfo",
-          "shouldTrigger": "Variant",
-          "onEntity": "f6e1b5baae04b114"
-        },
-        {
-          "onEvent": "OnHitInfo",
-          "shouldTrigger": "Shot",
-          "onEntity": "43a6be67f20b7384"
-        }
-      ],
-      "inputCopying": [],
-      "outputCopying": []
-    },
-    "75e47ba64e3e4bfb": {
-      "parent": {
-        "ref": "81d38301c101694e",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "FX_PR_Debris_Stone_Slate_2x2_01",
-      "template": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_debris.template?/fx_pr_debris_stone_slate_2x2_01.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_debris.template?/fx_pr_debris_stone_slate_2x2_01.entitytemplate].pc_entityblueprint",
-      "properties": {},
-      "postInitProperties": {},
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [],
-      "inputCopying": [],
-      "outputCopying": []
-    },
-    "11e10ebcc57c49d9": {
-      "parent": {
-        "ref": "48dc5a66ccf5d220",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "cell_tower_hatch_b",
-      "template": "0000FBD679FBC639",
-      "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zvisibilitysaveaspect.class].entitytype).pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": {
-              "x": -0.004149999935179949,
-              "y": 0.0036899999249726534,
-              "z": 0.6888419985771179
-            }
-          }
-        },
-        "m_bVisible": { "type": "bool", "value": true },
-        "m_PrimitiveScale": {
-          "type": "SVector3",
-          "value": { "x": 1, "y": 1, "z": 1 }
-        }
-      },
-      "postInitProperties": {
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "48dc5a66ccf5d220"
-        }
-      },
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [],
-      "inputCopying": [],
-      "outputCopying": []
-    },
-    "948dcfd1d105fbd": {
-      "parent": {
-        "ref": "81d38301c101694e",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "FX_PB_Impact_Debris",
-      "template": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris.entitytemplate].pc_entityblueprint",
-      "properties": {
-        "m_ridDecalMaterial": {
-          "type": "ZRuntimeResourceID",
-          "value": "[assembly:/_pro/effects/materials/debris/fx_decal_debris_metal_4x4_01.mi].pc_mi"
-        },
-        "m_fArrayIndexMax": { "type": "float32", "value": 15 },
-        "m_fRotationSpeedMin": { "type": "float32", "value": -10 },
-        "m_fParticleSizeMin": { "type": "float32", "value": 4 },
-        "m_fParticleSizeMax": { "type": "float32", "value": 5 },
-        "m_fTimeToLiveSecondsMin": {
-          "type": "float32",
-          "value": 1.0099999904632568
-        },
-        "m_fRotationSpeedMax": { "type": "float32", "value": 10 },
-        "m_FixedAlpha": { "type": "float32", "value": 1 }
-      },
-      "postInitProperties": {},
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [],
-      "inputCopying": [],
-      "outputCopying": []
-    },
-    "51a0047bd17c1c3d": {
-      "parent": {
-        "ref": "30d63325b6de8a32",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "SetPieceHelpers_SetGlow_Setpiece",
-      "template": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelpers_setglow_setpiece.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelpers_setglow_setpiece.entitytemplate].pc_entityblueprint",
-      "properties": {},
-      "postInitProperties": {
-        "m_arTargets": {
-          "type": "TArray<SEntityTemplateReference>",
-          "value": ["48dc5a66ccf5d220", "dbdddc9e4c01acf7"]
-        },
-        "GlowActiveConditions": {
-          "type": "TArray<SEntityTemplateReference>",
-          "value": ["488d9722c254c7f7"]
-        }
-      },
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [],
-      "inputCopying": [],
-      "outputCopying": []
-    },
-    "f6e1b5baae04b114": {
-      "parent": {
-        "ref": "30d63325b6de8a32",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "VariantConverter_void_",
-      "template": "[modules:/zhm5variantconverterentity_void.class].pc_entitytype",
-      "blueprint": "[modules:/zhm5variantconverterentity_void.class].pc_entityblueprint",
-      "properties": {},
-      "postInitProperties": {},
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [
-        {
-          "onEvent": "Value",
-          "shouldTrigger": "Start",
-          "onEntity": "617bca8ed4fd415"
-        }
-      ],
-      "inputCopying": [],
-      "outputCopying": []
-    },
-    "32d370625c22b197": {
-      "parent": {
-        "ref": "48dc5a66ccf5d220",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "RoomIgnoreTrigger",
-      "template": "[modules:/zroomignoretrigger.class].pc_entitytype",
-      "blueprint": "[modules:/zroomignoretrigger.class].pc_entityblueprint",
-      "properties": {},
-      "postInitProperties": {
-        "m_aIgnoreEntities": {
-          "type": "TArray<SEntityTemplateReference>",
-          "value": ["dbdddc9e4c01acf7"]
-        }
-      },
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [],
-      "inputCopying": [],
-      "outputCopying": []
-    },
-    "dbdddc9e4c01acf7": {
-      "parent": {
-        "ref": "48dc5a66ccf5d220",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "roof_ventilation_grate_hatch",
-      "template": "004BEA7FE700EBC5",
-      "blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": {
-              "x": -0.004149999935179949,
-              "y": -0.07000000029802322,
-              "z": 0.7149720191955566
-            }
-          }
-        },
-        "m_bAffectedByExplosionEffectRadius": {
-          "type": "bool",
-          "value": false
-        },
-        "m_bRespondToExplosions": { "type": "bool", "value": true },
-        "m_bRespondToCollisions": { "type": "bool", "value": false },
-        "m_bRespondToShots": { "type": "bool", "value": true },
-        "m_aFracturedEffect": {
-          "type": "ZRuntimeResourceID",
-          "value": "SPECIAL: None"
-        },
-        "m_fMass": { "type": "float32", "value": 20 },
-        "m_fDynamicFriction": { "type": "float32", "value": 0.5 },
-        "m_fMaxAngularVelocity": { "type": "float32", "value": 5 },
-        "m_aDetachmentEffect": {
-          "type": "ZRuntimeResourceID",
-          "value": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_e_impact_metal.entitytemplate].pc_entitytemplate"
-        },
-        "m_eRoomBehaviour": {
-          "type": "ZSpatialEntity.ERoomBehaviour",
-          "value": "ROOM_DYNAMIC"
-        },
-        "m_bDestructionEnabled": { "type": "bool", "value": false },
-        "m_eGlowType": {
-          "type": "ERenderGlowTypes",
-          "value": "ERENDERGLOWTYPE_SETPIECE"
-        }
-      },
-      "postInitProperties": {
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "48dc5a66ccf5d220"
-        }
-      },
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [
-        {
-          "onEvent": "OnInitialFracture",
-          "shouldTrigger": "SetIgnoreRooms",
-          "onEntity": "32d370625c22b197"
-        },
-        {
-          "onEvent": "OnInitialFracture",
-          "shouldTrigger": "Activate",
-          "onEntity": "81d38301c101694e"
-        }
-      ],
-      "inputCopying": [],
-      "outputCopying": [
-        {
-          "onEvent": "OnInitialFracture",
-          "propagateEvent": "OnInitialFracture",
-          "onEntity": "48dc5a66ccf5d220"
-        }
-      ]
-    },
-    "48dc5a66ccf5d220": {
-      "parent": {
-        "ref": "30d63325b6de8a32",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "TEMP_ART_ReplaceMe",
-      "template": "[modules:/zspatialentity.class].pc_entitytype",
-      "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": { "x": 0, "y": 0, "z": 0 }
-          }
-        }
-      },
-      "postInitProperties": {
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "30d63325b6de8a32"
-        }
-      },
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "exposedInterfaces": [
-        ["ZGeomEntity", "11e10ebcc57c49d9"],
-        ["ZPrimitiveContainerEntity", "11e10ebcc57c49d9"],
-        ["ZRenderableEntity", "11e10ebcc57c49d9"]
-      ],
-      "events": [
-        {
-          "onEvent": "OnInitialFracture",
-          "shouldTrigger": "SetFalse",
-          "onEntity": "488d9722c254c7f7"
-        },
-        {
-          "onEvent": "OnInitialFracture",
-          "shouldTrigger": "DisableImpulseListener",
-          "onEntity": "181c9763c2653356"
-        },
-        {
-          "onEvent": "OnInitialFracture",
-          "shouldTrigger": "Disable",
-          "onEntity": "3d53bed6467650f1"
-        }
-      ],
-      "inputCopying": [
-        {
-          "whenTriggered": "BreakAll",
-          "alsoTrigger": "BreakAll",
-          "onEntity": "dbdddc9e4c01acf7"
-        }
-      ],
-      "outputCopying": []
-    },
-    "488d9722c254c7f7": {
-      "parent": {
-        "ref": "30d63325b6de8a32",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "IsStillInOnePiece",
-      "template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-      "properties": { "m_bValue": { "type": "bool", "value": true } },
-      "postInitProperties": {},
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [],
-      "inputCopying": [],
-      "outputCopying": [
-        {
-          "onEvent": "OnFalse",
-          "propagateEvent": "OnBroken",
-          "onEntity": "30d63325b6de8a32"
-        }
-      ]
-    },
-    "43a6be67f20b7384": {
-      "parent": {
-        "ref": "30d63325b6de8a32",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "HM5DamageCounterEntity 2",
-      "template": "[modules:/zhm5damagecounterentity.class].pc_entitytype",
-      "blueprint": "[modules:/zhm5damagecounterentity.class].pc_entityblueprint",
-      "properties": {
-        "m_nShotsThreshold": { "type": "uint32", "value": 3 },
-        "m_bReset": { "type": "bool", "value": false },
-        "m_bDrawGraph": { "type": "bool", "value": false },
-        "m_nMaxNotifications": { "type": "uint32", "value": 1 },
-        "m_fDamageThreshold": { "type": "float32", "value": 200 }
-      },
-      "postInitProperties": {},
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [
-        {
-          "onEvent": "OnActivate",
-          "shouldTrigger": "BreakAll",
-          "onEntity": "48dc5a66ccf5d220"
-        }
-      ],
-      "inputCopying": [],
-      "outputCopying": []
-    },
-    "181c9763c2653356": {
-      "parent": {
-        "ref": "30d63325b6de8a32",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "MassImpulseListener",
-      "template": "[modules:/zmassimpulselistenerentity.class].pc_entitytype",
-      "blueprint": "[modules:/zmassimpulselistenerentity.class].pc_entityblueprint",
-      "properties": {
-        "m_aPhysicsAccessors": {
-          "type": "TArray<SEntityTemplateReference>",
-          "value": ["dbdddc9e4c01acf7"]
-        },
-        "m_bAffectedByExplosionEffectRadius": { "type": "bool", "value": false }
-      },
-      "postInitProperties": {},
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [
-        {
-          "onEvent": "OnHitByImpulse",
-          "shouldTrigger": "BreakAll",
-          "onEntity": "48dc5a66ccf5d220"
-        }
-      ],
-      "inputCopying": [],
-      "outputCopying": []
-    },
-    "a1b30d8458caaf62": {
-      "parent": {
-        "ref": "81d38301c101694e",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "ParticleEmitterPoint_Debris_Glass",
-      "template": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
-      "blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": -180, "y": 0, "z": -180 },
-            "position": { "x": 0, "y": 0, "z": -0.4907050132751465 }
-          }
-        },
-        "m_bEnabled": { "type": "bool", "value": false },
-        "m_fFixedEmissionCount": { "type": "float32", "value": 70 },
-        "m_fEmissionCameraProximity": { "type": "float32", "value": 20 },
-        "m_fOuterConeAngle": { "type": "float32", "value": 200 },
-        "m_fSpeedMax": { "type": "float32", "value": 4 },
-        "m_fSpeedMin": { "type": "float32", "value": 1 },
-        "m_ParticleController": {
-          "type": "SEntityTemplateReference",
-          "value": "948dcfd1d105fbd"
-        },
-        "m_ParticleRender": {
-          "type": "SEntityTemplateReference",
-          "value": "75e47ba64e3e4bfb"
-        },
-        "m_fInnerConeAngle": { "type": "float32", "value": 100 },
-        "m_vGlobalSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 0.10000000149011612,
-            "y": 0.10000000149011612,
-            "z": 0.30000001192092896
-          }
-        },
-        "m_eSpawnMode": {
-          "type": "eParticleEmitterBoxEntity_SpawnModes",
-          "value": "BOX_SPAWNMODE_ELLIPSOID_INSIDE"
-        }
-      },
-      "postInitProperties": {
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "81d38301c101694e"
-        }
-      },
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [],
-      "inputCopying": [],
-      "outputCopying": []
-    },
-    "81d38301c101694e": {
-      "parent": {
-        "ref": "48dc5a66ccf5d220",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "FX_E_MetalPeices",
-      "template": "[modules:/zcompositeentity.class].pc_entitytype",
-      "blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": {
-              "x": 0.4779200851917267,
-              "y": 0.010489460080862045,
-              "z": 0.005821018945425749
-            }
-          }
-        },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "11e10ebcc57c49d9"
-        }
-      },
-      "postInitProperties": {},
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [],
-      "inputCopying": [
-        {
-          "whenTriggered": "Activate",
-          "alsoTrigger": "Activate",
-          "onEntity": "a1b30d8458caaf62"
-        }
-      ],
-      "outputCopying": []
-    },
-    "7f526c6a4a9fd143": {
-      "parent": {
-        "ref": "30d63325b6de8a32",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "CollisionBox",
-      "template": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": { "x": 0, "y": 0, "z": 0 }
-          }
-        },
-        "m_bCollideHitman": { "type": "bool", "value": false },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": { "x": 10, "y": 10, "z": 1 }
-        },
-        "m_mOffset": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": { "x": 0, "y": 0, "z": -1 }
-          }
-        },
-        "m_bEnableExplosionBlocker": { "type": "bool", "value": true }
-      },
-      "postInitProperties": {
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "30d63325b6de8a32"
-        }
-      },
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [],
-      "inputCopying": [],
-      "outputCopying": []
-    },
-    "30d63325b6de8a32": {
-      "parent": {
-        "ref": "SPECIAL: None",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "Setpiece_NewZea_Grate_Ledge",
-      "template": "[modules:/zspatialentity.class].pc_entitytype",
-      "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": {
-              "x": -5.972044944763184,
-              "y": 8.891491889953613,
-              "z": 0
-            }
-          }
-        }
-      },
-      "postInitProperties": {},
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "exposedEntities": [
-        { "sName": "StillInOnePiece", "bIsArray": false, "aTargets": [] }
-      ],
-      "events": [],
-      "inputCopying": [],
-      "outputCopying": []
-    },
-    "6b877acf203fbd31": {
-      "parent": {
-        "ref": "48dc5a66ccf5d220",
-        "exposedEntity": "",
-        "externalScene": "SPECIAL: None",
-        "entityID": "ffffffffffffffff"
-      },
-      "name": "PhysicsCollision_Internal",
-      "template": "[modules:/zphysicscollisionentity.class].pc_entitytype",
-      "blueprint": "[modules:/zphysicscollisionentity.class].pc_entityblueprint",
-      "properties": {
-        "m_EntityListA": {
-          "type": "TArray<SEntityTemplateReference>",
-          "value": ["dbdddc9e4c01acf7", "11e10ebcc57c49d9"]
-        }
-      },
-      "postInitProperties": {},
-      "editorOnly": false,
-      "platformSpecificPropertyValues": [],
-      "events": [],
-      "inputCopying": [],
-      "outputCopying": []
-    }
-  },
-  "propertyOverrides": [],
-  "overrideDeletes": [],
-  "pinConnectionOverrides": [],
-  "pinConnectionOverrideDeletes": [],
-  "externalScenes": [],
-  "subType": 0,
-  "quickEntityVersion": 2
+	"tempHash": "00EA24C4F764DED9",
+	"tbluHash": "0080CDE1C214F48A",
+	"rootEntity": "Setpiece_NewZea_Grate_Ledge",
+	"entities": {
+		"617bca8ed4fd415": {
+			"parent": {
+				"ref": "30d63325b6de8a32",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "Timer",
+			"template": "[assembly:/_pro/design/logic.template?/timer.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timer.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_nInterval": {
+					"type": "int32",
+					"value": 120
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": false
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "TimeOut",
+				"shouldTrigger": "Stop",
+				"onEntity": "617bca8ed4fd415"
+			}],
+			"inputCopying": [],
+			"outputCopying": []
+		},
+		"3d53bed6467650f1": {
+			"parent": {
+				"ref": "30d63325b6de8a32",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "HM5ShotListener",
+			"template": "[modules:/zhm5shotlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zhm5shotlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bOnlyHitman": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fNPCMaxDistanceToHitman": {
+					"type": "float32",
+					"value": 5
+				}
+			},
+			"postInitProperties": {
+				"m_Listener": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["dbdddc9e4c01acf7"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "OnHitInfo",
+				"shouldTrigger": "Variant",
+				"onEntity": "f6e1b5baae04b114"
+			}, {
+				"onEvent": "OnHitInfo",
+				"shouldTrigger": "Shot",
+				"onEntity": "43a6be67f20b7384"
+			}],
+			"inputCopying": [],
+			"outputCopying": []
+		},
+		"75e47ba64e3e4bfb": {
+			"parent": {
+				"ref": "81d38301c101694e",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "FX_PR_Debris_Stone_Slate_2x2_01",
+			"template": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_debris.template?/fx_pr_debris_stone_slate_2x2_01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_debris.template?/fx_pr_debris_stone_slate_2x2_01.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [],
+			"inputCopying": [],
+			"outputCopying": []
+		},
+		"11e10ebcc57c49d9": {
+			"parent": {
+				"ref": "48dc5a66ccf5d220",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "cell_tower_hatch_b",
+			"template": "0000FBD679FBC639",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zvisibilitysaveaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.004149999935179949,
+							"y": 0.0036899999249726534,
+							"z": 0.6888419985771179
+						}
+					}
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "48dc5a66ccf5d220"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [],
+			"inputCopying": [],
+			"outputCopying": []
+		},
+		"948dcfd1d105fbd": {
+			"parent": {
+				"ref": "81d38301c101694e",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "FX_PB_Impact_Debris",
+			"template": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_ridDecalMaterial": {
+					"type": "ZRuntimeResourceID",
+					"value": "[assembly:/_pro/effects/materials/debris/fx_decal_debris_metal_4x4_01.mi].pc_mi"
+				},
+				"m_fArrayIndexMax": {
+					"type": "float32",
+					"value": 15
+				},
+				"m_fRotationSpeedMin": {
+					"type": "float32",
+					"value": -10
+				},
+				"m_fParticleSizeMin": {
+					"type": "float32",
+					"value": 4
+				},
+				"m_fParticleSizeMax": {
+					"type": "float32",
+					"value": 5
+				},
+				"m_fTimeToLiveSecondsMin": {
+					"type": "float32",
+					"value": 1.0099999904632568
+				},
+				"m_fRotationSpeedMax": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_FixedAlpha": {
+					"type": "float32",
+					"value": 1
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [],
+			"inputCopying": [],
+			"outputCopying": []
+		},
+		"51a0047bd17c1c3d": {
+			"parent": {
+				"ref": "30d63325b6de8a32",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "SetPieceHelpers_SetGlow_Setpiece",
+			"template": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelpers_setglow_setpiece.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelpers_setglow_setpiece.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_arTargets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["48dc5a66ccf5d220", "dbdddc9e4c01acf7"]
+				},
+				"GlowActiveConditions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["488d9722c254c7f7"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [],
+			"inputCopying": [],
+			"outputCopying": []
+		},
+		"f6e1b5baae04b114": {
+			"parent": {
+				"ref": "30d63325b6de8a32",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "VariantConverter_void_",
+			"template": "[modules:/zhm5variantconverterentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zhm5variantconverterentity_void.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "Value",
+				"shouldTrigger": "Start",
+				"onEntity": "617bca8ed4fd415"
+			}],
+			"inputCopying": [],
+			"outputCopying": []
+		},
+		"32d370625c22b197": {
+			"parent": {
+				"ref": "48dc5a66ccf5d220",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "RoomIgnoreTrigger",
+			"template": "[modules:/zroomignoretrigger.class].pc_entitytype",
+			"blueprint": "[modules:/zroomignoretrigger.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_aIgnoreEntities": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["dbdddc9e4c01acf7"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [],
+			"inputCopying": [],
+			"outputCopying": []
+		},
+		"dbdddc9e4c01acf7": {
+			"parent": {
+				"ref": "48dc5a66ccf5d220",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "roof_ventilation_grate_hatch",
+			"template": "004BEA7FE700EBC5",
+			"blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.004149999935179949,
+							"y": -0.07000000029802322,
+							"z": 0.7149720191955566
+						}
+					}
+				},
+				"m_bAffectedByExplosionEffectRadius": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bRespondToExplosions": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bRespondToCollisions": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bRespondToShots": {
+					"type": "bool",
+					"value": true
+				},
+				"m_aFracturedEffect": {
+					"type": "ZRuntimeResourceID",
+					"value": "SPECIAL: None"
+				},
+				"m_fMass": {
+					"type": "float32",
+					"value": 20
+				},
+				"m_fDynamicFriction": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_fMaxAngularVelocity": {
+					"type": "float32",
+					"value": 5
+				},
+				"m_aDetachmentEffect": {
+					"type": "ZRuntimeResourceID",
+					"value": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_e_impact_metal.entitytemplate].pc_entitytemplate"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bDestructionEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eGlowType": {
+					"type": "ERenderGlowTypes",
+					"value": "ERENDERGLOWTYPE_SETPIECE"
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "48dc5a66ccf5d220"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "OnInitialFracture",
+				"shouldTrigger": "SetIgnoreRooms",
+				"onEntity": "32d370625c22b197"
+			}, {
+				"onEvent": "OnInitialFracture",
+				"shouldTrigger": "Activate",
+				"onEntity": "81d38301c101694e"
+			}],
+			"inputCopying": [],
+			"outputCopying": [{
+				"onEvent": "OnInitialFracture",
+				"propagateEvent": "OnInitialFracture",
+				"onEntity": "48dc5a66ccf5d220"
+			}]
+		},
+		"48dc5a66ccf5d220": {
+			"parent": {
+				"ref": "30d63325b6de8a32",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "TEMP_ART_ReplaceMe",
+			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "30d63325b6de8a32"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"exposedInterfaces": [
+				["ZGeomEntity", "11e10ebcc57c49d9"],
+				["ZPrimitiveContainerEntity", "11e10ebcc57c49d9"],
+				["ZRenderableEntity", "11e10ebcc57c49d9"]
+			],
+			"events": [{
+				"onEvent": "OnInitialFracture",
+				"shouldTrigger": "SetFalse",
+				"onEntity": "488d9722c254c7f7"
+			}, {
+				"onEvent": "OnInitialFracture",
+				"shouldTrigger": "DisableImpulseListener",
+				"onEntity": "181c9763c2653356"
+			}, {
+				"onEvent": "OnInitialFracture",
+				"shouldTrigger": "Disable",
+				"onEntity": "3d53bed6467650f1"
+			}],
+			"inputCopying": [{
+				"whenTriggered": "BreakAll",
+				"alsoTrigger": "BreakAll",
+				"onEntity": "dbdddc9e4c01acf7"
+			}],
+			"outputCopying": []
+		},
+		"488d9722c254c7f7": {
+			"parent": {
+				"ref": "30d63325b6de8a32",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "IsStillInOnePiece",
+			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bValue": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [],
+			"inputCopying": [],
+			"outputCopying": [{
+				"onEvent": "OnFalse",
+				"propagateEvent": "OnBroken",
+				"onEntity": "30d63325b6de8a32"
+			}]
+		},
+		"43a6be67f20b7384": {
+			"parent": {
+				"ref": "30d63325b6de8a32",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "HM5DamageCounterEntity 2",
+			"template": "[modules:/zhm5damagecounterentity.class].pc_entitytype",
+			"blueprint": "[modules:/zhm5damagecounterentity.class].pc_entityblueprint",
+			"properties": {
+				"m_nShotsThreshold": {
+					"type": "uint32",
+					"value": 3
+				},
+				"m_bReset": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bDrawGraph": {
+					"type": "bool",
+					"value": false
+				},
+				"m_nMaxNotifications": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_fDamageThreshold": {
+					"type": "float32",
+					"value": 200
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "OnActivate",
+				"shouldTrigger": "BreakAll",
+				"onEntity": "48dc5a66ccf5d220"
+			}],
+			"inputCopying": [],
+			"outputCopying": []
+		},
+		"181c9763c2653356": {
+			"parent": {
+				"ref": "30d63325b6de8a32",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "MassImpulseListener",
+			"template": "[modules:/zmassimpulselistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zmassimpulselistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aPhysicsAccessors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["dbdddc9e4c01acf7"]
+				},
+				"m_bAffectedByExplosionEffectRadius": {
+					"type": "bool",
+					"value": false
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "OnHitByImpulse",
+				"shouldTrigger": "BreakAll",
+				"onEntity": "48dc5a66ccf5d220"
+			}],
+			"inputCopying": [],
+			"outputCopying": []
+		},
+		"a1b30d8458caaf62": {
+			"parent": {
+				"ref": "81d38301c101694e",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "ParticleEmitterPoint_Debris_Glass",
+			"template": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
+			"blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -180,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -0.4907050132751465
+						}
+					}
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fFixedEmissionCount": {
+					"type": "float32",
+					"value": 70
+				},
+				"m_fEmissionCameraProximity": {
+					"type": "float32",
+					"value": 20
+				},
+				"m_fOuterConeAngle": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_fSpeedMax": {
+					"type": "float32",
+					"value": 4
+				},
+				"m_fSpeedMin": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_ParticleController": {
+					"type": "SEntityTemplateReference",
+					"value": "948dcfd1d105fbd"
+				},
+				"m_ParticleRender": {
+					"type": "SEntityTemplateReference",
+					"value": "75e47ba64e3e4bfb"
+				},
+				"m_fInnerConeAngle": {
+					"type": "float32",
+					"value": 100
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.10000000149011612,
+						"y": 0.10000000149011612,
+						"z": 0.30000001192092896
+					}
+				},
+				"m_eSpawnMode": {
+					"type": "eParticleEmitterBoxEntity_SpawnModes",
+					"value": "BOX_SPAWNMODE_ELLIPSOID_INSIDE"
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "81d38301c101694e"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [],
+			"inputCopying": [],
+			"outputCopying": []
+		},
+		"81d38301c101694e": {
+			"parent": {
+				"ref": "48dc5a66ccf5d220",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "FX_E_MetalPeices",
+			"template": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.4779200851917267,
+							"y": 0.010489460080862045,
+							"z": 0.005821018945425749
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "11e10ebcc57c49d9"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [],
+			"inputCopying": [{
+				"whenTriggered": "Activate",
+				"alsoTrigger": "Activate",
+				"onEntity": "a1b30d8458caaf62"
+			}],
+			"outputCopying": []
+		},
+		"7f526c6a4a9fd143": {
+			"parent": {
+				"ref": "30d63325b6de8a32",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "CollisionBox",
+			"template": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bCollideHitman": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 10,
+						"y": 10,
+						"z": 1
+					}
+				},
+				"m_mOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -1
+						}
+					}
+				},
+				"m_bEnableExplosionBlocker": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "30d63325b6de8a32"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [],
+			"inputCopying": [],
+			"outputCopying": []
+		},
+		"30d63325b6de8a32": {
+			"parent": {
+				"ref": "SPECIAL: None",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "Setpiece_NewZea_Grate_Ledge",
+			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -5.972044944763184,
+							"y": 8.891491889953613,
+							"z": 0
+						}
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"exposedEntities": [{
+				"sName": "StillInOnePiece",
+				"bIsArray": false,
+				"aTargets": []
+			}],
+			"events": [],
+			"inputCopying": [],
+			"outputCopying": []
+		},
+		"6b877acf203fbd31": {
+			"parent": {
+				"ref": "48dc5a66ccf5d220",
+				"exposedEntity": "",
+				"externalScene": "SPECIAL: None",
+				"entityID": "ffffffffffffffff"
+			},
+			"name": "PhysicsCollision_Internal",
+			"template": "[modules:/zphysicscollisionentity.class].pc_entitytype",
+			"blueprint": "[modules:/zphysicscollisionentity.class].pc_entityblueprint",
+			"properties": {
+				"m_EntityListA": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["dbdddc9e4c01acf7", "11e10ebcc57c49d9"]
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [],
+			"inputCopying": [],
+			"outputCopying": []
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2
 }
