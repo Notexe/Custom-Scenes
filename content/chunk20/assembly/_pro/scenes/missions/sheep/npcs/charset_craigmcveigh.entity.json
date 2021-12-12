@@ -1,15 +1,10 @@
 {
 	"tempHash": "0007D9A3A121CFBC",
 	"tbluHash": "00BCD3F0CCFDA5AF",
-	"rootEntity": "CHARSET_CraigMcVeigh",
+	"rootEntity": "dbe31d8b269d9e17",
 	"entities": {
 		"1dd526648b8dc990": {
-			"parent": {
-				"ref": "6051217c5a972faf",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "6051217c5a972faf",
 			"name": "0",
 			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
@@ -21,18 +16,10 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"ff2e13419e29d0b2": {
-			"parent": {
-				"ref": "391645991db86c05",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "391645991db86c05",
 			"name": "Var0",
 			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
@@ -44,18 +31,10 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"dbe31d8b269d9e17": {
-			"parent": {
-				"ref": "SPECIAL: None",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": null,
 			"name": "CHARSET_CraigMcVeigh",
 			"template": "[modules:/zoutfitvariationcollection.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariationcollection.class].pc_entityblueprint",
@@ -67,18 +46,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"6051217c5a972faf": {
-			"parent": {
-				"ref": "dbe31d8b269d9e17",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "dbe31d8b269d9e17",
 			"name": "Actor",
 			"template": "[modules:/zcharsetcharactertype.class].pc_entitytype",
 			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
@@ -90,18 +61,10 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"8081ad013abb189d": {
-			"parent": {
-				"ref": "8e7890fc6fa38d9b",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "8e7890fc6fa38d9b",
 			"name": "Var0",
 			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
@@ -113,18 +76,10 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"8e7890fc6fa38d9b": {
-			"parent": {
-				"ref": "dbe31d8b269d9e17",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "dbe31d8b269d9e17",
 			"name": "Nude",
 			"template": "[modules:/zcharsetcharactertype.class].pc_entitytype",
 			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
@@ -136,18 +91,10 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"391645991db86c05": {
-			"parent": {
-				"ref": "dbe31d8b269d9e17",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "dbe31d8b269d9e17",
 			"name": "HeroA",
 			"template": "[modules:/zcharsetcharactertype.class].pc_entitytype",
 			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
@@ -159,18 +106,10 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdcc1b6c6c62a7": {
-			"parent": {
-				"ref": "6051217c5a972faf",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "6051217c5a972faf",
 			"name": "1",
 			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
@@ -182,10 +121,7 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		}
 	},
 	"propertyOverrides": [],
@@ -194,5 +130,5 @@
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [],
 	"subType": 0,
-	"quickEntityVersion": 2
+	"quickEntityVersion": 2.1
 }

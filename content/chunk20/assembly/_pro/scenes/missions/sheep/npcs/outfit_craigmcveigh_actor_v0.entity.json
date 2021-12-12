@@ -1,15 +1,10 @@
 {
 	"tempHash": "00A1791A4083CF77",
 	"tbluHash": "00717335DAA60EDA",
-	"rootEntity": "OUTFIT_CraigMcVeigh_Actor_v0",
+	"rootEntity": "8a1a25c92b349cbb",
 	"entities": {
 		"cd14bdc8e25d3fd0": {
-			"parent": {
-				"ref": "8a1a25c92b349cbb",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "8a1a25c92b349cbb",
 			"name": "Mesh_Watch",
 			"template": "[modules:/zbodypartentity.class].pc_entitytype",
 			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
@@ -21,18 +16,10 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"114b50731f514cf1": {
-			"parent": {
-				"ref": "8a1a25c92b349cbb",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "8a1a25c92b349cbb",
 			"name": "Mesh_Head",
 			"template": "[modules:/zbodypartentity.class].pc_entitytype",
 			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
@@ -48,18 +35,10 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"9d560e3b5754e877": {
-			"parent": {
-				"ref": "8a1a25c92b349cbb",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "8a1a25c92b349cbb",
 			"name": "male_reg_tourist_tank_top_01",
 			"template": "[assembly:/_pro/characters/assets/civilians/tourist_beach/materials/male_reg_tourist_tank_top_01.mi].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/assets/civilians/tourist_beach/materials/male_reg_tourist_tank_top_01.mi].pc_entityblueprint",
@@ -115,18 +94,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"843a86ae4f4ca93e": {
-			"parent": {
-				"ref": "8a1a25c92b349cbb",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "8a1a25c92b349cbb",
 			"name": "ChildNetwork",
 			"template": "[modules:/zchildnetworkentity.class].pc_entitytype",
 			"blueprint": "[modules:/zchildnetworkentity.class].pc_entityblueprint",
@@ -138,18 +109,10 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"19f2807fcf0f04e0": {
-			"parent": {
-				"ref": "8a1a25c92b349cbb",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "8a1a25c92b349cbb",
 			"name": "Mesh_Necklace",
 			"template": "[modules:/zbodypartentity.class].pc_entitytype",
 			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
@@ -161,18 +124,10 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"f7e91f7b3cbe18a6": {
-			"parent": {
-				"ref": "8a1a25c92b349cbb",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "8a1a25c92b349cbb",
 			"name": "Mesh_Jacket",
 			"template": "[modules:/zbodypartentity.class].pc_entitytype",
 			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
@@ -184,25 +139,17 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"8a1a25c92b349cbb": {
-			"parent": {
-				"ref": "SPECIAL: None",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": null,
 			"name": "OUTFIT_CraigMcVeigh_Actor_v0",
 			"template": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entityblueprint",
 			"properties": {
 				"m_ResourceID": {
 					"type": "ZRuntimeResourceID",
-					"value": "SPECIAL: None"
+					"value": null
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -283,18 +230,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"bfae5052b344ddca": {
-			"parent": {
-				"ref": "8a1a25c92b349cbb",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "8a1a25c92b349cbb",
 			"name": "male_reg_silviocaruso_watch_01",
 			"template": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/materials/male_reg_silviocaruso_watch_01.mi].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/materials/male_reg_silviocaruso_watch_01.mi].pc_entityblueprint",
@@ -341,18 +280,10 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"d3d48d14e2adbae6": {
-			"parent": {
-				"ref": "8a1a25c92b349cbb",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "8a1a25c92b349cbb",
 			"name": "Mesh_Legs",
 			"template": "[modules:/zbodypartentity.class].pc_entitytype",
 			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
@@ -364,10 +295,7 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		}
 	},
 	"propertyOverrides": [],
@@ -376,5 +304,5 @@
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [],
 	"subType": 0,
-	"quickEntityVersion": 2
+	"quickEntityVersion": 2.1
 }

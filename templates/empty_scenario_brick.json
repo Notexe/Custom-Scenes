@@ -1,15 +1,10 @@
 {
 	"tempHash": "",
 	"tbluHash": "",
-	"rootEntity": "Scene",
+	"rootEntity": "fffffffffffffffe",
 	"entities": {
 		"fffffffffffffffe": {
-			"parent": {
-				"ref": "SPECIAL: None",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": null,
 			"name": "Scene",
 			"template": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
@@ -36,504 +31,280 @@
 				["Rooms", {
 					"entities": []
 				}]
-			],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			]
 		},
 		"abcd6b299c3d3e26": {
-			"parent": {
-				"ref": "fffffffffffffffe",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "fffffffffffffffe",
 			"name": "Scenario_Empty",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd249e5a2a9fca": {
-			"parent": {
-				"ref": "abcd6b299c3d3e26",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd6b299c3d3e26",
 			"name": "AI",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd1e1d830c091c": {
-			"parent": {
-				"ref": "abcd6b299c3d3e26",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd6b299c3d3e26",
 			"name": "CutScenes",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd85cba5ab5afa": {
-			"parent": {
-				"ref": "abcd6b299c3d3e26",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd6b299c3d3e26",
 			"name": "Envionment",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd5e509cf0ca65": {
-			"parent": {
-				"ref": "abcd6b299c3d3e26",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd6b299c3d3e26",
 			"name": "Gameplay",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdb8a050d68c57": {
-			"parent": {
-				"ref": "abcd6b299c3d3e26",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd6b299c3d3e26",
 			"name": "Maps",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcde92f2c09c134": {
-			"parent": {
-				"ref": "abcd6b299c3d3e26",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd6b299c3d3e26",
 			"name": "NPCs",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd0bb39b5d1024": {
-			"parent": {
-				"ref": "abcd6b299c3d3e26",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd6b299c3d3e26",
 			"name": "PerformanceProfiling",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd18ecb43f18d5": {
-			"parent": {
-				"ref": "abcd6b299c3d3e26",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd6b299c3d3e26",
 			"name": "Physics",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd14d85b184763": {
-			"parent": {
-				"ref": "abcd6b299c3d3e26",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd6b299c3d3e26",
 			"name": "Sounds",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd042dd592c367": {
-			"parent": {
-				"ref": "abcd6b299c3d3e26",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd6b299c3d3e26",
 			"name": "Lighting",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd205a46d3bb61": {
-			"parent": {
-				"ref": "abcd249e5a2a9fca",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd249e5a2a9fca",
 			"name": "AI Areas and vision blockers",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdf6bc0632156d": {
-			"parent": {
-				"ref": "abcd249e5a2a9fca",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd249e5a2a9fca",
 			"name": "AI Reasoning Grid",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd79e0852e4364": {
-			"parent": {
-				"ref": "abcd249e5a2a9fca",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd249e5a2a9fca",
 			"name": "Disguise Rules",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd5141c63616dc": {
-			"parent": {
-				"ref": "abcd249e5a2a9fca",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd249e5a2a9fca",
 			"name": "Evacuation",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdf4ae94f92b86": {
-			"parent": {
-				"ref": "abcd249e5a2a9fca",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd249e5a2a9fca",
 			"name": "GeoTags",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdaaad94a35e02": {
-			"parent": {
-				"ref": "abcd249e5a2a9fca",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd249e5a2a9fca",
 			"name": "Hunt Acts",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdf5867d97e9dc": {
-			"parent": {
-				"ref": "abcd249e5a2a9fca",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd249e5a2a9fca",
 			"name": "Lockdown and VIP setup",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcde188fadc40de": {
-			"parent": {
-				"ref": "abcd249e5a2a9fca",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd249e5a2a9fca",
 			"name": "Morgues",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdeaf23812acfd": {
-			"parent": {
-				"ref": "abcd249e5a2a9fca",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd249e5a2a9fca",
 			"name": "Pathfinding",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcda142f2bbcd41": {
-			"parent": {
-				"ref": "abcd249e5a2a9fca",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd249e5a2a9fca",
 			"name": "Private areas",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd26609fbf264f": {
-			"parent": {
-				"ref": "abcd249e5a2a9fca",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd249e5a2a9fca",
 			"name": "Professions",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdd4af1eda918f": {
-			"parent": {
-				"ref": "abcd249e5a2a9fca",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd249e5a2a9fca",
 			"name": "Sound Connectors",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd89d97e31389c": {
-			"parent": {
-				"ref": "abcd249e5a2a9fca",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd249e5a2a9fca",
 			"name": "Zone Setup",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd25420c514120": {
-			"parent": {
-				"ref": "abcd249e5a2a9fca",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd249e5a2a9fca",
 			"name": "Mirror Markup",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd0cb38b2b24fe": {
-			"parent": {
-				"ref": "abcd85cba5ab5afa",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd85cba5ab5afa",
 			"name": "Gates",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd7c6476d2f872": {
-			"parent": {
-				"ref": "abcd85cba5ab5afa",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd85cba5ab5afa",
 			"name": "Material_Overrides",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd0b045d13d43f": {
-			"parent": {
-				"ref": "abcd85cba5ab5afa",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd85cba5ab5afa",
 			"name": "000_Outside",
 			"template": "[modules:/zroomentity.class].pc_entitytype",
 			"blueprint": "[modules:/zroomentity.class].pc_entityblueprint",
@@ -620,676 +391,377 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdfa9777639270": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "Agency Pickups",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd65e98e3b976e": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "Agility",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdbd6d9c83fa73": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "Challenges",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd414fbd3584fc": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "Collision",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd56b67c5c3bc1": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "Exit locations",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdc5ec6784516a": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "Global logic",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd2834d407e232": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "Hero",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd9d6617b50d0d": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "Hero Camera",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd686a3e439de0": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "Hero Disguised",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd7948a2a6c134": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "Items",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd184cf8691cb6": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "Keywords",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd3bc7786621da": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "LeavingMissionArea",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd02f53140fce7": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "Level Volumes",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd0d34d63700b7": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "Mirror Markup",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcded851005d684": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "PIPs",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd4b7b3e7bd675": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "Setpieces",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd7f3d8a81df6a": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "Starting locations",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd6dc171b23fef": {
-			"parent": {
-				"ref": "abcd5e509cf0ca65",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5e509cf0ca65",
 			"name": "Stashpoints",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd4deb0bf8d6d9": {
-			"parent": {
-				"ref": "abcd65e98e3b976e",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd65e98e3b976e",
 			"name": "Covers",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd129e45675c1f": {
-			"parent": {
-				"ref": "abcd65e98e3b976e",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd65e98e3b976e",
 			"name": "Ledges",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd4080d61f89d0": {
-			"parent": {
-				"ref": "abcd65e98e3b976e",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd65e98e3b976e",
 			"name": "Agility",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdfcc8ee443882": {
-			"parent": {
-				"ref": "abcd65e98e3b976e",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd65e98e3b976e",
 			"name": "DrainPipe",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd57f89ec23a2d": {
-			"parent": {
-				"ref": "abcd7948a2a6c134",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd7948a2a6c134",
 			"name": "Clothbundles",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd854a05640fc5": {
-			"parent": {
-				"ref": "abcd7948a2a6c134",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd7948a2a6c134",
 			"name": "Keys and Keycards",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdac8a79b07d2f": {
-			"parent": {
-				"ref": "abcd7948a2a6c134",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd7948a2a6c134",
 			"name": "Misc",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdf5d9116033c4": {
-			"parent": {
-				"ref": "abcd7948a2a6c134",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd7948a2a6c134",
 			"name": "Poison",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd42248eaef195": {
-			"parent": {
-				"ref": "abcd7948a2a6c134",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd7948a2a6c134",
 			"name": "Quest Items",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd39183d0ff63d": {
-			"parent": {
-				"ref": "abcd7948a2a6c134",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd7948a2a6c134",
 			"name": "Tools and Melee",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd6dd82b9e30af": {
-			"parent": {
-				"ref": "abcd7948a2a6c134",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd7948a2a6c134",
 			"name": "Weapons",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdf9073db65575": {
-			"parent": {
-				"ref": "abcd7948a2a6c134",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd7948a2a6c134",
 			"name": "Poisonables",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcde759213203da": {
-			"parent": {
-				"ref": "abcd7948a2a6c134",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd7948a2a6c134",
 			"name": "Thrown distractions",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd2b48ed6692f2": {
-			"parent": {
-				"ref": "abcd14d85b184763",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd14d85b184763",
 			"name": "Ambience_Occlusion",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd2a1ad9623bad": {
-			"parent": {
-				"ref": "abcd14d85b184763",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd14d85b184763",
 			"name": "Global_Sound_parameters",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcda20615ed1d7c": {
-			"parent": {
-				"ref": "abcd14d85b184763",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd14d85b184763",
 			"name": "Music",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd9e495f49a0c6": {
-			"parent": {
-				"ref": "abcd14d85b184763",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd14d85b184763",
 			"name": "SFX",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd2d47070e1543": {
-			"parent": {
-				"ref": "abcd042dd592c367",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd042dd592c367",
 			"name": "GlobalMaterials",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdd383f8fadfab": {
-			"parent": {
-				"ref": "abcd042dd592c367",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd042dd592c367",
 			"name": "Postfilters",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		}
 	},
 	"propertyOverrides": [],
@@ -1298,5 +770,5 @@
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [],
 	"subType": 2,
-	"quickEntityVersion": 2
+	"quickEntityVersion": 2.1
 }

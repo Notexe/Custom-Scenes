@@ -1,15 +1,10 @@
 {
 	"tempHash": "00F21DDFB8E713CF",
 	"tbluHash": "0047E200D9D8438F",
-	"rootEntity": "Scene",
+	"rootEntity": "fffffffffffffffe",
 	"entities": {
 		"fffffffffffffffe": {
-			"parent": {
-				"ref": "SPECIAL: None",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": null,
 			"name": "Scene",
 			"template": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
@@ -36,18 +31,10 @@
 				["Rooms", {
 					"entities": []
 				}]
-			],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			]
 		},
 		"a3f296683a2d8e47": {
-			"parent": {
-				"ref": "abcd1f3e23728992",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd1f3e23728992",
 			"name": "BoxReflection",
 			"template": "[modules:/zboxreflectionentity.class].pc_entitytype",
 			"blueprint": "[modules:/zboxreflectionentity.class].pc_entityblueprint",
@@ -99,36 +86,20 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd1f3e23728992": {
-			"parent": {
-				"ref": "fffffffffffffffe",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "fffffffffffffffe",
 			"name": "Lighting",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd47626610c456": {
-			"parent": {
-				"ref": "abcd1f3e23728992",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd1f3e23728992",
 			"name": "FX_PF_PostfilterController",
 			"template": "[assembly:/_pro/effects/templates/postfilters/fx_pf_postfiltercontroller.template?/fx_pf_postfiltercontroller.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/effects/templates/postfilters/fx_pf_postfiltercontroller.template?/fx_pf_postfiltercontroller.entitytemplate].pc_entityblueprint",
@@ -144,18 +115,10 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd21b6cb64ff9b": {
-			"parent": {
-				"ref": "abcd1f3e23728992",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd1f3e23728992",
 			"name": "GlobalLight",
 			"template": "[modules:/zgloballightentity.class].pc_entitytype",
 			"blueprint": "[modules:/zgloballightentity.class].pc_entityblueprint",
@@ -203,18 +166,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdbe209ff9883b": {
-			"parent": {
-				"ref": "abcd1f3e23728992",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd1f3e23728992",
 			"name": "Light_Sun",
 			"template": "[modules:/zlightentity.class].pc_entitytype",
 			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
@@ -299,18 +254,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcddbe823f4168f": {
-			"parent": {
-				"ref": "abcd1f3e23728992",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd1f3e23728992",
 			"name": "PostfilterParameters_Neutral_Default",
 			"template": "[modules:/zrenderpostfilterparametersentity.class].pc_entitytype",
 			"blueprint": "[modules:/zrenderpostfilterparametersentity.class].pc_entityblueprint",
@@ -712,18 +659,10 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdc11918a56f53": {
-			"parent": {
-				"ref": "abcd1f3e23728992",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd1f3e23728992",
 			"name": "RenderAtmosphericScattering",
 			"template": "[modules:/zrenderatmosphericscatteringentity.class].pc_entitytype",
 			"blueprint": "[modules:/zrenderatmosphericscatteringentity.class].pc_entityblueprint",
@@ -768,18 +707,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd8861cdc88386": {
-			"parent": {
-				"ref": "abcd1f3e23728992",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd1f3e23728992",
 			"name": "Sky_Clear_B",
 			"template": "00831B9E1275B7C0",
 			"blueprint": "00DE82D8651E92F2",
@@ -819,108 +750,60 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcddfcf4d69476d": {
-			"parent": {
-				"ref": "fffffffffffffffe",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "fffffffffffffffe",
 			"name": "Environment",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdf9ed890e1b77": {
-			"parent": {
-				"ref": "fffffffffffffffe",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "fffffffffffffffe",
 			"name": "Gameplay",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd9e67cda0d226": {
-			"parent": {
-				"ref": "fffffffffffffffe",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "fffffffffffffffe",
 			"name": "NPCs",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd34ccc98d0c64": {
-			"parent": {
-				"ref": "abcdf9ed890e1b77",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdf9ed890e1b77",
 			"name": "Starting Locations",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd8ab3177cac72": {
-			"parent": {
-				"ref": "abcd34ccc98d0c64",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd34ccc98d0c64",
 			"name": "House",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd19bb633c9daf": {
-			"parent": {
-				"ref": "abcd8ab3177cac72",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd8ab3177cac72",
 			"name": "HeroSpawn_Location_Default",
 			"template": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entityblueprint",
@@ -952,72 +835,40 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd2a9366914675": {
-			"parent": {
-				"ref": "abcddfcf4d69476d",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcddfcf4d69476d",
 			"name": "Rooms_Inside",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd3e554d52cfba": {
-			"parent": {
-				"ref": "abcd2a9366914675",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd2a9366914675",
 			"name": "201_Office_A",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd2928631ff7dd": {
-			"parent": {
-				"ref": "abcd3e554d52cfba",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd3e554d52cfba",
 			"name": "Geometry",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd5d7b5a0d2d13": {
-			"parent": {
-				"ref": "abcd2928631ff7dd",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd2928631ff7dd",
 			"name": "beachhouse_interior_a_door_single",
 			"template": "008F7ABAD348FBDF",
 			"blueprint": "0098AE56BB4AACCC",
@@ -1040,108 +891,64 @@
 				"m_rGateEntity": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "SPECIAL: Use EntityID",
-						"entityID": "a34d9c20a10b938a",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
-						"exposedEntity": ""
+						"ref": "a34d9c20a10b938a",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "SPECIAL: Use EntityID",
-						"entityID": "a3df05f78edf1bfb",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
-						"exposedEntity": ""
+						"ref": "a3df05f78edf1bfb",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 					}
 				}
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd78346bb56617": {
-			"parent": {
-				"ref": "abcddfcf4d69476d",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcddfcf4d69476d",
 			"name": "000_Outside",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd6e412b790ab2": {
-			"parent": {
-				"ref": "abcd78346bb56617",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd78346bb56617",
 			"name": "Geometry",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd6454954e24a3": {
-			"parent": {
-				"ref": "abcd6e412b790ab2",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd6e412b790ab2",
 			"name": "Building_Beachhouse_A",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd9f87db8a58f7": {
-			"parent": {
-				"ref": "abcd6454954e24a3",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd6454954e24a3",
 			"name": "bench_granit_modern_a",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdfb2ebb1ce206": {
-			"parent": {
-				"ref": "abcd9f87db8a58f7",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd9f87db8a58f7",
 			"name": "Setpiece_Hips_Sit_Wait",
 			"template": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_sit_wait.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_sit_wait.entitytemplate].pc_entityblueprint",
@@ -1164,54 +971,34 @@
 				"m_aUIHighlightGeom": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
-						"ref": "SPECIAL: Use EntityID",
-						"entityID": "679926c205d3db22",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
-						"exposedEntity": ""
+						"ref": "679926c205d3db22",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 					}]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "SPECIAL: Use EntityID",
-						"entityID": "679926c205d3db22",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
-						"exposedEntity": ""
+						"ref": "679926c205d3db22",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 					}
 				}
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd241ed84eb886": {
-			"parent": {
-				"ref": "abcd9e67cda0d226",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd9e67cda0d226",
 			"name": "Testing",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd5f6ea3781a79": {
-			"parent": {
-				"ref": "abcd241ed84eb886",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd241ed84eb886",
 			"name": "Rocco",
 			"template": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -1263,72 +1050,40 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd57f8d882787f": {
-			"parent": {
-				"ref": "abcd2a9366914675",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd2a9366914675",
 			"name": "100_LivingRoom_A",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdf37cf503b112": {
-			"parent": {
-				"ref": "abcd57f8d882787f",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd57f8d882787f",
 			"name": "Geomety",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd9a83e3488e8c": {
-			"parent": {
-				"ref": "abcdf37cf503b112",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdf37cf503b112",
 			"name": "Setpieces",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd6a05f1f520f6": {
-			"parent": {
-				"ref": "abcd9a83e3488e8c",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd9a83e3488e8c",
 			"name": "setpiece_trap_piano",
 			"template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_piano.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_piano.entitytemplate].pc_entityblueprint",
@@ -1351,27 +1106,17 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "SPECIAL: Use EntityID",
-						"entityID": "b0626f4639ae1206",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
-						"exposedEntity": ""
+						"ref": "b0626f4639ae1206",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 					}
 				}
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdfdb4ec289f31": {
-			"parent": {
-				"ref": "abcd1f3e23728992",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd1f3e23728992",
 			"name": "Wind_Global",
 			"template": "[modules:/zwindentity.class].pc_entitytype",
 			"blueprint": "[modules:/zwindentity.class].pc_entityblueprint",
@@ -1418,18 +1163,10 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd35dadd6633ba": {
-			"parent": {
-				"ref": "abcd1f3e23728992",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd1f3e23728992",
 			"name": "PostfilterParameters_Indoors",
 			"template": "[modules:/zrenderpostfilterparametersentity.class].pc_entitytype",
 			"blueprint": "[modules:/zrenderpostfilterparametersentity.class].pc_entityblueprint",
@@ -1831,54 +1568,30 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd972aebf3cae3": {
-			"parent": {
-				"ref": "abcd2a9366914675",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd2a9366914675",
 			"name": "101_Garage_A",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd9e3134dccb2a": {
-			"parent": {
-				"ref": "abcd972aebf3cae3",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd972aebf3cae3",
 			"name": "Geometry",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd27cb3bc8dc34": {
-			"parent": {
-				"ref": "abcd9e3134dccb2a",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd9e3134dccb2a",
 			"name": "beachhouse_interior_a_door_single",
 			"template": "008F7ABAD348FBDF",
 			"blueprint": "0098AE56BB4AACCC",
@@ -1901,36 +1614,24 @@
 				"m_rGateEntity": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "SPECIAL: Use EntityID",
-						"entityID": "7c4a7e09518e0445",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
-						"exposedEntity": ""
+						"ref": "7c4a7e09518e0445",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "SPECIAL: Use EntityID",
-						"entityID": "895c381ddf96d646",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
-						"exposedEntity": ""
+						"ref": "895c381ddf96d646",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 					}
 				}
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd585bdbbb5b23": {
-			"parent": {
-				"ref": "abcd9e3134dccb2a",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd9e3134dccb2a",
 			"name": "italian_sportscar_a",
 			"template": "[assembly:/_pro/vehicles/templates/vehicles_italy_a.template?/italian_sportscar_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_italy_a.template?/italian_sportscar_a_00.entitytemplate].pc_entityblueprint",
@@ -1953,27 +1654,17 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "SPECIAL: Use EntityID",
-						"entityID": "895c381ddf96d646",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
-						"exposedEntity": ""
+						"ref": "895c381ddf96d646",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 					}
 				}
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd630456c61f34": {
-			"parent": {
-				"ref": "abcd5f6ea3781a79",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd5f6ea3781a79",
 			"name": "DS Walking around house",
 			"template": "00C6B73FE00A947C",
 			"blueprint": "00EC88C8E4442C57",
@@ -1989,18 +1680,10 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdb82dc498e50d": {
-			"parent": {
-				"ref": "abcd630456c61f34",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd630456c61f34",
 			"name": "Role",
 			"template": "00808A03B82188F7",
 			"blueprint": "0064725514B34594",
@@ -2012,18 +1695,10 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd96718b310ede": {
-			"parent": {
-				"ref": "abcd630456c61f34",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd630456c61f34",
 			"name": "Act_Mr_Lie_Sunbed_Left",
 			"template": "[assembly:/_pro/design/actor/acts/levels/bangkok.template?/act_mr_lie_sunbed_left.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/acts/levels/bangkok.template?/act_mr_lie_sunbed_left.entitytemplate].pc_entityblueprint",
@@ -2063,17 +1738,10 @@
 				"onEvent": "OnActTimeout",
 				"shouldTrigger": "Start",
 				"onEntity": "abcd979c7b438f86"
-			}],
-			"inputCopying": [],
-			"outputCopying": []
+			}]
 		},
 		"abcd87dc740d494c": {
-			"parent": {
-				"ref": "abcd630456c61f34",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd630456c61f34",
 			"name": "DramaSituation2Proxy",
 			"template": "000C288A323918F9",
 			"blueprint": "00900EB78F2E0F5E",
@@ -2090,17 +1758,10 @@
 				"onEvent": "OnStart",
 				"shouldTrigger": "Start",
 				"onEntity": "abcd979c7b438f86"
-			}],
-			"inputCopying": [],
-			"outputCopying": []
+			}]
 		},
 		"abcd979c7b438f86": {
-			"parent": {
-				"ref": "abcd630456c61f34",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd630456c61f34",
 			"name": "Act_Mr_Stand_Piss",
 			"template": "0054AB8CDEE8D60B",
 			"blueprint": "002EC1A1956C3D39",
@@ -2140,17 +1801,10 @@
 				"onEvent": "OnActTimeout",
 				"shouldTrigger": "Start",
 				"onEntity": "abcd9b1c6b4c9cba"
-			}],
-			"inputCopying": [],
-			"outputCopying": []
+			}]
 		},
 		"abcd9b1c6b4c9cba": {
-			"parent": {
-				"ref": "abcd630456c61f34",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd630456c61f34",
 			"name": "Act_Mr_Sit_Play_Piano (Work in progress, no music yet)",
 			"template": "0022B793687A7535",
 			"blueprint": "00F19E71247B30C7",
@@ -2190,35 +1844,20 @@
 				"onEvent": "OnActTimeout",
 				"shouldTrigger": "Start",
 				"onEntity": "abcd96718b310ede"
-			}],
-			"inputCopying": [],
-			"outputCopying": []
+			}]
 		},
 		"abcd1706ac97b7a3": {
-			"parent": {
-				"ref": "abcd6e412b790ab2",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd6e412b790ab2",
 			"name": "Beach (Very much a work in progress)",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd15d4dd3dea8d": {
-			"parent": {
-				"ref": "abcd1706ac97b7a3",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd1706ac97b7a3",
 			"name": "inflatable_crocodile_a001",
 			"template": "00E0A9162E561BF7",
 			"blueprint": "0032053FAAF77AD7",
@@ -2241,45 +1880,27 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "SPECIAL: Use EntityID",
-						"entityID": "3ac25f2657314528",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
-						"exposedEntity": ""
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 					}
 				}
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdd15bc2de71e4": {
-			"parent": {
-				"ref": "abcd6e412b790ab2",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcd6e412b790ab2",
 			"name": "Roof",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdc5293de763da": {
-			"parent": {
-				"ref": "abcdd15bc2de71e4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdd15bc2de71e4",
 			"name": "party_balloons_f_00",
 			"template": "0058B401203EDBB7",
 			"blueprint": "0099FFE517A30A36",
@@ -2302,27 +1923,17 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "SPECIAL: Use EntityID",
-						"entityID": "3ac25f2657314528",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
-						"exposedEntity": ""
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 					}
 				}
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdc48975bd6a94": {
-			"parent": {
-				"ref": "abcdd15bc2de71e4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdd15bc2de71e4",
 			"name": "party_balloons_f_01",
 			"template": "0058B401203EDBB7",
 			"blueprint": "0099FFE517A30A36",
@@ -2345,27 +1956,17 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "SPECIAL: Use EntityID",
-						"entityID": "3ac25f2657314528",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
-						"exposedEntity": ""
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 					}
 				}
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdf3b513d7c8ef": {
-			"parent": {
-				"ref": "abcdd15bc2de71e4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdd15bc2de71e4",
 			"name": "party_balloons_f_02",
 			"template": "0058B401203EDBB7",
 			"blueprint": "0099FFE517A30A36",
@@ -2388,27 +1989,17 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "SPECIAL: Use EntityID",
-						"entityID": "3ac25f2657314528",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
-						"exposedEntity": ""
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 					}
 				}
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd5e3334799c3a": {
-			"parent": {
-				"ref": "abcdd15bc2de71e4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdd15bc2de71e4",
 			"name": "party_balloons_f_03",
 			"template": "0058B401203EDBB7",
 			"blueprint": "0099FFE517A30A36",
@@ -2431,27 +2022,17 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "SPECIAL: Use EntityID",
-						"entityID": "3ac25f2657314528",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
-						"exposedEntity": ""
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 					}
 				}
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcda542fc0f758e": {
-			"parent": {
-				"ref": "abcdd15bc2de71e4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdd15bc2de71e4",
 			"name": "party_balloons_f_04",
 			"template": "0058B401203EDBB7",
 			"blueprint": "0099FFE517A30A36",
@@ -2474,27 +2055,17 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "SPECIAL: Use EntityID",
-						"entityID": "3ac25f2657314528",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
-						"exposedEntity": ""
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 					}
 				}
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd76a2e0aeb29a": {
-			"parent": {
-				"ref": "abcdd15bc2de71e4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdd15bc2de71e4",
 			"name": "party_balloons_f_05",
 			"template": "0058B401203EDBB7",
 			"blueprint": "0099FFE517A30A36",
@@ -2517,27 +2088,17 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "SPECIAL: Use EntityID",
-						"entityID": "3ac25f2657314528",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
-						"exposedEntity": ""
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 					}
 				}
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd0a70fe706cd4": {
-			"parent": {
-				"ref": "abcdd15bc2de71e4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdd15bc2de71e4",
 			"name": "party_balloons_f_06",
 			"template": "0058B401203EDBB7",
 			"blueprint": "0099FFE517A30A36",
@@ -2560,964 +2121,346 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "SPECIAL: Use EntityID",
-						"entityID": "3ac25f2657314528",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
-						"exposedEntity": ""
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 					}
 				}
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		}
 	},
 	"propertyOverrides": [{
-		"propertyOwner": {
-			"entityID": "b0626f4639ae1206",
-			"_comment": "100_LivingRoom_A",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
+		"entities": [{
+			"ref": "b0626f4639ae1206",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_bGlobalLightOverrideEnable",
-			"type": "bool",
-			"value": false
+		}, {
+			"ref": "895c381ddf96d646",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		}, {
+			"ref": "4baeec5614eb97bf",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		}, {
+			"ref": "ba120ff99b5e78ad",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		}, {
+			"ref": "7998ad093d8fa902",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		}, {
+			"ref": "6ffd4f2ad224764b",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		}, {
+			"ref": "c73e39de87941b10",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		}, {
+			"ref": "dd15f3b7719aac19",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		}, {
+			"ref": "a3df05f78edf1bfb",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		}, {
+			"ref": "828a76127fa770ac",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		}, {
+			"ref": "5a083906389e61d",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_bGlobalLightOverrideEnable": {
+				"type": "bool",
+				"value": false
+			},
+			"m_PostfilterParametersID": {
+				"type": "int32",
+				"value": 1
+			}
 		}
 	}, {
-		"propertyOwner": {
-			"entityID": "b0626f4639ae1206",
-			"_comment": "100_LivingRoom_A",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
+		"entities": [{
+			"ref": "a5e2e2462527faf2",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_PostfilterParametersID",
-			"type": "int32",
-			"value": 1
+		}],
+		"properties": {
+			"m_bGlobalLightOverrideEnable": {
+				"type": "bool",
+				"value": false
+			}
 		}
 	}, {
-		"propertyOwner": {
-			"entityID": "895c381ddf96d646",
-			"_comment": "101_Garage_A",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
+		"entities": [{
+			"ref": "5fe6a48454bbef15",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_bGlobalLightOverrideEnable",
-			"type": "bool",
-			"value": false
+		}, {
+			"ref": "4a061b97f07c9979",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_bGlobalLightOverrideEnable": {
+				"type": "bool",
+				"value": false
+			},
+			"m_bLuminanceOverrideEnable": {
+				"type": "bool",
+				"value": false
+			},
+			"m_PostfilterParametersID": {
+				"type": "int32",
+				"value": 1
+			}
 		}
 	}, {
-		"propertyOwner": {
-			"entityID": "895c381ddf96d646",
-			"_comment": "101_Garage_A",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
+		"entities": [{
+			"ref": "56c1de37e3fd0964",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_PostfilterParametersID",
-			"type": "int32",
-			"value": 1
+		}],
+		"properties": {
+			"m_PostfilterParametersID": {
+				"type": "int32",
+				"value": 1
+			}
 		}
 	}, {
-		"propertyOwner": {
-			"entityID": "4baeec5614eb97bf",
-			"_comment": "102_Garage_B",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
+		"entities": [{
+			"ref": "3ac25f2657314528",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_bGlobalLightOverrideEnable",
-			"type": "bool",
-			"value": false
+		}],
+		"properties": {
+			"m_bGlobalLightOverrideEnable": {
+				"type": "bool",
+				"value": true
+			},
+			"m_PostfilterParametersID": {
+				"type": "int32",
+				"value": -1
+			}
 		}
 	}, {
-		"propertyOwner": {
-			"entityID": "4baeec5614eb97bf",
-			"_comment": "102_Garage_B",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
+		"entities": [{
+			"ref": "e238894a53424740",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_PostfilterParametersID",
-			"type": "int32",
-			"value": 1
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "ba120ff99b5e78ad",
-			"_comment": "103_Staircase",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_bGlobalLightOverrideEnable",
-			"type": "bool",
-			"value": false
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "ba120ff99b5e78ad",
-			"_comment": "103_Staircase",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_PostfilterParametersID",
-			"type": "int32",
-			"value": 1
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "7998ad093d8fa902",
-			"_comment": "104_Storage",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_bGlobalLightOverrideEnable",
-			"type": "bool",
-			"value": false
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "7998ad093d8fa902",
-			"_comment": "104_Storage",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_PostfilterParametersID",
-			"type": "int32",
-			"value": 1
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "6ffd4f2ad224764b",
-			"_comment": "105_Guest_Bathroom_A",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_bGlobalLightOverrideEnable",
-			"type": "bool",
-			"value": false
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "6ffd4f2ad224764b",
-			"_comment": "105_Guest_Bathroom_A",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_PostfilterParametersID",
-			"type": "int32",
-			"value": 1
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "c73e39de87941b10",
-			"_comment": "106_Guest_BedRoom_A",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_bGlobalLightOverrideEnable",
-			"type": "bool",
-			"value": false
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "c73e39de87941b10",
-			"_comment": "106_Guest_BedRoom_A",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_PostfilterParametersID",
-			"type": "int32",
-			"value": 1
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "a5e2e2462527faf2",
-			"_comment": "107_Pool_A",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_bGlobalLightOverrideEnable",
-			"type": "bool",
-			"value": false
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "dd15f3b7719aac19",
-			"_comment": "200_LivingRoom_B",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_bGlobalLightOverrideEnable",
-			"type": "bool",
-			"value": false
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "dd15f3b7719aac19",
-			"_comment": "200_LivingRoom_B",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_PostfilterParametersID",
-			"type": "int32",
-			"value": 1
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "a3df05f78edf1bfb",
-			"_comment": "201_Office_A",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_bGlobalLightOverrideEnable",
-			"type": "bool",
-			"value": false
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "a3df05f78edf1bfb",
-			"_comment": "201_Office_A",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_PostfilterParametersID",
-			"type": "int32",
-			"value": 1
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "828a76127fa770ac",
-			"_comment": "202_Office_B",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_bGlobalLightOverrideEnable",
-			"type": "bool",
-			"value": false
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "828a76127fa770ac",
-			"_comment": "202_Office_B",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_PostfilterParametersID",
-			"type": "int32",
-			"value": 1
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "5fe6a48454bbef15",
-			"_comment": "203_Bedroom_A",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_bGlobalLightOverrideEnable",
-			"type": "bool",
-			"value": false
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "5fe6a48454bbef15",
-			"_comment": "203_Bedroom_A",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_bLuminanceOverrideEnable",
-			"type": "bool",
-			"value": false
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "5fe6a48454bbef15",
-			"_comment": "203_Bedroom_A",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_PostfilterParametersID",
-			"type": "int32",
-			"value": 1
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "56c1de37e3fd0964",
-			"_comment": "204_Bathroom_A",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_PostfilterParametersID",
-			"type": "int32",
-			"value": 1
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "4a061b97f07c9979",
-			"_comment": "205_Wardrobe",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_bGlobalLightOverrideEnable",
-			"type": "bool",
-			"value": false
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "4a061b97f07c9979",
-			"_comment": "205_Wardrobe",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_bLuminanceOverrideEnable",
-			"type": "bool",
-			"value": false
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "4a061b97f07c9979",
-			"_comment": "205_Wardrobe",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_PostfilterParametersID",
-			"type": "int32",
-			"value": 1
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "5a083906389e61d",
-			"_comment": "206_Balcony_A",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_bGlobalLightOverrideEnable",
-			"type": "bool",
-			"value": false
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "5a083906389e61d",
-			"_comment": "206_Balcony_A",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_PostfilterParametersID",
-			"type": "int32",
-			"value": 1
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "3ac25f2657314528",
-			"_comment": "000_Outside",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_bGlobalLightOverrideEnable",
-			"type": "bool",
-			"value": true
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "3ac25f2657314528",
-			"_comment": "000_Outside",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_PostfilterParametersID",
-			"type": "int32",
-			"value": -1
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "e238894a53424740",
-			"_comment": "Champagne_Bottle_A_Open_00",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "m_mTransform",
-			"type": "SMatrix43",
-			"value": {
-				"rotation": {
-					"x": 0,
-					"y": 0,
-					"z": 86.47879124917581
-				},
-				"position": {
-					"x": 10.942890167236328,
-					"y": -3.009999990463257,
-					"z": 1.0954840183258057
+		}],
+		"properties": {
+			"m_mTransform": {
+				"type": "SMatrix43",
+				"value": {
+					"rotation": {
+						"x": 0,
+						"y": 0,
+						"z": 86.47879124917581
+					},
+					"position": {
+						"x": 10.942890167236328,
+						"y": -3.009999990463257,
+						"z": 1.0954840183258057
+					}
 				}
 			}
 		}
 	}, {
-		"propertyOwner": {
-			"entityID": "fb907d1c41c07e5e",
-			"_comment": "Miami_Ceiling_Lamps40",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
+		"entities": [{
+			"ref": "fb907d1c41c07e5e",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "On",
-			"type": "bool",
-			"value": true
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "5e970377786a8bc4",
-			"_comment": "Miami_Ceiling_Lamps41",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
+		}, {
+			"ref": "5e970377786a8bc4",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "On",
-			"type": "bool",
-			"value": true
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "f0b5e0ae4b0e5ba2",
-			"_comment": "Miami_Ceiling_Lamps42",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
+		}, {
+			"ref": "f0b5e0ae4b0e5ba2",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "On",
-			"type": "bool",
-			"value": true
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "b72f0ac0f05b6d4b",
-			"_comment": "Miami_Ceiling_Lamps43",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
+		}, {
+			"ref": "b72f0ac0f05b6d4b",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "On",
-			"type": "bool",
-			"value": true
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "fb907d1c41c07e5e",
-			"_comment": "Miami_Ceiling_Lamps40",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "DiffusePower",
-			"type": "float32",
-			"value": 5000
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "5e970377786a8bc4",
-			"_comment": "Miami_Ceiling_Lamps41",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "DiffusePower",
-			"type": "float32",
-			"value": 5000
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "f0b5e0ae4b0e5ba2",
-			"_comment": "Miami_Ceiling_Lamps42",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "DiffusePower",
-			"type": "float32",
-			"value": 5000
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "b72f0ac0f05b6d4b",
-			"_comment": "Miami_Ceiling_Lamps43",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "DiffusePower",
-			"type": "float32",
-			"value": 5000
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "fb907d1c41c07e5e",
-			"_comment": "Miami_Ceiling_Lamps40",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "GlowPower",
-			"type": "float32",
-			"value": 5000
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "5e970377786a8bc4",
-			"_comment": "Miami_Ceiling_Lamps41",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "GlowPower",
-			"type": "float32",
-			"value": 5000
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "f0b5e0ae4b0e5ba2",
-			"_comment": "Miami_Ceiling_Lamps42",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "GlowPower",
-			"type": "float32",
-			"value": 5000
-		}
-	}, {
-		"propertyOwner": {
-			"entityID": "b72f0ac0f05b6d4b",
-			"_comment": "Miami_Ceiling_Lamps43",
-			"exposedEntity": "",
-			"ref": "SPECIAL: Use EntityID",
-			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-		},
-		"propertyValue": {
-			"name": "GlowPower",
-			"type": "float32",
-			"value": 5000
+		}],
+		"properties": {
+			"On": {
+				"type": "bool",
+				"value": true
+			},
+			"DiffusePower": {
+				"type": "float32",
+				"value": 5000
+			},
+			"GlowPower": {
+				"type": "float32",
+				"value": 5000
+			}
 		}
 	}],
 	"overrideDeletes": [{
-		"entityID": "a0103e8575e7f4f8",
-		"_comment": "CarCovers",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "a0103e8575e7f4f8",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "aaa083045c7e126c",
-		"_comment": "NPCs",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "aaa083045c7e126c",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "fa25a9b475835a77",
-		"_comment": "Lighting",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "fa25a9b475835a77",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "53e91ca0a81b46a4",
-		"_comment": "Challenges",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "53e91ca0a81b46a4",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "9b198abad4ad6cd",
-		"_comment": "Cutscenes",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "9b198abad4ad6cd",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "1703d3ddc589e2b8",
-		"_comment": "Disguise Rules",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "1703d3ddc589e2b8",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "fa2c809b858a4d2c",
-		"_comment": "Light Setup",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "fa2c809b858a4d2c",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "88cae048cd4065ea",
-		"_comment": "Answering Machine",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "88cae048cd4065ea",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "e8e9f96601ac2e31",
-		"_comment": "Beach Cars",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "e8e9f96601ac2e31",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "671f44bdce315da0",
-		"_comment": "Bedroom TV",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "671f44bdce315da0",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "469e95ecb0d1d142",
-		"_comment": "Dead Bodies",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "469e95ecb0d1d142",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "a1f8296f17a655a7",
-		"_comment": "House Cars",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "a1f8296f17a655a7",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "3ec469dda396f6e6",
-		"_comment": "Laptop",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "3ec469dda396f6e6",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "10d4d2b32b70d31b",
-		"_comment": "Panic Room Door",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "10d4d2b32b70d31b",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "6d81027b73b1d202",
-		"_comment": "Projector Setup",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "6d81027b73b1d202",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "9f16746c1abebeca",
-		"_comment": "Surveillance",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "9f16746c1abebeca",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "6f8ff5f3b562241c",
-		"_comment": "Tea Making",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "6f8ff5f3b562241c",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "7cfca44565baa688",
-		"_comment": "Ventilation",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "7cfca44565baa688",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "1aa57c25be94476",
-		"_comment": "Whiteboard",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "1aa57c25be94476",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "d81b44a7958f8d82",
-		"_comment": "Zone Setup",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "d81b44a7958f8d82",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "48205067c078c0e9",
-		"_comment": "Lights",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "48205067c078c0e9",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "7fbe3b4bc0c97fdb",
-		"_comment": "Props",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "7fbe3b4bc0c97fdb",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "82eb3dfb6f96a9bd",
-		"_comment": "FishingHut",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "82eb3dfb6f96a9bd",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "b8c5405edc70c7a3",
-		"_comment": "Pier_Broken",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "b8c5405edc70c7a3",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "536e6a7396287677",
-		"_comment": "Pier_Boards",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "536e6a7396287677",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "a81704c5c73bb45b",
-		"_comment": "Exit Points",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "a81704c5c73bb45b",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "af48c89160c98b75",
-		"_comment": "Agency Pickups",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "af48c89160c98b75",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "cfc948bd5a215ee0",
-		"_comment": "Hero Camera",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "cfc948bd5a215ee0",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "8381bdce42262253",
-		"_comment": "Lockdown and VIP setups",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "8381bdce42262253",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "d1cae4c0e58f4aeb",
-		"_comment": "Starting Locations",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "d1cae4c0e58f4aeb",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "b8c210333d59642e",
-		"_comment": "Dig_Site",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "b8c210333d59642e",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "d306b62aa031baa7",
-		"_comment": "Beach_Boathouse_A",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "d306b62aa031baa7",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "25ee3a49778beae6",
-		"_comment": "boathouse_broken_a",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "25ee3a49778beae6",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "b25cc7a38db1c099",
-		"_comment": "Setpiece_Hips_Sit_Wait",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "b25cc7a38db1c099",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "aeb456945a3973a",
-		"_comment": "curtains_hotel_bathroom_b_03",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "aeb456945a3973a",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "fa226eb59cf31796",
-		"_comment": "curtains_hotel_bathroom_b_04",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "fa226eb59cf31796",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "164cdb585e639cc6",
-		"_comment": "Piano_A",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "164cdb585e639cc6",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "a46f40184be83302",
-		"_comment": "Glass_Wine_A_00_03",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "a46f40184be83302",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "2f53ec3fbfcf046f",
-		"_comment": "Glass_Wine_Champagne_00_25",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "2f53ec3fbfcf046f",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "796f703b099496db",
-		"_comment": "beachhouse_interior_a_door_single_13",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "796f703b099496db",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "be1c2e0a0588398b",
-		"_comment": "Setpiece_NewZea_Panic Room Door Button",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "be1c2e0a0588398b",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "ccf40d70240f9bf1",
-		"_comment": "Setpiece_NewZea_Panic Room Door Button",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "ccf40d70240f9bf1",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "92146712e829549c",
-		"_comment": "Horror Moment",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "92146712e829549c",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "d16fa693c1184b2f",
-		"_comment": "Decals",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "d16fa693c1184b2f",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "2d0744624fe3e422",
-		"_comment": "SetPiece_NewZea_MilitiaVan",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "2d0744624fe3e422",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "6d04000f06f6898c",
-		"_comment": "ItemKey_Melee_LeadPipe",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "6d04000f06f6898c",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "760be95ad8a209d9",
-		"_comment": "Lamp_Spot_Light_Led_A_00",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "760be95ad8a209d9",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "7fc4ce1624ad84c9",
-		"_comment": "Lamp_Spot_Light_Led_A_00_01",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "7fc4ce1624ad84c9",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "265566b5fe84b8e3",
-		"_comment": "ItemKey_Chloroform Flask",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "265566b5fe84b8e3",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "d7d6c7886402545e",
-		"_comment": "beachhouse_interior_a_door_single_14",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "d7d6c7886402545e",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "bf1dbfb9b1f73760",
-		"_comment": "pillow_hotel_bed_h",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "bf1dbfb9b1f73760",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "d499ff3f3fe1a6f3",
-		"_comment": "paris_magazine_g",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "d499ff3f3fe1a6f3",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "6973f520a8a49b59",
-		"_comment": "paris_magazine_g_01",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "6973f520a8a49b59",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "f232e317aecbc5f4",
-		"_comment": "Sunglass_G",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "f232e317aecbc5f4",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "f9d31368ec966ddc",
-		"_comment": "hotel_candle_a_00_Color_Black",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "f9d31368ec966ddc",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "4687722b43813cbf",
-		"_comment": "hotel_candle_b_00_Color_Black",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "4687722b43813cbf",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
-		"entityID": "2510a14c09f5ff06",
-		"_comment": "hotel_candle_b_00_Color_RED",
-		"exposedEntity": "",
-		"ref": "SPECIAL: Use EntityID",
+		"ref": "2510a14c09f5ff06",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": ["[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype", "00361A4574090CE5"],
 	"subType": 1,
-	"quickEntityVersion": 2
+	"quickEntityVersion": 2.1
 }

@@ -1,15 +1,10 @@
 {
 	"tempHash": "00E71CE2EB2C372A",
 	"tbluHash": "0043EDC991441D46",
-	"rootEntity": "Scene",
+	"rootEntity": "fffffffffffffffe",
 	"entities": {
 		"fffffffffffffffe": {
-			"parent": {
-				"ref": "SPECIAL: None",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": null,
 			"name": "Scene",
 			"template": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
@@ -36,18 +31,10 @@
 				["Rooms", {
 					"entities": ["3a4fd7620d2fc601"]
 				}]
-			],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			]
 		},
 		"3a4fd7620d2fc601": {
-			"parent": {
-				"ref": "fffffffffffffffe",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "fffffffffffffffe",
 			"name": "Outfit Showcase",
 			"template": "00F637DFF2761CE0",
 			"blueprint": "000B0C2BF5C896CC",
@@ -68,36 +55,20 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"3a589d55b3aa2df9": {
-			"parent": {
-				"ref": "3a4fd7620d2fc601",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "3a4fd7620d2fc601",
 			"name": "Physics",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"3a589e5817e2e1b9": {
-			"parent": {
-				"ref": "3a589d55b3aa2df9",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "3a589d55b3aa2df9",
 			"name": "VolumeBox_WorldBounds",
 			"template": "[modules:/zboxvolumeentity.class].pc_entitytype",
 			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
@@ -133,18 +104,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"5d5a954e6bba4f9": {
-			"parent": {
-				"ref": "3a589d55b3aa2df9",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "3a589d55b3aa2df9",
 			"name": "FX_Logic_PhysicsWorld",
 			"template": "[assembly:/_pro/effects/templates/logic/fx_logic_physicsworld.template?/fx_logic_physicsworld.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/effects/templates/logic/fx_logic_physicsworld.template?/fx_logic_physicsworld.entitytemplate].pc_entityblueprint",
@@ -156,72 +119,40 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdd038714ffe5a": {
-			"parent": {
-				"ref": "3a4fd7620d2fc601",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "3a4fd7620d2fc601",
 			"name": "Gameplay",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdbe98fe2c540d": {
-			"parent": {
-				"ref": "abcdd038714ffe5a",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdd038714ffe5a",
 			"name": "Starting locations",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdd5f5be161f2a": {
-			"parent": {
-				"ref": "abcdd038714ffe5a",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdd038714ffe5a",
 			"name": "Hero",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd6b7624deb4ff": {
-			"parent": {
-				"ref": "abcdbe98fe2c540d",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdbe98fe2c540d",
 			"name": "Default",
 			"template": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entityblueprint",
@@ -248,18 +179,10 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcd681a172e2211": {
-			"parent": {
-				"ref": "abcdd5f5be161f2a",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdd5f5be161f2a",
 			"name": "Agent47_Default",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47.template?/agent47_default.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47.template?/agent47_default.entitytemplate].pc_entityblueprint",
@@ -287,18 +210,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"abcdecaf31f72bb4": {
-			"parent": {
-				"ref": "3a4fd7620d2fc601",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "3a4fd7620d2fc601",
 			"name": "Outfits",
 			"template": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
@@ -312,13 +227,8 @@
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
 		},
-		"0de11bf39d5468bd": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+		"de11bf39d5468bd": {
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_santa_m_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_santa_m_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_santa_m_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -346,18 +256,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"e82c99d9cfc729a5": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_reward_hero_snakecharmer19_m_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_hero_snakecharmer19_m_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_hero_snakecharmer19_m_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -385,18 +287,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"ddc234a3adcead66": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_signaturesuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_signaturesuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_signaturesuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -424,18 +318,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"d9a2cafc821cf958": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_coloradosuit_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_coloradosuit_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_coloradosuit_actor_v0.entitytemplate].pc_entityblueprint",
@@ -463,18 +349,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"ad42dc2e867746bb": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_coloradosuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_coloradosuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_coloradosuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -502,18 +380,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"b95ff7e9fac420aa": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_bangkok_gloves_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_bangkok_gloves_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_bangkok_gloves_actor_v0.entitytemplate].pc_entityblueprint",
@@ -541,18 +411,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"6f01de2e22b07952": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_bangkok_gloves_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_bangkok_gloves_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_bangkok_gloves_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -580,18 +442,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"db95aedfc671e81f": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_reward_s2elusive10_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_s2elusive10_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_s2elusive10_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -619,18 +473,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"48be87d659c61228": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_requiemsuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_requiemsuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_requiemsuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -658,18 +504,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"63d1d35476a8dd1d": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_stingray_hero_pirateoutfit_m_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_stingray_hero_pirateoutfit_m_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_stingray_hero_pirateoutfit_m_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -697,18 +535,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"416f66743f6c1fcc": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_hokkaido_requiem_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hokkaido_requiem_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hokkaido_requiem_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -736,18 +566,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"c36fae027c868e9d": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_bloodmoney_gloves_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_bloodmoney_gloves_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_bloodmoney_gloves_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -775,18 +597,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"106941d112f714ec": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_sheep_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_sheep_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_sheep_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -814,18 +628,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"95c09d40717ac71d": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_preorder_lifesuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_preorder_lifesuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_preorder_lifesuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -853,18 +659,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"87429920e79d5b34": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_marrakesh_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_marrakesh_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_marrakesh_actor_v0.entitytemplate].pc_entityblueprint",
@@ -892,18 +690,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"282499be30ead090": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_marrakesh_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_marrakesh_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_marrakesh_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -931,18 +721,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"3b2d9dc8376e0d0c": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_outdooroutfit_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_outdooroutfit_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_outdooroutfit_actor_v0.entitytemplate].pc_entityblueprint",
@@ -970,18 +752,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"f3ffe8bba25de410": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_outdooroutfit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_outdooroutfit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_outdooroutfit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1009,18 +783,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"1a11e88dbdd89160": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_bangkok_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_bangkok_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_bangkok_actor_v0.entitytemplate].pc_entityblueprint",
@@ -1048,18 +814,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"17362c099feb0f23": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_bangkok_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_bangkok_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_bangkok_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1087,18 +845,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"1be406bcbe8f2574": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_opuntia_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_opuntia_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_opuntia_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1126,18 +876,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"dabd2372213ea6bf": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_wintersuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_wintersuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_wintersuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1165,18 +907,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"5364377f8c4357c3": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_reward_elusivemiami_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_elusivemiami_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_elusivemiami_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1204,18 +938,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"2cea59ba4dca9193": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_terminushotel_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_terminushotel_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_terminushotel_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1243,18 +969,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"30574a12e520de97": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_global_hero_blackspecialsuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_global_hero_blackspecialsuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_global_hero_blackspecialsuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1282,18 +1000,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"e6a6d84d825b604f": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_gecko_gloves_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_gecko_gloves_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_gecko_gloves_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1321,18 +1031,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"af932ca9bc5ec7ae": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_reward_elusiveskunk_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_elusiveskunk_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_elusiveskunk_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1360,18 +1062,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"2b59f578c74a0b73": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_blacksuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_blacksuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_blacksuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1399,18 +1093,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"21e28facb54a8733": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_raccoon_gloves_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_raccoon_gloves_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_raccoon_gloves_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1438,18 +1124,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"e7562ffb8fa9f828": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_preorder_deathsuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_preorder_deathsuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_preorder_deathsuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1477,18 +1155,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"3411e91dc3ab5e34": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_huntingsuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_huntingsuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_huntingsuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1516,18 +1186,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"198a7d6b213d0a3c": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_underwear_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_underwear_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_underwear_actor_v0.entitytemplate].pc_entityblueprint",
@@ -1555,18 +1217,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"a2a65ce9999906d0": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_preorder_birthsuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_preorder_birthsuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_preorder_birthsuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1594,18 +1248,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"f28d0f148f3fd11f": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_global_goldensuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_global_goldensuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_global_goldensuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1633,18 +1279,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"d178d273f76b0054": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_bulldog_gloves_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_bulldog_gloves_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_bulldog_gloves_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1672,18 +1310,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"a996bceafd525aab": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_falcon_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_falcon_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_falcon_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1711,18 +1341,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"4f01c3da0f875e0e": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_lumamba_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/paris/elusivetargets.template?/outfit_lumamba_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/elusivetargets.template?/outfit_lumamba_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1750,18 +1372,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"24e33e09168a25db": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_lumamba_nude_v0",
 			"template": "[assembly:/_pro/characters/templates/paris/elusivetargets.template?/outfit_lumamba_nude_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/elusivetargets.template?/outfit_lumamba_nude_v0.entitytemplate].pc_entityblueprint",
@@ -1789,18 +1403,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"3895a697a28f24a9": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_lumamba_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/paris/elusivetargets.template?/outfit_lumamba_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/elusivetargets.template?/outfit_lumamba_actor_v0.entitytemplate].pc_entityblueprint",
@@ -1828,18 +1434,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"2cacb6b7483159ea": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_reward_s1elusive_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_s1elusive_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_s1elusive_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1867,18 +1465,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"4515aaea55373388": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_bloodmoney_no_gloves_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_bloodmoney_no_gloves_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_bloodmoney_no_gloves_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1906,18 +1496,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"92656ab94f6f4a69": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_springbreak_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_springbreak_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_springbreak_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1945,18 +1527,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"da64e094f9f7764f": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_sapienza_noglasses_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_sapienza_noglasses_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_sapienza_noglasses_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -1984,18 +1558,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"1e76f1a671e96e84": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_rat_gloves_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_rat_gloves_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_rat_gloves_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -2023,18 +1589,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"ad982aaadfe649e4": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_global_hero_greenspecialsuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_global_hero_greenspecialsuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_global_hero_greenspecialsuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -2062,18 +1620,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"15be8d60913c48b0": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_reward_s1challangesnormalall_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_s1challangesnormalall_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_s1challangesnormalall_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -2101,18 +1651,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"6d36d6250cbed289": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_signaturesuit_gloves_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_signaturesuit_gloves_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_signaturesuit_gloves_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -2140,18 +1682,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"d7cd445dd738ab8c": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_stingray_reward_islandsuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_stingray_reward_islandsuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_stingray_reward_islandsuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -2179,18 +1713,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"32f6850e43f9a013": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_parissuit_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_parissuit_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_parissuit_actor_v0.entitytemplate].pc_entityblueprint",
@@ -2218,18 +1744,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"6466121ba3ce2aed": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_parissuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_parissuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_parissuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -2257,18 +1775,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"356ac96892a1f1f5": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civiliana_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v0.entitytemplate].pc_entityblueprint",
@@ -2296,18 +1806,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"2205ae79424381ca": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civiliana_actor_v1",
 			"template": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v1.entitytemplate].pc_entityblueprint",
@@ -2335,18 +1837,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"110601a97f166b75": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civiliana_actor_v2",
 			"template": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v2.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v2.entitytemplate].pc_entityblueprint",
@@ -2374,18 +1868,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
-		"0ff5b2d5e19afe23": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+		"ff5b2d5e19afe23": {
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civiliana_actor_v3",
 			"template": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v3.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v3.entitytemplate].pc_entityblueprint",
@@ -2413,18 +1899,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"f31bf5cd4fa1378e": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civiliana_actor_v4",
 			"template": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v4.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v4.entitytemplate].pc_entityblueprint",
@@ -2452,18 +1930,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"b102673df0e077d5": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civiliana_actor_v5",
 			"template": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v5.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v5.entitytemplate].pc_entityblueprint",
@@ -2491,18 +1961,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"21833e0718ee9bb6": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civiliana_actor_v6",
 			"template": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v6.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v6.entitytemplate].pc_entityblueprint",
@@ -2530,18 +1992,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"c22fb1ac11a22a26": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civiliana_actor_v7",
 			"template": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v7.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v7.entitytemplate].pc_entityblueprint",
@@ -2569,18 +2023,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"be6165b7821dc7b1": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civiliana_actor_v8",
 			"template": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v8.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v8.entitytemplate].pc_entityblueprint",
@@ -2608,18 +2054,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"f527cfb643a27969": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civiliana_actor_v9",
 			"template": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v9.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v9.entitytemplate].pc_entityblueprint",
@@ -2647,18 +2085,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"d2aa42377c4d51ce": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civiliana_actor_v10",
 			"template": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v10.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v10.entitytemplate].pc_entityblueprint",
@@ -2686,18 +2116,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"3cb75d180dd88ece": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civiliana_actor_v11",
 			"template": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v11.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v11.entitytemplate].pc_entityblueprint",
@@ -2725,18 +2147,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"2acef73e679678e1": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civiliana_actor_v12",
 			"template": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v12.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/civilians/civilians.template?/outfit_civiliana_actor_v12.entitytemplate].pc_entityblueprint",
@@ -2764,18 +2178,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"d9d1fc0884da0115": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_smartcasualoutfit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_smartcasualoutfit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_smartcasualoutfit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -2803,18 +2209,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"7e8ad23127b0a673": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_reward_elusivehippo_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_elusivehippo_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_elusivehippo_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -2842,18 +2240,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"20ea0ccfb262fc9e": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_reward_elusivellama_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_elusivellama_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_elusivellama_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -2881,18 +2271,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"9fdb0f59fbdabab4": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_trainingsuit_actor_v1",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_trainingsuit_actor_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_trainingsuit_actor_v1.entitytemplate].pc_entityblueprint",
@@ -2920,18 +2302,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"2d7ae4a517444b97": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_trainingsuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_trainingsuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_trainingsuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -2959,18 +2333,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
-		"0983f415e7be54a0": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+		"983f415e7be54a0": {
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_fox_gloves_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_fox_gloves_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_fox_gloves_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -2998,18 +2364,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"690413afd07f85c3": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_hokkaido_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hokkaido_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hokkaido_actor_v0.entitytemplate].pc_entityblueprint",
@@ -3037,18 +2395,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"8f953838da9f8f2a": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_hokkaido_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hokkaido_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hokkaido_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3076,18 +2426,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"390285e1d5a09c26": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_global_hero_redspecialsuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_global_hero_redspecialsuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_global_hero_redspecialsuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3115,18 +2457,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"b633c53a88009c31": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_sapienza_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_sapienza_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_sapienza_actor_v0.entitytemplate].pc_entityblueprint",
@@ -3154,18 +2488,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"70f52d1d0b4fd3b3": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_sapienza_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_sapienza_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_sapienza_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3193,18 +2519,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"3d9210bd7accf121": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_sniper_gloves_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_sniper_gloves_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_sniper_gloves_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3232,18 +2550,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"a307bdbf21155e2a": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_wintersuit_gloves_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_wintersuit_gloves_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_wintersuit_gloves_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3271,18 +2581,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"79aa8b08439cd9c1": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_reward_ghostmode_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_ghostmode_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_ghostmode_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3310,18 +2612,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"5f0e86fe301121fc": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_reward_elusivemagpie_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_elusivemagpie_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_elusivemagpie_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3349,18 +2643,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"9f8f926ba29a787e": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_reward_goldmask_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_goldmask_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_goldmask_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3388,18 +2674,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"476983bec4da4fa2": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_marrakesh_gloves_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_marrakesh_gloves_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_marrakesh_gloves_actor_v0.entitytemplate].pc_entityblueprint",
@@ -3427,18 +2705,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"42cf1d19a99526cf": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_marrakesh_gloves_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_marrakesh_gloves_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_marrakesh_gloves_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3466,18 +2736,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"a570a6c294a2b1e2": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_arcticpack_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_arcticpack_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_arcticpack_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3505,18 +2767,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"da406f458c9ce4bb": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_global_chinesesuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_global_chinesesuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_global_chinesesuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3544,18 +2798,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"d4933c9bb0e3c009": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_tuxedo_gloves_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_tuxedo_gloves_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_tuxedo_gloves_actor_v0.entitytemplate].pc_entityblueprint",
@@ -3583,18 +2829,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"ecf90e703cf51e8a": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_tuxedo_gloves_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_tuxedo_gloves_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_tuxedo_gloves_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3622,18 +2860,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"1252936403901239": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_absolution_no_gloves_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_absolution_no_gloves_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_absolution_no_gloves_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3661,18 +2891,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"d181dd4e416918de": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_sapienza_gloves_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_sapienza_gloves_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_sapienza_gloves_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3700,18 +2922,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"1c6d7364f813be08": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_coloradosuit_hat_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_coloradosuit_hat_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_coloradosuit_hat_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3739,18 +2953,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"a5fc1e5bc9587ac7": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_absolution_gloves_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_absolution_gloves_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_absolution_gloves_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3778,18 +2984,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"16bd42bdf924375b": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_hotsummer19_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hotsummer19_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hotsummer19_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3817,18 +3015,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"2c63a0e63b01bbfc": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_global_hero_bluespecialsuit_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_global_hero_bluespecialsuit_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_global_hero_bluespecialsuit_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3856,18 +3046,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"9ab8b6276123e6ca": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_reward_elusivemongoose_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_elusivemongoose_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_elusivemongoose_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3895,18 +3077,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
-		"020358a7c3a920b6": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+		"20358a7c3a920b6": {
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_reward_s2elusivesa1_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_s2elusivesa1_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_reward_s2elusivesa1_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -3934,18 +3108,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"5be22b68554013e2": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_04_actor_v3",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_04_actor_v3.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_04_actor_v3.entitytemplate].pc_entityblueprint",
@@ -3973,18 +3139,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"84fb3419a93f9ba2": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_04_actor_v2",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_04_actor_v2.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_04_actor_v2.entitytemplate].pc_entityblueprint",
@@ -4012,18 +3170,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"596d5507d752d9d4": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_04_actor_v1",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_04_actor_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_04_actor_v1.entitytemplate].pc_entityblueprint",
@@ -4051,18 +3201,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
-		"05d8767a2a6a7ca6": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+		"5d8767a2a6a7ca6": {
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_04_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_04_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_04_actor_v0.entitytemplate].pc_entityblueprint",
@@ -4090,18 +3232,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"60555eafd2e98185": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_04_actor_v4",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_04_actor_v4.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_04_actor_v4.entitytemplate].pc_entityblueprint",
@@ -4129,18 +3263,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"7f9acdefd14e17dd": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_04_actor_v5",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_04_actor_v5.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_04_actor_v5.entitytemplate].pc_entityblueprint",
@@ -4168,18 +3294,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"6184fe7b41942ac7": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_01_male_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_01_male_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_01_male_actor_v0.entitytemplate].pc_entityblueprint",
@@ -4207,18 +3325,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"f0ffb8bfba1200c5": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_01_male_actor_v1",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_01_male_actor_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_01_male_actor_v1.entitytemplate].pc_entityblueprint",
@@ -4246,18 +3356,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"f90c9257f469f2c6": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_01_male_actor_v2",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_01_male_actor_v2.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_01_male_actor_v2.entitytemplate].pc_entityblueprint",
@@ -4285,18 +3387,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"a7e3652e0e90d63c": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_01_male_actor_v3",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_01_male_actor_v3.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_01_male_actor_v3.entitytemplate].pc_entityblueprint",
@@ -4324,18 +3418,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"cf95cf2ebbc28d90": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_01_male_actor_v4",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_01_male_actor_v4.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_01_male_actor_v4.entitytemplate].pc_entityblueprint",
@@ -4363,18 +3449,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"399a70f6eb805b0b": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_01_male_actor_v5",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_01_male_actor_v5.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_01_male_actor_v5.entitytemplate].pc_entityblueprint",
@@ -4402,18 +3480,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"75bd44de0395f2bc": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_01_male_actor_v6",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_01_male_actor_v6.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_01_male_actor_v6.entitytemplate].pc_entityblueprint",
@@ -4441,18 +3511,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"c810b53dfa9d1997": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_musecustomerfemale_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/individuals/characters_individuals_paris.template?/outfit_musecustomerfemale_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/individuals/characters_individuals_paris.template?/outfit_musecustomerfemale_actor_v0.entitytemplate].pc_entityblueprint",
@@ -4480,18 +3542,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"6fcea316b8be96b6": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_musecustomerfemale_actor_v1",
 			"template": "[assembly:/_pro/characters/templates/individuals/characters_individuals_paris.template?/outfit_musecustomerfemale_actor_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/individuals/characters_individuals_paris.template?/outfit_musecustomerfemale_actor_v1.entitytemplate].pc_entityblueprint",
@@ -4519,18 +3573,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"17f811360be5b1d0": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_musecustomerfemale_actor_v2",
 			"template": "[assembly:/_pro/characters/templates/individuals/characters_individuals_paris.template?/outfit_musecustomerfemale_actor_v2.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/individuals/characters_individuals_paris.template?/outfit_musecustomerfemale_actor_v2.entitytemplate].pc_entityblueprint",
@@ -4558,18 +3604,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"ad8ee10cec544cca": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_musecustomerfemale_actor_v3",
 			"template": "[assembly:/_pro/characters/templates/individuals/characters_individuals_paris.template?/outfit_musecustomerfemale_actor_v3.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/individuals/characters_individuals_paris.template?/outfit_musecustomerfemale_actor_v3.entitytemplate].pc_entityblueprint",
@@ -4597,18 +3635,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"c847abe97ff3a5b6": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_02_male_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_02_male_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_02_male_actor_v0.entitytemplate].pc_entityblueprint",
@@ -4636,18 +3666,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"9682283a69d66c73": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_02_male_actor_v1",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_02_male_actor_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_02_male_actor_v1.entitytemplate].pc_entityblueprint",
@@ -4675,18 +3697,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"83cfcf98ce240c4d": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_02_male_actor_v2",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_02_male_actor_v2.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_02_male_actor_v2.entitytemplate].pc_entityblueprint",
@@ -4714,18 +3728,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"b19c88c80198ce5c": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_02_male_actor_v3",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_02_male_actor_v3.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_02_male_actor_v3.entitytemplate].pc_entityblueprint",
@@ -4753,18 +3759,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"aa195b7247fff67d": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_03_male_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v0.entitytemplate].pc_entityblueprint",
@@ -4792,18 +3790,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"c761eaed93baf832": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_03_male_actor_v1",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v1.entitytemplate].pc_entityblueprint",
@@ -4831,18 +3821,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"68c9a620ec59bb8f": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_03_male_actor_v2",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v2.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v2.entitytemplate].pc_entityblueprint",
@@ -4870,18 +3852,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"2ee3b471abce79ad": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_03_male_actor_v3",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v3.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v3.entitytemplate].pc_entityblueprint",
@@ -4909,18 +3883,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"7b39589a8e37cbb2": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_03_male_actor_v4",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v4.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v4.entitytemplate].pc_entityblueprint",
@@ -4948,18 +3914,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"fddeae33b5e33d8b": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_03_male_actor_v5",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v5.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v5.entitytemplate].pc_entityblueprint",
@@ -4987,18 +3945,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"2e8175a00d9c3b70": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_03_male_actor_v6",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v6.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v6.entitytemplate].pc_entityblueprint",
@@ -5026,18 +3976,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"850a97d6d7af8d63": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_03_male_actor_v7",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v7.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v7.entitytemplate].pc_entityblueprint",
@@ -5065,18 +4007,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"40a686a8965009b3": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_03_male_actor_v8",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v8.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v8.entitytemplate].pc_entityblueprint",
@@ -5104,18 +4038,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"881fa05e9cfbd7f5": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_03_male_actor_v9",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v9.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v9.entitytemplate].pc_entityblueprint",
@@ -5143,18 +4069,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
-		"0d8a9033211ef052": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+		"d8a9033211ef052": {
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_03_male_actor_v10",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v10.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v10.entitytemplate].pc_entityblueprint",
@@ -5182,18 +4100,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"236c9c4d035eaac0": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_03_male_actor_v11",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v11.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v11.entitytemplate].pc_entityblueprint",
@@ -5221,18 +4131,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"bbdfddbdecff22d1": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_03_male_actor_v12",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v12.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_03_male_actor_v12.entitytemplate].pc_entityblueprint",
@@ -5260,18 +4162,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
-		"09cb5a39a154e107": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+		"9cb5a39a154e107": {
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_03_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_03_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_03_actor_v0.entitytemplate].pc_entityblueprint",
@@ -5299,18 +4193,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"70ad43024ff61b52": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_03_actor_v1",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_03_actor_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_03_actor_v1.entitytemplate].pc_entityblueprint",
@@ -5338,18 +4224,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"b243527562319d05": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_03_actor_v2",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_03_actor_v2.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_03_actor_v2.entitytemplate].pc_entityblueprint",
@@ -5377,18 +4255,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"bdad629ade37067b": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_03_actor_v3",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_03_actor_v3.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_03_actor_v3.entitytemplate].pc_entityblueprint",
@@ -5416,18 +4286,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"a32f3d14b4418ec7": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_male_tourist_beach1_actor_v6",
 			"template": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v6.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v6.entitytemplate].pc_entityblueprint",
@@ -5455,18 +4317,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"576c1fddaaf26807": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_male_tourist_beach1_actor_v5",
 			"template": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v5.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v5.entitytemplate].pc_entityblueprint",
@@ -5494,18 +4348,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"91fec4899fd58685": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_male_tourist_beach1_actor_v4",
 			"template": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v4.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v4.entitytemplate].pc_entityblueprint",
@@ -5533,18 +4379,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"cd8b66ec1e68aa7a": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_male_tourist_beach1_actor_v3",
 			"template": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v3.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v3.entitytemplate].pc_entityblueprint",
@@ -5572,18 +4410,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"b58bf02cd8467f26": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_male_tourist_beach1_actor_v2",
 			"template": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v2.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v2.entitytemplate].pc_entityblueprint",
@@ -5611,18 +4441,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"d6f7d438174a40fe": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_male_tourist_beach1_actor_v1",
 			"template": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v1.entitytemplate].pc_entityblueprint",
@@ -5650,18 +4472,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"d4dc425cad4d7823": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_male_tourist_beach1_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v0.entitytemplate].pc_entityblueprint",
@@ -5689,18 +4503,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"8ada70a4edcb7a6e": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_male_tourist_beach1_actor_v7",
 			"template": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v7.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v7.entitytemplate].pc_entityblueprint",
@@ -5728,18 +4534,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"b5acc32d1aef80f5": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_male_tourist_beach1_actor_v8",
 			"template": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v8.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/outfit_civ_male_tourist_beach1_actor_v8.entitytemplate].pc_entityblueprint",
@@ -5767,18 +4565,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"6c02183c6245d671": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_actor_v0.entitytemplate].pc_entityblueprint",
@@ -5806,18 +4596,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"7b397d10bc189db5": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_actor_v1",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_actor_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_actor_v1.entitytemplate].pc_entityblueprint",
@@ -5845,18 +4627,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"d3331a8a4a233a49": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_actor_v2",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_actor_v2.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_actor_v2.entitytemplate].pc_entityblueprint",
@@ -5884,18 +4658,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"d120f31d7e6d9d36": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_actor_v3",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_actor_v3.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_actor_v3.entitytemplate].pc_entityblueprint",
@@ -5923,18 +4689,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"71ea167372328aa6": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_actor_v4",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_actor_v4.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_actor_v4.entitytemplate].pc_entityblueprint",
@@ -5962,18 +4720,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"420ea30b04b66c36": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_actor_v5",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_actor_v5.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_actor_v5.entitytemplate].pc_entityblueprint",
@@ -6001,18 +4751,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"4f3ed499aaf70ebf": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_actor_v6",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_actor_v6.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_actor_v6.entitytemplate].pc_entityblueprint",
@@ -6040,18 +4782,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"1cbba482321d85d1": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_actor_v7",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_actor_v7.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_actor_v7.entitytemplate].pc_entityblueprint",
@@ -6079,18 +4813,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"7aa9202c01c6b842": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_nude_v0",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_nude_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_nude_v0.entitytemplate].pc_entityblueprint",
@@ -6118,18 +4844,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"f1dc3f8a5c444c9b": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_nude_v1",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_nude_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_nude_v1.entitytemplate].pc_entityblueprint",
@@ -6157,18 +4875,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"12f38ca4d3f94d87": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_nude_v2",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_nude_v2.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_nude_v2.entitytemplate].pc_entityblueprint",
@@ -6196,18 +4906,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"edd365197abec526": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_nude_v3",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_nude_v3.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_nude_v3.entitytemplate].pc_entityblueprint",
@@ -6235,18 +4937,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"18b60b22358e80ba": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_nude_v4",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_nude_v4.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_nude_v4.entitytemplate].pc_entityblueprint",
@@ -6274,18 +4968,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"a2de9551d85b89d1": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_nude_v5",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_nude_v5.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_nude_v5.entitytemplate].pc_entityblueprint",
@@ -6313,18 +4999,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"28c8ec7fc5b81125": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_nude_v6",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_nude_v6.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_nude_v6.entitytemplate].pc_entityblueprint",
@@ -6352,18 +5030,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"1a7dc321fcb81a4f": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_nude_v7",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_nude_v7.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_nude_v7.entitytemplate].pc_entityblueprint",
@@ -6391,18 +5061,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"5407b48dc5491c6a": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -6430,18 +5092,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"c6262007aaf67c67": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_heroa_v1",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_heroa_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_heroa_v1.entitytemplate].pc_entityblueprint",
@@ -6469,18 +5123,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"873c29eeec896751": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_heroa_v2",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_heroa_v2.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_heroa_v2.entitytemplate].pc_entityblueprint",
@@ -6508,18 +5154,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"2e9d0b7386df3b5d": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_heroa_v3",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_heroa_v3.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_heroa_v3.entitytemplate].pc_entityblueprint",
@@ -6547,18 +5185,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"2d553515cb1c382d": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_heroa_v4",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_heroa_v4.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_heroa_v4.entitytemplate].pc_entityblueprint",
@@ -6586,18 +5216,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"ecd4a02d4ccb5b73": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_heroa_v5",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_heroa_v5.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_heroa_v5.entitytemplate].pc_entityblueprint",
@@ -6625,18 +5247,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"ea65afc60bbafbb4": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_heroa_v6",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_heroa_v6.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_heroa_v6.entitytemplate].pc_entityblueprint",
@@ -6664,18 +5278,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"63501b8d387a48e0": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_bodyguarda_heroa_v7",
 			"template": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_heroa_v7.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/guards/bodyguard.template?/outfit_bodyguarda_heroa_v7.entitytemplate].pc_entityblueprint",
@@ -6703,18 +5309,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"511fc7ab1d974aa3": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_01_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_01_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_01_actor_v0.entitytemplate].pc_entityblueprint",
@@ -6742,18 +5340,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"2897aec6bead5a1e": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_01_actor_v1",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_01_actor_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_01_actor_v1.entitytemplate].pc_entityblueprint",
@@ -6781,18 +5371,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"c8fee69715b06dc4": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_01_actor_v2",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_01_actor_v2.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_01_actor_v2.entitytemplate].pc_entityblueprint",
@@ -6820,18 +5402,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"ce43c9be95a36bca": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_01_actor_v3",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_01_actor_v3.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_01_actor_v3.entitytemplate].pc_entityblueprint",
@@ -6859,18 +5433,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"af56f8092f826894": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_01_actor_v4",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_01_actor_v4.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_01_actor_v4.entitytemplate].pc_entityblueprint",
@@ -6898,18 +5464,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"d16f07d273bcff31": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_06_actor_v7",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_06_actor_v7.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_06_actor_v7.entitytemplate].pc_entityblueprint",
@@ -6937,18 +5495,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"a408e58a1f299f1e": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_06_actor_v6",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_06_actor_v6.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_06_actor_v6.entitytemplate].pc_entityblueprint",
@@ -6976,18 +5526,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"c90b229d3fe375f4": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_06_actor_v5",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_06_actor_v5.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_06_actor_v5.entitytemplate].pc_entityblueprint",
@@ -7015,18 +5557,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"87669beb9073c999": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_06_actor_v3",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_06_actor_v3.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_06_actor_v3.entitytemplate].pc_entityblueprint",
@@ -7054,18 +5588,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
-		"0b1811b62a70c0a2": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+		"b1811b62a70c0a2": {
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_06_actor_v2",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_06_actor_v2.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_06_actor_v2.entitytemplate].pc_entityblueprint",
@@ -7093,18 +5619,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"4bf04efe6d16dc2b": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_06_actor_v1",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_06_actor_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_06_actor_v1.entitytemplate].pc_entityblueprint",
@@ -7132,18 +5650,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"c5d3925b6cf60d7a": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_06_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_06_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_06_actor_v0.entitytemplate].pc_entityblueprint",
@@ -7171,18 +5681,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"1995738fb15f4b6d": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_06_actor_v4",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_06_actor_v4.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_06_actor_v4.entitytemplate].pc_entityblueprint",
@@ -7210,18 +5712,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"d71e675884d56552": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_02_actor_v3",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_02_actor_v3.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_02_actor_v3.entitytemplate].pc_entityblueprint",
@@ -7249,18 +5743,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"947c82ef72202fe2": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_02_actor_v2",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_02_actor_v2.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_02_actor_v2.entitytemplate].pc_entityblueprint",
@@ -7288,18 +5774,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"2bd44de951647e8e": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_02_actor_v1",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_02_actor_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_02_actor_v1.entitytemplate].pc_entityblueprint",
@@ -7327,18 +5805,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"b3a45d39edaabe4a": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_02_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_02_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_02_actor_v0.entitytemplate].pc_entityblueprint",
@@ -7366,18 +5836,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"f73d767021cdf845": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_02_actor_v4",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_02_actor_v4.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_02_actor_v4.entitytemplate].pc_entityblueprint",
@@ -7405,18 +5867,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"805065f01c587ed2": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_05_actor_v4",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v4.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v4.entitytemplate].pc_entityblueprint",
@@ -7444,18 +5898,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"1c1ee6e5df5bfc1a": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_05_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v0.entitytemplate].pc_entityblueprint",
@@ -7483,18 +5929,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"ea3e3dc02d0d880a": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_05_actor_v1",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v1.entitytemplate].pc_entityblueprint",
@@ -7522,18 +5960,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"a05658461935c9b1": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_05_actor_v2",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v2.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v2.entitytemplate].pc_entityblueprint",
@@ -7561,18 +5991,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"50993ec47b176b01": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_05_actor_v3",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v3.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v3.entitytemplate].pc_entityblueprint",
@@ -7600,18 +6022,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"713c813caba4aba2": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_05_actor_v5",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v5.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v5.entitytemplate].pc_entityblueprint",
@@ -7639,18 +6053,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"90c956ccaaba0d62": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_05_actor_v6",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v6.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v6.entitytemplate].pc_entityblueprint",
@@ -7678,18 +6084,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"bcad7d87bccafba5": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_05_actor_v7",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v7.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v7.entitytemplate].pc_entityblueprint",
@@ -7717,18 +6115,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"cc55246f0c39d7b2": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_05_actor_v8",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v8.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v8.entitytemplate].pc_entityblueprint",
@@ -7756,18 +6146,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"f408fdaa4af611fe": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_fem_formal_05_actor_v9",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v9.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_fem_formal_05_actor_v9.entitytemplate].pc_entityblueprint",
@@ -7795,18 +6177,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"74f0b13164e98511": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_civ_formal_04_male_actor_v0",
 			"template": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_04_male_actor_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/outfit_civ_formal_04_male_actor_v0.entitytemplate].pc_entityblueprint",
@@ -7834,18 +6208,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"9ad8032c361e74cd": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_mongoose_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_mongoose_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_mongoose_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -7873,18 +6239,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"49b50e31268dba6a": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_mongoose_heroa_v1",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_mongoose_heroa_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_mongoose_heroa_v1.entitytemplate].pc_entityblueprint",
@@ -7912,18 +6270,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"6a0f8c9bb9daf202": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_miami_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_miami_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_miami_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -7951,18 +6301,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"58ccccd8278a58d2": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_raccoon_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_raccoon_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_raccoon_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -7990,18 +6332,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"7b737954b6084885": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_stingray_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_stingray_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_stingray_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -8029,18 +6363,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"ff3bb357add6daa5": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_magpie_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_magpie_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_magpie_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -8068,18 +6394,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"7246e0851e898288": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_magpie_heroa_v1",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_magpie_heroa_v1.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_magpie_heroa_v1.entitytemplate].pc_entityblueprint",
@@ -8107,18 +6425,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"a3017df530689831": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_hippo_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hippo_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_hippo_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -8146,18 +6456,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"98a5a651c69e4422": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_skunk_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_skunk_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_skunk_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -8185,18 +6487,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"f7442718a87f055d": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_gecko_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_gecko_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_gecko_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -8224,18 +6518,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"4b58fc322f45dfb3": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_bulldog_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_bulldog_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_bulldog_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -8263,18 +6549,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"e93764cba656d1ab": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_fox_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_fox_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_fox_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -8302,18 +6580,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"f1cdf9539836a2d3": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_llama_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_llama_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_llama_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -8341,18 +6611,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"bf6bcb4755dea7f3": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_wolverine_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_wolverine_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_wolverine_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -8380,18 +6642,10 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		},
 		"be6bd488f27330b6": {
-			"parent": {
-				"ref": "abcdecaf31f72bb4",
-				"exposedEntity": "",
-				"externalScene": "SPECIAL: None",
-				"entityID": "ffffffffffffffff"
-			},
+			"parent": "abcdecaf31f72bb4",
 			"name": "outfit_agent47_rat_heroa_v0",
 			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_rat_heroa_v0.entitytemplate].pc_entitytemplate",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_rat_heroa_v0.entitytemplate].pc_entityblueprint",
@@ -8419,10 +6673,7 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [],
-			"inputCopying": [],
-			"outputCopying": []
+			"platformSpecificPropertyValues": []
 		}
 	},
 	"propertyOverrides": [],
@@ -8431,5 +6682,5 @@
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": ["[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype", "0064FE1090FB2775", "0036D64700F55065", "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"],
 	"subType": 1,
-	"quickEntityVersion": 2
+	"quickEntityVersion": 2.1
 }
