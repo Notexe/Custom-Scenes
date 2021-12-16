@@ -2134,36 +2134,47 @@
 	"propertyOverrides": [{
 		"entities": [{
 			"ref": "b0626f4639ae1206",
+			"_comment": "100_LivingRoom_A",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}, {
 			"ref": "895c381ddf96d646",
+			"_comment": "101_Garage_A",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}, {
 			"ref": "4baeec5614eb97bf",
+			"_comment": "102_Garage_B",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}, {
 			"ref": "ba120ff99b5e78ad",
+			"_comment": "103_Staircase",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}, {
 			"ref": "7998ad093d8fa902",
+			"_comment": "104_Storage",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}, {
 			"ref": "6ffd4f2ad224764b",
+			"_comment": "105_Guest_Bathroom_A",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}, {
 			"ref": "c73e39de87941b10",
+			"_comment": "106_Guest_BedRoom_A",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}, {
 			"ref": "dd15f3b7719aac19",
+			"_comment": "200_LivingRoom_B",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}, {
 			"ref": "a3df05f78edf1bfb",
+			"_comment": "201_Office_A",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}, {
 			"ref": "828a76127fa770ac",
+			"_comment": "202_Office_B",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}, {
 			"ref": "5a083906389e61d",
+			"_comment": "206_Balcony_A",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}],
 		"properties": {
@@ -2179,6 +2190,7 @@
 	}, {
 		"entities": [{
 			"ref": "a5e2e2462527faf2",
+			"_comment": "107_Pool_A",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}],
 		"properties": {
@@ -2190,9 +2202,11 @@
 	}, {
 		"entities": [{
 			"ref": "5fe6a48454bbef15",
+			"_comment": "203_Bedroom_A",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}, {
 			"ref": "4a061b97f07c9979",
+			"_comment": "205_Wardrobe",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}],
 		"properties": {
@@ -2212,6 +2226,7 @@
 	}, {
 		"entities": [{
 			"ref": "56c1de37e3fd0964",
+			"_comment": "204_Bathroom_A",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}],
 		"properties": {
@@ -2223,6 +2238,7 @@
 	}, {
 		"entities": [{
 			"ref": "3ac25f2657314528",
+			"_comment": "000_Outside",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}],
 		"properties": {
@@ -2238,6 +2254,7 @@
 	}, {
 		"entities": [{
 			"ref": "e238894a53424740",
+			"_comment": "Champagne_Bottle_A_Open_00",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}],
 		"properties": {
@@ -2260,15 +2277,19 @@
 	}, {
 		"entities": [{
 			"ref": "fb907d1c41c07e5e",
+			"_comment": "Miami_Ceiling_Lamps40",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}, {
 			"ref": "5e970377786a8bc4",
+			"_comment": "Miami_Ceiling_Lamps41",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}, {
 			"ref": "f0b5e0ae4b0e5ba2",
+			"_comment": "Miami_Ceiling_Lamps42",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}, {
 			"ref": "b72f0ac0f05b6d4b",
+			"_comment": "Miami_Ceiling_Lamps43",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}],
 		"properties": {
@@ -2288,174 +2309,231 @@
 	}],
 	"overrideDeletes": [{
 		"ref": "a0103e8575e7f4f8",
+		"_comment": "CarCovers",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "aaa083045c7e126c",
+		"_comment": "NPCs",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "fa25a9b475835a77",
+		"_comment": "Lighting",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "53e91ca0a81b46a4",
+		"_comment": "Challenges",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "9b198abad4ad6cd",
+		"_comment": "Cutscenes",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "1703d3ddc589e2b8",
+		"_comment": "Disguise Rules",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "fa2c809b858a4d2c",
+		"_comment": "Light Setup",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "88cae048cd4065ea",
+		"_comment": "Answering Machine",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "e8e9f96601ac2e31",
+		"_comment": "Beach Cars",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "671f44bdce315da0",
+		"_comment": "Bedroom TV",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "469e95ecb0d1d142",
+		"_comment": "Dead Bodies",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "a1f8296f17a655a7",
+		"_comment": "House Cars",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "3ec469dda396f6e6",
+		"_comment": "Laptop",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "10d4d2b32b70d31b",
+		"_comment": "Panic Room Door",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "6d81027b73b1d202",
+		"_comment": "Projector Setup",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "9f16746c1abebeca",
+		"_comment": "Surveillance",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "6f8ff5f3b562241c",
+		"_comment": "Tea Making",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "7cfca44565baa688",
+		"_comment": "Ventilation",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "1aa57c25be94476",
+		"_comment": "Whiteboard",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "d81b44a7958f8d82",
+		"_comment": "Zone Setup",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "48205067c078c0e9",
+		"_comment": "Lights",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "7fbe3b4bc0c97fdb",
+		"_comment": "Props",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "82eb3dfb6f96a9bd",
+		"_comment": "FishingHut",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "b8c5405edc70c7a3",
+		"_comment": "Pier_Broken",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "536e6a7396287677",
+		"_comment": "Pier_Boards",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "a81704c5c73bb45b",
+		"_comment": "Exit Points",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "af48c89160c98b75",
+		"_comment": "Agency Pickups",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "cfc948bd5a215ee0",
+		"_comment": "Hero Camera",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "8381bdce42262253",
+		"_comment": "Lockdown and VIP setups",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "d1cae4c0e58f4aeb",
+		"_comment": "Starting Locations",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "b8c210333d59642e",
+		"_comment": "Dig_Site",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "d306b62aa031baa7",
+		"_comment": "Beach_Boathouse_A",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "25ee3a49778beae6",
+		"_comment": "boathouse_broken_a",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "b25cc7a38db1c099",
+		"_comment": "Setpiece_Hips_Sit_Wait",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "aeb456945a3973a",
+		"_comment": "curtains_hotel_bathroom_b_03",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "fa226eb59cf31796",
+		"_comment": "curtains_hotel_bathroom_b_04",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "164cdb585e639cc6",
+		"_comment": "Piano_A",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "a46f40184be83302",
+		"_comment": "Glass_Wine_A_00_03",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "2f53ec3fbfcf046f",
+		"_comment": "Glass_Wine_Champagne_00_25",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "796f703b099496db",
+		"_comment": "beachhouse_interior_a_door_single_13",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "be1c2e0a0588398b",
+		"_comment": "Setpiece_NewZea_Panic Room Door Button",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "ccf40d70240f9bf1",
+		"_comment": "Setpiece_NewZea_Panic Room Door Button",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "92146712e829549c",
+		"_comment": "Horror Moment",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "d16fa693c1184b2f",
+		"_comment": "Decals",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "2d0744624fe3e422",
+		"_comment": "SetPiece_NewZea_MilitiaVan",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "6d04000f06f6898c",
+		"_comment": "ItemKey_Melee_LeadPipe",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "760be95ad8a209d9",
+		"_comment": "Lamp_Spot_Light_Led_A_00",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "7fc4ce1624ad84c9",
+		"_comment": "Lamp_Spot_Light_Led_A_00_01",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "265566b5fe84b8e3",
+		"_comment": "ItemKey_Chloroform Flask",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "d7d6c7886402545e",
+		"_comment": "beachhouse_interior_a_door_single_14",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "bf1dbfb9b1f73760",
+		"_comment": "pillow_hotel_bed_h",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "d499ff3f3fe1a6f3",
+		"_comment": "paris_magazine_g",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "6973f520a8a49b59",
+		"_comment": "paris_magazine_g_01",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "f232e317aecbc5f4",
+		"_comment": "Sunglass_G",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "f9d31368ec966ddc",
+		"_comment": "hotel_candle_a_00_Color_Black",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "4687722b43813cbf",
+		"_comment": "hotel_candle_b_00_Color_Black",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}, {
 		"ref": "2510a14c09f5ff06",
+		"_comment": "hotel_candle_b_00_Color_RED",
 		"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 	}],
 	"pinConnectionOverrides": [],
