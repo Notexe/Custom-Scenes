@@ -37,7 +37,7 @@
       "path": "[assembly:/_pro/scenes/missions/sheep/outfits_puka.brick].entitytype"
     }
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "updateCheck": "https://framework.notex.app/updates/HM3CustomMaps.json",
   "frameworkVersion": "1.0.0"
 }
