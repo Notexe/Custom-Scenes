@@ -306,89 +306,9 @@
 		"abcd0b045d13d43f": {
 			"parent": "abcd85cba5ab5afa",
 			"name": "000_Outside",
-			"template": "[modules:/zroomentity.class].pc_entitytype",
-			"blueprint": "[modules:/zroomentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
-					}
-				},
-				"m_vRoomMin": {
-					"type": "SVector3",
-					"value": {
-						"x": -300,
-						"y": -300,
-						"z": -300
-					}
-				},
-				"m_vRoomMax": {
-					"type": "SVector3",
-					"value": {
-						"x": 300,
-						"y": 300,
-						"z": 300
-					}
-				},
-				"m_bGlobalLightOverrideEnable": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bOutside": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCSMRoom": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bContainsCrowd": {
-					"type": "bool",
-					"value": true
-				},
-				"m_fGlobalLightOverrideFrontIntensity": {
-					"type": "float32",
-					"value": 20
-				},
-				"m_fGlobalLightOverrideBackIntensity": {
-					"type": "float32",
-					"value": 0
-				},
-				"m_GlobalLightOverrideBackColor": {
-					"type": "SColorRGB",
-					"value": "#badeff"
-				},
-				"m_GlobalLightOverrideFrontColor": {
-					"type": "SColorRGB",
-					"value": "#c7e6ff"
-				},
-				"m_bOutsideMaster": {
-					"type": "bool",
-					"value": true
-				},
-				"m_fMiddleGrayMultiplier": {
-					"type": "float32",
-					"value": 1
-				},
-				"m_PostfilterParametersID": {
-					"type": "int32",
-					"value": -1
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
-			},
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
@@ -756,6 +676,106 @@
 		"abcdd383f8fadfab": {
 			"parent": "abcd042dd592c367",
 			"name": "Postfilters",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd2f7d17f552be": {
+			"parent": "abcd85cba5ab5afa",
+			"name": "XXX_Room_Folder_Structure",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd760ed023cb07": {
+			"parent": "abcd2f7d17f552be",
+			"name": "Gameplay",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdf149c65432b4": {
+			"parent": "abcd2f7d17f552be",
+			"name": "Lights",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd655cfc023829": {
+			"parent": "abcd2f7d17f552be",
+			"name": "Geometry",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd092b29bb5c64": {
+			"parent": "abcd2f7d17f552be",
+			"name": "Partitioning",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd54e3cdf8e044": {
+			"parent": "abcd2f7d17f552be",
+			"name": "Effects",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd7b0a2f9f5e9c": {
+			"parent": "abcd2f7d17f552be",
+			"name": "BoxReflections",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcde0766c7b4d3d": {
+			"parent": "abcd2f7d17f552be",
+			"name": "Decals",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd182c8eab679f": {
+			"parent": "abcdf149c65432b4",
+			"name": "DarkLights",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdd4bc4082f9c3": {
+			"parent": "abcd655cfc023829",
+			"name": "Props",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
