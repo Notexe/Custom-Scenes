@@ -59,14 +59,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
 						},
 						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
 						}
 					}
 				},
@@ -127,13 +127,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
 						},
 						"position": {
 							"x": 1.2996870279312134,
-							"y": -8.302420616149902,
+							"y": -8.302420616149903,
 							"z": 0.8191760182380676
 						}
 					}
@@ -177,7 +177,7 @@
 				"m_vBoxSize": {
 					"type": "SVector3",
 					"value": {
-						"x": 920.5260009765625,
+						"x": 920.5260009765624,
 						"y": 760.260986328125,
 						"z": 1289.9599609375
 					}
@@ -200,7 +200,7 @@
 				"m_vAngularAttenuation": {
 					"type": "SVector2",
 					"value": {
-						"x": 0.43571099638938904,
+						"x": 0.43571099638938906,
 						"y": 0.5961670279502869
 					}
 				},
@@ -227,9 +227,9 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 55.27362507437548,
-							"y": 6.203667870110879,
-							"z": -128.4564808634922
+							"x": 55.273616790771487,
+							"y": 6.203667163848877,
+							"z": -128.45645141601563
 						},
 						"position": {
 							"x": 0.7046290040016174,
@@ -312,7 +312,7 @@
 				},
 				"m_fFogDensity": {
 					"type": "float32",
-					"value": 0.10999999940395355
+					"value": 0.10999999940395357
 				},
 				"m_FogColor": {
 					"type": "SColorRGB",
@@ -324,7 +324,7 @@
 				},
 				"m_fDepthOfFieldBlurriness": {
 					"type": "float32",
-					"value": 0.20000000298023224
+					"value": 0.20000000298023225
 				},
 				"m_fHDRLensFlareThresholdA": {
 					"type": "float32",
@@ -332,15 +332,15 @@
 				},
 				"m_fHDRLensFlareAttenuation": {
 					"type": "float32",
-					"value": 0.56999999284744263
+					"value": 0.5699999928474426
 				},
 				"m_fHDRBloomScale": {
 					"type": "float32",
-					"value": 0.20000000298023224
+					"value": 0.20000000298023225
 				},
 				"m_fDistortionBarrelScale": {
 					"type": "float32",
-					"value": 0.20000000298023224
+					"value": 0.20000000298023225
 				},
 				"m_fNoiseIntensity": {
 					"type": "float32",
@@ -348,11 +348,11 @@
 				},
 				"m_fHDRLensFlareThresholdB": {
 					"type": "float32",
-					"value": 0.43000000715255737
+					"value": 0.4300000071525574
 				},
 				"m_fHDRLensFlareThresholdC": {
 					"type": "float32",
-					"value": 0.23999999463558197
+					"value": 0.23999999463558198
 				},
 				"m_fHDRLensFlareThresholdD": {
 					"type": "float32",
@@ -372,7 +372,7 @@
 				},
 				"m_fFogTurbulenceOpacity": {
 					"type": "float32",
-					"value": 0.80000001192092896
+					"value": 0.800000011920929
 				},
 				"m_fDepthOfFieldFocalFadeFar": {
 					"type": "float32",
@@ -384,7 +384,7 @@
 				},
 				"m_fVignetteStrength": {
 					"type": "float32",
-					"value": 0.20000000298023224
+					"value": 0.20000000298023225
 				},
 				"m_VignetteColor": {
 					"type": "SColorRGB",
@@ -431,7 +431,7 @@
 				},
 				"m_fRadialBlurFadeFactor": {
 					"type": "float32",
-					"value": 0.10999999940395355
+					"value": 0.10999999940395357
 				},
 				"m_vSpatialBlurCenter": {
 					"type": "SVector3",
@@ -475,8 +475,8 @@
 				"m_vDistortionWobbleWaveLength": {
 					"type": "SVector2",
 					"value": {
-						"x": 0.029999999329447746,
-						"y": 0.029999999329447746
+						"x": 0.029999999329447744,
+						"y": 0.029999999329447744
 					}
 				},
 				"m_vDistortionWobbleSpeed": {
@@ -497,7 +497,7 @@
 				"m_vFogTurbulenceVelocity": {
 					"type": "SVector3",
 					"value": {
-						"x": 0.30000001192092896,
+						"x": 0.30000001192092898,
 						"y": 0.5,
 						"z": 0.10000000149011612
 					}
@@ -583,11 +583,11 @@
 				},
 				"m_fDoubleVisionMinScale": {
 					"type": "float32",
-					"value": 0.070000000298023224
+					"value": 0.07000000029802323
 				},
 				"m_fDoubleVisionMaxScale": {
 					"type": "float32",
-					"value": 0.090000003576278687
+					"value": 0.09000000357627869
 				},
 				"m_fDoubleVisionBlendSpeed": {
 					"type": "float32",
@@ -595,7 +595,7 @@
 				},
 				"m_fDoubleVisionBlendStrength": {
 					"type": "float32",
-					"value": 0.20000000298023224
+					"value": 0.20000000298023225
 				},
 				"m_fDoubleVisionTrailStrength": {
 					"type": "float32",
@@ -693,7 +693,7 @@
 				},
 				"m_fMieAnisotropy": {
 					"type": "float32",
-					"value": 0.68999999761581421
+					"value": 0.6899999976158142
 				},
 				"m_fMieHeightScale": {
 					"type": "float32",
@@ -719,20 +719,20 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -83.89727278543963
+							"x": 0.0,
+							"y": 0.0,
+							"z": -83.89725494384766
 						},
 						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
 						}
 					}
 				},
 				"ConstantVector1D_02_Value": {
 					"type": "float32",
-					"value": 0.89999997615814209
+					"value": 0.8999999761581421
 				},
 				"m_bVisible": {
 					"type": "bool",
@@ -812,13 +812,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 180
+							"x": 0.0,
+							"y": 0.0,
+							"z": 180.0
 						},
 						"position": {
 							"x": -2.266446113586426,
-							"y": -16.199810028076172,
+							"y": -16.199810028076173,
 							"z": 4.400000095367432
 						}
 					}
@@ -877,14 +877,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
+							"x": 0.0,
+							"y": 0.0,
+							"z": -180.0
 						},
 						"position": {
 							"x": -4.799973011016846,
 							"y": -0.4000092148780823,
-							"z": 0
+							"z": 0.0
 						}
 					}
 				},
@@ -957,9 +957,9 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 90
+							"x": 0.0,
+							"y": 0.0,
+							"z": 90.0
 						},
 						"position": {
 							"x": -0.5460360050201416,
@@ -1007,9 +1007,9 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
 						},
 						"position": {
 							"x": -13.416000366210938,
@@ -1092,13 +1092,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 24.99999971118543
+							"x": 0.0,
+							"y": 0.0,
+							"z": 24.999996185302736
 						},
 						"position": {
-							"x": 11.729999542236328,
-							"y": -2.5299999713897705,
+							"x": 11.729999542236329,
+							"y": -2.5299999713897707,
 							"z": -0.07999999821186066
 						}
 					}
@@ -1125,12 +1125,12 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90
+							"x": 0.0,
+							"y": 0.0,
+							"z": -90.0
 						},
 						"position": {
-							"x": -23.156410217285156,
+							"x": -23.156410217285158,
 							"y": 51.25423049926758,
 							"z": 26.2285099029541
 						}
@@ -1154,7 +1154,7 @@
 				},
 				"m_fSpeedTreeStrength": {
 					"type": "float32",
-					"value": 0.30000001192092896
+					"value": 0.30000001192092898
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1221,7 +1221,7 @@
 				},
 				"m_fFogDensity": {
 					"type": "float32",
-					"value": 0.10999999940395355
+					"value": 0.10999999940395357
 				},
 				"m_FogColor": {
 					"type": "SColorRGB",
@@ -1233,7 +1233,7 @@
 				},
 				"m_fDepthOfFieldBlurriness": {
 					"type": "float32",
-					"value": 0.20000000298023224
+					"value": 0.20000000298023225
 				},
 				"m_fHDRLensFlareThresholdA": {
 					"type": "float32",
@@ -1241,15 +1241,15 @@
 				},
 				"m_fHDRLensFlareAttenuation": {
 					"type": "float32",
-					"value": 0.56999999284744263
+					"value": 0.5699999928474426
 				},
 				"m_fHDRBloomScale": {
 					"type": "float32",
-					"value": 0.20000000298023224
+					"value": 0.20000000298023225
 				},
 				"m_fDistortionBarrelScale": {
 					"type": "float32",
-					"value": 0.20000000298023224
+					"value": 0.20000000298023225
 				},
 				"m_fNoiseIntensity": {
 					"type": "float32",
@@ -1257,11 +1257,11 @@
 				},
 				"m_fHDRLensFlareThresholdB": {
 					"type": "float32",
-					"value": 0.43000000715255737
+					"value": 0.4300000071525574
 				},
 				"m_fHDRLensFlareThresholdC": {
 					"type": "float32",
-					"value": 0.23999999463558197
+					"value": 0.23999999463558198
 				},
 				"m_fHDRLensFlareThresholdD": {
 					"type": "float32",
@@ -1281,7 +1281,7 @@
 				},
 				"m_fFogTurbulenceOpacity": {
 					"type": "float32",
-					"value": 0.80000001192092896
+					"value": 0.800000011920929
 				},
 				"m_fDepthOfFieldFocalFadeFar": {
 					"type": "float32",
@@ -1293,7 +1293,7 @@
 				},
 				"m_fVignetteStrength": {
 					"type": "float32",
-					"value": 0.20000000298023224
+					"value": 0.20000000298023225
 				},
 				"m_VignetteColor": {
 					"type": "SColorRGB",
@@ -1340,7 +1340,7 @@
 				},
 				"m_fRadialBlurFadeFactor": {
 					"type": "float32",
-					"value": 0.10999999940395355
+					"value": 0.10999999940395357
 				},
 				"m_vSpatialBlurCenter": {
 					"type": "SVector3",
@@ -1384,8 +1384,8 @@
 				"m_vDistortionWobbleWaveLength": {
 					"type": "SVector2",
 					"value": {
-						"x": 0.029999999329447746,
-						"y": 0.029999999329447746
+						"x": 0.029999999329447744,
+						"y": 0.029999999329447744
 					}
 				},
 				"m_vDistortionWobbleSpeed": {
@@ -1406,7 +1406,7 @@
 				"m_vFogTurbulenceVelocity": {
 					"type": "SVector3",
 					"value": {
-						"x": 0.30000001192092896,
+						"x": 0.30000001192092898,
 						"y": 0.5,
 						"z": 0.10000000149011612
 					}
@@ -1492,11 +1492,11 @@
 				},
 				"m_fDoubleVisionMinScale": {
 					"type": "float32",
-					"value": 0.070000000298023224
+					"value": 0.07000000029802323
 				},
 				"m_fDoubleVisionMaxScale": {
 					"type": "float32",
-					"value": 0.090000003576278687
+					"value": 0.09000000357627869
 				},
 				"m_fDoubleVisionBlendSpeed": {
 					"type": "float32",
@@ -1504,7 +1504,7 @@
 				},
 				"m_fDoubleVisionBlendStrength": {
 					"type": "float32",
-					"value": 0.20000000298023224
+					"value": 0.20000000298023225
 				},
 				"m_fDoubleVisionTrailStrength": {
 					"type": "float32",
@@ -1600,14 +1600,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90
+							"x": 0.0,
+							"y": 0.0,
+							"z": -90.0
 						},
 						"position": {
 							"x": -8.000001907348633,
 							"y": 4.800000190734863,
-							"z": 0
+							"z": 0.0
 						}
 					}
 				},
@@ -1640,14 +1640,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90
+							"x": 0.0,
+							"y": 0.0,
+							"z": -90.0
 						},
 						"position": {
-							"x": 0,
-							"y": 2,
-							"z": 0
+							"x": 0.0,
+							"y": 2.0,
+							"z": 0.0
 						}
 					}
 				},
@@ -1707,13 +1707,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 79.99999971689444
+							"x": 0.0,
+							"y": 0.0,
+							"z": 79.99998474121094
 						},
 						"position": {
 							"x": -3.299999952316284,
-							"y": -41,
+							"y": -41.0,
 							"z": 4.400000095367432
 						}
 					}
@@ -1731,7 +1731,12 @@
 					"value": 30
 				}
 			},
-			"postInitProperties": {},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
 			"events": [{
@@ -1770,14 +1775,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 79.99999971689444
+							"x": 0.0,
+							"y": 0.0,
+							"z": 79.99998474121094
 						},
 						"position": {
-							"x": -12.479999542236328,
-							"y": -47.736000061035156,
-							"z": 0
+							"x": -12.479999542236329,
+							"y": -47.736000061035159,
+							"z": 0.0
 						}
 					}
 				},
@@ -1794,7 +1799,12 @@
 					"value": 30
 				}
 			},
-			"postInitProperties": {},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
 			"events": [{
@@ -1813,14 +1823,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -79.99999971689444
+							"x": 0.0,
+							"y": 0.0,
+							"z": -79.99998474121094
 						},
 						"position": {
 							"x": 5.050000190734863,
 							"y": -32.25,
-							"z": 0
+							"z": 0.0
 						}
 					}
 				},
@@ -1837,7 +1847,12 @@
 					"value": 30
 				}
 			},
-			"postInitProperties": {},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
 			"events": [{
@@ -1866,13 +1881,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -144.99999976641593
+							"x": 0.0,
+							"y": 0.0,
+							"z": -144.99996948242188
 						},
 						"position": {
-							"x": 22.606000900268555,
-							"y": -148.45799255371094,
+							"x": 22.606000900268556,
+							"y": -148.45799255371095,
 							"z": -6.581999778747559
 						}
 					}
@@ -1909,14 +1924,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 33.000001270765964
+							"x": 0.0,
+							"y": 0.0,
+							"z": 120.45098114013672
 						},
 						"position": {
-							"x": -20.934999465942383,
-							"y": -50.8489990234375,
-							"z": 8.800000190734863
+							"x": -19.001399993896486,
+							"y": -34.198299407958987,
+							"z": 9.787220001220704
 						}
 					}
 				},
@@ -1942,14 +1957,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 86.00000028690891
+							"x": 0.0,
+							"y": 0.0,
+							"z": 85.99998474121094
 						},
 						"position": {
-							"x": -17.003000259399414,
-							"y": -51.00699996948242,
-							"z": 8.800000190734863
+							"x": -9.997639656066895,
+							"y": -51.29330062866211,
+							"z": 5.38946008682251
 						}
 					}
 				},
@@ -1975,14 +1990,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 33.000001270765964
+							"x": 0.0,
+							"y": 0.0,
+							"z": 32.999977111816409
 						},
 						"position": {
-							"x": 28.33300018310547,
-							"y": -38.529998779296875,
-							"z": 8.800000190734863
+							"x": 28.8927001953125,
+							"y": -38.89739990234375,
+							"z": 5.3884501457214359
 						}
 					}
 				},
@@ -2008,14 +2023,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 33.000001270765964
+							"x": 0.0,
+							"y": 0.0,
+							"z": -48.506988525390628
 						},
 						"position": {
-							"x": -0.032999999821186066,
-							"y": -38.3390007019043,
-							"z": 8.800000190734863
+							"x": 28.89739990234375,
+							"y": -14.003199577331543,
+							"z": 5.38992977142334
 						}
 					}
 				},
@@ -2041,14 +2056,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 33.000001270765964
+							"x": 0.0,
+							"y": 0.0,
+							"z": 32.999977111816409
 						},
 						"position": {
-							"x": -20.884000778198242,
-							"y": -38.262001037597656,
-							"z": 8.800000190734863
+							"x": 0.20027899742126466,
+							"y": -38.904300689697269,
+							"z": 5.389989852905273
 						}
 					}
 				},
@@ -2074,14 +2089,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 33.000001270765964
+							"x": 0.0,
+							"y": 0.0,
+							"z": 32.999977111816409
 						},
 						"position": {
-							"x": -0.27399998903274536,
-							"y": -45.39699935913086,
-							"z": 5.449999809265137
+							"x": 0.19640399515628816,
+							"y": -45.798301696777347,
+							"z": 5.388999938964844
 						}
 					}
 				},
@@ -2107,14 +2122,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 33.000001270765964
+							"x": 0.0,
+							"y": 0.0,
+							"z": 32.999977111816409
 						},
 						"position": {
-							"x": -10.269000053405762,
-							"y": -45.45100021362305,
-							"z": 5.449999809265137
+							"x": -10.001899719238282,
+							"y": -45.802101135253909,
+							"z": 5.390210151672363
 						}
 					}
 				},
