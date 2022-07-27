@@ -6,34 +6,28 @@
   "contentFolder": "content",
   "packagedefinition": [
     {
-      "type": "partition",
-      "name": "notex",
-      "parent": "season3",
-      "partitionType": "standard"
-    },
-    {
       "type": "entity",
-      "partition": "notex",
+      "partition": "season3",
       "path": "[assembly:/_pro/scenes/users/notex/test.entity].entitytemplate"
     },
     {
       "type": "entity",
-      "partition": "notex",
+      "partition": "season3",
       "path": "[assembly:/_pro/scenes/users/notex/blank_slate.entity].entitytemplate"
     },
     {
       "type": "entity",
-      "partition": "notex",
+      "partition": "season3",
       "path": "[assembly:/_pro/scenes/users/notex/outfit_showcase.entity].entitytemplate"
     },
     {
       "type": "entity",
-      "partition": "sheep",
+      "partition": "season3",
       "path": "[assembly:/_pro/scenes/missions/sheep/scene_puka.entity].entitytemplate"
     },
     {
       "type": "entity",
-      "partition": "sheep",
+      "partition": "season3",
       "path": "[assembly:/_pro/scenes/missions/sheep/outfits_puka.brick].entitytype"
     }
   ],
