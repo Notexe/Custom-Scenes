@@ -22,12 +22,12 @@
     },
     {
       "type": "entity",
-      "partition": "season3",
+      "partition": "sheep",
       "path": "[assembly:/_pro/scenes/missions/sheep/scene_puka.entity].entitytemplate"
     },
     {
       "type": "entity",
-      "partition": "season3",
+      "partition": "sheep",
       "path": "[assembly:/_pro/scenes/missions/sheep/outfits_puka.brick].entitytype"
     }
   ],
