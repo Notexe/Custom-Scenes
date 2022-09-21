@@ -7,31 +7,7 @@
 			"parent": null,
 			"name": "Scene",
 			"template": "[modules:/zspatialentity.class].pc_entitytype",
-			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"entitySubsets": [
-				["Activatable_NormalGameplay, IEntity", {
-					"entities": []
-				}],
-				["AudioEmitters", {
-					"entities": ["abcd58e395ad03d0", "abcdb9de32c40395"]
-				}],
-				["AudioVolumetricGeom", {
-					"entities": []
-				}],
-				["Gates", {
-					"entities": []
-				}],
-				["Replicable", {
-					"entities": []
-				}],
-				["Rooms", {
-					"entities": ["3a4fd7620d2fc601"]
-				}]
-			]
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
 		"3a4fd7620d2fc601": {
 			"parent": "fffffffffffffffe",
@@ -46,16 +22,18 @@
 				"m_bColorCorrectionHDR": {
 					"type": "bool",
 					"value": false
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
+					"value": "fffffffffffffffe",
+					"postInit": true
 				}
 			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"subsets": {
+				"Rooms": [
+					"fffffffffffffffe"
+				]
+			}
 		},
 		"5d5a95556319479": {
 			"parent": "f88f58479a55e8e7",
@@ -77,26 +55,19 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"3a589d55b3aa2df9": {
 			"parent": "3a4fd7620d2fc601",
 			"name": "Physics",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"3a589e5817e2e1b9": {
 			"parent": "3a589d55b3aa2df9",
@@ -126,16 +97,13 @@
 						"y": 100,
 						"z": 100
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"5d5a954e6bba4f9": {
 			"parent": "3a589d55b3aa2df9",
@@ -147,10 +115,7 @@
 					"type": "SEntityTemplateReference",
 					"value": "3a589e5817e2e1b9"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"6cb96fced2a8a7e4": {
 			"parent": "339a9e34c6576367",
@@ -176,56 +141,37 @@
 				"m_bDefaultHeroSpawn": {
 					"type": "bool",
 					"value": true
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"339a9e34c6576367": {
 			"parent": "1234567890abcdef",
 			"name": "Starting locations",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"1234567890abcdef": {
 			"parent": "3a4fd7620d2fc601",
 			"name": "Gameplay",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"f88f58479a55e8e7": {
 			"parent": "1234567890abcdef",
 			"name": "Hero",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"7187d61652900e11": {
 			"parent": "3a4fd7620d2fc601",
 			"name": "Environment",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"a8c7ad873de9528": {
 			"parent": "abcd6baf8225ed26",
@@ -255,46 +201,31 @@
 						"y": 1,
 						"z": 1
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"e2408375eea89dab": {
 			"parent": "7187d61652900e11",
 			"name": "Geometry",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"38a086ae3b377196": {
 			"parent": "1234567890abcdef",
 			"name": "Items",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"7a62dbe0110908ea": {
 			"parent": "38a086ae3b377196",
 			"name": "Weapons",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"8339abdcbe93280b": {
 			"parent": "7a62dbe0110908ea",
@@ -306,10 +237,7 @@
 					"type": "ZGuid",
 					"value": "8598ae82-53ac-43ba-9f43-30140d6ba7ee"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"863cc93648b2cc4": {
 			"parent": "8339abdcbe93280b",
@@ -343,16 +271,13 @@
 				"m_bUsePlacementAttach": {
 					"type": "bool",
 					"value": false
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"c78e7c1ddd85f9be": {
 			"parent": "abcd6baf8225ed26",
@@ -382,16 +307,13 @@
 						"y": 10,
 						"z": 3
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"ae51f4370a3e0d44": {
 			"parent": "abcd6baf8225ed26",
@@ -421,16 +343,13 @@
 						"y": 10,
 						"z": 3
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"538a75f5a250d13c": {
 			"parent": "abcd6baf8225ed26",
@@ -460,26 +379,19 @@
 						"y": 1,
 						"z": 3
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"f97ab4b27757356c": {
 			"parent": "7187d61652900e11",
 			"name": "Material Overrides",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"6d2ee3b76b69233f": {
 			"parent": "f97ab4b27757356c",
@@ -505,30 +417,32 @@
 				"Override": {
 					"type": "bool",
 					"value": true
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["a8c7ad873de9528", "c78e7c1ddd85f9be", "ae51f4370a3e0d44", "538a75f5a250d13c", "abcd481a3b5a7abf", "abcd96cd31540ff1", "abcdda05cf8aff36"]
+					"value": [
+						"a8c7ad873de9528",
+						"c78e7c1ddd85f9be",
+						"ae51f4370a3e0d44",
+						"538a75f5a250d13c",
+						"abcd481a3b5a7abf",
+						"abcd96cd31540ff1",
+						"abcdda05cf8aff36"
+					],
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"14dbea1551f49ac5": {
 			"parent": "1234567890abcdef",
 			"name": "Volumebox testing",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"bccec0724dc9868e": {
 			"parent": "14dbea1551f49ac5",
@@ -538,21 +452,22 @@
 			"properties": {
 				"m_Boxes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["7820b8a50daabffd"]
+					"value": [
+						"7820b8a50daabffd"
+					]
 				},
 				"m_TriggerOnHitman": {
 					"type": "bool",
 					"value": true
 				}
 			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "OnTrue",
-				"shouldTrigger": "SetTrue",
-				"onEntity": "5cadb598e997573c"
-			}]
+			"events": {
+				"OnTrue": {
+					"SetTrue": [
+						"5cadb598e997573c"
+					]
+				}
+			}
 		},
 		"5cadb598e997573c": {
 			"parent": "14dbea1551f49ac5",
@@ -564,10 +479,7 @@
 					"type": "bool",
 					"value": false
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"f9e2e04fefd8addc": {
 			"parent": "14dbea1551f49ac5",
@@ -609,21 +521,20 @@
 				"Onm_rPromptDescriptionTextResource": {
 					"type": "ZRuntimeResourceID",
 					"value": null
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
 			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "OnUsed",
-				"shouldTrigger": "Enable",
-				"onEntity": "abcd998cd2fb8d62"
-			}]
+			"events": {
+				"OnUsed": {
+					"Enable": [
+						"abcd998cd2fb8d62"
+					]
+				}
+			}
 		},
 		"7820b8a50daabffd": {
 			"parent": "14dbea1551f49ac5",
@@ -653,16 +564,13 @@
 						"y": 3,
 						"z": 3
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"b2dcd31d21e668bd": {
 			"parent": "14dbea1551f49ac5",
@@ -680,32 +588,23 @@
 				},
 				"m_Boxes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["3a589e5817e2e1b9"]
+					"value": [
+						"3a589e5817e2e1b9"
+					]
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdf226c6efa301": {
 			"parent": "1234567890abcdef",
 			"name": "Agility",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd52b66ce922ab": {
 			"parent": "abcdf226c6efa301",
 			"name": "Covers",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd60c5e141f61f": {
 			"parent": "abcd52b66ce922ab",
@@ -759,16 +658,13 @@
 				"m_bIllegal": {
 					"type": "bool",
 					"value": false
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdc7b95e92a99f": {
 			"parent": "abcd52b66ce922ab",
@@ -822,36 +718,25 @@
 				"m_bIllegal": {
 					"type": "bool",
 					"value": false
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcda1cedffedb1a": {
 			"parent": "3a4fd7620d2fc601",
 			"name": "Cutscenes",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd4272fcc6abd7": {
 			"parent": "abcda1cedffedb1a",
 			"name": "Start Cutscene",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd21e2b3e09719": {
 			"parent": "abcd4272fcc6abd7",
@@ -865,7 +750,9 @@
 				},
 				"m_aSequences": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd63c6c2f5b9dd"]
+					"value": [
+						"abcd63c6c2f5b9dd"
+					]
 				},
 				"m_fInterpolationTime": {
 					"type": "float32",
@@ -876,14 +763,13 @@
 					"value": 20
 				}
 			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"outputCopying": [{
-				"onEvent": "OnStop",
-				"propagateEvent": "Stopped",
-				"onEntity": "abcd4272fcc6abd7"
-			}]
+			"outputCopying": {
+				"OnStop": {
+					"Stopped": [
+						"abcd4272fcc6abd7"
+					]
+				}
+			}
 		},
 		"abcd63c6c2f5b9dd": {
 			"parent": "abcd4272fcc6abd7",
@@ -920,20 +806,21 @@
 					"value": {
 						"m_nTicks": 1048576
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcdd828c22994b1", "abcd10dc57d5df72"]
+					"value": [
+						"abcdd828c22994b1",
+						"abcd10dc57d5df72"
+					],
+					"postInit": true
 				},
 				"m_sequenceOrigin": {
 					"type": "SEntityTemplateReference",
-					"value": "abcd10607c5334cb"
+					"value": "abcd10607c5334cb",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd10607c5334cb": {
 			"parent": "abcd4272fcc6abd7",
@@ -955,31 +842,28 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdd828c22994b1": {
 			"parent": "abcd63c6c2f5b9dd",
 			"name": "Active Camera Track",
 			"template": "[modules:/zrenderdestinationtrack.class].pc_entitytype",
 			"blueprint": "[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {
+			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd6aad4aa3e668"]
+					"value": [
+						"abcd6aad4aa3e668"
+					],
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd6aad4aa3e668": {
 			"parent": "abcdd828c22994b1",
@@ -1003,10 +887,7 @@
 					"type": "SEntityTemplateReference",
 					"value": "abcd62f4d570008f"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd10dc57d5df72": {
 			"parent": "abcd63c6c2f5b9dd",
@@ -1017,26 +898,21 @@
 				"m_targetEntity": {
 					"type": "SEntityTemplateReference",
 					"value": "abcd62f4d570008f"
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd9f77d978befb"]
+					"value": [
+						"abcd9f77d978befb"
+					],
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd9acf5f7bc7b0": {
 			"parent": "abcda1cedffedb1a",
 			"name": "Cameras",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd62f4d570008f": {
 			"parent": "abcd9acf5f7bc7b0",
@@ -1062,16 +938,13 @@
 				"m_bExportScreenshot": {
 					"type": "bool",
 					"value": true
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd9f77d978befb": {
 			"parent": "abcd10dc57d5df72",
@@ -1086,16 +959,15 @@
 				"m_bRestoreValueAfterEnd": {
 					"type": "bool",
 					"value": false
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd3ede8e042b61"]
+					"value": [
+						"abcd3ede8e042b61"
+					],
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd3ede8e042b61": {
 			"parent": "abcd9f77d978befb",
@@ -1119,8 +991,26 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[0, 10, 0, 0, 0, 0, -4.938952922821045, 10],
-							[1, 8, 0, 0, 0, 0, 0, 8]
+							[
+								0,
+								10,
+								0,
+								0,
+								0,
+								0,
+								-4.938952922821045,
+								10
+							],
+							[
+								1,
+								8,
+								0,
+								0,
+								0,
+								0,
+								0,
+								8
+							]
 						]
 					}
 				},
@@ -1128,8 +1018,26 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[0, -60, 0, 0, 0, 0, 4.143604278564453, -60],
-							[1, -60, 0, 0, 0, 0, 0, -60]
+							[
+								0,
+								-60,
+								0,
+								0,
+								0,
+								0,
+								4.143604278564453,
+								-60
+							],
+							[
+								1,
+								-60,
+								0,
+								0,
+								0,
+								0,
+								0,
+								-60
+							]
 						]
 					}
 				},
@@ -1137,8 +1045,26 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[0, -10, 0, 0, 0, 0, 0.7595031261444092, -10],
-							[1, -8, 0, 0, 0, 0, 0, -8]
+							[
+								0,
+								-10,
+								0,
+								0,
+								0,
+								0,
+								0.7595031261444092,
+								-10
+							],
+							[
+								1,
+								-8,
+								0,
+								0,
+								0,
+								0,
+								0,
+								-8
+							]
 						]
 					}
 				},
@@ -1146,8 +1072,26 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[0, 0, 0, 0, 0, 0, 0, 0],
-							[1, 0, 0, 0, 0, 0, 0, 0]
+							[
+								0,
+								0,
+								0,
+								0,
+								0,
+								0,
+								0,
+								0
+							],
+							[
+								1,
+								0,
+								0,
+								0,
+								0,
+								0,
+								0,
+								0
+							]
 						]
 					}
 				},
@@ -1155,8 +1099,26 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[0, 9.9169921875, 0, 0, 0, 0, -1.45330810546875, 9.9169921875],
-							[1, 8.46368408203125, 0, 0, 0, 0, 0, 8.46368408203125]
+							[
+								0,
+								9.9169921875,
+								0,
+								0,
+								0,
+								0,
+								-1.45330810546875,
+								9.9169921875
+							],
+							[
+								1,
+								8.46368408203125,
+								0,
+								0,
+								0,
+								0,
+								0,
+								8.46368408203125
+							]
 						]
 					}
 				},
@@ -1164,15 +1126,30 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[0, -17, 0, 0, 0, 0, 0, -17],
-							[1, 17, 0, 0, 0, 0, 0, 17]
+							[
+								0,
+								-17,
+								0,
+								0,
+								0,
+								0,
+								0,
+								-17
+							],
+							[
+								1,
+								17,
+								0,
+								0,
+								0,
+								0,
+								0,
+								17
+							]
 						]
 					}
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd58e395ad03d0": {
 			"parent": "abcd6baf8225ed26",
@@ -1194,36 +1171,30 @@
 							"z": 2
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
 			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
 		},
 		"abcd09feb02373db": {
 			"parent": "3a4fd7620d2fc601",
 			"name": "Sound",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd889eea2e16b2": {
 			"parent": "abcd09feb02373db",
 			"name": "Soundbanks",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcdab5a70a5ab8e": {
 			"parent": "abcd889eea2e16b2",
@@ -1235,20 +1206,13 @@
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/globaldata/global.wwisesoundbank].pc_wwisebank"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd1e84b3f2e4f9": {
 			"parent": "abcd09feb02373db",
 			"name": "GameEventListener",
 			"template": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
-			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint"
 		},
 		"abcdcfb7b0729637": {
 			"parent": "abcd09feb02373db",
@@ -1260,20 +1224,13 @@
 					"type": "ZString",
 					"value": "True"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcde03a07db946e": {
 			"parent": "3a4fd7620d2fc601",
 			"name": "Audio Event Testing",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd0407f1296a34": {
 			"parent": "abcde03a07db946e",
@@ -1288,21 +1245,22 @@
 				"m_bOnlyHitman": {
 					"type": "bool",
 					"value": true
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_Listener": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd58e395ad03d0"]
+					"value": [
+						"abcd58e395ad03d0"
+					],
+					"postInit": true
 				}
 			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "OnHit",
-				"shouldTrigger": "Poll",
-				"onEntity": "abcde530705985f7"
-			}]
+			"events": {
+				"OnHit": {
+					"Poll": [
+						"abcde530705985f7"
+					]
+				}
+			}
 		},
 		"abcde530705985f7": {
 			"parent": "abcde03a07db946e",
@@ -1315,18 +1273,16 @@
 					"value": "abcda67d7637d5d6"
 				}
 			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "PollFalse",
-				"shouldTrigger": "Send",
-				"onEntity": "abcd7391b32bfb66"
-			}, {
-				"onEvent": "PollFalse",
-				"shouldTrigger": "SetTrue",
-				"onEntity": "abcda67d7637d5d6"
-			}]
+			"events": {
+				"PollFalse": {
+					"Send": [
+						"abcd7391b32bfb66"
+					],
+					"SetTrue": [
+						"abcda67d7637d5d6"
+					]
+				}
+			}
 		},
 		"abcda67d7637d5d6": {
 			"parent": "abcde03a07db946e",
@@ -1342,10 +1298,7 @@
 					"type": "bool",
 					"value": true
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd7391b32bfb66": {
 			"parent": "abcde03a07db946e",
@@ -1355,26 +1308,26 @@
 			"properties": {
 				"m_aEmitters": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcdb9de32c40395"]
+					"value": [
+						"abcdb9de32c40395"
+					]
 				},
 				"m_pMainEvent": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/sound/wwise/exportedwwisedata/events/props_events/sfx_explosive_props/sfx_explosiveprop_golfball/play_sfx_golfball_explosion.wwiseevent].pc_wwisebank"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdb9de32c40395": {
 			"parent": "abcde03a07db946e",
 			"name": "2DAudioEmitter",
 			"template": "[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
 		},
 		"abcd3c5aad409dc5": {
 			"parent": "abcd09feb02373db",
@@ -1412,16 +1365,13 @@
 						"y": 100,
 						"z": 100
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd481a3b5a7abf": {
 			"parent": "abcd6baf8225ed26",
@@ -1451,46 +1401,31 @@
 						"y": 10,
 						"z": 1
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdff4e6866a383": {
 			"parent": "e2408375eea89dab",
 			"name": "Shooting Range",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcda321b5810e22": {
 			"parent": "abcdff4e6866a383",
 			"name": "Inside",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd6baf8225ed26": {
 			"parent": "abcdff4e6866a383",
 			"name": "Outside",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd1b986f00dc72": {
 			"parent": "abcd6baf8225ed26",
@@ -1512,16 +1447,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdfff2f99c98f0": {
 			"parent": "abcd6baf8225ed26",
@@ -1543,16 +1475,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdf72251be25a7": {
 			"parent": "abcd8db0cb380368",
@@ -1574,16 +1503,13 @@
 							"z": 1.350000023841858
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcd8db0cb380368"
+					"value": "abcd8db0cb380368",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd63e647967633": {
 			"parent": "abcd8db0cb380368",
@@ -1632,11 +1558,11 @@
 				},
 				"m_fWireSpacing": {
 					"type": "float32",
-					"value": 0.34000000357627869
+					"value": 0.3400000035762787
 				},
 				"m_fWireWidth": {
 					"type": "float32",
-					"value": 0.0099999997764825821
+					"value": 0.009999999776482582
 				},
 				"m_nNumRenderSegments": {
 					"type": "uint32",
@@ -1681,16 +1607,13 @@
 						"y": 0,
 						"z": -7.820000171661377
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcd8db0cb380368"
+					"value": "abcd8db0cb380368",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd08d7a048ad1a": {
 			"parent": "abcd8db0cb380368",
@@ -1739,11 +1662,11 @@
 				},
 				"m_fWireSpacing": {
 					"type": "float32",
-					"value": 0.34000000357627869
+					"value": 0.3400000035762787
 				},
 				"m_fWireWidth": {
 					"type": "float32",
-					"value": 0.0099999997764825821
+					"value": 0.009999999776482582
 				},
 				"m_nNumRenderSegments": {
 					"type": "uint32",
@@ -1784,16 +1707,13 @@
 						"y": 0,
 						"z": -7.820000171661377
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcd8db0cb380368"
+					"value": "abcd8db0cb380368",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdf11881e6e89c": {
 			"parent": "abcd8db0cb380368",
@@ -1842,11 +1762,11 @@
 				},
 				"m_fWireSpacing": {
 					"type": "float32",
-					"value": 0.34000000357627869
+					"value": 0.3400000035762787
 				},
 				"m_fWireWidth": {
 					"type": "float32",
-					"value": 0.0099999997764825821
+					"value": 0.009999999776482582
 				},
 				"m_nNumRenderSegments": {
 					"type": "uint32",
@@ -1891,16 +1811,13 @@
 						"y": 0,
 						"z": -7.820000171661377
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcd8db0cb380368"
+					"value": "abcd8db0cb380368",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcddc5f040dbd96": {
 			"parent": "abcd8db0cb380368",
@@ -1949,11 +1866,11 @@
 				},
 				"m_fWireSpacing": {
 					"type": "float32",
-					"value": 0.34000000357627869
+					"value": 0.3400000035762787
 				},
 				"m_fWireWidth": {
 					"type": "float32",
-					"value": 0.0099999997764825821
+					"value": 0.009999999776482582
 				},
 				"m_nNumRenderSegments": {
 					"type": "uint32",
@@ -1994,16 +1911,13 @@
 						"y": 0,
 						"z": -7.820000171661377
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcd8db0cb380368"
+					"value": "abcd8db0cb380368",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd8db0cb380368": {
 			"parent": "abcda321b5810e22",
@@ -2025,16 +1939,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd998cd2fb8d62": {
 			"parent": "abcda321b5810e22",
@@ -2066,10 +1977,7 @@
 					"type": "SEntityTemplateReference",
 					"value": "abcd8db0cb380368"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd54c6e67e53f4": {
 			"parent": "abcda321b5810e22",
@@ -2091,16 +1999,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd6d72bbcb05b3": {
 			"parent": "abcda321b5810e22",
@@ -2122,26 +2027,19 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcde6ede492afad": {
 			"parent": "e2408375eea89dab",
 			"name": "Elevator Test",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd7bd0406cd32e": {
 			"parent": "abcde6ede492afad",
@@ -2163,16 +2061,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdc821c9a932a1": {
 			"parent": "abcde6ede492afad",
@@ -2194,16 +2089,13 @@
 							"z": 3.9700000286102295
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd33f43a0b0802": {
 			"parent": "abcde6ede492afad",
@@ -2239,10 +2131,7 @@
 					"type": "SEntityTemplateReference",
 					"value": "abcdf18c07340416"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd96cd31540ff1": {
 			"parent": "abcdf18c07340416",
@@ -2276,16 +2165,13 @@
 						"y": 80,
 						"z": 0.15000000596046448
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdf18c07340416"
+					"value": "abcdf18c07340416",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd303646ec3421": {
 			"parent": "abcdf18c07340416",
@@ -2327,21 +2213,20 @@
 				"Onm_rPromptDescriptionTextResource": {
 					"type": "ZRuntimeResourceID",
 					"value": null
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdf18c07340416"
+					"value": "abcdf18c07340416",
+					"postInit": true
 				}
 			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "OnUsed",
-				"shouldTrigger": "Enable",
-				"onEntity": "abcd33f43a0b0802"
-			}]
+			"events": {
+				"OnUsed": {
+					"Enable": [
+						"abcd33f43a0b0802"
+					]
+				}
+			}
 		},
 		"abcdf18c07340416": {
 			"parent": "abcde6ede492afad",
@@ -2363,16 +2248,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd210d3b37ec56": {
 			"parent": "abcde6ede492afad",
@@ -2384,10 +2266,7 @@
 					"type": "bool",
 					"value": true
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdda05cf8aff36": {
 			"parent": "abcd6baf8225ed26",
@@ -2417,16 +2296,13 @@
 						"y": 2,
 						"z": 1
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdc97159de4d50": {
 			"parent": "abcdda05cf8aff36",
@@ -2448,26 +2324,19 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdda05cf8aff36"
+					"value": "abcdda05cf8aff36",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcde0eafb29e2df": {
 			"parent": "38a086ae3b377196",
 			"name": "Poisons",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd586953380f78": {
 			"parent": "abcde0eafb29e2df",
@@ -2479,10 +2348,7 @@
 					"type": "ZGuid",
 					"value": "8b37a3a8-8a20-4262-81c5-0fcd15f4bba9"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd615457ec5cbb": {
 			"parent": "abcd586953380f78",
@@ -2516,16 +2382,13 @@
 				"m_bUsePlacementAttach": {
 					"type": "bool",
 					"value": false
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdda05cf8aff36"
+					"value": "abcdda05cf8aff36",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdee57952c4db5": {
 			"parent": "abcda25b2fa2a0c9",
@@ -2547,26 +2410,19 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdda05cf8aff36"
+					"value": "abcdda05cf8aff36",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcda25b2fa2a0c9": {
 			"parent": "1234567890abcdef",
 			"name": "LIPs",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcdafc03496f112": {
 			"parent": "e2408375eea89dab",
@@ -2588,16 +2444,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd7b6e80b40d69": {
 			"parent": "abcdafc03496f112",
@@ -2627,26 +2480,19 @@
 						"y": 3,
 						"z": 3
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdafc03496f112"
+					"value": "abcdafc03496f112",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd19ab6eb89815": {
 			"parent": "7a62dbe0110908ea",
 			"name": "Weapon Rack",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd5d83034fd6f3": {
 			"parent": "abcd19ab6eb89815",
@@ -2656,12 +2502,9 @@
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
-					"value": "e70adb5b-646-4f88-bd4a-85bea7a2a654"
+					"value": "e70adb5b-0646-4f88-bd4a-85bea7a2a654"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd787933fa9060": {
 			"parent": "abcd19ab6eb89815",
@@ -2671,12 +2514,9 @@
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
-					"value": "f301f605-7c-4fe1-aa99-a8cd2cae033f"
+					"value": "f301f605-007c-4fe1-aa99-a8cd2cae033f"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd050c1a4d465a": {
 			"parent": "abcd19ab6eb89815",
@@ -2686,12 +2526,9 @@
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
-					"value": "9efc132-d35a-4e4e-b58e-ba802cc91dce"
+					"value": "09efc132-d35a-4e4e-b58e-ba802cc91dce"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcda560ba1f331c": {
 			"parent": "abcd19ab6eb89815",
@@ -2703,10 +2540,7 @@
 					"type": "ZGuid",
 					"value": "ba102d90-b8c9-47b9-97eb-b462344b46c3"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd14eaaf7c971f": {
 			"parent": "abcda560ba1f331c",
@@ -2740,16 +2574,13 @@
 				"m_bUsePlacementAttach": {
 					"type": "bool",
 					"value": true
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdafc03496f112"
+					"value": "abcdafc03496f112",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd78a85b301672": {
 			"parent": "abcd5d83034fd6f3",
@@ -2783,16 +2614,13 @@
 				"m_bUsePlacementAttach": {
 					"type": "bool",
 					"value": true
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdafc03496f112"
+					"value": "abcdafc03496f112",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdcc92b9054b6d": {
 			"parent": "abcd050c1a4d465a",
@@ -2826,16 +2654,13 @@
 				"m_bUsePlacementAttach": {
 					"type": "bool",
 					"value": true
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdafc03496f112"
+					"value": "abcdafc03496f112",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd2da7b2b7aa95": {
 			"parent": "abcd787933fa9060",
@@ -2869,16 +2694,13 @@
 				"m_bUsePlacementAttach": {
 					"type": "bool",
 					"value": true
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdafc03496f112"
+					"value": "abcdafc03496f112",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdd47e7bba84b7": {
 			"parent": "abcd19ab6eb89815",
@@ -2890,10 +2712,7 @@
 					"type": "ZGuid",
 					"value": "5631dace-7f4a-4df8-8e97-b47373b815ff"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd9c960d6c7d41": {
 			"parent": "abcdd47e7bba84b7",
@@ -2927,16 +2746,13 @@
 				"m_bUsePlacementAttach": {
 					"type": "bool",
 					"value": true
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdafc03496f112"
+					"value": "abcdafc03496f112",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd09877ea39231": {
 			"parent": "abcdafc03496f112",
@@ -2958,16 +2774,13 @@
 							"z": 0.800000011920929
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdafc03496f112"
+					"value": "abcdafc03496f112",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd41ed6f481006": {
 			"parent": "abcdafc03496f112",
@@ -2989,16 +2802,13 @@
 							"z": 0.800000011920929
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdafc03496f112"
+					"value": "abcdafc03496f112",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcde118bc866367": {
 			"parent": "abcdafc03496f112",
@@ -3020,16 +2830,13 @@
 							"z": 1.2549999952316284
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdafc03496f112"
+					"value": "abcdafc03496f112",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdb2eea6418544": {
 			"parent": "f97ab4b27757356c",
@@ -3055,20 +2862,20 @@
 				"Override": {
 					"type": "bool",
 					"value": true
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd7b6e80b40d69"]
+					"value": [
+						"abcd7b6e80b40d69"
+					],
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd928fdcfd973e": {
 			"parent": "abcdafc03496f112",
@@ -3098,16 +2905,13 @@
 						"y": 1,
 						"z": 1
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdafc03496f112"
+					"value": "abcdafc03496f112",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd6ded1b2f24e3": {
 			"parent": "abcd928fdcfd973e",
@@ -3137,16 +2941,13 @@
 						"y": 0.4000000059604645,
 						"z": 0.4000000059604645
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdafc03496f112"
+					"value": "abcdafc03496f112",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcda2f5e7e40b44": {
 			"parent": "abcd928fdcfd973e",
@@ -3176,16 +2977,13 @@
 						"y": 0.4000000059604645,
 						"z": 0.4000000059604645
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdafc03496f112"
+					"value": "abcdafc03496f112",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd84085b5535eb": {
 			"parent": "abcd928fdcfd973e",
@@ -3197,8 +2995,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -7.0167096047110005e-15,
-							"y": -7.0167096047110005e-15,
+							"x": -0.0000000000000070167096047110005,
+							"y": -0.0000000000000070167096047110005,
 							"z": -90.00000000000001
 						},
 						"position": {
@@ -3215,16 +3013,13 @@
 						"y": 0.4000000059604645,
 						"z": 0.4000000059604645
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdafc03496f112"
+					"value": "abcdafc03496f112",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdb7e2240169e4": {
 			"parent": "abcd928fdcfd973e",
@@ -3236,8 +3031,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -7.0167096047110005e-15,
-							"y": -7.0167096047110005e-15,
+							"x": -0.0000000000000070167096047110005,
+							"y": -0.0000000000000070167096047110005,
 							"z": -90.00000000000001
 						},
 						"position": {
@@ -3254,26 +3049,19 @@
 						"y": 0.4000000059604645,
 						"z": 0.4000000059604645
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdafc03496f112"
+					"value": "abcdafc03496f112",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdd0d79435606d": {
 			"parent": "abcd19ab6eb89815",
 			"name": "New Entity",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcdedf70ad41489": {
 			"parent": "abcdafc03496f112",
@@ -3295,23 +3083,28 @@
 							"z": 1.2669999599456787
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdafc03496f112"
+					"value": "abcdafc03496f112",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		}
 	},
 	"propertyOverrides": [],
 	"overrideDeletes": [],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
-	"externalScenes": ["[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype", "0064FE1090FB2775", "0036D64700F55065", "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"],
-	"subType": 1,
-	"quickEntityVersion": 2.1
+	"externalScenes": [
+		"[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype",
+		"0064FE1090FB2775",
+		"0036D64700F55065",
+		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+	],
+	"subType": "scene",
+	"quickEntityVersion": 3,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

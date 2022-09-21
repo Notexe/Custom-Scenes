@@ -13,10 +13,7 @@
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/geometry/male_reg_silviocaruso.wl2?/watch.weightedprim](bodypart).pc_weightedprim"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"114b50731f514cf1": {
 			"parent": "8a1a25c92b349cbb",
@@ -32,10 +29,7 @@
 					"type": "bool",
 					"value": true
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"9d560e3b5754e877": {
 			"parent": "8a1a25c92b349cbb",
@@ -81,20 +75,20 @@
 				"Texture2DNormal_01": {
 					"type": "ZRuntimeResourceID",
 					"value": "00F126585C6E2475"
-				}
-			},
-			"postInitProperties": {
+				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["8a1a25c92b349cbb"]
+					"value": [
+						"8a1a25c92b349cbb"
+					],
+					"postInit": true
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "8a1a25c92b349cbb"
+					"value": "8a1a25c92b349cbb",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"843a86ae4f4ca93e": {
 			"parent": "8a1a25c92b349cbb",
@@ -106,10 +100,7 @@
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/animationnetworks/hitman01/idles/idletest.aln].pc_rtn"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"19f2807fcf0f04e0": {
 			"parent": "8a1a25c92b349cbb",
@@ -121,10 +112,7 @@
 					"type": "ZRuntimeResourceID",
 					"value": "009CB132F630E42F"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"f7e91f7b3cbe18a6": {
 			"parent": "8a1a25c92b349cbb",
@@ -136,10 +124,7 @@
 					"type": "ZRuntimeResourceID",
 					"value": "00DFBEC0A52088F6"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"8a1a25c92b349cbb": {
 			"parent": null,
@@ -221,16 +206,19 @@
 				"m_bUseSkinningPosNormalConstrains": {
 					"type": "bool",
 					"value": true
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_aBodyParts": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["114b50731f514cf1", "f7e91f7b3cbe18a6", "d3d48d14e2adbae6", "19f2807fcf0f04e0", "cd14bdc8e25d3fd0"]
+					"value": [
+						"114b50731f514cf1",
+						"f7e91f7b3cbe18a6",
+						"d3d48d14e2adbae6",
+						"19f2807fcf0f04e0",
+						"cd14bdc8e25d3fd0"
+					],
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"bfae5052b344ddca": {
 			"parent": "8a1a25c92b349cbb",
@@ -255,7 +243,9 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["8a1a25c92b349cbb"]
+					"value": [
+						"8a1a25c92b349cbb"
+					]
 				},
 				"Texture2D_01_enab": {
 					"type": "bool",
@@ -277,10 +267,7 @@
 					"type": "SEntityTemplateReference",
 					"value": "8a1a25c92b349cbb"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"d3d48d14e2adbae6": {
 			"parent": "8a1a25c92b349cbb",
@@ -292,10 +279,7 @@
 					"type": "ZRuntimeResourceID",
 					"value": "001706CDDEFDA9CC"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		}
 	},
 	"propertyOverrides": [],
@@ -303,6 +287,9 @@
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [],
-	"subType": 0,
-	"quickEntityVersion": 2.1
+	"subType": "template",
+	"quickEntityVersion": 3,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

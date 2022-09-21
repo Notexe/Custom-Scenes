@@ -3,17 +3,20 @@
 ## propertyOverrides
 ```json
 {
-  "entities": [{
-    "ref": "295794d7d6e9c8c7",
-    "externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
-  }, {
-    "ref": "731ba784fb1e03cf",
-    "externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
-  }],
-    "properties": {
+  "entities": [
+    {
+      "ref": "295794d7d6e9c8c7",
+      "externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+    },
+    {
+      "ref": "731ba784fb1e03cf",
+      "externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+    }
+  ],
+  "properties": {
     "m_eRequiredVoiceVariation": {
-    "type": "EActorVoiceVariation",
-    "value": "eAVV_BDYGRD04"
+      "type": "EActorVoiceVariation",
+      "value": "eAVV_BDYGRD04"
     }
   }
 }
@@ -34,9 +37,9 @@
     "ref": "1efd061b088ddb31",
     "externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
   },
+  "fromPin": "OnSkip",
   "toEntity": "f1e58ae2ca14bfea",
-  "fromPinName": "OnSkip",
-  "toPinName": "TransmitEvent",
+  "toPin": "TransmitEvent",
   "constantPinValue": {
     "$type": "void",
     "$val": null
@@ -51,12 +54,12 @@
     "ref": "b8b211a012accfa7",
     "externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
   },
+  "fromPin": "OnActTimeout",
   "toEntity": {
     "ref": "e68a8a1322b970d5",
     "externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
   },
-  "fromPinName": "OnActTimeout",
-  "toPinName": "Start",
+  "toPin": "Start",
   "constantPinValue": {
     "$type": "void",
     "$val": null

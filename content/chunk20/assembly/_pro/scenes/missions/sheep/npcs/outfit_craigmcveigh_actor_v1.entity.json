@@ -17,10 +17,7 @@
 					"type": "bool",
 					"value": true
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"843a86ae4f4ca93e": {
 			"parent": "8a1a25c92b349cbb",
@@ -32,10 +29,7 @@
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/animationnetworks/hitman01/idles/idletest.aln].pc_rtn"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"19f2807fcf0f04e0": {
 			"parent": "8a1a25c92b349cbb",
@@ -47,10 +41,7 @@
 					"type": "ZRuntimeResourceID",
 					"value": "009CB132F630E42F"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"f7e91f7b3cbe18a6": {
 			"parent": "8a1a25c92b349cbb",
@@ -62,10 +53,7 @@
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/_pro/characters/assets/guards/bodyguards_01/geometry/regmale_bodyguard_paris.wl2?/shoes.weightedprim](bodypart).pc_weightedprim"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"8a1a25c92b349cbb": {
 			"parent": null,
@@ -98,7 +86,9 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd52b42ac3d798"]
+					"value": [
+						"abcd52b42ac3d798"
+					]
 				},
 				"m_fDamping": {
 					"type": "float32",
@@ -147,16 +137,21 @@
 				"m_bUseSkinningPosNormalConstrains": {
 					"type": "bool",
 					"value": true
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_aBodyParts": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["114b50731f514cf1", "19f2807fcf0f04e0", "f7e91f7b3cbe18a6", "d3d48d14e2adbae6", "abcdedcebf9b0cae", "abcdfdb051cf1e6f", "abcdaa62e71dcff4"]
+					"value": [
+						"114b50731f514cf1",
+						"19f2807fcf0f04e0",
+						"f7e91f7b3cbe18a6",
+						"d3d48d14e2adbae6",
+						"abcdedcebf9b0cae",
+						"abcdfdb051cf1e6f",
+						"abcdaa62e71dcff4"
+					],
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"d3d48d14e2adbae6": {
 			"parent": "8a1a25c92b349cbb",
@@ -168,10 +163,7 @@
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/_pro/characters/assets/guards/bodyguards_01/geometry/regmale_bodyguard_paris.wl2?/trousers.weightedprim](bodypart).pc_weightedprim"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdedcebf9b0cae": {
 			"parent": "8a1a25c92b349cbb",
@@ -183,10 +175,7 @@
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/_pro/characters/assets/guards/bodyguards_01/geometry/regmale_bodyguard_paris.wl2?/shirt.weightedprim](bodypart).pc_weightedprim"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdfdb051cf1e6f": {
 			"parent": "8a1a25c92b349cbb",
@@ -198,10 +187,7 @@
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/_pro/characters/assets/guards/bodyguards_01/geometry/regmale_bodyguard_paris.wl2?/jacket_open.weightedprim](bodypart).pc_weightedprim"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdaa62e71dcff4": {
 			"parent": "8a1a25c92b349cbb",
@@ -213,10 +199,7 @@
 					"type": "ZRuntimeResourceID",
 					"value": "009B141405F226E2"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd52b42ac3d798": {
 			"parent": "8a1a25c92b349cbb",
@@ -242,16 +225,13 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "8a1a25c92b349cbb"
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_linkedEntity": {
 					"type": "SEntityTemplateReference",
-					"value": "8a1a25c92b349cbb"
+					"value": "8a1a25c92b349cbb",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		}
 	},
 	"propertyOverrides": [],
@@ -259,6 +239,9 @@
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [],
-	"subType": 0,
-	"quickEntityVersion": 2.1
+	"subType": "template",
+	"quickEntityVersion": 3,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

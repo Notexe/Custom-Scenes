@@ -7,31 +7,7 @@
 			"parent": null,
 			"name": "Scene",
 			"template": "[modules:/zspatialentity.class].pc_entitytype",
-			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"entitySubsets": [
-				["Activatable_NormalGameplay, IEntity", {
-					"entities": []
-				}],
-				["AudioEmitters", {
-					"entities": []
-				}],
-				["AudioVolumetricGeom", {
-					"entities": []
-				}],
-				["Gates", {
-					"entities": []
-				}],
-				["Replicable", {
-					"entities": []
-				}],
-				["Rooms", {
-					"entities": ["3a4fd7620d2fc601"]
-				}]
-			]
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
 		"3a4fd7620d2fc601": {
 			"parent": "fffffffffffffffe",
@@ -46,26 +22,24 @@
 				"m_bColorCorrectionHDR": {
 					"type": "bool",
 					"value": false
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
+					"value": "fffffffffffffffe",
+					"postInit": true
 				}
 			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"subsets": {
+				"Rooms": [
+					"fffffffffffffffe"
+				]
+			}
 		},
 		"3a589d55b3aa2df9": {
 			"parent": "3a4fd7620d2fc601",
 			"name": "Physics",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"3a589e5817e2e1b9": {
 			"parent": "3a589d55b3aa2df9",
@@ -95,16 +69,13 @@
 						"y": 100,
 						"z": 100
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"5d5a954e6bba4f9": {
 			"parent": "3a589d55b3aa2df9",
@@ -116,40 +87,25 @@
 					"type": "SEntityTemplateReference",
 					"value": "3a589e5817e2e1b9"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdd038714ffe5a": {
 			"parent": "3a4fd7620d2fc601",
 			"name": "Gameplay",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcdbe98fe2c540d": {
 			"parent": "abcdd038714ffe5a",
 			"name": "Starting locations",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcdd5f5be161f2a": {
 			"parent": "abcdd038714ffe5a",
 			"name": "Hero",
 			"template": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd6b7624deb4ff": {
 			"parent": "abcdbe98fe2c540d",
@@ -176,10 +132,7 @@
 					"type": "bool",
 					"value": true
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd681a172e2211": {
 			"parent": "abcdd5f5be161f2a",
@@ -201,31 +154,26 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdecaf31f72bb4": {
 			"parent": "3a4fd7620d2fc601",
 			"name": "Outfits",
 			"template": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {
+			"properties": {
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "3a4fd7620d2fc601"
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"de11bf39d5468bd": {
 			"parent": "abcdecaf31f72bb4",
@@ -247,16 +195,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"e82c99d9cfc729a5": {
 			"parent": "abcdecaf31f72bb4",
@@ -278,16 +223,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"ddc234a3adcead66": {
 			"parent": "abcdecaf31f72bb4",
@@ -309,16 +251,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"d9a2cafc821cf958": {
 			"parent": "abcdecaf31f72bb4",
@@ -340,16 +279,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"ad42dc2e867746bb": {
 			"parent": "abcdecaf31f72bb4",
@@ -371,16 +307,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"b95ff7e9fac420aa": {
 			"parent": "abcdecaf31f72bb4",
@@ -402,16 +335,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"6f01de2e22b07952": {
 			"parent": "abcdecaf31f72bb4",
@@ -433,16 +363,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"db95aedfc671e81f": {
 			"parent": "abcdecaf31f72bb4",
@@ -464,16 +391,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"48be87d659c61228": {
 			"parent": "abcdecaf31f72bb4",
@@ -495,16 +419,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"63d1d35476a8dd1d": {
 			"parent": "abcdecaf31f72bb4",
@@ -526,16 +447,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"416f66743f6c1fcc": {
 			"parent": "abcdecaf31f72bb4",
@@ -557,16 +475,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"c36fae027c868e9d": {
 			"parent": "abcdecaf31f72bb4",
@@ -588,16 +503,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"106941d112f714ec": {
 			"parent": "abcdecaf31f72bb4",
@@ -619,16 +531,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"95c09d40717ac71d": {
 			"parent": "abcdecaf31f72bb4",
@@ -650,16 +559,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"87429920e79d5b34": {
 			"parent": "abcdecaf31f72bb4",
@@ -681,16 +587,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"282499be30ead090": {
 			"parent": "abcdecaf31f72bb4",
@@ -712,16 +615,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"3b2d9dc8376e0d0c": {
 			"parent": "abcdecaf31f72bb4",
@@ -743,16 +643,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"f3ffe8bba25de410": {
 			"parent": "abcdecaf31f72bb4",
@@ -774,16 +671,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"1a11e88dbdd89160": {
 			"parent": "abcdecaf31f72bb4",
@@ -805,16 +699,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"17362c099feb0f23": {
 			"parent": "abcdecaf31f72bb4",
@@ -836,16 +727,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"1be406bcbe8f2574": {
 			"parent": "abcdecaf31f72bb4",
@@ -867,16 +755,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"dabd2372213ea6bf": {
 			"parent": "abcdecaf31f72bb4",
@@ -898,16 +783,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"5364377f8c4357c3": {
 			"parent": "abcdecaf31f72bb4",
@@ -929,16 +811,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"2cea59ba4dca9193": {
 			"parent": "abcdecaf31f72bb4",
@@ -960,16 +839,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"30574a12e520de97": {
 			"parent": "abcdecaf31f72bb4",
@@ -991,16 +867,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"e6a6d84d825b604f": {
 			"parent": "abcdecaf31f72bb4",
@@ -1022,16 +895,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"af932ca9bc5ec7ae": {
 			"parent": "abcdecaf31f72bb4",
@@ -1053,16 +923,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"2b59f578c74a0b73": {
 			"parent": "abcdecaf31f72bb4",
@@ -1084,16 +951,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"21e28facb54a8733": {
 			"parent": "abcdecaf31f72bb4",
@@ -1115,16 +979,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"e7562ffb8fa9f828": {
 			"parent": "abcdecaf31f72bb4",
@@ -1146,16 +1007,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"3411e91dc3ab5e34": {
 			"parent": "abcdecaf31f72bb4",
@@ -1177,16 +1035,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"198a7d6b213d0a3c": {
 			"parent": "abcdecaf31f72bb4",
@@ -1208,16 +1063,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"a2a65ce9999906d0": {
 			"parent": "abcdecaf31f72bb4",
@@ -1239,16 +1091,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"f28d0f148f3fd11f": {
 			"parent": "abcdecaf31f72bb4",
@@ -1270,16 +1119,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"d178d273f76b0054": {
 			"parent": "abcdecaf31f72bb4",
@@ -1301,16 +1147,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"a996bceafd525aab": {
 			"parent": "abcdecaf31f72bb4",
@@ -1332,16 +1175,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"4f01c3da0f875e0e": {
 			"parent": "abcdecaf31f72bb4",
@@ -1363,16 +1203,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"24e33e09168a25db": {
 			"parent": "abcdecaf31f72bb4",
@@ -1394,16 +1231,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"3895a697a28f24a9": {
 			"parent": "abcdecaf31f72bb4",
@@ -1425,16 +1259,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"2cacb6b7483159ea": {
 			"parent": "abcdecaf31f72bb4",
@@ -1456,16 +1287,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"4515aaea55373388": {
 			"parent": "abcdecaf31f72bb4",
@@ -1487,16 +1315,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"92656ab94f6f4a69": {
 			"parent": "abcdecaf31f72bb4",
@@ -1518,16 +1343,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"da64e094f9f7764f": {
 			"parent": "abcdecaf31f72bb4",
@@ -1549,16 +1371,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"1e76f1a671e96e84": {
 			"parent": "abcdecaf31f72bb4",
@@ -1580,16 +1399,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"ad982aaadfe649e4": {
 			"parent": "abcdecaf31f72bb4",
@@ -1611,16 +1427,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"15be8d60913c48b0": {
 			"parent": "abcdecaf31f72bb4",
@@ -1642,16 +1455,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"6d36d6250cbed289": {
 			"parent": "abcdecaf31f72bb4",
@@ -1673,16 +1483,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"d7cd445dd738ab8c": {
 			"parent": "abcdecaf31f72bb4",
@@ -1704,16 +1511,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"32f6850e43f9a013": {
 			"parent": "abcdecaf31f72bb4",
@@ -1735,16 +1539,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"6466121ba3ce2aed": {
 			"parent": "abcdecaf31f72bb4",
@@ -1766,16 +1567,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"356ac96892a1f1f5": {
 			"parent": "abcdecaf31f72bb4",
@@ -1797,16 +1595,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"2205ae79424381ca": {
 			"parent": "abcdecaf31f72bb4",
@@ -1828,16 +1623,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"110601a97f166b75": {
 			"parent": "abcdecaf31f72bb4",
@@ -1859,16 +1651,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"ff5b2d5e19afe23": {
 			"parent": "abcdecaf31f72bb4",
@@ -1890,16 +1679,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"f31bf5cd4fa1378e": {
 			"parent": "abcdecaf31f72bb4",
@@ -1921,16 +1707,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"b102673df0e077d5": {
 			"parent": "abcdecaf31f72bb4",
@@ -1952,16 +1735,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"21833e0718ee9bb6": {
 			"parent": "abcdecaf31f72bb4",
@@ -1983,16 +1763,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"c22fb1ac11a22a26": {
 			"parent": "abcdecaf31f72bb4",
@@ -2014,16 +1791,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"be6165b7821dc7b1": {
 			"parent": "abcdecaf31f72bb4",
@@ -2045,16 +1819,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"f527cfb643a27969": {
 			"parent": "abcdecaf31f72bb4",
@@ -2076,16 +1847,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"d2aa42377c4d51ce": {
 			"parent": "abcdecaf31f72bb4",
@@ -2107,16 +1875,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"3cb75d180dd88ece": {
 			"parent": "abcdecaf31f72bb4",
@@ -2138,16 +1903,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"2acef73e679678e1": {
 			"parent": "abcdecaf31f72bb4",
@@ -2169,16 +1931,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"d9d1fc0884da0115": {
 			"parent": "abcdecaf31f72bb4",
@@ -2200,16 +1959,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"7e8ad23127b0a673": {
 			"parent": "abcdecaf31f72bb4",
@@ -2231,16 +1987,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"20ea0ccfb262fc9e": {
 			"parent": "abcdecaf31f72bb4",
@@ -2262,16 +2015,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"9fdb0f59fbdabab4": {
 			"parent": "abcdecaf31f72bb4",
@@ -2293,16 +2043,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"2d7ae4a517444b97": {
 			"parent": "abcdecaf31f72bb4",
@@ -2324,16 +2071,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"983f415e7be54a0": {
 			"parent": "abcdecaf31f72bb4",
@@ -2355,16 +2099,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"690413afd07f85c3": {
 			"parent": "abcdecaf31f72bb4",
@@ -2386,16 +2127,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"8f953838da9f8f2a": {
 			"parent": "abcdecaf31f72bb4",
@@ -2417,16 +2155,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"390285e1d5a09c26": {
 			"parent": "abcdecaf31f72bb4",
@@ -2448,16 +2183,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"b633c53a88009c31": {
 			"parent": "abcdecaf31f72bb4",
@@ -2479,16 +2211,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"70f52d1d0b4fd3b3": {
 			"parent": "abcdecaf31f72bb4",
@@ -2510,16 +2239,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"3d9210bd7accf121": {
 			"parent": "abcdecaf31f72bb4",
@@ -2541,16 +2267,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"a307bdbf21155e2a": {
 			"parent": "abcdecaf31f72bb4",
@@ -2572,16 +2295,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"79aa8b08439cd9c1": {
 			"parent": "abcdecaf31f72bb4",
@@ -2603,16 +2323,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"5f0e86fe301121fc": {
 			"parent": "abcdecaf31f72bb4",
@@ -2634,16 +2351,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"9f8f926ba29a787e": {
 			"parent": "abcdecaf31f72bb4",
@@ -2665,16 +2379,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"476983bec4da4fa2": {
 			"parent": "abcdecaf31f72bb4",
@@ -2696,16 +2407,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"42cf1d19a99526cf": {
 			"parent": "abcdecaf31f72bb4",
@@ -2727,16 +2435,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"a570a6c294a2b1e2": {
 			"parent": "abcdecaf31f72bb4",
@@ -2758,16 +2463,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"da406f458c9ce4bb": {
 			"parent": "abcdecaf31f72bb4",
@@ -2789,16 +2491,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"d4933c9bb0e3c009": {
 			"parent": "abcdecaf31f72bb4",
@@ -2820,16 +2519,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"ecf90e703cf51e8a": {
 			"parent": "abcdecaf31f72bb4",
@@ -2851,16 +2547,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"1252936403901239": {
 			"parent": "abcdecaf31f72bb4",
@@ -2882,16 +2575,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"d181dd4e416918de": {
 			"parent": "abcdecaf31f72bb4",
@@ -2913,16 +2603,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"1c6d7364f813be08": {
 			"parent": "abcdecaf31f72bb4",
@@ -2944,16 +2631,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"a5fc1e5bc9587ac7": {
 			"parent": "abcdecaf31f72bb4",
@@ -2975,16 +2659,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"16bd42bdf924375b": {
 			"parent": "abcdecaf31f72bb4",
@@ -3006,16 +2687,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"2c63a0e63b01bbfc": {
 			"parent": "abcdecaf31f72bb4",
@@ -3037,16 +2715,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"9ab8b6276123e6ca": {
 			"parent": "abcdecaf31f72bb4",
@@ -3068,16 +2743,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"20358a7c3a920b6": {
 			"parent": "abcdecaf31f72bb4",
@@ -3099,16 +2771,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"5be22b68554013e2": {
 			"parent": "abcdecaf31f72bb4",
@@ -3130,16 +2799,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"84fb3419a93f9ba2": {
 			"parent": "abcdecaf31f72bb4",
@@ -3161,16 +2827,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"596d5507d752d9d4": {
 			"parent": "abcdecaf31f72bb4",
@@ -3192,16 +2855,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"5d8767a2a6a7ca6": {
 			"parent": "abcdecaf31f72bb4",
@@ -3223,16 +2883,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"60555eafd2e98185": {
 			"parent": "abcdecaf31f72bb4",
@@ -3254,16 +2911,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"7f9acdefd14e17dd": {
 			"parent": "abcdecaf31f72bb4",
@@ -3285,16 +2939,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"6184fe7b41942ac7": {
 			"parent": "abcdecaf31f72bb4",
@@ -3316,16 +2967,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"f0ffb8bfba1200c5": {
 			"parent": "abcdecaf31f72bb4",
@@ -3347,16 +2995,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"f90c9257f469f2c6": {
 			"parent": "abcdecaf31f72bb4",
@@ -3378,16 +3023,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"a7e3652e0e90d63c": {
 			"parent": "abcdecaf31f72bb4",
@@ -3409,16 +3051,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"cf95cf2ebbc28d90": {
 			"parent": "abcdecaf31f72bb4",
@@ -3440,16 +3079,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"399a70f6eb805b0b": {
 			"parent": "abcdecaf31f72bb4",
@@ -3471,16 +3107,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"75bd44de0395f2bc": {
 			"parent": "abcdecaf31f72bb4",
@@ -3502,16 +3135,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"c810b53dfa9d1997": {
 			"parent": "abcdecaf31f72bb4",
@@ -3533,16 +3163,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"6fcea316b8be96b6": {
 			"parent": "abcdecaf31f72bb4",
@@ -3564,16 +3191,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"17f811360be5b1d0": {
 			"parent": "abcdecaf31f72bb4",
@@ -3595,16 +3219,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"ad8ee10cec544cca": {
 			"parent": "abcdecaf31f72bb4",
@@ -3626,16 +3247,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"c847abe97ff3a5b6": {
 			"parent": "abcdecaf31f72bb4",
@@ -3657,16 +3275,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"9682283a69d66c73": {
 			"parent": "abcdecaf31f72bb4",
@@ -3688,16 +3303,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"83cfcf98ce240c4d": {
 			"parent": "abcdecaf31f72bb4",
@@ -3719,16 +3331,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"b19c88c80198ce5c": {
 			"parent": "abcdecaf31f72bb4",
@@ -3750,16 +3359,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"aa195b7247fff67d": {
 			"parent": "abcdecaf31f72bb4",
@@ -3781,16 +3387,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"c761eaed93baf832": {
 			"parent": "abcdecaf31f72bb4",
@@ -3812,16 +3415,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"68c9a620ec59bb8f": {
 			"parent": "abcdecaf31f72bb4",
@@ -3843,16 +3443,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"2ee3b471abce79ad": {
 			"parent": "abcdecaf31f72bb4",
@@ -3874,16 +3471,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"7b39589a8e37cbb2": {
 			"parent": "abcdecaf31f72bb4",
@@ -3905,16 +3499,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"fddeae33b5e33d8b": {
 			"parent": "abcdecaf31f72bb4",
@@ -3936,16 +3527,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"2e8175a00d9c3b70": {
 			"parent": "abcdecaf31f72bb4",
@@ -3967,16 +3555,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"850a97d6d7af8d63": {
 			"parent": "abcdecaf31f72bb4",
@@ -3998,16 +3583,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"40a686a8965009b3": {
 			"parent": "abcdecaf31f72bb4",
@@ -4029,16 +3611,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"881fa05e9cfbd7f5": {
 			"parent": "abcdecaf31f72bb4",
@@ -4060,16 +3639,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"d8a9033211ef052": {
 			"parent": "abcdecaf31f72bb4",
@@ -4091,16 +3667,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"236c9c4d035eaac0": {
 			"parent": "abcdecaf31f72bb4",
@@ -4122,16 +3695,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"bbdfddbdecff22d1": {
 			"parent": "abcdecaf31f72bb4",
@@ -4153,16 +3723,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"9cb5a39a154e107": {
 			"parent": "abcdecaf31f72bb4",
@@ -4184,16 +3751,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"70ad43024ff61b52": {
 			"parent": "abcdecaf31f72bb4",
@@ -4215,16 +3779,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"b243527562319d05": {
 			"parent": "abcdecaf31f72bb4",
@@ -4246,16 +3807,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"bdad629ade37067b": {
 			"parent": "abcdecaf31f72bb4",
@@ -4277,16 +3835,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"a32f3d14b4418ec7": {
 			"parent": "abcdecaf31f72bb4",
@@ -4308,16 +3863,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"576c1fddaaf26807": {
 			"parent": "abcdecaf31f72bb4",
@@ -4339,16 +3891,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"91fec4899fd58685": {
 			"parent": "abcdecaf31f72bb4",
@@ -4370,16 +3919,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"cd8b66ec1e68aa7a": {
 			"parent": "abcdecaf31f72bb4",
@@ -4401,16 +3947,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"b58bf02cd8467f26": {
 			"parent": "abcdecaf31f72bb4",
@@ -4432,16 +3975,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"d6f7d438174a40fe": {
 			"parent": "abcdecaf31f72bb4",
@@ -4463,16 +4003,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"d4dc425cad4d7823": {
 			"parent": "abcdecaf31f72bb4",
@@ -4494,16 +4031,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"8ada70a4edcb7a6e": {
 			"parent": "abcdecaf31f72bb4",
@@ -4525,16 +4059,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"b5acc32d1aef80f5": {
 			"parent": "abcdecaf31f72bb4",
@@ -4556,16 +4087,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"6c02183c6245d671": {
 			"parent": "abcdecaf31f72bb4",
@@ -4587,16 +4115,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"7b397d10bc189db5": {
 			"parent": "abcdecaf31f72bb4",
@@ -4618,16 +4143,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"d3331a8a4a233a49": {
 			"parent": "abcdecaf31f72bb4",
@@ -4649,16 +4171,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"d120f31d7e6d9d36": {
 			"parent": "abcdecaf31f72bb4",
@@ -4680,16 +4199,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"71ea167372328aa6": {
 			"parent": "abcdecaf31f72bb4",
@@ -4711,16 +4227,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"420ea30b04b66c36": {
 			"parent": "abcdecaf31f72bb4",
@@ -4742,16 +4255,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"4f3ed499aaf70ebf": {
 			"parent": "abcdecaf31f72bb4",
@@ -4773,16 +4283,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"1cbba482321d85d1": {
 			"parent": "abcdecaf31f72bb4",
@@ -4804,16 +4311,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"7aa9202c01c6b842": {
 			"parent": "abcdecaf31f72bb4",
@@ -4835,16 +4339,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"f1dc3f8a5c444c9b": {
 			"parent": "abcdecaf31f72bb4",
@@ -4866,16 +4367,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"12f38ca4d3f94d87": {
 			"parent": "abcdecaf31f72bb4",
@@ -4897,16 +4395,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"edd365197abec526": {
 			"parent": "abcdecaf31f72bb4",
@@ -4928,16 +4423,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"18b60b22358e80ba": {
 			"parent": "abcdecaf31f72bb4",
@@ -4959,16 +4451,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"a2de9551d85b89d1": {
 			"parent": "abcdecaf31f72bb4",
@@ -4990,16 +4479,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"28c8ec7fc5b81125": {
 			"parent": "abcdecaf31f72bb4",
@@ -5021,16 +4507,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"1a7dc321fcb81a4f": {
 			"parent": "abcdecaf31f72bb4",
@@ -5052,16 +4535,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"5407b48dc5491c6a": {
 			"parent": "abcdecaf31f72bb4",
@@ -5083,16 +4563,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"c6262007aaf67c67": {
 			"parent": "abcdecaf31f72bb4",
@@ -5114,16 +4591,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"873c29eeec896751": {
 			"parent": "abcdecaf31f72bb4",
@@ -5145,16 +4619,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"2e9d0b7386df3b5d": {
 			"parent": "abcdecaf31f72bb4",
@@ -5176,16 +4647,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"2d553515cb1c382d": {
 			"parent": "abcdecaf31f72bb4",
@@ -5207,16 +4675,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"ecd4a02d4ccb5b73": {
 			"parent": "abcdecaf31f72bb4",
@@ -5238,16 +4703,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"ea65afc60bbafbb4": {
 			"parent": "abcdecaf31f72bb4",
@@ -5269,16 +4731,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"63501b8d387a48e0": {
 			"parent": "abcdecaf31f72bb4",
@@ -5300,16 +4759,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"511fc7ab1d974aa3": {
 			"parent": "abcdecaf31f72bb4",
@@ -5331,16 +4787,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"2897aec6bead5a1e": {
 			"parent": "abcdecaf31f72bb4",
@@ -5362,16 +4815,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"c8fee69715b06dc4": {
 			"parent": "abcdecaf31f72bb4",
@@ -5393,16 +4843,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"ce43c9be95a36bca": {
 			"parent": "abcdecaf31f72bb4",
@@ -5424,16 +4871,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"af56f8092f826894": {
 			"parent": "abcdecaf31f72bb4",
@@ -5455,16 +4899,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"d16f07d273bcff31": {
 			"parent": "abcdecaf31f72bb4",
@@ -5486,16 +4927,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"a408e58a1f299f1e": {
 			"parent": "abcdecaf31f72bb4",
@@ -5517,16 +4955,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"c90b229d3fe375f4": {
 			"parent": "abcdecaf31f72bb4",
@@ -5548,16 +4983,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"87669beb9073c999": {
 			"parent": "abcdecaf31f72bb4",
@@ -5579,16 +5011,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"b1811b62a70c0a2": {
 			"parent": "abcdecaf31f72bb4",
@@ -5610,16 +5039,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"4bf04efe6d16dc2b": {
 			"parent": "abcdecaf31f72bb4",
@@ -5641,16 +5067,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"c5d3925b6cf60d7a": {
 			"parent": "abcdecaf31f72bb4",
@@ -5672,16 +5095,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"1995738fb15f4b6d": {
 			"parent": "abcdecaf31f72bb4",
@@ -5703,16 +5123,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"d71e675884d56552": {
 			"parent": "abcdecaf31f72bb4",
@@ -5734,16 +5151,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"947c82ef72202fe2": {
 			"parent": "abcdecaf31f72bb4",
@@ -5765,16 +5179,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"2bd44de951647e8e": {
 			"parent": "abcdecaf31f72bb4",
@@ -5796,16 +5207,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"b3a45d39edaabe4a": {
 			"parent": "abcdecaf31f72bb4",
@@ -5827,16 +5235,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"f73d767021cdf845": {
 			"parent": "abcdecaf31f72bb4",
@@ -5858,16 +5263,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"805065f01c587ed2": {
 			"parent": "abcdecaf31f72bb4",
@@ -5889,16 +5291,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"1c1ee6e5df5bfc1a": {
 			"parent": "abcdecaf31f72bb4",
@@ -5920,16 +5319,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"ea3e3dc02d0d880a": {
 			"parent": "abcdecaf31f72bb4",
@@ -5951,16 +5347,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"a05658461935c9b1": {
 			"parent": "abcdecaf31f72bb4",
@@ -5982,16 +5375,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"50993ec47b176b01": {
 			"parent": "abcdecaf31f72bb4",
@@ -6013,16 +5403,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"713c813caba4aba2": {
 			"parent": "abcdecaf31f72bb4",
@@ -6044,16 +5431,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"90c956ccaaba0d62": {
 			"parent": "abcdecaf31f72bb4",
@@ -6075,16 +5459,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"bcad7d87bccafba5": {
 			"parent": "abcdecaf31f72bb4",
@@ -6106,16 +5487,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"cc55246f0c39d7b2": {
 			"parent": "abcdecaf31f72bb4",
@@ -6137,16 +5515,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"f408fdaa4af611fe": {
 			"parent": "abcdecaf31f72bb4",
@@ -6168,16 +5543,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"74f0b13164e98511": {
 			"parent": "abcdecaf31f72bb4",
@@ -6199,16 +5571,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"9ad8032c361e74cd": {
 			"parent": "abcdecaf31f72bb4",
@@ -6230,16 +5599,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"49b50e31268dba6a": {
 			"parent": "abcdecaf31f72bb4",
@@ -6261,16 +5627,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"6a0f8c9bb9daf202": {
 			"parent": "abcdecaf31f72bb4",
@@ -6292,16 +5655,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"58ccccd8278a58d2": {
 			"parent": "abcdecaf31f72bb4",
@@ -6323,16 +5683,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"7b737954b6084885": {
 			"parent": "abcdecaf31f72bb4",
@@ -6354,16 +5711,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"ff3bb357add6daa5": {
 			"parent": "abcdecaf31f72bb4",
@@ -6385,16 +5739,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"7246e0851e898288": {
 			"parent": "abcdecaf31f72bb4",
@@ -6416,16 +5767,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"a3017df530689831": {
 			"parent": "abcdecaf31f72bb4",
@@ -6447,16 +5795,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"98a5a651c69e4422": {
 			"parent": "abcdecaf31f72bb4",
@@ -6478,16 +5823,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"f7442718a87f055d": {
 			"parent": "abcdecaf31f72bb4",
@@ -6509,16 +5851,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"4b58fc322f45dfb3": {
 			"parent": "abcdecaf31f72bb4",
@@ -6540,16 +5879,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"e93764cba656d1ab": {
 			"parent": "abcdecaf31f72bb4",
@@ -6571,16 +5907,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"f1cdf9539836a2d3": {
 			"parent": "abcdecaf31f72bb4",
@@ -6602,16 +5935,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"bf6bcb4755dea7f3": {
 			"parent": "abcdecaf31f72bb4",
@@ -6633,16 +5963,13 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"be6bd488f27330b6": {
 			"parent": "abcdecaf31f72bb4",
@@ -6664,23 +5991,28 @@
 							"z": 0
 						}
 					}
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "abcdecaf31f72bb4"
+					"value": "abcdecaf31f72bb4",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		}
 	},
 	"propertyOverrides": [],
 	"overrideDeletes": [],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
-	"externalScenes": ["[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype", "0064FE1090FB2775", "0036D64700F55065", "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"],
-	"subType": 1,
-	"quickEntityVersion": 2.1
+	"externalScenes": [
+		"[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype",
+		"0064FE1090FB2775",
+		"0036D64700F55065",
+		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+	],
+	"subType": "scene",
+	"quickEntityVersion": 3,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

@@ -7,16 +7,7 @@
 			"parent": null,
 			"name": "Scene",
 			"template": "[modules:/zspatialentity.class].pc_entitytype",
-			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"entitySubsets": [
-				["Replicable", {
-					"entities": []
-				}]
-			]
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
 		"abcd236885ff26fa": {
 			"parent": "fffffffffffffffe",
@@ -60,7 +51,9 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd02e240609a10"]
+					"value": [
+						"abcd02e240609a10"
+					]
 				},
 				"m_sId": {
 					"type": "ZGuid",
@@ -93,50 +86,41 @@
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_nakedguy_m_hpa1370_description_d3bdbcfe-8e46-4774-a642-17daa98a7f69.sweetline].pc_sweetline"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd02e240609a10": {
 			"parent": "abcd236885ff26fa",
 			"name": "CHARSET_CraigMcVeigh",
 			"template": "0007D9A3A121CFBC",
-			"blueprint": "00BCD3F0CCFDA5AF",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"blueprint": "00BCD3F0CCFDA5AF"
 		},
 		"abcd51ee3a07c78e": {
 			"parent": "abcd236885ff26fa",
 			"name": "Keyword_Prof_Class_Default",
 			"template": "007A51A2AFEC0D1A",
 			"blueprint": "00B0282A41C1CF2E",
-			"properties": {},
-			"postInitProperties": {
+			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd236885ff26fa"]
+					"value": [
+						"abcd236885ff26fa"
+					],
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcddc551c991cd3": {
 			"parent": "abcd236885ff26fa",
 			"name": "KeywordEntity_FOLEY_OUTFIT_NAKED",
 			"template": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_naked.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_naked.entitytemplate].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {
+			"properties": {
 				"m_rHolder": {
 					"type": "SEntityTemplateReference",
-					"value": "abcd236885ff26fa"
+					"value": "abcd236885ff26fa",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdd0c5af4204ac": {
 			"parent": "abcd236885ff26fa",
@@ -146,12 +130,11 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd236885ff26fa"]
+					"value": [
+						"abcd236885ff26fa"
+					]
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcde8d0af23d6de": {
 			"parent": "abcd236885ff26fa",
@@ -161,12 +144,11 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd236885ff26fa"]
+					"value": [
+						"abcd236885ff26fa"
+					]
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcdff6dac512013": {
 			"parent": "abcd236885ff26fa",
@@ -176,12 +158,11 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd236885ff26fa"]
+					"value": [
+						"abcd236885ff26fa"
+					]
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"abcd5e47b0b776af": {
 			"parent": "abcd236885ff26fa",
@@ -191,19 +172,23 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd236885ff26fa"]
+					"value": [
+						"abcd236885ff26fa"
+					]
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		}
 	},
 	"propertyOverrides": [],
 	"overrideDeletes": [],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
-	"externalScenes": ["[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"],
-	"subType": 2,
-	"quickEntityVersion": 2.1
+	"externalScenes": [
+		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }
