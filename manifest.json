@@ -3,7 +3,7 @@
   "name": "HM3CustomMaps",
   "description": "Custom maps experimentation",
   "authors": ["Notex"],
-  "contentFolder": "content",
+  "contentFolders": ["content"],
   "packagedefinition": [
     {
       "type": "entity",
@@ -33,5 +33,5 @@
   ],
   "version": "1.0.1",
   "updateCheck": "https://framework.notex.app/updates/HM3CustomMaps.json",
-  "frameworkVersion": "1.0.0"
+  "frameworkVersion": "2.0.0"
 }
