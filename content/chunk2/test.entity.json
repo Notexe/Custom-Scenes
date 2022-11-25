@@ -2995,8 +2995,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0000000000000070167096047110005,
-							"y": -0.0000000000000070167096047110005,
+							"x": -7.0167096047110005e-15,
+							"y": -7.0167096047110005e-15,
 							"z": -90.00000000000001
 						},
 						"position": {
@@ -3031,8 +3031,8 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.0000000000000070167096047110005,
-							"y": -0.0000000000000070167096047110005,
+							"x": -7.0167096047110005e-15,
+							"y": -7.0167096047110005e-15,
 							"z": -90.00000000000001
 						},
 						"position": {
@@ -3088,6 +3088,385 @@
 					"type": "SEntityTemplateReference",
 					"value": "abcdafc03496f112",
 					"postInit": true
+				}
+			}
+		},
+		"feedc984c241278b": {
+			"parent": "e2408375eea89dab",
+			"name": "guillotine_a",
+			"template": "[assembly:/_pro/environment/geometry/props/guillotine_a.wl2?/guillotine_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 4,
+							"y": 5,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
+				}
+			}
+		},
+		"feed2964951b5841": {
+			"parent": "feedc984c241278b",
+			"name": "setpiece_hips_lie",
+			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 4,
+							"y": 4.9,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
+				}
+			}
+		},
+		"feed9535d3d920d9": {
+			"parent": "feed2964951b5841",
+			"name": "Parent",
+			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": -0.7549999952316284,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed2964951b5841",
+					"postInit": true
+				}
+			}
+		},
+		"feed4d727eafbe1a": {
+			"parent": "feed2964951b5841",
+			"name": "HIPS position",
+			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 9.999999974752427e-7,
+							"y": -9.999999974752427e-7,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9535d3d920d9"
+				}
+			}
+		},
+		"feedd565a8168e5d": {
+			"parent": "feed2964951b5841",
+			"name": "SetpieceHelper_HIPS_FullyHidden",
+			"template": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelper_hips_fullyhidden.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelper_hips_fullyhidden.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0.05000000074505806,
+							"z": 0
+						}
+					}
+				},
+				"m_pSafeZoneOrigin": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4d727eafbe1a"
+				},
+				"m_RuntimeNetworkResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/animationnetworks/hitman01/disguiseacts/safezones/disguisesafezonecoffin.aln].pc_rtn",
+						"flag": "9F"
+					}
+				},
+				"GizmoTransformBase": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.99999499104388
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"InteractionPoint": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.05000000074505806,
+							"y": -0.6000000238418579,
+							"z": 1
+						}
+					}
+				},
+				"PromptPoint": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0.18000000715255737,
+							"z": 0.003000000026077032
+						}
+					}
+				},
+				"m_rPromptTextResourceenter": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/setpieces.sweetmenutext?/setpieces_localization_prompt_hide.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rPromptTextResourceexit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/setpieces.sweetmenutext?/setpieces_localization_prompt_stophiding.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_bBlendOutCloth": {
+					"type": "bool",
+					"value": true
+				},
+				"AllowWeaponOnBack": {
+					"type": "bool",
+					"value": false
+				},
+				"m_aUIHighlightGeom": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						null
+					]
+				},
+				"m_pSafeZoneLoopPosition": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4d727eafbe1a"
+				},
+				"m_aValuesconditionsvisible": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9535d3d920d9",
+					"postInit": true
+				}
+			}
+		},
+		"abcdefcadc2e258e": {
+			"parent": null,
+			"name": "QNE In-Vivo Helper Entity",
+			"template": "[modules:/zmultiparentspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zmultiparentspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aParents": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"fffffffffffffffe",
+						"3a4fd7620d2fc601",
+						"5d5a95556319479",
+						"3a589d55b3aa2df9",
+						"3a589e5817e2e1b9",
+						"5d5a954e6bba4f9",
+						"6cb96fced2a8a7e4",
+						"339a9e34c6576367",
+						"1234567890abcdef",
+						"f88f58479a55e8e7",
+						"7187d61652900e11",
+						"a8c7ad873de9528",
+						"e2408375eea89dab",
+						"38a086ae3b377196",
+						"7a62dbe0110908ea",
+						"8339abdcbe93280b",
+						"863cc93648b2cc4",
+						"c78e7c1ddd85f9be",
+						"ae51f4370a3e0d44",
+						"538a75f5a250d13c",
+						"f97ab4b27757356c",
+						"6d2ee3b76b69233f",
+						"14dbea1551f49ac5",
+						"bccec0724dc9868e",
+						"5cadb598e997573c",
+						"f9e2e04fefd8addc",
+						"7820b8a50daabffd",
+						"b2dcd31d21e668bd",
+						"abcdf226c6efa301",
+						"abcd52b66ce922ab",
+						"abcd60c5e141f61f",
+						"abcdc7b95e92a99f",
+						"abcda1cedffedb1a",
+						"abcd4272fcc6abd7",
+						"abcd21e2b3e09719",
+						"abcd63c6c2f5b9dd",
+						"abcd10607c5334cb",
+						"abcdd828c22994b1",
+						"abcd6aad4aa3e668",
+						"abcd10dc57d5df72",
+						"abcd9acf5f7bc7b0",
+						"abcd62f4d570008f",
+						"abcd9f77d978befb",
+						"abcd3ede8e042b61",
+						"abcd58e395ad03d0",
+						"abcd09feb02373db",
+						"abcd889eea2e16b2",
+						"abcdab5a70a5ab8e",
+						"abcd1e84b3f2e4f9",
+						"abcdcfb7b0729637",
+						"abcde03a07db946e",
+						"abcd0407f1296a34",
+						"abcde530705985f7",
+						"abcda67d7637d5d6",
+						"abcd7391b32bfb66",
+						"abcdb9de32c40395",
+						"abcd3c5aad409dc5",
+						"abcd481a3b5a7abf",
+						"abcdff4e6866a383",
+						"abcda321b5810e22",
+						"abcd6baf8225ed26",
+						"abcd1b986f00dc72",
+						"abcdfff2f99c98f0",
+						"abcdf72251be25a7",
+						"abcd63e647967633",
+						"abcd08d7a048ad1a",
+						"abcdf11881e6e89c",
+						"abcddc5f040dbd96",
+						"abcd8db0cb380368",
+						"abcd998cd2fb8d62",
+						"abcd54c6e67e53f4",
+						"abcd6d72bbcb05b3",
+						"abcde6ede492afad",
+						"abcd7bd0406cd32e",
+						"abcdc821c9a932a1",
+						"abcd33f43a0b0802",
+						"abcd96cd31540ff1",
+						"abcd303646ec3421",
+						"abcdf18c07340416",
+						"abcd210d3b37ec56",
+						"abcdda05cf8aff36",
+						"abcdc97159de4d50",
+						"abcde0eafb29e2df",
+						"abcd586953380f78",
+						"abcd615457ec5cbb",
+						"abcdee57952c4db5",
+						"abcda25b2fa2a0c9",
+						"abcdafc03496f112",
+						"abcd7b6e80b40d69",
+						"abcd19ab6eb89815",
+						"abcd5d83034fd6f3",
+						"abcd787933fa9060",
+						"abcd050c1a4d465a",
+						"abcda560ba1f331c",
+						"abcd14eaaf7c971f",
+						"abcd78a85b301672",
+						"abcdcc92b9054b6d",
+						"abcd2da7b2b7aa95",
+						"abcdd47e7bba84b7",
+						"abcd9c960d6c7d41",
+						"abcd09877ea39231",
+						"abcd41ed6f481006",
+						"abcde118bc866367",
+						"abcdb2eea6418544",
+						"abcd928fdcfd973e",
+						"abcd6ded1b2f24e3",
+						"abcda2f5e7e40b44",
+						"abcd84085b5535eb",
+						"abcdb7e2240169e4",
+						"abcdd0d79435606d",
+						"abcdedf70ad41489",
+						"feedc984c241278b",
+						"feed2964951b5841",
+						"feed9535d3d920d9",
+						"feed4d727eafbe1a",
+						"feedd565a8168e5d"
+					]
+				}
+			}
+		},
+		"abcdefcadc77e4f2": {
+			"parent": "abcdefcadc2e258e",
+			"name": "QNE In-Vivo Helper Entity GameEventListener",
+			"template": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_IntroCutEnd"
+				}
+			},
+			"events": {
+				"EventOccurred": {
+					"GetIndex": [
+						"abcdefcadc2e258e"
+					]
 				}
 			}
 		}

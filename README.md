@@ -18,6 +18,11 @@ https://user-images.githubusercontent.com/43296291/141157843-34cf51da-5330-46aa-
 
 ![HITMAN3_WcB8wm7dU8](https://user-images.githubusercontent.com/43296291/141782804-c58f4297-a31e-47b9-a6f3-9b51da46a77f.png)
 
+## Custom paths:
+```
+00B5C7A6E0F38638.PRIM,[assembly:/_pro/environment/geometry/props/guillotine_a.wl2?/guillotine_a.prim].pc_prim
+00FA20275D950AA4.TEMP,[assembly:/_pro/environment/geometry/props/guillotine_a.wl2?/guillotine_a.prim].pc_entitytype
+```
 
 ---
 ## Instructions
