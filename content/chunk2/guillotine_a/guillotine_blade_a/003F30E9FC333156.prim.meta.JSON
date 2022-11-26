@@ -1,5 +1,5 @@
 {
-    "hash_value": "00B5C7A6E0F38638",
+    "hash_value": "003F30E9FC333156",
     "hash_offset": 8693330,
     "hash_size": 2147486887,
     "hash_resource_type": "PRIM",
@@ -9,10 +9,6 @@
     "hash_size_in_memory": 4294967295,
     "hash_size_in_video_memory": 4294967295,
     "hash_reference_data": [
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/wood/wood_oiled_noseams_a.mi].pc_mi",
-            "flag": "5F"
-        },
         {
             "hash": "[assembly:/_pro/environment/materials/generic/metal/steel_stainless_clean_a.mi].pc_mi",
             "flag": "5F"

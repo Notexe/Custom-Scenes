@@ -22,6 +22,8 @@ https://user-images.githubusercontent.com/43296291/141157843-34cf51da-5330-46aa-
 ```
 00B5C7A6E0F38638.PRIM,[assembly:/_pro/environment/geometry/props/guillotine_a.wl2?/guillotine_a.prim].pc_prim
 00FA20275D950AA4.TEMP,[assembly:/_pro/environment/geometry/props/guillotine_a.wl2?/guillotine_a.prim].pc_entitytype
+003F30E9FC333156.PRIM,[assembly:/_pro/environment/geometry/props/guillotine_a.wl2?/guillotine_blade_a.prim].pc_prim
+005D066A71E1A800.TEMP,[assembly:/_pro/environment/geometry/props/guillotine_a.wl2?/guillotine_blade_a.prim].pc_entitytype
 ```
 
 ---

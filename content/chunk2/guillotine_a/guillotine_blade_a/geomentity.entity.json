@@ -1,0 +1,47 @@
+{
+	"tempHash": "005D066A71E1A800",
+	"tbluHash": "008130A85A690BE8",
+	"rootEntity": "feedda9702923962",
+	"entities": {
+		"feedda9702923962": {
+			"parent": null,
+			"name": "GeomEntity01",
+			"template": "[modules:/zgeomentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgeomentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/guillotine_a.wl2?/guillotine_blade_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

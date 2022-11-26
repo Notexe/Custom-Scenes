@@ -3320,6 +3320,156 @@
 					"value": "feed9535d3d920d9",
 					"postInit": true
 				}
+			},
+			"events": {
+				"OnEntered": {
+					"In": [
+						"feedcb708854c2c0"
+					]
+				}
+			}
+		},
+		"feed3a18f2c66987": {
+			"parent": "feedc984c241278b",
+			"name": "guillotine_blade_a",
+			"template": "[assembly:/_pro/environment/geometry/props/guillotine_a.wl2?/guillotine_blade_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedc984c241278b",
+					"postInit": true
+				}
+			}
+		},
+		"feedccad09685fd7": {
+			"parent": "feedc984c241278b",
+			"name": "SpatialMover",
+			"template": "[modules:/zspatialmoverentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialmoverentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Start": {
+					"type": "SEntityTemplateReference",
+					"value": "feed21e0d28de208"
+				},
+				"m_fSpeed": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_bLooping": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_Entity": {
+					"type": "SEntityTemplateReference",
+					"value": "feed3a18f2c66987",
+					"postInit": true
+				},
+				"m_End": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbb2e8f596b69",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnPositionReached": {
+					"Activate": [
+						"b2dcd31d21e668bd"
+					]
+				}
+			}
+		},
+		"feed21e0d28de208": {
+			"parent": "feedc984c241278b",
+			"name": "Start Position",
+			"template": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedc984c241278b",
+					"postInit": true
+				}
+			}
+		},
+		"feedbb2e8f596b69": {
+			"parent": "feedc984c241278b",
+			"name": "End Position",
+			"template": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -1.625
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedc984c241278b"
+				}
+			}
+		},
+		"feedcb708854c2c0": {
+			"parent": "feed2964951b5841",
+			"name": "TimerSimple",
+			"template": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": {
+					"type": "int32",
+					"value": 2500
+				}
+			},
+			"events": {
+				"Out": {
+					"Enable": [
+						"feedccad09685fd7"
+					]
+				}
 			}
 		},
 		"abcdefcadc2e258e": {
@@ -3446,7 +3596,12 @@
 						"feed2964951b5841",
 						"feed9535d3d920d9",
 						"feed4d727eafbe1a",
-						"feedd565a8168e5d"
+						"feedd565a8168e5d",
+						"feed3a18f2c66987",
+						"feedccad09685fd7",
+						"feed21e0d28de208",
+						"feedbb2e8f596b69",
+						"feedcb708854c2c0"
 					]
 				}
 			}
