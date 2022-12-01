@@ -1,0 +1,17 @@
+{
+    "hash_value": "000D4DE6CA5229F8",
+    "hash_offset": 8693330,
+    "hash_size": 2147486887,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 13,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 6560,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/_test/tracyh/textures/placeholder_texture.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

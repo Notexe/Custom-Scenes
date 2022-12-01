@@ -3472,6 +3472,34 @@
 				}
 			}
 		},
+		"feed159a639c895f": {
+			"parent": "e2408375eea89dab",
+			"name": "lodsetup_a",
+			"template": "[assembly:/_pro/environment/geometry/props/lodsetup_a.wl2?/lodsetup_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 100,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "3a4fd7620d2fc601",
+					"postInit": true
+				}
+			}
+		},
 		"abcdefcadc2e258e": {
 			"parent": null,
 			"name": "QNE In-Vivo Helper Entity",
@@ -3601,7 +3629,8 @@
 						"feedccad09685fd7",
 						"feed21e0d28de208",
 						"feedbb2e8f596b69",
-						"feedcb708854c2c0"
+						"feedcb708854c2c0",
+						"feed159a639c895f"
 					]
 				}
 			}

@@ -1,0 +1,47 @@
+{
+	"tempHash": "00C837765385A7D3",
+	"tbluHash": "008130A85A690BE8",
+	"rootEntity": "feed049dc2b89c38",
+	"entities": {
+		"feed049dc2b89c38": {
+			"parent": null,
+			"name": "GeomEntity01",
+			"template": "[modules:/zgeomentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgeomentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/geometry/props/lodsetup_a.wl2?/lodsetup_a.prim].pc_prim",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
