@@ -22,6 +22,11 @@
     },
     {
       "type": "entity",
+      "partition": "season3",
+      "path": "[assembly:/_pro/scenes/users/notex/the_cube.entity].entitytemplate"
+    },
+    {
+      "type": "entity",
       "partition": "sheep",
       "path": "[assembly:/_pro/scenes/missions/sheep/scene_puka.entity].entitytemplate"
     },
