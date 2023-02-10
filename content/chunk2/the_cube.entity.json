@@ -11,7 +11,7 @@
 		},
 		"3a4fd7620d2fc601": {
 			"parent": "fffffffffffffffe",
-			"name": "Showcase Room",
+			"name": "The Cube",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {
