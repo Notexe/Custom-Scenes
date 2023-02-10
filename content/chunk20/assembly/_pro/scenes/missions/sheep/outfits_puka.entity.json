@@ -6,13 +6,13 @@
 		"fffffffffffffffe": {
 			"parent": null,
 			"name": "Scene",
-			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
 		"abcd236885ff26fa": {
 			"parent": "fffffffffffffffe",
 			"name": "Sapienza_Worker_Nakedguy_M_HPA1370",
-			"template": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
 			"properties": {
 				"m_DamageMultipliers": {
@@ -33,27 +33,19 @@
 						"m_bApplyLeftRightScalars": false
 					}
 				},
-				"m_eActorType": {
-					"type": "EActorType",
-					"value": "eAT_Civilian"
-				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
 				"m_eActorCCClass": {
 					"type": "EActorCCPreset",
 					"value": "ACCP_CivilianeMale"
 				},
-				"m_bHeroDisguiseAvailable": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
 				"m_eSoundFootwearType": {
 					"type": "EHM5SoundFootwearType",
 					"value": "EFWT_BAREFOOT"
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd02e240609a10"
-					]
+					"value": ["abcd02e240609a10"]
 				},
 				"m_sId": {
 					"type": "ZGuid",
@@ -70,10 +62,7 @@
 					"type": "ZString",
 					"value": "Sapienza_Worker_Nakedguy_M_HPA1370"
 				},
-				"m_sTitle": {
-					"type": "ZString",
-					"value": "Naked Guy"
-				},
+				"m_sTitle": { "type": "ZString", "value": "Naked Guy" },
 				"m_eOutfitAICategory": {
 					"type": "EOutfitAICategory",
 					"value": "OAC_Fallback"
@@ -91,20 +80,18 @@
 		"abcd02e240609a10": {
 			"parent": "abcd236885ff26fa",
 			"name": "CHARSET_CraigMcVeigh",
-			"template": "0007D9A3A121CFBC",
+			"factory": "0007D9A3A121CFBC",
 			"blueprint": "00BCD3F0CCFDA5AF"
 		},
 		"abcd51ee3a07c78e": {
 			"parent": "abcd236885ff26fa",
 			"name": "Keyword_Prof_Class_Default",
-			"template": "007A51A2AFEC0D1A",
+			"factory": "007A51A2AFEC0D1A",
 			"blueprint": "00B0282A41C1CF2E",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd236885ff26fa"
-					],
+					"value": ["abcd236885ff26fa"],
 					"postInit": true
 				}
 			}
@@ -112,7 +99,7 @@
 		"abcddc551c991cd3": {
 			"parent": "abcd236885ff26fa",
 			"name": "KeywordEntity_FOLEY_OUTFIT_NAKED",
-			"template": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_naked.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_naked.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_naked.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rHolder": {
@@ -125,56 +112,48 @@
 		"abcdd0c5af4204ac": {
 			"parent": "abcd236885ff26fa",
 			"name": "Prof_Sapienza",
-			"template": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd236885ff26fa"
-					]
+					"value": ["abcd236885ff26fa"]
 				}
 			}
 		},
 		"abcde8d0af23d6de": {
 			"parent": "abcd236885ff26fa",
 			"name": "Prof_Sapienza_Civilian_Local",
-			"template": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_civilian_local.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_civilian_local.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_civilian_local.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd236885ff26fa"
-					]
+					"value": ["abcd236885ff26fa"]
 				}
 			}
 		},
 		"abcdff6dac512013": {
 			"parent": "abcd236885ff26fa",
 			"name": "Prof_Sapienza_Civilian_NakedGuy",
-			"template": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_civilian_nakedguy.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_civilian_nakedguy.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_civilian_nakedguy.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd236885ff26fa"
-					]
+					"value": ["abcd236885ff26fa"]
 				}
 			}
 		},
 		"abcd5e47b0b776af": {
 			"parent": "abcd236885ff26fa",
 			"name": "Prof_Sapienza_Worker",
-			"template": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd236885ff26fa"
-					]
+					"value": ["abcd236885ff26fa"]
 				}
 			}
 		}
@@ -183,11 +162,9 @@
 	"overrideDeletes": [],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
-	"externalScenes": [
-		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
-	],
+	"externalScenes": ["[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"],
 	"subType": "brick",
-	"quickEntityVersion": 3,
+	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [],
 	"extraBlueprintDependencies": [],
 	"comments": []

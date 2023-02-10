@@ -6,7 +6,7 @@
 		"fffffffffffffffe": {
 			"parent": null,
 			"name": "Scene",
-			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		}
 	},
@@ -16,7 +16,7 @@
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [],
 	"subType": "scene",
-	"quickEntityVersion": 3,
+	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [],
 	"extraBlueprintDependencies": [],
 	"comments": []

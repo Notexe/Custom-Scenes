@@ -6,7 +6,7 @@
 		"1dd526648b8dc990": {
 			"parent": "6051217c5a972faf",
 			"name": "0",
-			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
 			"properties": {
 				"m_Outfit": {
@@ -18,7 +18,7 @@
 		"ff2e13419e29d0b2": {
 			"parent": "391645991db86c05",
 			"name": "Var0",
-			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
 			"properties": {
 				"m_Outfit": {
@@ -30,16 +30,12 @@
 		"dbe31d8b269d9e17": {
 			"parent": null,
 			"name": "CHARSET_CraigMcVeigh",
-			"template": "[modules:/zoutfitvariationcollection.class].pc_entitytype",
+			"factory": "[modules:/zoutfitvariationcollection.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariationcollection.class].pc_entityblueprint",
 			"properties": {
 				"m_aCharacters": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6051217c5a972faf",
-						"8e7890fc6fa38d9b",
-						"391645991db86c05"
-					],
+					"value": ["6051217c5a972faf", "8e7890fc6fa38d9b", "391645991db86c05"],
 					"postInit": true
 				}
 			}
@@ -47,22 +43,19 @@
 		"6051217c5a972faf": {
 			"parent": "dbe31d8b269d9e17",
 			"name": "Actor",
-			"template": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
 			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1dd526648b8dc990",
-						"abcdcc1b6c6c62a7"
-					]
+					"value": ["1dd526648b8dc990", "abcdcc1b6c6c62a7"]
 				}
 			}
 		},
 		"8081ad013abb189d": {
 			"parent": "8e7890fc6fa38d9b",
 			"name": "Var0",
-			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
 			"properties": {
 				"m_Outfit": {
@@ -74,35 +67,31 @@
 		"8e7890fc6fa38d9b": {
 			"parent": "dbe31d8b269d9e17",
 			"name": "Nude",
-			"template": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
 			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8081ad013abb189d"
-					]
+					"value": ["8081ad013abb189d"]
 				}
 			}
 		},
 		"391645991db86c05": {
 			"parent": "dbe31d8b269d9e17",
 			"name": "HeroA",
-			"template": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
 			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ff2e13419e29d0b2"
-					]
+					"value": ["ff2e13419e29d0b2"]
 				}
 			}
 		},
 		"abcdcc1b6c6c62a7": {
 			"parent": "6051217c5a972faf",
 			"name": "1",
-			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
 			"properties": {
 				"m_Outfit": {
@@ -118,7 +107,7 @@
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [],
 	"subType": "template",
-	"quickEntityVersion": 3,
+	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [],
 	"extraBlueprintDependencies": [],
 	"comments": []

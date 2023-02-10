@@ -6,22 +6,14 @@
 		"feedda9702923962": {
 			"parent": null,
 			"name": "GeomEntity01",
-			"template": "[modules:/zgeomentity.class].pc_entitytype",
+			"factory": "[modules:/zgeomentity.class].pc_entitytype",
 			"blueprint": "[modules:/zgeomentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_ResourceID": {
@@ -40,7 +32,7 @@
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [],
 	"subType": "template",
-	"quickEntityVersion": 3,
+	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [],
 	"extraBlueprintDependencies": [],
 	"comments": []

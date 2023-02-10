@@ -6,54 +6,36 @@
 		"fffffffffffffffe": {
 			"parent": null,
 			"name": "Scene",
-			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
 		"3a4fd7620d2fc601": {
 			"parent": "fffffffffffffffe",
 			"name": "Test",
-			"template": "00F637DFF2761CE0",
+			"factory": "00F637DFF2761CE0",
 			"blueprint": "000B0C2BF5C896CC",
 			"properties": {
-				"ShowFloor": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bColorCorrectionHDR": {
-					"type": "bool",
-					"value": false
-				},
+				"ShowFloor": { "type": "bool", "value": true },
+				"m_bColorCorrectionHDR": { "type": "bool", "value": false },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
 				}
 			},
-			"subsets": {
-				"Rooms": [
-					"fffffffffffffffe"
-				]
-			}
+			"subsets": { "Rooms": ["fffffffffffffffe"] }
 		},
 		"5d5a95556319479": {
 			"parent": "f88f58479a55e8e7",
 			"name": "Agent47_Default",
-			"template": "[assembly:/_pro/characters/templates/hero/agent47/agent47.template?/agent47_default.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/characters/templates/hero/agent47/agent47.template?/agent47_default.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47.template?/agent47_default.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -66,37 +48,25 @@
 		"3a589d55b3aa2df9": {
 			"parent": "3a4fd7620d2fc601",
 			"name": "Physics",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"3a589e5817e2e1b9": {
 			"parent": "3a589d55b3aa2df9",
 			"name": "VolumeBox_WorldBounds",
-			"template": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
 			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 100,
-						"y": 100,
-						"z": 100
-					}
+					"value": { "x": 100, "y": 100, "z": 100 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -108,7 +78,7 @@
 		"5d5a954e6bba4f9": {
 			"parent": "3a589d55b3aa2df9",
 			"name": "FX_Logic_PhysicsWorld",
-			"template": "[assembly:/_pro/effects/templates/logic/fx_logic_physicsworld.template?/fx_logic_physicsworld.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/effects/templates/logic/fx_logic_physicsworld.template?/fx_logic_physicsworld.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/effects/templates/logic/fx_logic_physicsworld.template?/fx_logic_physicsworld.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_WorldBounds": {
@@ -120,28 +90,17 @@
 		"6cb96fced2a8a7e4": {
 			"parent": "339a9e34c6576367",
 			"name": "Default",
-			"template": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 180
-						},
-						"position": {
-							"x": 0,
-							"y": -10,
-							"z": 1
-						}
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": { "x": 0, "y": -10, "z": 1 }
 					}
 				},
-				"m_bDefaultHeroSpawn": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bDefaultHeroSpawn": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "3a4fd7620d2fc601",
@@ -152,55 +111,43 @@
 		"339a9e34c6576367": {
 			"parent": "1234567890abcdef",
 			"name": "Starting locations",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"1234567890abcdef": {
 			"parent": "3a4fd7620d2fc601",
 			"name": "Gameplay",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"f88f58479a55e8e7": {
 			"parent": "1234567890abcdef",
 			"name": "Hero",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"7187d61652900e11": {
 			"parent": "3a4fd7620d2fc601",
 			"name": "Environment",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"a8c7ad873de9528": {
 			"parent": "abcd6baf8225ed26",
 			"name": "mockup_cube",
-			"template": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
+			"factory": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
 			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": -5,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": -5, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 2,
-						"y": 1,
-						"z": 1
-					}
+					"value": { "x": 2, "y": 1, "z": 1 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -212,25 +159,25 @@
 		"e2408375eea89dab": {
 			"parent": "7187d61652900e11",
 			"name": "Geometry",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"38a086ae3b377196": {
 			"parent": "1234567890abcdef",
 			"name": "Items",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"7a62dbe0110908ea": {
 			"parent": "38a086ae3b377196",
 			"name": "Weapons",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"8339abdcbe93280b": {
 			"parent": "7a62dbe0110908ea",
 			"name": "ItemKey_Sawed_Off_Bartoli_12G_Gold",
-			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
@@ -242,22 +189,18 @@
 		"863cc93648b2cc4": {
 			"parent": "8339abdcbe93280b",
 			"name": "ItemSpawner",
-			"template": "[modules:/zitemspawner.class].pc_entitytype",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
 			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 90,
-							"y": 90,
+							"x": 90.00000000000003,
+							"y": 89.9999982924527,
 							"z": 0
 						},
-						"position": {
-							"x": 0,
-							"y": -5,
-							"z": 1.0299999713897705
-						}
+						"position": { "x": 0, "y": -5, "z": 1.0299999713897705 }
 					}
 				},
 				"m_ePhysicsMode": {
@@ -268,10 +211,7 @@
 					"type": "SEntityTemplateReference",
 					"value": "8339abdcbe93280b"
 				},
-				"m_bUsePlacementAttach": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bUsePlacementAttach": { "type": "bool", "value": false },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "3a4fd7620d2fc601",
@@ -282,31 +222,19 @@
 		"c78e7c1ddd85f9be": {
 			"parent": "abcd6baf8225ed26",
 			"name": "mockup_cube",
-			"template": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
+			"factory": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
 			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": -1.5,
-							"y": -0.5,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -1.5, "y": -0.5, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 10,
-						"z": 3
-					}
+					"value": { "x": 1, "y": 10, "z": 3 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -318,31 +246,19 @@
 		"ae51f4370a3e0d44": {
 			"parent": "abcd6baf8225ed26",
 			"name": "mockup_cube",
-			"template": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
+			"factory": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
 			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 1.5,
-							"y": -0.5,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 1.5, "y": -0.5, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 10,
-						"z": 3
-					}
+					"value": { "x": 1, "y": 10, "z": 3 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -354,31 +270,19 @@
 		"538a75f5a250d13c": {
 			"parent": "abcd6baf8225ed26",
 			"name": "mockup_cube",
-			"template": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
+			"factory": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
 			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 180
-						},
-						"position": {
-							"x": 0,
-							"y": 4,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": { "x": 0, "y": 4, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 2,
-						"y": 1,
-						"z": 3
-					}
+					"value": { "x": 2, "y": 1, "z": 3 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -390,34 +294,23 @@
 		"f97ab4b27757356c": {
 			"parent": "7187d61652900e11",
 			"name": "Material Overrides",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"6d2ee3b76b69233f": {
 			"parent": "f97ab4b27757356c",
 			"name": "MaterialOverride_Prototype_Material",
-			"template": "00CD214F5DA06D63",
+			"factory": "00CD214F5DA06D63",
 			"blueprint": "009266C583BF70F9",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
-				"Override": {
-					"type": "bool",
-					"value": true
-				},
+				"Override": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "3a4fd7620d2fc601",
@@ -441,65 +334,41 @@
 		"14dbea1551f49ac5": {
 			"parent": "1234567890abcdef",
 			"name": "Volumebox testing",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"bccec0724dc9868e": {
 			"parent": "14dbea1551f49ac5",
 			"name": "VolumeTriggerCharacter",
-			"template": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_Boxes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7820b8a50daabffd"
-					]
+					"value": ["7820b8a50daabffd"]
 				},
-				"m_TriggerOnHitman": {
-					"type": "bool",
-					"value": true
-				}
+				"m_TriggerOnHitman": { "type": "bool", "value": true }
 			},
-			"events": {
-				"OnTrue": {
-					"SetTrue": [
-						"5cadb598e997573c"
-					]
-				}
-			}
+			"events": { "OnTrue": { "SetTrue": ["5cadb598e997573c"] } }
 		},
 		"5cadb598e997573c": {
 			"parent": "14dbea1551f49ac5",
 			"name": "Valuebool",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bValue": {
-					"type": "bool",
-					"value": false
-				}
-			}
+			"properties": { "m_bValue": { "type": "bool", "value": false } }
 		},
 		"f9e2e04fefd8addc": {
 			"parent": "14dbea1551f49ac5",
 			"name": "Setpiece_Button",
-			"template": "[assembly:/_pro/scenes/missions/miami/helpers_cottonmouth.template?/setpiece_cottomouth_activator_launchbutton.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/scenes/missions/miami/helpers_cottonmouth.template?/setpiece_cottomouth_activator_launchbutton.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/scenes/missions/miami/helpers_cottonmouth.template?/setpiece_cottomouth_activator_launchbutton.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": -7,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": -7, "z": 0 }
 					}
 				},
 				"m_eRoomBehaviour": {
@@ -528,42 +397,24 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnUsed": {
-					"Enable": [
-						"abcd998cd2fb8d62"
-					]
-				}
-			}
+			"events": { "OnUsed": { "Enable": ["abcd998cd2fb8d62"] } }
 		},
 		"7820b8a50daabffd": {
 			"parent": "14dbea1551f49ac5",
 			"name": "Volumebox",
-			"template": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
 			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": -7,
-							"z": 1.5
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": -7, "z": 1.5 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 3,
-						"y": 3,
-						"z": 3
-					}
+					"value": { "x": 3, "y": 3, "z": 3 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -575,66 +426,44 @@
 		"b2dcd31d21e668bd": {
 			"parent": "14dbea1551f49ac5",
 			"name": "DamageOverTime",
-			"template": "[modules:/zhitmandamageovertime.class].pc_entitytype",
+			"factory": "[modules:/zhitmandamageovertime.class].pc_entitytype",
 			"blueprint": "[modules:/zhitmandamageovertime.class].pc_entityblueprint",
 			"properties": {
-				"m_fDamage": {
-					"type": "float32",
-					"value": 100
-				},
-				"m_fInterval": {
-					"type": "float32",
-					"value": 0.10000000149011612
-				},
+				"m_fDamage": { "type": "float32", "value": 100 },
+				"m_fInterval": { "type": "float32", "value": 0.10000000149011612 },
 				"m_Boxes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3a589e5817e2e1b9"
-					]
+					"value": ["3a589e5817e2e1b9"]
 				}
 			}
 		},
 		"abcdf226c6efa301": {
 			"parent": "1234567890abcdef",
 			"name": "Agility",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd52b66ce922ab": {
 			"parent": "abcdf226c6efa301",
 			"name": "Covers",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd60c5e141f61f": {
 			"parent": "abcd52b66ce922ab",
 			"name": "Coverplane 1",
-			"template": "[modules:/zcoverplane.class].pc_entitytype",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
 			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 180
-						},
-						"position": {
-							"x": 0,
-							"y": -5.5,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": { "x": 0, "y": -5.5, "z": 0 }
 					}
 				},
-				"m_fCoverLength": {
-					"type": "float32",
-					"value": 1.7999999523162842
-				},
-				"m_fCoverDepth": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_fCoverLength": { "type": "float32", "value": 1.7999999523162842 },
+				"m_fCoverDepth": { "type": "float32", "value": 1 },
 				"m_eCoverType": {
 					"type": "ZCoverPlane.ECoverType",
 					"value": "eCoverAndRail"
@@ -643,22 +472,10 @@
 					"type": "ZCoverPlane.ECoverSize",
 					"value": "eLowCover"
 				},
-				"m_bWindowCover": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bCornerRightEnabled": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bCornerLeftEnabled": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bIllegal": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bCornerRightEnabled": { "type": "bool", "value": false },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": false },
+				"m_bIllegal": { "type": "bool", "value": false },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "3a4fd7620d2fc601",
@@ -669,32 +486,18 @@
 		"abcdc7b95e92a99f": {
 			"parent": "abcd52b66ce922ab",
 			"name": "Coverplane 2",
-			"template": "[modules:/zcoverplane.class].pc_entitytype",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
 			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": -4.5,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": -4.5, "z": 0 }
 					}
 				},
-				"m_fCoverLength": {
-					"type": "float32",
-					"value": 1.7999999523162842
-				},
-				"m_fCoverDepth": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_fCoverLength": { "type": "float32", "value": 1.7999999523162842 },
+				"m_fCoverDepth": { "type": "float32", "value": 1 },
 				"m_eCoverType": {
 					"type": "ZCoverPlane.ECoverType",
 					"value": "eCoverAndRail"
@@ -703,22 +506,10 @@
 					"type": "ZCoverPlane.ECoverSize",
 					"value": "eLowCover"
 				},
-				"m_bWindowCover": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bCornerRightEnabled": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bCornerLeftEnabled": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bIllegal": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bCornerRightEnabled": { "type": "bool", "value": false },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": false },
+				"m_bIllegal": { "type": "bool", "value": false },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "3a4fd7620d2fc601",
@@ -729,19 +520,19 @@
 		"abcda1cedffedb1a": {
 			"parent": "3a4fd7620d2fc601",
 			"name": "Cutscenes",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd4272fcc6abd7": {
 			"parent": "abcda1cedffedb1a",
 			"name": "Start Cutscene",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd21e2b3e09719": {
 			"parent": "abcd4272fcc6abd7",
 			"name": "HeroSpawnSequenceDirector",
-			"template": "00A6F689FB19B096",
+			"factory": "00A6F689FB19B096",
 			"blueprint": "005AEBE4BDFCD1C9",
 			"properties": {
 				"m_rSpawner": {
@@ -750,69 +541,37 @@
 				},
 				"m_aSequences": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd63c6c2f5b9dd"
-					]
+					"value": ["abcd63c6c2f5b9dd"]
 				},
-				"m_fInterpolationTime": {
-					"type": "float32",
-					"value": 0
-				},
-				"m_nPriority": {
-					"type": "uint32",
-					"value": 20
-				}
+				"m_fInterpolationTime": { "type": "float32", "value": 0 },
+				"m_nPriority": { "type": "uint32", "value": 20 }
 			},
-			"outputCopying": {
-				"OnStop": {
-					"Stopped": [
-						"abcd4272fcc6abd7"
-					]
-				}
-			}
+			"outputCopying": { "OnStop": { "Stopped": ["abcd4272fcc6abd7"] } }
 		},
 		"abcd63c6c2f5b9dd": {
 			"parent": "abcd4272fcc6abd7",
 			"name": "Start_Default",
-			"template": "[modules:/zsequenceentity.class].pc_entitytype",
+			"factory": "[modules:/zsequenceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
 			"properties": {
 				"m_duration": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 10454302
-					}
+					"value": { "m_nTicks": 10454302 }
 				},
-				"m_startTime": {
-					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 83886
-					}
-				},
-				"m_bLetterbox": {
-					"type": "bool",
-					"value": true
-				},
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 83886 } },
+				"m_bLetterbox": { "type": "bool", "value": true },
 				"m_eLetterBoxAspect": {
 					"type": "ZSequenceEntity.ELetterBoxAspect",
 					"value": "LETTERBOXASPECT_CINEMASCOPE"
 				},
-				"m_bFadeOutBeforeEnd": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bFadeOutBeforeEnd": { "type": "bool", "value": false },
 				"m_letterboxFadeOut": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 1048576
-					}
+					"value": { "m_nTicks": 1048576 }
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcdd828c22994b1",
-						"abcd10dc57d5df72"
-					],
+					"value": ["abcdd828c22994b1", "abcd10dc57d5df72"],
 					"postInit": true
 				},
 				"m_sequenceOrigin": {
@@ -825,22 +584,14 @@
 		"abcd10607c5334cb": {
 			"parent": "abcd4272fcc6abd7",
 			"name": "SequenceOrigin",
-			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -853,14 +604,12 @@
 		"abcdd828c22994b1": {
 			"parent": "abcd63c6c2f5b9dd",
 			"name": "Active Camera Track",
-			"template": "[modules:/zrenderdestinationtrack.class].pc_entitytype",
+			"factory": "[modules:/zrenderdestinationtrack.class].pc_entitytype",
 			"blueprint": "[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd6aad4aa3e668"
-					],
+					"value": ["abcd6aad4aa3e668"],
 					"postInit": true
 				}
 			}
@@ -868,21 +617,14 @@
 		"abcd6aad4aa3e668": {
 			"parent": "abcdd828c22994b1",
 			"name": "Active Camera Item",
-			"template": "[modules:/zsingleactivecamerasource.class].pc_entitytype",
+			"factory": "[modules:/zsingleactivecamerasource.class].pc_entitytype",
 			"blueprint": "[modules:/zsingleactivecamerasource.class].pc_entityblueprint",
 			"properties": {
 				"m_duration": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 10454302
-					}
+					"value": { "m_nTicks": 10454302 }
 				},
-				"m_startTime": {
-					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 83886
-					}
-				},
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 83886 } },
 				"m_pCamera": {
 					"type": "SEntityTemplateReference",
 					"value": "abcd62f4d570008f"
@@ -892,7 +634,7 @@
 		"abcd10dc57d5df72": {
 			"parent": "abcd63c6c2f5b9dd",
 			"name": "EntityTrack_FlyInCamera",
-			"template": "[modules:/zentitygroup.class].pc_entitytype",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
 			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
 			"properties": {
 				"m_targetEntity": {
@@ -901,9 +643,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd9f77d978befb"
-					],
+					"value": ["abcd9f77d978befb"],
 					"postInit": true
 				}
 			}
@@ -911,34 +651,23 @@
 		"abcd9acf5f7bc7b0": {
 			"parent": "abcda1cedffedb1a",
 			"name": "Cameras",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd62f4d570008f": {
 			"parent": "abcd9acf5f7bc7b0",
 			"name": "Camera 1",
-			"template": "[modules:/zcameraentity.class].pc_entitytype",
+			"factory": "[modules:/zcameraentity.class].pc_entitytype",
 			"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": -15,
-							"z": 20
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": -15, "z": 20 }
 					}
 				},
-				"m_bExportScreenshot": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bExportScreenshot": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "3a4fd7620d2fc601",
@@ -949,22 +678,17 @@
 		"abcd9f77d978befb": {
 			"parent": "abcd10dc57d5df72",
 			"name": "TrajectoryTrack",
-			"template": "[modules:/ztrajectorytrack.class].pc_entitytype",
+			"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
 			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
 			"properties": {
 				"m_entityGroup": {
 					"type": "SEntityTemplateReference",
 					"value": "abcd10dc57d5df72"
 				},
-				"m_bRestoreValueAfterEnd": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd3ede8e042b61"
-					],
+					"value": ["abcd3ede8e042b61"],
 					"postInit": true
 				}
 			}
@@ -972,45 +696,20 @@
 		"abcd3ede8e042b61": {
 			"parent": "abcd9f77d978befb",
 			"name": "CurveTrajectoryItem 1",
-			"template": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
+			"factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
 			"blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
 			"properties": {
-				"m_startTime": {
-					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 83886
-					}
-				},
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 83886 } },
 				"m_duration": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 10454302
-					}
+					"value": { "m_nTicks": 10454302 }
 				},
 				"m_CurveX": {
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								10,
-								0,
-								0,
-								0,
-								0,
-								-4.938952922821045,
-								10
-							],
-							[
-								1,
-								8,
-								0,
-								0,
-								0,
-								0,
-								0,
-								8
-							]
+							[0, 10, 0, 0, 0, 0, -4.938952922821045, 10],
+							[1, 8, 0, 0, 0, 0, 0, 8]
 						]
 					}
 				},
@@ -1018,26 +717,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-60,
-								0,
-								0,
-								0,
-								0,
-								4.143604278564453,
-								-60
-							],
-							[
-								1,
-								-60,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-60
-							]
+							[0, -60, 0, 0, 0, 0, 4.143604278564453, -60],
+							[1, -60, 0, 0, 0, 0, 0, -60]
 						]
 					}
 				},
@@ -1045,26 +726,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-10,
-								0,
-								0,
-								0,
-								0,
-								0.7595031261444092,
-								-10
-							],
-							[
-								1,
-								-8,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-8
-							]
+							[0, -10, 0, 0, 0, 0, 0.7595031261444092, -10],
+							[1, -8, 0, 0, 0, 0, 0, -8]
 						]
 					}
 				},
@@ -1072,26 +735,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							],
-							[
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							]
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
 					}
 				},
@@ -1099,26 +744,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								9.9169921875,
-								0,
-								0,
-								0,
-								0,
-								-1.45330810546875,
-								9.9169921875
-							],
-							[
-								1,
-								8.46368408203125,
-								0,
-								0,
-								0,
-								0,
-								0,
-								8.46368408203125
-							]
+							[0, 9.9169921875, 0, 0, 0, 0, -1.45330810546875, 9.9169921875],
+							[1, 8.46368408203125, 0, 0, 0, 0, 0, 8.46368408203125]
 						]
 					}
 				},
@@ -1126,26 +753,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-17,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-17
-							],
-							[
-								1,
-								17,
-								0,
-								0,
-								0,
-								0,
-								0,
-								17
-							]
+							[0, -17, 0, 0, 0, 0, 0, -17],
+							[1, 17, 0, 0, 0, 0, 0, 17]
 						]
 					}
 				}
@@ -1154,22 +763,14 @@
 		"abcd58e395ad03d0": {
 			"parent": "abcd6baf8225ed26",
 			"name": "Air_Conditionner_A",
-			"template": "[assembly:/_pro/environment/templates/props/street_props/airconditioners_b.template?/aircondition_b.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/airconditioners_b.template?/aircondition_b.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/airconditioners_b.template?/aircondition_b.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 2,
-							"y": 2,
-							"z": 2
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 2, "y": 2, "z": 2 }
 					}
 				},
 				"m_eidParent": {
@@ -1178,28 +779,24 @@
 					"postInit": true
 				}
 			},
-			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
-			}
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"abcd09feb02373db": {
 			"parent": "3a4fd7620d2fc601",
 			"name": "Sound",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd889eea2e16b2": {
 			"parent": "abcd09feb02373db",
 			"name": "Soundbanks",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcdab5a70a5ab8e": {
 			"parent": "abcd889eea2e16b2",
 			"name": "Global_Soundbank",
-			"template": "[modules:/zsoundbankentity.class].pc_entitytype",
+			"factory": "[modules:/zsoundbankentity.class].pc_entitytype",
 			"blueprint": "[modules:/zsoundbankentity.class].pc_entityblueprint",
 			"properties": {
 				"m_pBankResource": {
@@ -1211,61 +808,44 @@
 		"abcd1e84b3f2e4f9": {
 			"parent": "abcd09feb02373db",
 			"name": "GameEventListener",
-			"template": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
 			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint"
 		},
 		"abcdcfb7b0729637": {
 			"parent": "abcd09feb02373db",
 			"name": "mix_isseason3",
-			"template": "[assembly:/sound/wwise/exportedwwisedata/states/mix_states/mix_isseason3.wwisestategroup].pc_entitytype",
+			"factory": "[assembly:/sound/wwise/exportedwwisedata/states/mix_states/mix_isseason3.wwisestategroup].pc_entitytype",
 			"blueprint": "[assembly:/sound/wwise/exportedwwisedata/states/mix_states/mix_isseason3.wwisestategroup].pc_entityblueprint",
 			"properties": {
-				"m_sDefaultState": {
-					"type": "ZString",
-					"value": "True"
-				}
+				"m_sDefaultState": { "type": "ZString", "value": "True" }
 			}
 		},
 		"abcde03a07db946e": {
 			"parent": "3a4fd7620d2fc601",
 			"name": "Audio Event Testing",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd0407f1296a34": {
 			"parent": "abcde03a07db946e",
 			"name": "HM5ShotListener",
-			"template": "[modules:/zhm5shotlistenerentity.class].pc_entitytype",
+			"factory": "[modules:/zhm5shotlistenerentity.class].pc_entitytype",
 			"blueprint": "[modules:/zhm5shotlistenerentity.class].pc_entityblueprint",
 			"properties": {
-				"m_fNPCMaxDistanceToHitman": {
-					"type": "float32",
-					"value": 1000
-				},
-				"m_bOnlyHitman": {
-					"type": "bool",
-					"value": true
-				},
+				"m_fNPCMaxDistanceToHitman": { "type": "float32", "value": 1000 },
+				"m_bOnlyHitman": { "type": "bool", "value": true },
 				"m_Listener": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd58e395ad03d0"
-					],
+					"value": ["abcd58e395ad03d0"],
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnHit": {
-					"Poll": [
-						"abcde530705985f7"
-					]
-				}
-			}
+			"events": { "OnHit": { "Poll": ["abcde530705985f7"] } }
 		},
 		"abcde530705985f7": {
 			"parent": "abcde03a07db946e",
 			"name": "ValueBool_Poll",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rValueEntity": {
@@ -1275,42 +855,30 @@
 			},
 			"events": {
 				"PollFalse": {
-					"Send": [
-						"abcd7391b32bfb66"
-					],
-					"SetTrue": [
-						"abcda67d7637d5d6"
-					]
+					"Send": ["abcd7391b32bfb66"],
+					"SetTrue": ["abcda67d7637d5d6"]
 				}
 			}
 		},
 		"abcda67d7637d5d6": {
 			"parent": "abcde03a07db946e",
 			"name": "ValueBool_Basic",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_bValue": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bSignalsInEditMode": {
-					"type": "bool",
-					"value": true
-				}
+				"m_bValue": { "type": "bool", "value": false },
+				"m_bSignalsInEditMode": { "type": "bool", "value": true }
 			}
 		},
 		"abcd7391b32bfb66": {
 			"parent": "abcde03a07db946e",
 			"name": "Play_SFX_GolfBall_Explosion",
-			"template": "[modules:/zaudioevententity.class].pc_entitytype",
+			"factory": "[modules:/zaudioevententity.class].pc_entitytype",
 			"blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
 			"properties": {
 				"m_aEmitters": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcdb9de32c40395"
-					]
+					"value": ["abcdb9de32c40395"]
 				},
 				"m_pMainEvent": {
 					"type": "ZRuntimeResourceID",
@@ -1321,50 +889,28 @@
 		"abcdb9de32c40395": {
 			"parent": "abcde03a07db946e",
 			"name": "2DAudioEmitter",
-			"template": "[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entityblueprint",
-			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
-			}
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"abcd3c5aad409dc5": {
 			"parent": "abcd09feb02373db",
 			"name": "World_Room",
-			"template": "[modules:/zsoundambiencegroup.class].pc_entitytype",
+			"factory": "[modules:/zsoundambiencegroup.class].pc_entitytype",
 			"blueprint": "[modules:/zsoundambiencegroup.class].pc_entityblueprint",
 			"properties": {
-				"m_bIsWorldRoom": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bIsWorldRoom": { "type": "bool", "value": true },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
-				"m_iRoomOcclusionPriority": {
-					"type": "int32",
-					"value": -1000
-				},
+				"m_iRoomOcclusionPriority": { "type": "int32", "value": -1000 },
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 100,
-						"y": 100,
-						"z": 100
-					}
+					"value": { "x": 100, "y": 100, "z": 100 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1376,31 +922,19 @@
 		"abcd481a3b5a7abf": {
 			"parent": "abcd6baf8225ed26",
 			"name": "mockup_cube",
-			"template": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
+			"factory": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
 			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": -0.5,
-							"z": 3
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": -0.5, "z": 3 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 4,
-						"y": 10,
-						"z": 1
-					}
+					"value": { "x": 4, "y": 10, "z": 1 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1412,40 +946,32 @@
 		"abcdff4e6866a383": {
 			"parent": "e2408375eea89dab",
 			"name": "Shooting Range",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcda321b5810e22": {
 			"parent": "abcdff4e6866a383",
 			"name": "Inside",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd6baf8225ed26": {
 			"parent": "abcdff4e6866a383",
 			"name": "Outside",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd1b986f00dc72": {
 			"parent": "abcd6baf8225ed26",
 			"name": "setpiece_container_body_plasticdumpster_paris_notext",
-			"template": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_plasticdumpster_paris_notext.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_plasticdumpster_paris_notext.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_plasticdumpster_paris_notext.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 90
-						},
-						"position": {
-							"x": 2.549999952316284,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 90.00000000000001 },
+						"position": { "x": 2.549999952316284, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -1458,22 +984,14 @@
 		"abcdfff2f99c98f0": {
 			"parent": "abcd6baf8225ed26",
 			"name": "garbagebag_small_black_a",
-			"template": "[assembly:/_pro/environment/geometry/props/trash/garbagebags_small_a.wl2?/garbagebag_small_black_a_00.prim].pc_entitytype",
+			"factory": "[assembly:/_pro/environment/geometry/props/trash/garbagebags_small_a.wl2?/garbagebag_small_black_a_00.prim].pc_entitytype",
 			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 45
-						},
-						"position": {
-							"x": 2.25,
-							"y": 1,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 45.00000000000001 },
+						"position": { "x": 2.25, "y": 1, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -1486,22 +1004,14 @@
 		"abcdf72251be25a7": {
 			"parent": "abcd8db0cb380368",
 			"name": "shooting_targets_a",
-			"template": "[assembly:/_pro/environment/templates/props/signs/shooting_targets_a.template?/shooting_targets_a.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/environment/templates/props/signs/shooting_targets_a.template?/shooting_targets_a.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/signs/shooting_targets_a.template?/shooting_targets_a.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 1.350000023841858
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 1.350000023841858 }
 					}
 				},
 				"m_eidParent": {
@@ -1514,17 +1024,13 @@
 		"abcd63e647967633": {
 			"parent": "abcd8db0cb380368",
 			"name": "RopeA_00",
-			"template": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -0.30000001192092896,
 							"y": 0,
@@ -1532,81 +1038,35 @@
 						}
 					}
 				},
-				"m_nNumWires": {
-					"type": "uint32",
-					"value": 1
-				},
+				"m_nNumWires": { "type": "uint32", "value": 1 },
 				"m_Material": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/_pro/environment/materials/props/wires/wire_a.mi].pc_mi"
 				},
-				"m_bUseWireMaterialLength": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bUseWireMaterialLength": { "type": "bool", "value": true },
 				"m_fWireMaterialLength": {
 					"type": "float32",
 					"value": 0.10000000149011612
 				},
-				"m_bAnchorEnd": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bUseTransformYAsTangents": {
-					"type": "bool",
-					"value": true
-				},
-				"m_fWireSpacing": {
-					"type": "float32",
-					"value": 0.3400000035762787
-				},
-				"m_fWireWidth": {
-					"type": "float32",
-					"value": 0.009999999776482582
-				},
-				"m_nNumRenderSegments": {
-					"type": "uint32",
-					"value": 15
-				},
-				"m_bStraightRestPose": {
-					"type": "bool",
-					"value": true
-				},
-				"m_fRestLengthScale": {
-					"type": "float32",
-					"value": 1
-				},
-				"m_fAnchorTension": {
-					"type": "float32",
-					"value": 4
-				},
-				"m_nNumSimSegments": {
-					"type": "uint32",
-					"value": 1
-				},
-				"m_fFrequency": {
-					"type": "float32",
-					"value": 30
-				},
-				"m_fWindConstant": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_bAnchorEnd": { "type": "bool", "value": false },
+				"m_bUseTransformYAsTangents": { "type": "bool", "value": true },
+				"m_fWireSpacing": { "type": "float32", "value": 0.3400000035762787 },
+				"m_fWireWidth": { "type": "float32", "value": 0.009999999776482582 },
+				"m_nNumRenderSegments": { "type": "uint32", "value": 15 },
+				"m_bStraightRestPose": { "type": "bool", "value": true },
+				"m_fRestLengthScale": { "type": "float32", "value": 1 },
+				"m_fAnchorTension": { "type": "float32", "value": 4 },
+				"m_nNumSimSegments": { "type": "uint32", "value": 1 },
+				"m_fFrequency": { "type": "float32", "value": 30 },
+				"m_fWindConstant": { "type": "float32", "value": 1 },
 				"m_rAnchorTransform": {
 					"type": "SEntityTemplateReference",
 					"value": "abcd08d7a048ad1a"
 				},
-				"m_fBendStiffness": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_fBendStiffness": { "type": "float32", "value": 1 },
 				"m_vGravity": {
 					"type": "SVector3",
-					"value": {
-						"x": 0,
-						"y": 0,
-						"z": -7.820000171661377
-					}
+					"value": { "x": 0, "y": 0, "z": -7.820000171661377 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1618,17 +1078,13 @@
 		"abcd08d7a048ad1a": {
 			"parent": "abcd8db0cb380368",
 			"name": "RopeA_01",
-			"template": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -0.30000001192092896,
 							"y": 0,
@@ -1636,77 +1092,31 @@
 						}
 					}
 				},
-				"m_nNumWires": {
-					"type": "uint32",
-					"value": 1
-				},
+				"m_nNumWires": { "type": "uint32", "value": 1 },
 				"m_Material": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/_pro/environment/materials/props/wires/wire_a.mi].pc_mi"
 				},
-				"m_bUseWireMaterialLength": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bUseWireMaterialLength": { "type": "bool", "value": true },
 				"m_fWireMaterialLength": {
 					"type": "float32",
 					"value": 0.10000000149011612
 				},
-				"m_bAnchorEnd": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bUseTransformYAsTangents": {
-					"type": "bool",
-					"value": true
-				},
-				"m_fWireSpacing": {
-					"type": "float32",
-					"value": 0.3400000035762787
-				},
-				"m_fWireWidth": {
-					"type": "float32",
-					"value": 0.009999999776482582
-				},
-				"m_nNumRenderSegments": {
-					"type": "uint32",
-					"value": 15
-				},
-				"m_bStraightRestPose": {
-					"type": "bool",
-					"value": true
-				},
-				"m_fRestLengthScale": {
-					"type": "float32",
-					"value": 1
-				},
-				"m_fAnchorTension": {
-					"type": "float32",
-					"value": 4
-				},
-				"m_nNumSimSegments": {
-					"type": "uint32",
-					"value": 1
-				},
-				"m_fFrequency": {
-					"type": "float32",
-					"value": 30
-				},
-				"m_fWindConstant": {
-					"type": "float32",
-					"value": 1
-				},
-				"m_fBendStiffness": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_bAnchorEnd": { "type": "bool", "value": true },
+				"m_bUseTransformYAsTangents": { "type": "bool", "value": true },
+				"m_fWireSpacing": { "type": "float32", "value": 0.3400000035762787 },
+				"m_fWireWidth": { "type": "float32", "value": 0.009999999776482582 },
+				"m_nNumRenderSegments": { "type": "uint32", "value": 15 },
+				"m_bStraightRestPose": { "type": "bool", "value": true },
+				"m_fRestLengthScale": { "type": "float32", "value": 1 },
+				"m_fAnchorTension": { "type": "float32", "value": 4 },
+				"m_nNumSimSegments": { "type": "uint32", "value": 1 },
+				"m_fFrequency": { "type": "float32", "value": 30 },
+				"m_fWindConstant": { "type": "float32", "value": 1 },
+				"m_fBendStiffness": { "type": "float32", "value": 1 },
 				"m_vGravity": {
 					"type": "SVector3",
-					"value": {
-						"x": 0,
-						"y": 0,
-						"z": -7.820000171661377
-					}
+					"value": { "x": 0, "y": 0, "z": -7.820000171661377 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1718,17 +1128,13 @@
 		"abcdf11881e6e89c": {
 			"parent": "abcd8db0cb380368",
 			"name": "RopeB_00",
-			"template": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 0.30000001192092896,
 							"y": 0,
@@ -1736,81 +1142,35 @@
 						}
 					}
 				},
-				"m_nNumWires": {
-					"type": "uint32",
-					"value": 1
-				},
+				"m_nNumWires": { "type": "uint32", "value": 1 },
 				"m_Material": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/_pro/environment/materials/props/wires/wire_a.mi].pc_mi"
 				},
-				"m_bUseWireMaterialLength": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bUseWireMaterialLength": { "type": "bool", "value": true },
 				"m_fWireMaterialLength": {
 					"type": "float32",
 					"value": 0.10000000149011612
 				},
-				"m_bAnchorEnd": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bUseTransformYAsTangents": {
-					"type": "bool",
-					"value": true
-				},
-				"m_fWireSpacing": {
-					"type": "float32",
-					"value": 0.3400000035762787
-				},
-				"m_fWireWidth": {
-					"type": "float32",
-					"value": 0.009999999776482582
-				},
-				"m_nNumRenderSegments": {
-					"type": "uint32",
-					"value": 15
-				},
-				"m_bStraightRestPose": {
-					"type": "bool",
-					"value": true
-				},
-				"m_fRestLengthScale": {
-					"type": "float32",
-					"value": 1
-				},
-				"m_fAnchorTension": {
-					"type": "float32",
-					"value": 4
-				},
-				"m_nNumSimSegments": {
-					"type": "uint32",
-					"value": 1
-				},
-				"m_fFrequency": {
-					"type": "float32",
-					"value": 30
-				},
-				"m_fWindConstant": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_bAnchorEnd": { "type": "bool", "value": false },
+				"m_bUseTransformYAsTangents": { "type": "bool", "value": true },
+				"m_fWireSpacing": { "type": "float32", "value": 0.3400000035762787 },
+				"m_fWireWidth": { "type": "float32", "value": 0.009999999776482582 },
+				"m_nNumRenderSegments": { "type": "uint32", "value": 15 },
+				"m_bStraightRestPose": { "type": "bool", "value": true },
+				"m_fRestLengthScale": { "type": "float32", "value": 1 },
+				"m_fAnchorTension": { "type": "float32", "value": 4 },
+				"m_nNumSimSegments": { "type": "uint32", "value": 1 },
+				"m_fFrequency": { "type": "float32", "value": 30 },
+				"m_fWindConstant": { "type": "float32", "value": 1 },
 				"m_rAnchorTransform": {
 					"type": "SEntityTemplateReference",
 					"value": "abcddc5f040dbd96"
 				},
-				"m_fBendStiffness": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_fBendStiffness": { "type": "float32", "value": 1 },
 				"m_vGravity": {
 					"type": "SVector3",
-					"value": {
-						"x": 0,
-						"y": 0,
-						"z": -7.820000171661377
-					}
+					"value": { "x": 0, "y": 0, "z": -7.820000171661377 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1822,17 +1182,13 @@
 		"abcddc5f040dbd96": {
 			"parent": "abcd8db0cb380368",
 			"name": "RopeB_01",
-			"template": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 0.30000001192092896,
 							"y": 0,
@@ -1840,77 +1196,31 @@
 						}
 					}
 				},
-				"m_nNumWires": {
-					"type": "uint32",
-					"value": 1
-				},
+				"m_nNumWires": { "type": "uint32", "value": 1 },
 				"m_Material": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/_pro/environment/materials/props/wires/wire_a.mi].pc_mi"
 				},
-				"m_bUseWireMaterialLength": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bUseWireMaterialLength": { "type": "bool", "value": true },
 				"m_fWireMaterialLength": {
 					"type": "float32",
 					"value": 0.10000000149011612
 				},
-				"m_bAnchorEnd": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bUseTransformYAsTangents": {
-					"type": "bool",
-					"value": true
-				},
-				"m_fWireSpacing": {
-					"type": "float32",
-					"value": 0.3400000035762787
-				},
-				"m_fWireWidth": {
-					"type": "float32",
-					"value": 0.009999999776482582
-				},
-				"m_nNumRenderSegments": {
-					"type": "uint32",
-					"value": 15
-				},
-				"m_bStraightRestPose": {
-					"type": "bool",
-					"value": true
-				},
-				"m_fRestLengthScale": {
-					"type": "float32",
-					"value": 1
-				},
-				"m_fAnchorTension": {
-					"type": "float32",
-					"value": 4
-				},
-				"m_nNumSimSegments": {
-					"type": "uint32",
-					"value": 1
-				},
-				"m_fFrequency": {
-					"type": "float32",
-					"value": 30
-				},
-				"m_fWindConstant": {
-					"type": "float32",
-					"value": 1
-				},
-				"m_fBendStiffness": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_bAnchorEnd": { "type": "bool", "value": true },
+				"m_bUseTransformYAsTangents": { "type": "bool", "value": true },
+				"m_fWireSpacing": { "type": "float32", "value": 0.3400000035762787 },
+				"m_fWireWidth": { "type": "float32", "value": 0.009999999776482582 },
+				"m_nNumRenderSegments": { "type": "uint32", "value": 15 },
+				"m_bStraightRestPose": { "type": "bool", "value": true },
+				"m_fRestLengthScale": { "type": "float32", "value": 1 },
+				"m_fAnchorTension": { "type": "float32", "value": 4 },
+				"m_nNumSimSegments": { "type": "uint32", "value": 1 },
+				"m_fFrequency": { "type": "float32", "value": 30 },
+				"m_fWindConstant": { "type": "float32", "value": 1 },
+				"m_fBendStiffness": { "type": "float32", "value": 1 },
 				"m_vGravity": {
 					"type": "SVector3",
-					"value": {
-						"x": 0,
-						"y": 0,
-						"z": -7.820000171661377
-					}
+					"value": { "x": 0, "y": 0, "z": -7.820000171661377 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1922,22 +1232,14 @@
 		"abcd8db0cb380368": {
 			"parent": "abcda321b5810e22",
 			"name": "shooting_target",
-			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 2.5,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 2.5, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -1950,17 +1252,11 @@
 		"abcd998cd2fb8d62": {
 			"parent": "abcda321b5810e22",
 			"name": "SpatialMover",
-			"template": "[modules:/zspatialmoverentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialmoverentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialmoverentity.class].pc_entityblueprint",
 			"properties": {
-				"m_bLooping": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bEnabled": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bLooping": { "type": "bool", "value": false },
+				"m_bEnabled": { "type": "bool", "value": false },
 				"m_Start": {
 					"type": "SEntityTemplateReference",
 					"value": "abcd54c6e67e53f4"
@@ -1969,10 +1265,7 @@
 					"type": "SEntityTemplateReference",
 					"value": "abcd6d72bbcb05b3"
 				},
-				"m_fSpeed": {
-					"type": "float32",
-					"value": 1.5
-				},
+				"m_fSpeed": { "type": "float32", "value": 1.5 },
 				"m_Entity": {
 					"type": "SEntityTemplateReference",
 					"value": "abcd8db0cb380368"
@@ -1982,22 +1275,14 @@
 		"abcd54c6e67e53f4": {
 			"parent": "abcda321b5810e22",
 			"name": "Start point",
-			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 2.5,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 2.5, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2010,22 +1295,14 @@
 		"abcd6d72bbcb05b3": {
 			"parent": "abcda321b5810e22",
 			"name": "End point",
-			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": -5,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": -5, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2038,28 +1315,20 @@
 		"abcde6ede492afad": {
 			"parent": "e2408375eea89dab",
 			"name": "Elevator Test",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd7bd0406cd32e": {
 			"parent": "abcde6ede492afad",
 			"name": "Start Point",
-			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 4,
-							"y": -3.5,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 4, "y": -3.5, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2072,22 +1341,14 @@
 		"abcdc821c9a932a1": {
 			"parent": "abcde6ede492afad",
 			"name": "End Point",
-			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 4,
-							"y": -3.5,
-							"z": 3.9700000286102295
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 4, "y": -3.5, "z": 3.9700000286102295 }
 					}
 				},
 				"m_eidParent": {
@@ -2100,21 +1361,12 @@
 		"abcd33f43a0b0802": {
 			"parent": "abcde6ede492afad",
 			"name": "SpatialMover",
-			"template": "[modules:/zspatialmoverentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialmoverentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialmoverentity.class].pc_entityblueprint",
 			"properties": {
-				"m_bLooping": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bEnabled": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bOneDirection": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bLooping": { "type": "bool", "value": false },
+				"m_bEnabled": { "type": "bool", "value": false },
+				"m_bOneDirection": { "type": "bool", "value": false },
 				"m_Start": {
 					"type": "SEntityTemplateReference",
 					"value": "abcd7bd0406cd32e"
@@ -2123,10 +1375,7 @@
 					"type": "SEntityTemplateReference",
 					"value": "abcdc821c9a932a1"
 				},
-				"m_fSpeed": {
-					"type": "float32",
-					"value": 0.5
-				},
+				"m_fSpeed": { "type": "float32", "value": 0.5 },
 				"m_Entity": {
 					"type": "SEntityTemplateReference",
 					"value": "abcdf18c07340416"
@@ -2136,35 +1385,20 @@
 		"abcd96cd31540ff1": {
 			"parent": "abcdf18c07340416",
 			"name": "mockup_cube",
-			"template": "[assembly:/_pro/_test/martinni/geometry/setpiece_mockupgeoms_a.wl2?/mockupgeom_box_b.prim].pc_entitytype",
+			"factory": "[assembly:/_pro/_test/martinni/geometry/setpiece_mockupgeoms_a.wl2?/mockupgeom_box_b.prim].pc_entitytype",
 			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
-				"m_bKinematic": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bKinematic": { "type": "bool", "value": true },
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 20,
-						"y": 80,
-						"z": 0.15000000596046448
-					}
+					"value": { "x": 20, "y": 80, "z": 0.15000000596046448 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2176,22 +1410,14 @@
 		"abcd303646ec3421": {
 			"parent": "abcdf18c07340416",
 			"name": "Setpiece_Button",
-			"template": "[assembly:/_pro/scenes/missions/miami/helpers_cottonmouth.template?/setpiece_cottomouth_activator_launchbutton.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/scenes/missions/miami/helpers_cottonmouth.template?/setpiece_cottomouth_activator_launchbutton.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/scenes/missions/miami/helpers_cottonmouth.template?/setpiece_cottomouth_activator_launchbutton.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90
-						},
-						"position": {
-							"x": -1.5,
-							"y": -1,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": -90.00000000000001 },
+						"position": { "x": -1.5, "y": -1, "z": 0 }
 					}
 				},
 				"m_eRoomBehaviour": {
@@ -2220,33 +1446,19 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnUsed": {
-					"Enable": [
-						"abcd33f43a0b0802"
-					]
-				}
-			}
+			"events": { "OnUsed": { "Enable": ["abcd33f43a0b0802"] } }
 		},
 		"abcdf18c07340416": {
 			"parent": "abcde6ede492afad",
 			"name": "Elevator",
-			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 4,
-							"y": -3.5,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 4, "y": -3.5, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2259,43 +1471,26 @@
 		"abcd210d3b37ec56": {
 			"parent": "abcde6ede492afad",
 			"name": "Valuebool",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bValue": {
-					"type": "bool",
-					"value": true
-				}
-			}
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
 		},
 		"abcdda05cf8aff36": {
 			"parent": "abcd6baf8225ed26",
 			"name": "mockup_cube",
-			"template": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
+			"factory": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
 			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 10,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 10, "y": 0, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 2,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 2, "z": 1 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2307,22 +1502,14 @@
 		"abcdc97159de4d50": {
 			"parent": "abcdda05cf8aff36",
 			"name": "setpiece_trap_poison_coffeemachine_100cm",
-			"template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_poison_coffeemachine_100cm.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_poison_coffeemachine_100cm.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_poison_coffeemachine_100cm.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 90
-						},
-						"position": {
-							"x": -0.20000000298023224,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 90.00000000000001 },
+						"position": { "x": -0.20000000298023224, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2335,13 +1522,13 @@
 		"abcde0eafb29e2df": {
 			"parent": "38a086ae3b377196",
 			"name": "Poisons",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd586953380f78": {
 			"parent": "abcde0eafb29e2df",
 			"name": "ItemKey_Poison_RatPoison",
-			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
@@ -2353,17 +1540,13 @@
 		"abcd615457ec5cbb": {
 			"parent": "abcd586953380f78",
 			"name": "ItemSpawner",
-			"template": "[modules:/zitemspawner.class].pc_entitytype",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
 			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -0.20000000298023224,
 							"y": 0.5,
@@ -2379,10 +1562,7 @@
 					"type": "SEntityTemplateReference",
 					"value": "abcd586953380f78"
 				},
-				"m_bUsePlacementAttach": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bUsePlacementAttach": { "type": "bool", "value": false },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "abcdda05cf8aff36",
@@ -2393,22 +1573,14 @@
 		"abcdee57952c4db5": {
 			"parent": "abcda25b2fa2a0c9",
 			"name": "Setpiece_Hips_Stand_Table",
-			"template": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_stand_table.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_stand_table.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_stand_table.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90
-						},
-						"position": {
-							"x": -1.100000023841858,
-							"y": -0.5,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": -90.00000000000001 },
+						"position": { "x": -1.100000023841858, "y": -0.5, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2421,28 +1593,20 @@
 		"abcda25b2fa2a0c9": {
 			"parent": "1234567890abcdef",
 			"name": "LIPs",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcdafc03496f112": {
 			"parent": "e2408375eea89dab",
 			"name": "Weapon Rack",
-			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": -5,
-							"y": -4.5,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -5, "y": -4.5, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2455,31 +1619,19 @@
 		"abcd7b6e80b40d69": {
 			"parent": "abcdafc03496f112",
 			"name": "mockup_cube",
-			"template": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
+			"factory": "[assembly:/geometry/mockup_assets/mockup_assets_02.wl2?/mockup_cube_100x100x100.prim].pc_entitytype",
 			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 90
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 90.00000000000001 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 0.20000000298023224,
-						"y": 3,
-						"z": 3
-					}
+					"value": { "x": 0.20000000298023224, "y": 3, "z": 3 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2491,13 +1643,13 @@
 		"abcd19ab6eb89815": {
 			"parent": "7a62dbe0110908ea",
 			"name": "Weapon Rack",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcd5d83034fd6f3": {
 			"parent": "abcd19ab6eb89815",
 			"name": "ItemKey_ICA_19_SilverBaller",
-			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
@@ -2509,7 +1661,7 @@
 		"abcd787933fa9060": {
 			"parent": "abcd19ab6eb89815",
 			"name": "ItemKey_Sieger_300_Ghost",
-			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
@@ -2521,7 +1673,7 @@
 		"abcd050c1a4d465a": {
 			"parent": "abcd19ab6eb89815",
 			"name": "ItemKey_Shashka_A33_Black",
-			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
@@ -2533,7 +1685,7 @@
 		"abcda560ba1f331c": {
 			"parent": "abcd19ab6eb89815",
 			"name": "ItemKey_TAC_SMG",
-			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
@@ -2545,17 +1697,13 @@
 		"abcd14eaaf7c971f": {
 			"parent": "abcda560ba1f331c",
 			"name": "ItemSpawner",
-			"template": "[modules:/zitemspawner.class].pc_entitytype",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
 			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": -90.00000000000001, "y": 0, "z": 0 },
 						"position": {
 							"x": -0.5,
 							"y": -0.15000000596046448,
@@ -2571,10 +1719,7 @@
 					"type": "SEntityTemplateReference",
 					"value": "abcda560ba1f331c"
 				},
-				"m_bUsePlacementAttach": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bUsePlacementAttach": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "abcdafc03496f112",
@@ -2585,15 +1730,15 @@
 		"abcd78a85b301672": {
 			"parent": "abcd5d83034fd6f3",
 			"name": "ItemSpawner",
-			"template": "[modules:/zitemspawner.class].pc_entitytype",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
 			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -90,
-							"y": 90,
+							"x": -90.00000000000003,
+							"y": 89.9999982924527,
 							"z": 0
 						},
 						"position": {
@@ -2611,10 +1756,7 @@
 					"type": "SEntityTemplateReference",
 					"value": "abcd5d83034fd6f3"
 				},
-				"m_bUsePlacementAttach": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bUsePlacementAttach": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "abcdafc03496f112",
@@ -2625,17 +1767,13 @@
 		"abcdcc92b9054b6d": {
 			"parent": "abcd050c1a4d465a",
 			"name": "ItemSpawner",
-			"template": "[modules:/zitemspawner.class].pc_entitytype",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
 			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": -90.00000000000001, "y": 0, "z": 0 },
 						"position": {
 							"x": 0.5,
 							"y": -0.15000000596046448,
@@ -2651,10 +1789,7 @@
 					"type": "SEntityTemplateReference",
 					"value": "abcd050c1a4d465a"
 				},
-				"m_bUsePlacementAttach": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bUsePlacementAttach": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "abcdafc03496f112",
@@ -2665,17 +1800,13 @@
 		"abcd2da7b2b7aa95": {
 			"parent": "abcd787933fa9060",
 			"name": "ItemSpawner",
-			"template": "[modules:/zitemspawner.class].pc_entitytype",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
 			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": -90.00000000000001, "y": 0, "z": 0 },
 						"position": {
 							"x": 0.5,
 							"y": -0.11999999731779099,
@@ -2691,10 +1822,7 @@
 					"type": "SEntityTemplateReference",
 					"value": "abcd787933fa9060"
 				},
-				"m_bUsePlacementAttach": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bUsePlacementAttach": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "abcdafc03496f112",
@@ -2705,7 +1833,7 @@
 		"abcdd47e7bba84b7": {
 			"parent": "abcd19ab6eb89815",
 			"name": "ItemKey_Katana",
-			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
@@ -2717,17 +1845,13 @@
 		"abcd9c960d6c7d41": {
 			"parent": "abcdd47e7bba84b7",
 			"name": "ItemSpawner",
-			"template": "[modules:/zitemspawner.class].pc_entitytype",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
 			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": -90.00000000000001, "y": 0, "z": 0 },
 						"position": {
 							"x": -0.30000001192092896,
 							"y": -0.15000000596046448,
@@ -2743,10 +1867,7 @@
 					"type": "SEntityTemplateReference",
 					"value": "abcdd47e7bba84b7"
 				},
-				"m_bUsePlacementAttach": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bUsePlacementAttach": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "abcdafc03496f112",
@@ -2757,17 +1878,13 @@
 		"abcd09877ea39231": {
 			"parent": "abcdafc03496f112",
 			"name": "metal_hook_a",
-			"template": "00BB254D544AFF24",
+			"factory": "00BB254D544AFF24",
 			"blueprint": "001DE98EE3C26CF0",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 90,
-							"y": 0,
-							"z": 180
-						},
+						"rotation": { "x": 90.00000000000001, "y": 0, "z": 180 },
 						"position": {
 							"x": -0.30000001192092896,
 							"y": -0.14000000059604645,
@@ -2785,17 +1902,13 @@
 		"abcd41ed6f481006": {
 			"parent": "abcdafc03496f112",
 			"name": "metal_hook_a",
-			"template": "00BB254D544AFF24",
+			"factory": "00BB254D544AFF24",
 			"blueprint": "001DE98EE3C26CF0",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 90,
-							"y": 0,
-							"z": 180
-						},
+						"rotation": { "x": 90.00000000000001, "y": 0, "z": 180 },
 						"position": {
 							"x": 0.30000001192092896,
 							"y": -0.14000000059604645,
@@ -2813,17 +1926,13 @@
 		"abcde118bc866367": {
 			"parent": "abcdafc03496f112",
 			"name": "metal_hook_a",
-			"template": "00BB254D544AFF24",
+			"factory": "00BB254D544AFF24",
 			"blueprint": "001DE98EE3C26CF0",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 90,
-							"y": 0,
-							"z": 180
-						},
+						"rotation": { "x": 90.00000000000001, "y": 0, "z": 180 },
 						"position": {
 							"x": 0.07000000029802322,
 							"y": -0.14000000059604645,
@@ -2841,28 +1950,17 @@
 		"abcdb2eea6418544": {
 			"parent": "f97ab4b27757356c",
 			"name": "MaterialOverride_Metal",
-			"template": "[assembly:/_pro/environment/materials/generic/wood/panels_chestnut_old_a.mi].pc_entitytype",
+			"factory": "[assembly:/_pro/environment/materials/generic/wood/panels_chestnut_old_a.mi].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/materials/generic/wood/panels_chestnut_old_a.mi].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
-				"Override": {
-					"type": "bool",
-					"value": true
-				},
+				"Override": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "3a4fd7620d2fc601",
@@ -2870,9 +1968,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd7b6e80b40d69"
-					],
+					"value": ["abcd7b6e80b40d69"],
 					"postInit": true
 				}
 			}
@@ -2880,17 +1976,13 @@
 		"abcd928fdcfd973e": {
 			"parent": "abcdafc03496f112",
 			"name": "metal_plate_tools_c",
-			"template": "[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/metal_plate_tools_c.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/metal_plate_tools_c.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/metal_plate_tools_c.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 180,
-							"y": 0,
-							"z": 180
-						},
+						"rotation": { "x": 180, "y": 0, "z": 180 },
 						"position": {
 							"x": -0.17000000178813934,
 							"y": -0.11999999731779099,
@@ -2900,11 +1992,7 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 1, "z": 1 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2916,15 +2004,15 @@
 		"abcd6ded1b2f24e3": {
 			"parent": "abcd928fdcfd973e",
 			"name": "hokkaido_beam_connecttion_corner_a",
-			"template": "0014619F136F4426",
+			"factory": "0014619F136F4426",
 			"blueprint": "00F0D1A5CBE1181D",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -90,
-							"y": 90,
+							"x": -90.00000000000003,
+							"y": 89.9999982924527,
 							"z": 0
 						},
 						"position": {
@@ -2952,15 +2040,15 @@
 		"abcda2f5e7e40b44": {
 			"parent": "abcd928fdcfd973e",
 			"name": "hokkaido_beam_connecttion_corner_a",
-			"template": "0014619F136F4426",
+			"factory": "0014619F136F4426",
 			"blueprint": "00F0D1A5CBE1181D",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -90,
-							"y": 90,
+							"x": -90.00000000000003,
+							"y": 89.9999982924527,
 							"z": 0
 						},
 						"position": {
@@ -2988,15 +2076,15 @@
 		"abcd84085b5535eb": {
 			"parent": "abcd928fdcfd973e",
 			"name": "hokkaido_beam_connecttion_corner_a",
-			"template": "0014619F136F4426",
+			"factory": "0014619F136F4426",
 			"blueprint": "00F0D1A5CBE1181D",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -7.0167096047110005e-15,
-							"y": -7.0167096047110005e-15,
+							"x": -0.0000000000000070167096047110005,
+							"y": -0.0000000000000070167096047110005,
 							"z": -90.00000000000001
 						},
 						"position": {
@@ -3024,15 +2112,15 @@
 		"abcdb7e2240169e4": {
 			"parent": "abcd928fdcfd973e",
 			"name": "hokkaido_beam_connecttion_corner_a",
-			"template": "0014619F136F4426",
+			"factory": "0014619F136F4426",
 			"blueprint": "00F0D1A5CBE1181D",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -7.0167096047110005e-15,
-							"y": -7.0167096047110005e-15,
+							"x": -0.0000000000000070167096047110005,
+							"y": -0.0000000000000070167096047110005,
 							"z": -90.00000000000001
 						},
 						"position": {
@@ -3060,23 +2148,19 @@
 		"abcdd0d79435606d": {
 			"parent": "abcd19ab6eb89815",
 			"name": "New Entity",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"abcdedf70ad41489": {
 			"parent": "abcdafc03496f112",
 			"name": "metal_hook_a",
-			"template": "00BB254D544AFF24",
+			"factory": "00BB254D544AFF24",
 			"blueprint": "001DE98EE3C26CF0",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 90,
-							"y": 0,
-							"z": 180
-						},
+						"rotation": { "x": 90.00000000000001, "y": 0, "z": 180 },
 						"position": {
 							"x": 0.6000000238418579,
 							"y": -0.14000000059604645,
@@ -3094,22 +2178,14 @@
 		"feedc984c241278b": {
 			"parent": "e2408375eea89dab",
 			"name": "guillotine_a",
-			"template": "[assembly:/_pro/environment/geometry/props/guillotine_a.wl2?/guillotine_a.prim].pc_entitytype",
+			"factory": "[assembly:/_pro/environment/geometry/props/guillotine_a.wl2?/guillotine_a.prim].pc_entitytype",
 			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 4,
-							"y": 5,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 4, "y": 5, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -3122,22 +2198,14 @@
 		"feed2964951b5841": {
 			"parent": "feedc984c241278b",
 			"name": "setpiece_hips_lie",
-			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90
-						},
-						"position": {
-							"x": 4,
-							"y": 4.9,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": -90.00000000000001 },
+						"position": { "x": 4, "y": 4.9, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -3150,22 +2218,14 @@
 		"feed9535d3d920d9": {
 			"parent": "feed2964951b5841",
 			"name": "Parent",
-			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": -0.7549999952316284,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": -0.7549999952316284, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -3178,20 +2238,16 @@
 		"feed4d727eafbe1a": {
 			"parent": "feed2964951b5841",
 			"name": "HIPS position",
-			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
+						"rotation": { "x": 0, "y": 0, "z": -180 },
 						"position": {
-							"x": 9.999999974752427e-7,
-							"y": -9.999999974752427e-7,
+							"x": 0.0000009999999974752427,
+							"y": -0.0000009999999974752427,
 							"z": 0
 						}
 					}
@@ -3205,22 +2261,14 @@
 		"feedd565a8168e5d": {
 			"parent": "feed2964951b5841",
 			"name": "SetpieceHelper_HIPS_FullyHidden",
-			"template": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelper_hips_fullyhidden.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelper_hips_fullyhidden.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelper_hips_fullyhidden.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0.05000000074505806,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0.05000000074505806, "z": 0 }
 					}
 				},
 				"m_pSafeZoneOrigin": {
@@ -3237,26 +2285,14 @@
 				"GizmoTransformBase": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -179.99999499104388
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": -179.99999499104388 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"InteractionPoint": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -0.05000000074505806,
 							"y": -0.6000000238418579,
@@ -3267,11 +2303,7 @@
 				"PromptPoint": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 0,
 							"y": 0.18000000715255737,
@@ -3293,19 +2325,11 @@
 						"flag": "5F"
 					}
 				},
-				"m_bBlendOutCloth": {
-					"type": "bool",
-					"value": true
-				},
-				"AllowWeaponOnBack": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bBlendOutCloth": { "type": "bool", "value": true },
+				"AllowWeaponOnBack": { "type": "bool", "value": false },
 				"m_aUIHighlightGeom": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						null
-					]
+					"value": [null]
 				},
 				"m_pSafeZoneLoopPosition": {
 					"type": "SEntityTemplateReference",
@@ -3321,33 +2345,19 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnEntered": {
-					"In": [
-						"feedcb708854c2c0"
-					]
-				}
-			}
+			"events": { "OnEntered": { "In": ["feedcb708854c2c0"] } }
 		},
 		"feed3a18f2c66987": {
 			"parent": "feedc984c241278b",
 			"name": "guillotine_blade_a",
-			"template": "[assembly:/_pro/environment/geometry/props/guillotine_a.wl2?/guillotine_blade_a.prim].pc_entitytype",
+			"factory": "[assembly:/_pro/environment/geometry/props/guillotine_a.wl2?/guillotine_blade_a.prim].pc_entitytype",
 			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -3360,25 +2370,16 @@
 		"feedccad09685fd7": {
 			"parent": "feedc984c241278b",
 			"name": "SpatialMover",
-			"template": "[modules:/zspatialmoverentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialmoverentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialmoverentity.class].pc_entityblueprint",
 			"properties": {
 				"m_Start": {
 					"type": "SEntityTemplateReference",
 					"value": "feed21e0d28de208"
 				},
-				"m_fSpeed": {
-					"type": "float32",
-					"value": 10
-				},
-				"m_bLooping": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bEnabled": {
-					"type": "bool",
-					"value": false
-				},
+				"m_fSpeed": { "type": "float32", "value": 10 },
+				"m_bLooping": { "type": "bool", "value": false },
+				"m_bEnabled": { "type": "bool", "value": false },
 				"m_Entity": {
 					"type": "SEntityTemplateReference",
 					"value": "feed3a18f2c66987",
@@ -3390,33 +2391,19 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnPositionReached": {
-					"Activate": [
-						"b2dcd31d21e668bd"
-					]
-				}
-			}
+			"events": { "OnPositionReached": { "Activate": ["b2dcd31d21e668bd"] } }
 		},
 		"feed21e0d28de208": {
 			"parent": "feedc984c241278b",
 			"name": "Start Position",
-			"template": "[modules:/zcompositeentity.class].pc_entitytype",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
 			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -3429,22 +2416,14 @@
 		"feedbb2e8f596b69": {
 			"parent": "feedc984c241278b",
 			"name": "End Position",
-			"template": "[modules:/zcompositeentity.class].pc_entitytype",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
 			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": -1.625
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": -1.625 }
 					}
 				},
 				"m_eidParent": {
@@ -3456,41 +2435,22 @@
 		"feedcb708854c2c0": {
 			"parent": "feed2964951b5841",
 			"name": "TimerSimple",
-			"template": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"Delay time (ms)": {
-					"type": "int32",
-					"value": 2500
-				}
-			},
-			"events": {
-				"Out": {
-					"Enable": [
-						"feedccad09685fd7"
-					]
-				}
-			}
+			"properties": { "Delay time (ms)": { "type": "int32", "value": 2500 } },
+			"events": { "Out": { "Enable": ["feedccad09685fd7"] } }
 		},
 		"feed159a639c895f": {
 			"parent": "e2408375eea89dab",
 			"name": "lodsetup_a",
-			"template": "[assembly:/_pro/environment/geometry/props/lodsetup_a.wl2?/lodsetup_a.prim].pc_entitytype",
+			"factory": "[assembly:/_pro/environment/geometry/props/lodsetup_a.wl2?/lodsetup_a.prim].pc_entitytype",
 			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 100,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 100, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -3503,7 +2463,7 @@
 		"abcdefcadc2e258e": {
 			"parent": null,
 			"name": "QNE In-Vivo Helper Entity",
-			"template": "[modules:/zmultiparentspatialentity.class].pc_entitytype",
+			"factory": "[modules:/zmultiparentspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zmultiparentspatialentity.class].pc_entityblueprint",
 			"properties": {
 				"m_aParents": {
@@ -3638,21 +2598,12 @@
 		"abcdefcadc77e4f2": {
 			"parent": "abcdefcadc2e258e",
 			"name": "QNE In-Vivo Helper Entity GameEventListener",
-			"template": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
 			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
 			"properties": {
-				"m_eEvent": {
-					"type": "EGameEventType",
-					"value": "GET_IntroCutEnd"
-				}
+				"m_eEvent": { "type": "EGameEventType", "value": "GET_IntroCutEnd" }
 			},
-			"events": {
-				"EventOccurred": {
-					"GetIndex": [
-						"abcdefcadc2e258e"
-					]
-				}
-			}
+			"events": { "EventOccurred": { "GetIndex": ["abcdefcadc2e258e"] } }
 		}
 	},
 	"propertyOverrides": [],
@@ -3666,7 +2617,7 @@
 		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
 	],
 	"subType": "scene",
-	"quickEntityVersion": 3,
+	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [],
 	"extraBlueprintDependencies": [],
 	"comments": []
