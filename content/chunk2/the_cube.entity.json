@@ -450,7 +450,7 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": { "rotation": { "x": 0, "y": 0, "z": -90 }, "position": { "x": -13, "y": -12, "z": 0 } }
+					"value": { "rotation": { "x": 0, "y": 0, "z": -90 }, "position": { "x": -12, "y": 0, "z": 0 } }
 				},
 				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 25, "y": 1, "z": 12.5 } },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "abcd09ce75f9aab8", "postInit": true }
@@ -464,7 +464,7 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": -25, "z": 0 } }
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 12, "z": 0 } }
 				},
 				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 25, "y": 1, "z": 12.5 } },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "abcd09ce75f9aab8", "postInit": true }
@@ -478,7 +478,7 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": { "rotation": { "x": 0, "y": 0, "z": -90 }, "position": { "x": 13, "y": -12, "z": 0 } }
+					"value": { "rotation": { "x": 0, "y": 0, "z": -90 }, "position": { "x": 12, "y": 0, "z": 0 } }
 				},
 				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 25, "y": 1, "z": 12.5 } },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "abcd09ce75f9aab8", "postInit": true }
@@ -492,7 +492,7 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 1, "z": 0 } }
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": -12, "z": 0 } }
 				},
 				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 25, "y": 1, "z": 12.5 } },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "abcd09ce75f9aab8", "postInit": true }
@@ -506,9 +506,44 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": { "rotation": { "x": -90, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0.5, "z": 12.5 } }
+					"value": { "rotation": { "x": -90, "y": 0, "z": 0 }, "position": { "x": 0, "y": 12.5, "z": 12.5 } }
 				},
 				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 25, "y": 1, "z": 25 } },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "abcd09ce75f9aab8", "postInit": true }
+			}
+		},
+		"feed4d691b5b21ed": {
+			"parent": "1234567890abcdef",
+			"name": "Items",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed475e7bf74182": {
+			"parent": "feed4d691b5b21ed",
+			"name": "Weapons",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feedd6f977741372": {
+			"parent": "feed475e7bf74182",
+			"name": "ItemKey_ICA_19_SilverBaller",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "e70adb5b-0646-4f88-bd4a-85bea7a2a654" } }
+		},
+		"feedf650269873dc": {
+			"parent": "feedd6f977741372",
+			"name": "ItemSpawner",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": -90, "y": 90, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0.02 } }
+				},
+				"m_ePhysicsMode": { "type": "ZItemSpawner.EPhysicsMode", "value": "EPM_SLEEPING" },
+				"m_rMainItemKey": { "type": "SEntityTemplateReference", "value": "feedd6f977741372" },
+				"m_bUsePlacementAttach": { "type": "bool", "value": false },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "abcd09ce75f9aab8", "postInit": true }
 			}
 		}
