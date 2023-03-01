@@ -1,42 +1,42 @@
 {
-  "id": "Notex.HM3CustomMaps",
-  "name": "HM3CustomMaps",
-  "description": "Custom maps experimentation",
-  "authors": ["Notex"],
-  "contentFolders": ["content"],
-  "packagedefinition": [
-    {
-      "type": "entity",
-      "partition": "season3",
-      "path": "[assembly:/_pro/scenes/users/notex/test.entity].entitytemplate"
-    },
-    {
-      "type": "entity",
-      "partition": "season3",
-      "path": "[assembly:/_pro/scenes/users/notex/blank_slate.entity].entitytemplate"
-    },
-    {
-      "type": "entity",
-      "partition": "season3",
-      "path": "[assembly:/_pro/scenes/users/notex/outfit_showcase.entity].entitytemplate"
-    },
-    {
-      "type": "entity",
-      "partition": "season3",
-      "path": "[assembly:/_pro/scenes/users/notex/the_cube.entity].entitytemplate"
-    },
-    {
-      "type": "entity",
-      "partition": "sheep",
-      "path": "[assembly:/_pro/scenes/missions/sheep/scene_puka.entity].entitytemplate"
-    },
-    {
-      "type": "entity",
-      "partition": "sheep",
-      "path": "[assembly:/_pro/scenes/missions/sheep/outfits_puka.brick].entitytype"
-    }
-  ],
-  "version": "1.0.1",
-  "updateCheck": "https://framework.notex.app/updates/HM3CustomMaps.json",
-  "frameworkVersion": "2.15.0"
+	"id": "Notex.HM3CustomMaps",
+	"name": "HM3CustomMaps",
+	"description": "Custom maps experimentation",
+	"authors": ["Notex"],
+	"contentFolders": ["content"],
+	"packagedefinition": [
+		{
+			"type": "entity",
+			"partition": "season3",
+			"path": "[assembly:/_pro/scenes/users/notex/test.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "season3",
+			"path": "[assembly:/_pro/scenes/users/notex/blank_slate.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "season3",
+			"path": "[assembly:/_pro/scenes/users/notex/outfit_showcase.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "season3",
+			"path": "[assembly:/_pro/scenes/users/notex/the_cube.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "sheep",
+			"path": "[assembly:/_pro/scenes/missions/sheep/scene_puka.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "sheep",
+			"path": "[assembly:/_pro/scenes/missions/sheep/outfits_puka.brick].entitytype"
+		}
+	],
+	"version": "1.0.1",
+	"updateCheck": "https://framework.notex.app/updates/HM3CustomMaps.json",
+	"frameworkVersion": "2.15.0"
 }

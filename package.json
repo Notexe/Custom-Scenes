@@ -1,5 +1,5 @@
 {
-  "devDependencies": {
-    "prettier": "2.8.4"
-  }
+	"devDependencies": {
+		"prettier": "2.8.4"
+	}
 }

@@ -19,6 +19,7 @@ https://user-images.githubusercontent.com/43296291/141157843-34cf51da-5330-46aa-
 ![HITMAN3_WcB8wm7dU8](https://user-images.githubusercontent.com/43296291/141782804-c58f4297-a31e-47b9-a6f3-9b51da46a77f.png)
 
 ## Custom paths:
+
 ```
 00B5C7A6E0F38638.PRIM,[assembly:/_pro/environment/geometry/props/guillotine_a.wl2?/guillotine_a.prim].pc_prim
 00FA20275D950AA4.TEMP,[assembly:/_pro/environment/geometry/props/guillotine_a.wl2?/guillotine_a.prim].pc_entitytype
@@ -26,15 +27,22 @@ https://user-images.githubusercontent.com/43296291/141157843-34cf51da-5330-46aa-
 005D066A71E1A800.TEMP,[assembly:/_pro/environment/geometry/props/guillotine_a.wl2?/guillotine_blade_a.prim].pc_entitytype
 000D4DE6CA5229F8.PRIM,[assembly:/_pro/environment/geometry/props/lodsetup_a.wl2?/lodsetup_a.prim].pc_prim
 00C837765385A7D3.TEMP,[assembly:/_pro/environment/geometry/props/lodsetup_a.wl2?/lodsetup_a.prim].pc_entitytype
+
+[assembly:/sound/wwise/exportedwwisedata/soundbanks/globaldata/modded.wwisesoundbank].pc_wwisebank
+[assembly:/sound/wwise/exportedwwisedata/events/squeaking_events/play_squeak.wwiseevent].pc_wwisebank
+[assembly:/sound/wwise/originals/sfx/squeak.wav].pc_wem
 ```
 
 ---
+
 ## Instructions
+
 1. Download the Simple Mod Framework from [https://www.nexusmods.com/hitman3/mods/200](https://www.nexusmods.com/hitman3/mods/200) (See install instructions on the nexus page).
 2. Download the latest release zip from [https://github.com/Notexe/HM3CustomMaps/releases](https://github.com/Notexe/HM3CustomMaps/releases).
 3. Open the Mod Manager GUI and use the **Import Framework ZIP** button and then select the zip that you have just downloaded.
 
 ### Launching
+
 Currently the only way to launch any of these custom maps is by editing Hitman's thumbs.dat file which is located in `HITMAN3\Retail\`.
 
 You will also need to turn off the Framework's skip intro feature since that will replace your thumbs.dat file everytime you deploy.
