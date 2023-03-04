@@ -269,7 +269,6 @@
 				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
 				"Usable": { "type": "SEntityTemplateReference", "value": "5cadb598e997573c" },
 				"Visible": { "type": "SEntityTemplateReference", "value": "5cadb598e997573c" },
-				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": "00079B9BE7734960" },
 				"Onm_rPromptDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "3a4fd7620d2fc601", "postInit": true }
 			},
@@ -567,18 +566,6 @@
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
-		"abcdab5a70a5ab8e": {
-			"parent": "abcd889eea2e16b2",
-			"name": "Modded_Soundbank",
-			"factory": "[modules:/zsoundbankentity.class].pc_entitytype",
-			"blueprint": "[modules:/zsoundbankentity.class].pc_entityblueprint",
-			"properties": {
-				"m_pBankResource": {
-					"type": "ZRuntimeResourceID",
-					"value": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/globaldata/modded.wwisesoundbank].pc_wwisebank"
-				}
-			}
-		},
 		"abcd1e84b3f2e4f9": {
 			"parent": "abcd09feb02373db",
 			"name": "GameEventListener",
@@ -597,49 +584,6 @@
 			"name": "Audio Event Testing",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
-		"abcd0407f1296a34": {
-			"parent": "abcde03a07db946e",
-			"name": "HM5ShotListener",
-			"factory": "[modules:/zhm5shotlistenerentity.class].pc_entitytype",
-			"blueprint": "[modules:/zhm5shotlistenerentity.class].pc_entityblueprint",
-			"properties": {
-				"m_fNPCMaxDistanceToHitman": { "type": "float32", "value": 1000 },
-				"m_bOnlyHitman": { "type": "bool", "value": true },
-				"m_Listener": { "type": "TArray<SEntityTemplateReference>", "value": ["abcd58e395ad03d0"], "postInit": true }
-			},
-			"events": { "OnHit": { "Send": ["abcd7391b32bfb66"] } }
-		},
-		"abcde530705985f7": {
-			"parent": "abcde03a07db946e",
-			"name": "ValueBool_Poll",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
-			"properties": { "m_rValueEntity": { "type": "SEntityTemplateReference", "value": "abcda67d7637d5d6" } },
-			"events": { "PollFalse": { "Send": ["abcd7391b32bfb66"], "SetTrue": ["abcda67d7637d5d6"] } }
-		},
-		"abcda67d7637d5d6": {
-			"parent": "abcde03a07db946e",
-			"name": "ValueBool_Basic",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bValue": { "type": "bool", "value": false },
-				"m_bSignalsInEditMode": { "type": "bool", "value": true }
-			}
-		},
-		"abcd7391b32bfb66": {
-			"parent": "abcde03a07db946e",
-			"name": "Play_squeak",
-			"factory": "[modules:/zaudioevententity.class].pc_entitytype",
-			"blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
-			"properties": {
-				"m_aEmitters": { "type": "TArray<SEntityTemplateReference>", "value": ["abcdb9de32c40395"] },
-				"m_pMainEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": "[assembly:/sound/wwise/exportedwwisedata/events/squeaking_events/play_squeak.wwiseevent].pc_wwisebank"
-				}
-			}
 		},
 		"abcdb9de32c40395": {
 			"parent": "abcde03a07db946e",
@@ -1024,7 +968,6 @@
 				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
 				"Usable": { "type": "SEntityTemplateReference", "value": "5cadb598e997573c" },
 				"Visible": { "type": "SEntityTemplateReference", "value": "5cadb598e997573c" },
-				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": "00079B9BE7734960" },
 				"Onm_rPromptDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "abcdf18c07340416", "postInit": true }
 			},
@@ -1681,6 +1624,132 @@
 					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 100, "y": 0, "z": 0 } }
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "3a4fd7620d2fc601", "postInit": true }
+			}
+		},
+		"feed72dac92b2996": {
+			"parent": "abcde03a07db946e",
+			"name": "Buttons",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed1a6363218628": {
+			"parent": "feed72dac92b2996",
+			"name": "Beep_Memory",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 90 }, "position": { "x": 0, "y": 20, "z": 0 } }
+				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_sTurnOnPromptText": { "type": "ZString", "value": "Beep" },
+				"ONm_sPromptDescriptionText": { "type": "ZString", "value": "Memory" },
+				"m_bIsIllegal": { "type": "bool", "value": false },
+				"m_bUseOnlyOnce": { "type": "bool", "value": false },
+				"m_bIsToggleAction": { "type": "bool", "value": false },
+				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnTriggered": { "Send": ["feed1ff09bd2c1e4"] } }
+		},
+		"feed86cd73cfa049": {
+			"parent": "feed72dac92b2996",
+			"name": "Beep_Streamed",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 90 }, "position": { "x": 0, "y": 22, "z": 0 } }
+				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_sTurnOnPromptText": { "type": "ZString", "value": "Beep" },
+				"ONm_sPromptDescriptionText": { "type": "ZString", "value": "Streamed" },
+				"m_bIsIllegal": { "type": "bool", "value": false },
+				"m_bUseOnlyOnce": { "type": "bool", "value": false },
+				"m_bIsToggleAction": { "type": "bool", "value": false },
+				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnTriggered": { "Send": ["feedc253d10f0486"] } }
+		},
+		"feed3b7bfe2125c5": {
+			"parent": "feed72dac92b2996",
+			"name": "Beep_Prefetched",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 90 }, "position": { "x": 0, "y": 21, "z": 0 } }
+				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_sTurnOnPromptText": { "type": "ZString", "value": "Beep" },
+				"ONm_sPromptDescriptionText": { "type": "ZString", "value": "Prefetched" },
+				"m_bIsIllegal": { "type": "bool", "value": false },
+				"m_bUseOnlyOnce": { "type": "bool", "value": false },
+				"m_bIsToggleAction": { "type": "bool", "value": false },
+				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnTriggered": { "Send": ["feed6bbc2e838c24"] } }
+		},
+		"feed289f97f8c9ec": {
+			"parent": "abcde03a07db946e",
+			"name": "Events",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feedc253d10f0486": {
+			"parent": "feed289f97f8c9ec",
+			"name": "Play_Beep_Streamed",
+			"factory": "[modules:/zaudioevententity.class].pc_entitytype",
+			"blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
+			"properties": {
+				"m_aEmitters": { "type": "TArray<SEntityTemplateReference>", "value": ["abcdb9de32c40395"] },
+				"m_pMainEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": "[assembly:/sound/wwise/exportedwwisedata/events/_test/play_beep_streamed.wwiseevent].pc_wwisebank"
+				}
+			}
+		},
+		"feed1ff09bd2c1e4": {
+			"parent": "feed289f97f8c9ec",
+			"name": "Play_Beep_Memory",
+			"factory": "[modules:/zaudioevententity.class].pc_entitytype",
+			"blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
+			"properties": {
+				"m_aEmitters": { "type": "TArray<SEntityTemplateReference>", "value": ["abcdb9de32c40395"] },
+				"m_pMainEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": "[assembly:/sound/wwise/exportedwwisedata/events/_test/play_beep_memory.wwiseevent].pc_wwisebank"
+				}
+			}
+		},
+		"feed6bbc2e838c24": {
+			"parent": "feed289f97f8c9ec",
+			"name": "Play_Beep_Prefetched",
+			"factory": "[modules:/zaudioevententity.class].pc_entitytype",
+			"blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
+			"properties": {
+				"m_aEmitters": { "type": "TArray<SEntityTemplateReference>", "value": ["abcdb9de32c40395"] },
+				"m_pMainEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": "[assembly:/sound/wwise/exportedwwisedata/events/_test/play_beep_prefetched.wwiseevent].pc_wwisebank"
+				}
+			}
+		},
+		"feed6fe489af985a": {
+			"parent": "abcd889eea2e16b2",
+			"name": "Modded_Soundbank",
+			"factory": "[modules:/zsoundbankentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsoundbankentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pBankResource": {
+					"type": "ZRuntimeResourceID",
+					"value": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/globaldata/modded.wwisesoundbank].pc_wwisebank"
+				}
 			}
 		}
 	},

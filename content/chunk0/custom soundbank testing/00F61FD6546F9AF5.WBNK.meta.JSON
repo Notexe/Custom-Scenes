@@ -1,17 +1,1 @@
-{
-    "hash_value": "00F61FD6546F9AF5",
-    "hash_offset": 95179727,
-    "hash_size": 2147494565,
-    "hash_resource_type": "WBNK",
-    "hash_reference_table_size": 13,
-    "hash_reference_table_dummy": 0,
-    "hash_size_final": 27726,
-    "hash_size_in_memory": 4294967295,
-    "hash_size_in_video_memory": 4294967295,
-    "hash_reference_data": [
-        {
-            "hash": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/globaldata/global.wwisesoundbank].pc_wwisebank",
-            "flag": "1F"
-        }
-    ]
-}
+{"hash_value":"00F61FD6546F9AF5","hash_offset":2147494565,"hash_size":2147494565,"hash_resource_type":"WBNK","hash_reference_table_size":13,"hash_reference_table_dummy":0,"hash_size_final":27726,"hash_size_in_memory":4294967295,"hash_size_in_video_memory":4294967295,"hash_reference_data":[{"hash":"[assembly:/sound/wwise/exportedwwisedata/soundbanks/globaldata/global.wwisesoundbank].pc_wwisebank","flag":"1F"}]}
