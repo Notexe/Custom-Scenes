@@ -1870,6 +1870,30 @@
 			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
 			"properties": { "m_eEvent": { "type": "EGameEventType", "value": "GET_IntroCutEnd" } },
 			"events": { "EventOccurred": { "Poll": ["feed4735bf8d4b56"] } }
+		},
+		"feed2b8ca7ca6289": {
+			"parent": "1234567890abcdef",
+			"name": "AI Reasoning Grid",
+			"factory": "[modules:/zreasoninggridconfigentity.class].pc_entitytype",
+			"blueprint": "[modules:/zreasoninggridconfigentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pGrid": {
+					"type": "ZRuntimeResourceID",
+					"value": "[assembly:/_pro/scenes/users/notex/scene_test_scene.airg].pc_airg"
+				}
+			}
+		},
+		"feede6c7f590bbbe": {
+			"parent": "1234567890abcdef",
+			"name": "PathfinderConfiguration",
+			"factory": "[modules:/zpathfinderconfiguration.class].pc_entitytype",
+			"blueprint": "[modules:/zpathfinderconfiguration.class].pc_entityblueprint",
+			"properties": {
+				"m_NavpowerResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": "[assembly:/_pro/scenes/users/notex/scene_test.navp].pc_navp"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [],
