@@ -35,7 +35,11 @@
 			"properties": {
 				"m_aCharacters": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["6051217c5a972faf", "8e7890fc6fa38d9b", "391645991db86c05"],
+					"value": [
+						"6051217c5a972faf",
+						"8e7890fc6fa38d9b",
+						"391645991db86c05"
+					],
 					"postInit": true
 				}
 			}
@@ -48,7 +52,10 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["1dd526648b8dc990", "abcdcc1b6c6c62a7"]
+					"value": [
+						"1dd526648b8dc990",
+						"abcdcc1b6c6c62a7"
+					]
 				}
 			}
 		},
@@ -72,7 +79,9 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["8081ad013abb189d"]
+					"value": [
+						"8081ad013abb189d"
+					]
 				}
 			}
 		},
@@ -84,7 +93,9 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["ff2e13419e29d0b2"]
+					"value": [
+						"ff2e13419e29d0b2"
+					]
 				}
 			}
 		},

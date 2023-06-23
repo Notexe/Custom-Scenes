@@ -1,9 +1,14 @@
 {
+	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"id": "Notex.HM3CustomMaps",
 	"name": "HM3CustomMaps",
 	"description": "Custom maps experimentation",
-	"authors": ["Notex"],
-	"contentFolders": ["content"],
+	"authors": [
+		"Notex"
+	],
+	"contentFolders": [
+		"content"
+	],
 	"packagedefinition": [
 		{
 			"type": "entity",
@@ -35,6 +40,9 @@
 			"partition": "sheep",
 			"path": "[assembly:/_pro/scenes/missions/sheep/outfits_puka.brick].entitytype"
 		}
+	],
+	"dependencies": [
+		"0007D9A3A121CFBC"
 	],
 	"version": "1.0.1",
 	"updateCheck": "https://framework.notex.app/updates/HM3CustomMaps.json",

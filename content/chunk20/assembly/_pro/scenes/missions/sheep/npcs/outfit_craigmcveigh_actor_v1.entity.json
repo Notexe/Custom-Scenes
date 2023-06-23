@@ -13,7 +13,10 @@
 					"type": "ZRuntimeResourceID",
 					"value": "00ECD307332B2399"
 				},
-				"m_IsHiddenInVR": { "type": "bool", "value": true }
+				"m_IsHiddenInVR": {
+					"type": "bool",
+					"value": true
+				}
 			}
 		},
 		"843a86ae4f4ca93e": {
@@ -58,11 +61,18 @@
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entityblueprint",
 			"properties": {
-				"m_ResourceID": { "type": "ZRuntimeResourceID", "value": null },
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": 18.36602020263672,
 							"y": 0.0038620000705122948,
@@ -76,19 +86,46 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd52b42ac3d798"]
+					"value": [
+						"abcd52b42ac3d798"
+					]
 				},
-				"m_fDamping": { "type": "float32", "value": 0.15000000596046448 },
-				"m_bUseSkinningNegNormalConstrains": { "type": "bool", "value": true },
-				"m_nIterations": { "type": "uint32", "value": 4 },
+				"m_fDamping": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_bUseSkinningNegNormalConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nIterations": {
+					"type": "uint32",
+					"value": 4
+				},
 				"m_vGravity": {
 					"type": "SVector3",
-					"value": { "x": 0, "y": 0, "z": -10 }
+					"value": {
+						"x": 0,
+						"y": 0,
+						"z": -10
+					}
 				},
-				"m_fShearStiffness": { "type": "float32", "value": 0.5 },
-				"m_fBendStiffness": { "type": "float32", "value": 0.5 },
-				"m_fFrequency": { "type": "float32", "value": 60 },
-				"m_fWindConstant": { "type": "float32", "value": 0.05000000074505806 },
+				"m_fShearStiffness": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_fBendStiffness": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_fFrequency": {
+					"type": "float32",
+					"value": 60
+				},
+				"m_fWindConstant": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
 				"m_vTranslationScale": {
 					"type": "SVector3",
 					"value": {
@@ -97,7 +134,10 @@
 						"z": 0.10000000149011612
 					}
 				},
-				"m_bUseSkinningPosNormalConstrains": { "type": "bool", "value": true },
+				"m_bUseSkinningPosNormalConstrains": {
+					"type": "bool",
+					"value": true
+				},
 				"m_aBodyParts": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
@@ -170,7 +210,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": 3.669445037841797,
 							"y": 0.12112429738044739,

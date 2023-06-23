@@ -3,7 +3,7 @@
 	"requirePragma": false,
 	"bracketSpacing": true,
 	"singleQuote": false,
-	"printWidth": 125,
+	"printWidth": 1,
 	"useTabs": true,
 	"tabWidth": 4,
 	"semi": false

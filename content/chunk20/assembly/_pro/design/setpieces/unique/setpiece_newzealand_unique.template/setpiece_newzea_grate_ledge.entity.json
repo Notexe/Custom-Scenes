@@ -9,10 +9,22 @@
 			"factory": "[assembly:/_pro/design/logic.template?/timer.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/timer.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_nInterval": { "type": "int32", "value": 120 },
-				"m_bEnabled": { "type": "bool", "value": false }
+				"m_nInterval": {
+					"type": "int32",
+					"value": 120
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": false
+				}
 			},
-			"events": { "TimeOut": { "Stop": ["617bca8ed4fd415"] } }
+			"events": {
+				"TimeOut": {
+					"Stop": [
+						"617bca8ed4fd415"
+					]
+				}
+			}
 		},
 		"3d53bed6467650f1": {
 			"parent": "30d63325b6de8a32",
@@ -20,18 +32,30 @@
 			"factory": "[modules:/zhm5shotlistenerentity.class].pc_entitytype",
 			"blueprint": "[modules:/zhm5shotlistenerentity.class].pc_entityblueprint",
 			"properties": {
-				"m_bOnlyHitman": { "type": "bool", "value": true },
-				"m_fNPCMaxDistanceToHitman": { "type": "float32", "value": 5 },
+				"m_bOnlyHitman": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fNPCMaxDistanceToHitman": {
+					"type": "float32",
+					"value": 5
+				},
 				"m_Listener": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["dbdddc9e4c01acf7"],
+					"value": [
+						"dbdddc9e4c01acf7"
+					],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnHitInfo": {
-					"Variant": ["f6e1b5baae04b114"],
-					"Shot": ["43a6be67f20b7384"]
+					"Variant": [
+						"f6e1b5baae04b114"
+					],
+					"Shot": [
+						"43a6be67f20b7384"
+					]
 				}
 			}
 		},
@@ -50,7 +74,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -0.004149999935179949,
 							"y": 0.0036899999249726534,
@@ -58,10 +86,17 @@
 						}
 					}
 				},
-				"m_bVisible": { "type": "bool", "value": true },
+				"m_bVisible": {
+					"type": "bool",
+					"value": true
+				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": { "x": 1, "y": 1, "z": 1 }
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -80,16 +115,34 @@
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/_pro/effects/materials/debris/fx_decal_debris_metal_4x4_01.mi].pc_mi"
 				},
-				"m_fArrayIndexMax": { "type": "float32", "value": 15 },
-				"m_fRotationSpeedMin": { "type": "float32", "value": -10 },
-				"m_fParticleSizeMin": { "type": "float32", "value": 4 },
-				"m_fParticleSizeMax": { "type": "float32", "value": 5 },
+				"m_fArrayIndexMax": {
+					"type": "float32",
+					"value": 15
+				},
+				"m_fRotationSpeedMin": {
+					"type": "float32",
+					"value": -10
+				},
+				"m_fParticleSizeMin": {
+					"type": "float32",
+					"value": 4
+				},
+				"m_fParticleSizeMax": {
+					"type": "float32",
+					"value": 5
+				},
 				"m_fTimeToLiveSecondsMin": {
 					"type": "float32",
 					"value": 1.0099999904632568
 				},
-				"m_fRotationSpeedMax": { "type": "float32", "value": 10 },
-				"m_FixedAlpha": { "type": "float32", "value": 1 }
+				"m_fRotationSpeedMax": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_FixedAlpha": {
+					"type": "float32",
+					"value": 1
+				}
 			}
 		},
 		"51a0047bd17c1c3d": {
@@ -100,12 +153,17 @@
 			"properties": {
 				"m_arTargets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["48dc5a66ccf5d220", "dbdddc9e4c01acf7"],
+					"value": [
+						"48dc5a66ccf5d220",
+						"dbdddc9e4c01acf7"
+					],
 					"postInit": true
 				},
 				"GlowActiveConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["488d9722c254c7f7"],
+					"value": [
+						"488d9722c254c7f7"
+					],
 					"postInit": true
 				}
 			}
@@ -115,7 +173,13 @@
 			"name": "VariantConverter_void_",
 			"factory": "[modules:/zhm5variantconverterentity_void.class].pc_entitytype",
 			"blueprint": "[modules:/zhm5variantconverterentity_void.class].pc_entityblueprint",
-			"events": { "Value": { "Start": ["617bca8ed4fd415"] } }
+			"events": {
+				"Value": {
+					"Start": [
+						"617bca8ed4fd415"
+					]
+				}
+			}
 		},
 		"32d370625c22b197": {
 			"parent": "48dc5a66ccf5d220",
@@ -125,7 +189,9 @@
 			"properties": {
 				"m_aIgnoreEntities": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["dbdddc9e4c01acf7"],
+					"value": [
+						"dbdddc9e4c01acf7"
+					],
 					"postInit": true
 				}
 			}
@@ -139,7 +205,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -0.004149999935179949,
 							"y": -0.07000000029802322,
@@ -151,13 +221,34 @@
 					"type": "bool",
 					"value": false
 				},
-				"m_bRespondToExplosions": { "type": "bool", "value": true },
-				"m_bRespondToCollisions": { "type": "bool", "value": false },
-				"m_bRespondToShots": { "type": "bool", "value": true },
-				"m_aFracturedEffect": { "type": "ZRuntimeResourceID", "value": null },
-				"m_fMass": { "type": "float32", "value": 20 },
-				"m_fDynamicFriction": { "type": "float32", "value": 0.5 },
-				"m_fMaxAngularVelocity": { "type": "float32", "value": 5 },
+				"m_bRespondToExplosions": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bRespondToCollisions": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bRespondToShots": {
+					"type": "bool",
+					"value": true
+				},
+				"m_aFracturedEffect": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_fMass": {
+					"type": "float32",
+					"value": 20
+				},
+				"m_fDynamicFriction": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_fMaxAngularVelocity": {
+					"type": "float32",
+					"value": 5
+				},
 				"m_aDetachmentEffect": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_e_impact_metal.entitytemplate].pc_entitytemplate"
@@ -166,7 +257,10 @@
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
 				},
-				"m_bDestructionEnabled": { "type": "bool", "value": false },
+				"m_bDestructionEnabled": {
+					"type": "bool",
+					"value": false
+				},
 				"m_eGlowType": {
 					"type": "ERenderGlowTypes",
 					"value": "ERENDERGLOWTYPE_SETPIECE"
@@ -179,12 +273,20 @@
 			},
 			"events": {
 				"OnInitialFracture": {
-					"SetIgnoreRooms": ["32d370625c22b197"],
-					"Activate": ["81d38301c101694e"]
+					"SetIgnoreRooms": [
+						"32d370625c22b197"
+					],
+					"Activate": [
+						"81d38301c101694e"
+					]
 				}
 			},
 			"outputCopying": {
-				"OnInitialFracture": { "OnInitialFracture": ["48dc5a66ccf5d220"] }
+				"OnInitialFracture": {
+					"OnInitialFracture": [
+						"48dc5a66ccf5d220"
+					]
+				}
 			}
 		},
 		"48dc5a66ccf5d220": {
@@ -196,8 +298,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
 					}
 				},
 				"m_eidParent": {
@@ -208,12 +318,24 @@
 			},
 			"events": {
 				"OnInitialFracture": {
-					"SetFalse": ["488d9722c254c7f7"],
-					"DisableImpulseListener": ["181c9763c2653356"],
-					"Disable": ["3d53bed6467650f1"]
+					"SetFalse": [
+						"488d9722c254c7f7"
+					],
+					"DisableImpulseListener": [
+						"181c9763c2653356"
+					],
+					"Disable": [
+						"3d53bed6467650f1"
+					]
 				}
 			},
-			"inputCopying": { "BreakAll": { "BreakAll": ["dbdddc9e4c01acf7"] } },
+			"inputCopying": {
+				"BreakAll": {
+					"BreakAll": [
+						"dbdddc9e4c01acf7"
+					]
+				}
+			},
 			"exposedInterfaces": {
 				"ZGeomEntity": "11e10ebcc57c49d9",
 				"ZPrimitiveContainerEntity": "11e10ebcc57c49d9",
@@ -225,8 +347,19 @@
 			"name": "IsStillInOnePiece",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"properties": { "m_bValue": { "type": "bool", "value": true } },
-			"outputCopying": { "OnFalse": { "OnBroken": ["30d63325b6de8a32"] } }
+			"properties": {
+				"m_bValue": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"outputCopying": {
+				"OnFalse": {
+					"OnBroken": [
+						"30d63325b6de8a32"
+					]
+				}
+			}
 		},
 		"43a6be67f20b7384": {
 			"parent": "30d63325b6de8a32",
@@ -234,13 +367,34 @@
 			"factory": "[modules:/zhm5damagecounterentity.class].pc_entitytype",
 			"blueprint": "[modules:/zhm5damagecounterentity.class].pc_entityblueprint",
 			"properties": {
-				"m_nShotsThreshold": { "type": "uint32", "value": 3 },
-				"m_bReset": { "type": "bool", "value": false },
-				"m_bDrawGraph": { "type": "bool", "value": false },
-				"m_nMaxNotifications": { "type": "uint32", "value": 1 },
-				"m_fDamageThreshold": { "type": "float32", "value": 200 }
+				"m_nShotsThreshold": {
+					"type": "uint32",
+					"value": 3
+				},
+				"m_bReset": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bDrawGraph": {
+					"type": "bool",
+					"value": false
+				},
+				"m_nMaxNotifications": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_fDamageThreshold": {
+					"type": "float32",
+					"value": 200
+				}
 			},
-			"events": { "OnActivate": { "BreakAll": ["48dc5a66ccf5d220"] } }
+			"events": {
+				"OnActivate": {
+					"BreakAll": [
+						"48dc5a66ccf5d220"
+					]
+				}
+			}
 		},
 		"181c9763c2653356": {
 			"parent": "30d63325b6de8a32",
@@ -250,11 +404,22 @@
 			"properties": {
 				"m_aPhysicsAccessors": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["dbdddc9e4c01acf7"]
+					"value": [
+						"dbdddc9e4c01acf7"
+					]
 				},
-				"m_bAffectedByExplosionEffectRadius": { "type": "bool", "value": false }
+				"m_bAffectedByExplosionEffectRadius": {
+					"type": "bool",
+					"value": false
+				}
 			},
-			"events": { "OnHitByImpulse": { "BreakAll": ["48dc5a66ccf5d220"] } }
+			"events": {
+				"OnHitByImpulse": {
+					"BreakAll": [
+						"48dc5a66ccf5d220"
+					]
+				}
+			}
 		},
 		"a1b30d8458caaf62": {
 			"parent": "81d38301c101694e",
@@ -265,16 +430,42 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -180, "y": 0, "z": -180 },
-						"position": { "x": 0, "y": 0, "z": -0.4907050132751465 }
+						"rotation": {
+							"x": -180,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -0.4907050132751465
+						}
 					}
 				},
-				"m_bEnabled": { "type": "bool", "value": false },
-				"m_fFixedEmissionCount": { "type": "float32", "value": 70 },
-				"m_fEmissionCameraProximity": { "type": "float32", "value": 20 },
-				"m_fOuterConeAngle": { "type": "float32", "value": 200 },
-				"m_fSpeedMax": { "type": "float32", "value": 4 },
-				"m_fSpeedMin": { "type": "float32", "value": 1 },
+				"m_bEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fFixedEmissionCount": {
+					"type": "float32",
+					"value": 70
+				},
+				"m_fEmissionCameraProximity": {
+					"type": "float32",
+					"value": 20
+				},
+				"m_fOuterConeAngle": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_fSpeedMax": {
+					"type": "float32",
+					"value": 4
+				},
+				"m_fSpeedMin": {
+					"type": "float32",
+					"value": 1
+				},
 				"m_ParticleController": {
 					"type": "SEntityTemplateReference",
 					"value": "948dcfd1d105fbd"
@@ -283,7 +474,10 @@
 					"type": "SEntityTemplateReference",
 					"value": "75e47ba64e3e4bfb"
 				},
-				"m_fInnerConeAngle": { "type": "float32", "value": 100 },
+				"m_fInnerConeAngle": {
+					"type": "float32",
+					"value": 100
+				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
 					"value": {
@@ -312,7 +506,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": 0.4779200851917267,
 							"y": 0.010489460080862045,
@@ -325,7 +523,13 @@
 					"value": "11e10ebcc57c49d9"
 				}
 			},
-			"inputCopying": { "Activate": { "Activate": ["a1b30d8458caaf62"] } }
+			"inputCopying": {
+				"Activate": {
+					"Activate": [
+						"a1b30d8458caaf62"
+					]
+				}
+			}
 		},
 		"7f526c6a4a9fd143": {
 			"parent": "30d63325b6de8a32",
@@ -336,23 +540,49 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
 					}
 				},
-				"m_bCollideHitman": { "type": "bool", "value": false },
+				"m_bCollideHitman": {
+					"type": "bool",
+					"value": false
+				},
 				"m_vBoxSize": {
 					"type": "SVector3",
-					"value": { "x": 10, "y": 10, "z": 1 }
+					"value": {
+						"x": 10,
+						"y": 10,
+						"z": 1
+					}
 				},
 				"m_mOffset": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": -1 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -1
+						}
 					}
 				},
-				"m_bEnableExplosionBlocker": { "type": "bool", "value": true },
+				"m_bEnableExplosionBlocker": {
+					"type": "bool",
+					"value": true
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "30d63325b6de8a32",
@@ -369,7 +599,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
 						"position": {
 							"x": -5.972044944763184,
 							"y": 8.891491889953613,
@@ -379,7 +613,10 @@
 				}
 			},
 			"exposedEntities": {
-				"StillInOnePiece": { "isArray": false, "refersTo": [] }
+				"StillInOnePiece": {
+					"isArray": false,
+					"refersTo": []
+				}
 			}
 		},
 		"6b877acf203fbd31": {
@@ -390,7 +627,10 @@
 			"properties": {
 				"m_EntityListA": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["dbdddc9e4c01acf7", "11e10ebcc57c49d9"]
+					"value": [
+						"dbdddc9e4c01acf7",
+						"11e10ebcc57c49d9"
+					]
 				}
 			}
 		}

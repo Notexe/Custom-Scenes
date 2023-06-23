@@ -33,19 +33,27 @@
 						"m_bApplyLeftRightScalars": false
 					}
 				},
-				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
 				"m_eActorCCClass": {
 					"type": "EActorCCPreset",
 					"value": "ACCP_CivilianeMale"
 				},
-				"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
 				"m_eSoundFootwearType": {
 					"type": "EHM5SoundFootwearType",
 					"value": "EFWT_BAREFOOT"
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd02e240609a10"]
+					"value": [
+						"abcd02e240609a10"
+					]
 				},
 				"m_sId": {
 					"type": "ZGuid",
@@ -62,7 +70,10 @@
 					"type": "ZString",
 					"value": "Sapienza_Worker_Nakedguy_M_HPA1370"
 				},
-				"m_sTitle": { "type": "ZString", "value": "Naked Guy" },
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Naked Guy"
+				},
 				"m_eOutfitAICategory": {
 					"type": "EOutfitAICategory",
 					"value": "OAC_Fallback"
@@ -91,7 +102,9 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd236885ff26fa"],
+					"value": [
+						"abcd236885ff26fa"
+					],
 					"postInit": true
 				}
 			}
@@ -117,7 +130,9 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd236885ff26fa"]
+					"value": [
+						"abcd236885ff26fa"
+					]
 				}
 			}
 		},
@@ -129,7 +144,9 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd236885ff26fa"]
+					"value": [
+						"abcd236885ff26fa"
+					]
 				}
 			}
 		},
@@ -141,7 +158,9 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd236885ff26fa"]
+					"value": [
+						"abcd236885ff26fa"
+					]
 				}
 			}
 		},
@@ -153,7 +172,9 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd236885ff26fa"]
+					"value": [
+						"abcd236885ff26fa"
+					]
 				}
 			}
 		}
@@ -162,7 +183,9 @@
 	"overrideDeletes": [],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
-	"externalScenes": ["[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [],
