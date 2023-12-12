@@ -1,3 +1,6 @@
+> **NOTICE: THIS REPOSITORY IS NO LONGER MAINTAINED AND IS ONLY HERE FOR HISTORICAL PURPOSES, THE NEW REPOSITORY CAN BE FOUND HERE: [https://github.com/Notexe/h3-custom-scenes](https://github.com/Notexe/h3-custom-scenes)**
+---------------
+
 # HM3CustomMaps
 
 ## Maps currently included:
